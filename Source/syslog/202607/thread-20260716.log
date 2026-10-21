@@ -1,0 +1,46 @@
+ThreadTimesInfo Init ok.
+ThreadTimesInfo Init ok.
+*********************************ThreadTimesInfo [2026-07-16 16:38:12]*********************************
+Process kernel:  2.859s @ 0.48%, user: 23.313s @ 3.89%, total: 26.172s @ 4.36%, elapsed: 599.891s
+Number of Thread: 11
+thread 5852 kernel:   0.266s @ 0.04%, user:   0.110s @ 0.02%, total:  0.376s @ 0.06%
+thread 6944 kernel:   0.109s @ 0.02%, user:   0.031s @ 0.01%, total:  0.140s @ 0.02%
+thread 2012 kernel:   0.000s @ 0.00%, user:   0.000s @ 0.00%, total:  0.000s @ 0.00%
+thread 7460 kernel:   0.000s @ 0.00%, user:   0.000s @ 0.00%, total:  0.000s @ 0.00%
+thread 6072 kernel:   0.000s @ 0.00%, user:   0.000s @ 0.00%, total:  0.000s @ 0.00%
+thread 7468 kernel:   0.031s @ 0.01%, user:  22.750s @ 3.79%, total: 22.781s @ 3.80%
+thread 8016 kernel:   0.015s @ 0.00%, user:   0.000s @ 0.00%, total:  0.015s @ 0.00%
+thread 7596 kernel:   2.109s @ 0.35%, user:   0.265s @ 0.04%, total:  2.374s @ 0.40%
+thread 4240 kernel:   0.015s @ 0.00%, user:   0.031s @ 0.01%, total:  0.046s @ 0.01%
+thread 4484 kernel:   0.015s @ 0.00%, user:   0.000s @ 0.00%, total:  0.015s @ 0.00%
+thread 5516 kernel:   0.015s @ 0.00%, user:   0.000s @ 0.00%, total:  0.015s @ 0.00%
+ThreadTimesInfo Init ok.
+*********************************ThreadTimesInfo [2026-07-16 16:52:51]*********************************
+Process kernel:  1.312s @ 0.22%, user: 14.312s @ 2.38%, total: 15.624s @ 2.60%, elapsed: 600.188s
+Number of Thread: 11
+thread 9020 kernel:   0.032s @ 0.01%, user:   0.015s @ 0.00%, total:  0.047s @ 0.01%
+thread 8352 kernel:   0.078s @ 0.01%, user:   0.000s @ 0.00%, total:  0.078s @ 0.01%
+thread 8368 kernel:   0.015s @ 0.00%, user:   0.000s @ 0.00%, total:  0.015s @ 0.00%
+thread 8344 kernel:   0.000s @ 0.00%, user:   0.000s @ 0.00%, total:  0.000s @ 0.00%
+thread 8376 kernel:   0.000s @ 0.00%, user:   0.000s @ 0.00%, total:  0.000s @ 0.00%
+thread 8380 kernel:   0.125s @ 0.02%, user:  13.984s @ 2.33%, total: 14.109s @ 2.35%
+thread 8628 kernel:   0.000s @ 0.00%, user:   0.015s @ 0.00%, total:  0.015s @ 0.00%
+thread 8624 kernel:   0.953s @ 0.16%, user:   0.125s @ 0.02%, total:  1.078s @ 0.18%
+thread 8256 kernel:   0.000s @ 0.00%, user:   0.016s @ 0.00%, total:  0.016s @ 0.00%
+thread 8216 kernel:   0.000s @ 0.00%, user:   0.000s @ 0.00%, total:  0.000s @ 0.00%
+thread 8604 kernel:   0.000s @ 0.00%, user:   0.000s @ 0.00%, total:  0.000s @ 0.00%
+*********************************ThreadTimesInfo [2026-07-16 17:00:16]*********************************
+Process kernel:  0.610s @ 0.14%, user: 14.781s @ 3.32%, total: 15.391s @ 3.46%, elapsed: 445.218s
+Number of Thread: 11
+thread 9020 kernel:   0.031s @ 0.01%, user:   0.000s @ 0.00%, total:  0.031s @ 0.01%
+thread 8352 kernel:   0.110s @ 0.02%, user:   0.016s @ 0.00%, total:  0.126s @ 0.03%
+thread 8368 kernel:   0.031s @ 0.01%, user:   0.015s @ 0.00%, total:  0.046s @ 0.01%
+thread 8344 kernel:   0.000s @ 0.00%, user:   0.000s @ 0.00%, total:  0.000s @ 0.00%
+thread 8376 kernel:   0.000s @ 0.00%, user:   0.000s @ 0.00%, total:  0.000s @ 0.00%
+thread 8380 kernel:   0.047s @ 0.01%, user:  14.609s @ 3.28%, total: 14.656s @ 3.29%
+thread 8628 kernel:   0.000s @ 0.00%, user:   0.000s @ 0.00%, total:  0.000s @ 0.00%
+thread 8624 kernel:   0.328s @ 0.07%, user:   0.125s @ 0.03%, total:  0.453s @ 0.10%
+thread 8256 kernel:   0.000s @ 0.00%, user:   0.000s @ 0.00%, total:  0.000s @ 0.00%
+thread 8216 kernel:   0.000s @ 0.00%, user:   0.000s @ 0.00%, total:  0.000s @ 0.00%
+thread 8604 kernel:   0.000s @ 0.00%, user:   0.000s @ 0.00%, total:  0.000s @ 0.00%
+ThreadTimesInfo Init ok.

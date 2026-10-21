@@ -1,0 +1,34 @@
+typedef struct
+{
+	OBJID	idMagicType;			// 类型ID
+	DWORD	dwActionShort;			// 行为分类
+	char	szName[_MAX_NAMESIZE];	// 魔法名称
+	DWORD	dwCrime;				// 是否引发犯罪
+	DWORD	dwGround;				// 是否地效魔法
+	DWORD	dwMulti;				// 是否多对象
+	DWORD	dwTarget;				// 对象类型
+	DWORD	dwLevel;				// 魔法等级
+	DWORD	dwMpCost;				// 花费MP
+	DWORD	dwPower;				// 威力
+	DWORD	dwIntoneDuration;		// 吟唱时间
+	DWORD	dwHitPoint;				// 命中比率
+	DWORD	dwDuration;				// 持续时间 // 毫秒
+	DWORD	dwRange;				// 伤害范围 // X= %100 , y=%10000-x*100
+	DWORD	dwDistance;				// 有效距离 
+	DWORD	dwStatus;				// 导致状态 
+	DWORD	dwProfessionalRequired;	// 要求职业 
+	DWORD	dwExpRequired;			// 要求经验值 // 升级 // 0不能升级
+	DWORD	dwMonsterLevelRequired;	// 要求打击怪物等级 // 无用
+	DWORD	dwClientRepresent;		// 客户端表现
+	char	szDisc[128];				// 描述
+
+	char	szIntoneEffect[64];			// 吟唱特效
+	char	szIntoneSound[_MAX_PATH];	// 吟唱声效
+	char	szSenderEffect[64];			// 攻击特效
+	char	szSenderSound[_MAX_PATH];	// 攻击音效
+	DWORD	dwTargetDelay;				// 受击延时
+	char	szTargetEffect[64];			// 受击特效
+	char	szTargetSound[_MAX_PATH];	// 受击音效
+	char	szGroundEffect[64];			// 地效索引
+	char	szTraceEffect[64];			// 轨迹特效
+}MagicTypeInfo;

@@ -1,0 +1,1632 @@
+
+
+
+
+20260712:062908.839 1240 Message: =================================================================
+20260712:062908.839 1240 Message: Conquer Online NPC Server - Epoch - Dec  4 2015 14:01:42
+20260712:062908.855 1240 Message: =================================================================
+20260712:062908.870 1240 Message: f:\version\cqserver-78.0.11-1204\npcserver\npcserverdlg.cpp
+20260712:062909.402 1240 Message: thread 1240 created running thread 8272 "LogThread"
+20260712:062909.402 8272 Message: thread 8272 "LogThread" is up and running
+20260712:062909.402 1240 Message: DatabaseInit got game server config 127.0.0.1:3306 cq(latin1), serverID 1, maxplayer 1500
+20260712:062909.482 1240 Message: thread 1240 created running thread 8636 "AsyncDBThread"
+20260712:062909.482 8636 Message: thread 8636 "AsyncDBThread" is up and running
+20260712:062909.495 8636 Message: CAsyncDBThread::OnInit got game server config 127.0.0.1:3306 cq(latin1), serverID 1, maxplayer 1500
+20260712:062909.498 1240 Message: libevent method: win32
+20260712:062909.514 8636 Message: CAsyncDBThread::OnInit async DB OK for 127.0.0.1:3306 cq(latin1)
+20260712:062909.530 1240 Message: mysql version 5.6.26
+20260712:062909.545 1240 Message: CDatabase::Open sync DB OK for 127.0.0.1:3306 cq(latin1)
+20260712:062909.558 1240 Message: SHELL: Create map set...
+20260712:062919.024 1240 Message: SHELL: Create player set...
+20260712:062919.027 1240 Message: SHELL: Create npc set...
+20260712:062919.482 1240 Message: SHELL: Create NPC protect path...
+20260712:062920.267 1240 Message: SHELL: ======== Create cq server kernel ok! ========
+20260712:062920.267 1240 Message: thread 1240 created libevent worker thread 8260
+20260712:062920.288 1240 Message: thread 1240 created running thread 8208 "NPC Server KernelThread"
+20260712:062920.308 1240 Message: SHELL: Create kernel thread ok.
+20260712:062920.320 8260 Message: EvnetRoutine worker thread is up and running
+20260712:062920.352 8208 Message: thread 8208 "NPC Server KernelThread" is up and running
+20260712:062920.529 8208 Message: SHELL: Login game server . . .
+20260712:062922.683 8260 Message: EvnetRoutine worker thread exited
+20260712:062922.683 8208 Message: SHELL: Connect to game server again . . .
+20260712:062924.991 8208 Message: SHELL: Connect to game server again . . .
+20260712:062925.214 8208 Message: SHELL: Login game server . . .
+20260712:062927.096 8208 Message: SHELL: Connect to game server again . . .
+20260712:062929.277 8208 Message: SHELL: Login game server ok.
+20260712:062929.277 8208 Message: SHELL: Login OK. generator monster after 10 secs
+20260712:062939.127 8208 Message: SHELL: Generator begin.
+20260712:063410.169 1240 Message: kernel(ms): 0/16
+20260712:063410.169 1240 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 222 / 42260
+NPC: in game / generated / limit
+	42260 / 42308 / 46008
+Generator: active+full+over / total
+	561 + 4002 + 0 / 4563
+SynPet: 0
+20260712:063910.535 1240 Message: kernel(ms): 0/32
+20260712:063910.535 1240 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 45 / 44008
+NPC: in game / generated / limit
+	44008 / 44063 / 46008
+Generator: active+full+over / total
+	355 + 4208 + 0 / 4563
+SynPet: 0
+20260712:064410.167 1240 Message: kernel(ms): 0/16
+20260712:064410.167 1240 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 10 / 44618
+NPC: in game / generated / limit
+	44618 / 44647 / 46008
+Generator: active+full+over / total
+	282 + 4281 + 0 / 4563
+SynPet: 10
+20260712:064829.465 1240 Message: SHELL: CLOSE button pressed.
+20260712:064831.136 8208 Message: SHELL: Connect to game server again . . .
+20260712:064832.172 8208 Message: SHELL: Connect to game server again . . .
+20260712:064832.333 8208 Message: SHELL: Login game server . . .
+20260712:064834.198 8208 Message: SHELL: Connect to game server again . . .
+
+
+
+
+20260712:065222.652 2400 Message: =================================================================
+20260712:065222.668 2400 Message: Conquer Online NPC Server - Epoch - Dec  4 2015 14:01:42
+20260712:065222.683 2400 Message: =================================================================
+20260712:065222.700 2400 Message: f:\version\cqserver-78.0.11-1204\npcserver\npcserverdlg.cpp
+20260712:065223.214 2400 Message: thread 2400 created running thread 7016 "LogThread"
+20260712:065223.214 7016 Message: thread 7016 "LogThread" is up and running
+20260712:065223.214 2400 Message: DatabaseInit got game server config 127.0.0.1:3306 cq(latin1), serverID 1, maxplayer 1500
+20260712:065223.277 2400 Message: thread 2400 created running thread 7344 "AsyncDBThread"
+20260712:065223.277 7344 Message: thread 7344 "AsyncDBThread" is up and running
+20260712:065223.293 7344 Message: CAsyncDBThread::OnInit got game server config 127.0.0.1:3306 cq(latin1), serverID 1, maxplayer 1500
+20260712:065223.309 2400 Message: libevent method: win32
+20260712:065223.325 7344 Message: CAsyncDBThread::OnInit async DB OK for 127.0.0.1:3306 cq(latin1)
+20260712:065223.341 2400 Message: mysql version 5.6.26
+20260712:065223.356 2400 Message: CDatabase::Open sync DB OK for 127.0.0.1:3306 cq(latin1)
+20260712:065223.372 2400 Message: SHELL: Create map set...
+20260712:065228.177 2400 Message: SHELL: Create player set...
+20260712:065228.193 2400 Message: SHELL: Create npc set...
+20260712:065228.815 2400 Message: SHELL: Create NPC protect path...
+20260712:065229.655 2400 Message: SHELL: ======== Create cq server kernel ok! ========
+20260712:065229.655 2400 Message: thread 2400 created libevent worker thread 7268
+20260712:065229.687 2400 Message: thread 2400 created running thread 3720 "NPC Server KernelThread"
+20260712:065229.703 2400 Message: SHELL: Create kernel thread ok.
+20260712:065229.719 3720 Message: thread 3720 "NPC Server KernelThread" is up and running
+20260712:065229.746 7268 Message: EvnetRoutine worker thread is up and running
+20260712:065229.912 3720 Message: SHELL: Login game server . . .
+20260712:065231.701 7268 Message: EvnetRoutine worker thread exited
+20260712:065231.701 3720 Message: SHELL: Connect to game server again . . .
+20260712:065233.737 3720 Message: SHELL: Connect to game server again . . .
+20260712:065234.188 3720 Message: SHELL: Login game server . . .
+20260712:065235.793 3720 Message: SHELL: Connect to game server again . . .
+20260712:065237.823 3720 Message: SHELL: Connect to game server again . . .
+20260712:065239.210 3720 Message: SHELL: Login game server . . .
+20260712:065239.866 3720 Message: SHELL: Connect to game server again . . .
+20260712:065241.920 3720 Message: SHELL: Connect to game server again . . .
+20260712:065243.981 3720 Message: SHELL: Connect to game server again . . .
+20260712:065244.201 3720 Message: SHELL: Login game server . . .
+20260712:065246.201 3720 Message: SHELL: Connect to game server again . . .
+20260712:065247.217 3720 Message: SHELL: Login game server ok.
+20260712:065247.217 3720 Message: SHELL: Login OK. generator monster after 10 secs
+20260712:065257.199 3720 Message: SHELL: Generator begin.
+20260712:065722.408 2400 Message: kernel(ms): 0/16
+20260712:065722.408 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 487 / 42292
+NPC: in game / generated / limit
+	42292 / 42330 / 46008
+Generator: active+full+over / total
+	561 + 4002 + 0 / 4563
+SynPet: 0
+20260712:070222.586 2400 Message: kernel(ms): 0/16
+20260712:070222.586 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 43994
+NPC: in game / generated / limit
+	43994 / 44034 / 46008
+Generator: active+full+over / total
+	361 + 4202 + 0 / 4563
+SynPet: 1
+20260712:070722.162 2400 Message: kernel(ms): 1/28
+20260712:070722.163 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 551 / 44602
+NPC: in game / generated / limit
+	44602 / 44640 / 46008
+Generator: active+full+over / total
+	282 + 4281 + 0 / 4563
+SynPet: 1
+20260712:071222.413 2400 Message: kernel(ms): 0/17
+20260712:071222.413 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 2 / 44999
+NPC: in game / generated / limit
+	44999 / 45030 / 46008
+Generator: active+full+over / total
+	238 + 4325 + 0 / 4563
+SynPet: 11
+20260712:071722.209 2400 Message: kernel(ms): 0/31
+20260712:071722.209 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45243
+NPC: in game / generated / limit
+	45243 / 45271 / 46008
+Generator: active+full+over / total
+	220 + 4343 + 0 / 4563
+SynPet: 13
+20260712:072222.192 2400 Message: kernel(ms): 0/16
+20260712:072222.192 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45459
+NPC: in game / generated / limit
+	45459 / 45484 / 46008
+Generator: active+full+over / total
+	208 + 4355 + 0 / 4563
+SynPet: 13
+20260712:072722.311 2400 Message: kernel(ms): 0/17
+20260712:072722.311 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45610
+NPC: in game / generated / limit
+	45610 / 45635 / 46008
+Generator: active+full+over / total
+	195 + 4368 + 0 / 4563
+SynPet: 13
+20260712:073222.219 2400 Message: kernel(ms): 0/16
+20260712:073222.219 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45652
+NPC: in game / generated / limit
+	45652 / 45677 / 46008
+Generator: active+full+over / total
+	184 + 4379 + 0 / 4563
+SynPet: 13
+20260712:073722.338 2400 Message: kernel(ms): 0/16
+20260712:073722.338 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45685
+NPC: in game / generated / limit
+	45685 / 45710 / 46008
+Generator: active+full+over / total
+	180 + 4383 + 0 / 4563
+SynPet: 13
+20260712:074222.139 2400 Message: kernel(ms): 0/18
+20260712:074222.139 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45710
+NPC: in game / generated / limit
+	45720 / 45735 / 46008
+Generator: active+full+over / total
+	167 + 4396 + 0 / 4563
+SynPet: 13
+20260712:074722.292 2400 Message: kernel(ms): 0/17
+20260712:074722.292 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45735
+NPC: in game / generated / limit
+	45745 / 45760 / 46008
+Generator: active+full+over / total
+	157 + 4406 + 0 / 4563
+SynPet: 13
+20260712:075222.149 2400 Message: kernel(ms): 0/16
+20260712:075222.149 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45746
+NPC: in game / generated / limit
+	45756 / 45771 / 46008
+Generator: active+full+over / total
+	151 + 4412 + 0 / 4563
+SynPet: 13
+20260712:075722.157 2400 Message: kernel(ms): 0/33
+20260712:075722.157 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 39 / 45758
+NPC: in game / generated / limit
+	45768 / 45783 / 46008
+Generator: active+full+over / total
+	145 + 4418 + 0 / 4563
+SynPet: 13
+20260712:080222.173 2400 Message: kernel(ms): 0/16
+20260712:080222.173 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 28 / 45768
+NPC: in game / generated / limit
+	45778 / 45793 / 46008
+Generator: active+full+over / total
+	142 + 4421 + 0 / 4563
+SynPet: 13
+20260712:080722.127 2400 Message: kernel(ms): 0/16
+20260712:080722.127 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 29 / 45775
+NPC: in game / generated / limit
+	45785 / 45800 / 46008
+Generator: active+full+over / total
+	139 + 4424 + 0 / 4563
+SynPet: 13
+20260712:081222.590 2400 Message: kernel(ms): 0/16
+20260712:081222.590 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45783
+NPC: in game / generated / limit
+	45803 / 45808 / 46008
+Generator: active+full+over / total
+	133 + 4430 + 0 / 4563
+SynPet: 13
+20260712:081722.434 2400 Message: kernel(ms): 0/17
+20260712:081722.434 2400 Message: Player + Pet + Other: 2 + 0 + 0
+NPC active / total: 12 / 45792
+NPC: in game / generated / limit
+	45812 / 45815 / 46008
+Generator: active+full+over / total
+	132 + 4431 + 0 / 4563
+SynPet: 15
+20260712:082222.128 2400 Message: kernel(ms): 0/31
+20260712:082222.128 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45798
+NPC: in game / generated / limit
+	45818 / 45821 / 46008
+Generator: active+full+over / total
+	130 + 4433 + 0 / 4563
+SynPet: 15
+20260712:082722.345 2400 Message: kernel(ms): 0/16
+20260712:082722.345 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45801
+NPC: in game / generated / limit
+	45821 / 45824 / 46008
+Generator: active+full+over / total
+	129 + 4434 + 0 / 4563
+SynPet: 15
+20260712:083222.284 2400 Message: kernel(ms): 0/16
+20260712:083222.284 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 9 / 45807
+NPC: in game / generated / limit
+	45827 / 45830 / 46008
+Generator: active+full+over / total
+	128 + 4435 + 0 / 4563
+SynPet: 15
+20260712:083722.201 2400 Message: kernel(ms): 0/17
+20260712:083722.201 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 97 / 45809
+NPC: in game / generated / limit
+	45829 / 45832 / 46008
+Generator: active+full+over / total
+	128 + 4435 + 0 / 4563
+SynPet: 15
+20260712:084222.415 2400 Message: kernel(ms): 0/31
+20260712:084222.415 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 127 / 45815
+NPC: in game / generated / limit
+	45845 / 45839 / 46008
+Generator: active+full+over / total
+	125 + 4438 + 0 / 4563
+SynPet: 15
+20260712:084722.229 2400 Message: kernel(ms): 0/16
+20260712:084722.229 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 200 / 45816
+NPC: in game / generated / limit
+	45846 / 45839 / 46008
+Generator: active+full+over / total
+	125 + 4438 + 0 / 4563
+SynPet: 15
+20260712:085222.142 2400 Message: kernel(ms): 0/17
+20260712:085222.142 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 2 / 45824
+NPC: in game / generated / limit
+	45854 / 45847 / 46008
+Generator: active+full+over / total
+	123 + 4440 + 0 / 4563
+SynPet: 15
+20260712:085722.172 2400 Message: kernel(ms): 0/16
+20260712:085722.172 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 105 / 45632
+NPC: in game / generated / limit
+	45662 / 45657 / 46008
+Generator: active+full+over / total
+	128 + 4435 + 0 / 4563
+SynPet: 15
+20260712:090222.460 2400 Message: kernel(ms): 0/28
+20260712:090222.460 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45806
+NPC: in game / generated / limit
+	45836 / 45830 / 46008
+Generator: active+full+over / total
+	125 + 4438 + 0 / 4563
+SynPet: 15
+20260712:090722.404 2400 Message: kernel(ms): 0/16
+20260712:090722.404 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45825
+NPC: in game / generated / limit
+	45855 / 45848 / 46008
+Generator: active+full+over / total
+	123 + 4440 + 0 / 4563
+SynPet: 15
+20260712:091222.259 2400 Message: kernel(ms): 0/31
+20260712:091222.259 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 107 / 45831
+NPC: in game / generated / limit
+	45871 / 45854 / 46008
+Generator: active+full+over / total
+	123 + 4440 + 0 / 4563
+SynPet: 15
+20260712:091722.158 2400 Message: kernel(ms): 0/16
+20260712:091722.158 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45833
+NPC: in game / generated / limit
+	45873 / 45854 / 46008
+Generator: active+full+over / total
+	123 + 4440 + 0 / 4563
+SynPet: 17
+20260712:092222.284 2400 Message: kernel(ms): 0/16
+20260712:092222.284 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 122 / 45834
+NPC: in game / generated / limit
+	45874 / 45855 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 17
+20260712:092722.332 2400 Message: kernel(ms): 0/15
+20260712:092722.332 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 4 / 45834
+NPC: in game / generated / limit
+	45874 / 45855 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 17
+20260712:093222.277 2400 Message: kernel(ms): 0/17
+20260712:093222.277 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45839
+NPC: in game / generated / limit
+	45879 / 45860 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 17
+20260712:093722.538 2400 Message: kernel(ms): 0/16
+20260712:093722.538 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 87 / 45839
+NPC: in game / generated / limit
+	45879 / 45860 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 17
+20260712:094222.536 2400 Message: kernel(ms): 0/19
+20260712:094222.536 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 274 / 45839
+NPC: in game / generated / limit
+	45889 / 45860 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 17
+20260712:094722.289 2400 Message: kernel(ms): 0/16
+20260712:094722.289 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 227 / 45844
+NPC: in game / generated / limit
+	45894 / 45865 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 17
+20260712:095222.339 2400 Message: kernel(ms): 0/16
+20260712:095222.339 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 26 / 45841
+NPC: in game / generated / limit
+	45894 / 45865 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 14
+20260712:095722.318 2400 Message: kernel(ms): 0/31
+20260712:095722.318 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 118 / 45846
+NPC: in game / generated / limit
+	45899 / 45870 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 14
+20260712:100222.169 2400 Message: kernel(ms): 0/16
+20260712:100222.169 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 525 / 45846
+NPC: in game / generated / limit
+	45899 / 45870 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 14
+20260712:100722.548 2400 Message: kernel(ms): 0/20
+20260712:100722.548 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45851
+NPC: in game / generated / limit
+	45904 / 45875 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 14
+20260712:100804.058 3720 Message: mysql version 5.6.26
+20260712:100804.058 3720 Message: CDatabase::Open sync DB OK for 127.0.0.1:3306 cq(latin1)
+20260712:101222.345 2400 Message: kernel(ms): 0/17
+20260712:101222.345 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45851
+NPC: in game / generated / limit
+	45915 / 45875 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 14
+20260712:101722.539 2400 Message: kernel(ms): 0/16
+20260712:101722.539 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 9 / 45853
+NPC: in game / generated / limit
+	45917 / 45875 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 16
+20260712:102222.141 2400 Message: kernel(ms): 0/31
+20260712:102222.141 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45853
+NPC: in game / generated / limit
+	45917 / 45875 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 16
+20260712:102722.218 2400 Message: kernel(ms): 0/16
+20260712:102722.218 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45858
+NPC: in game / generated / limit
+	45922 / 45880 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 16
+20260712:103222.150 2400 Message: kernel(ms): 0/16
+20260712:103222.150 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45858
+NPC: in game / generated / limit
+	45922 / 45880 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 16
+20260712:103722.291 2400 Message: kernel(ms): 0/16
+20260712:103722.291 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45858
+NPC: in game / generated / limit
+	45922 / 45880 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 16
+20260712:104222.243 2400 Message: kernel(ms): 0/16
+20260712:104222.243 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45863
+NPC: in game / generated / limit
+	45937 / 45885 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 16
+20260712:104722.180 2400 Message: kernel(ms): 0/16
+20260712:104722.180 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45863
+NPC: in game / generated / limit
+	45937 / 45885 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 16
+20260712:105222.544 2400 Message: kernel(ms): 0/16
+20260712:105222.544 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45865
+NPC: in game / generated / limit
+	45939 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 16
+20260712:105722.414 2400 Message: kernel(ms): 0/15
+20260712:105722.414 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45865
+NPC: in game / generated / limit
+	45939 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 16
+20260712:110222.202 2400 Message: kernel(ms): 0/31
+20260712:110222.202 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45865
+NPC: in game / generated / limit
+	45939 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 16
+20260712:110722.207 2400 Message: kernel(ms): 0/31
+20260712:110722.207 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45865
+NPC: in game / generated / limit
+	45939 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 16
+20260712:111222.544 2400 Message: kernel(ms): 0/16
+20260712:111222.544 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45865
+NPC: in game / generated / limit
+	45949 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 16
+20260712:111722.179 2400 Message: kernel(ms): 1/32
+20260712:111722.179 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45866
+NPC: in game / generated / limit
+	45950 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 17
+20260712:112222.130 2400 Message: kernel(ms): 0/16
+20260712:112222.130 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45866
+NPC: in game / generated / limit
+	45950 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 17
+20260712:112722.349 2400 Message: kernel(ms): 0/16
+20260712:112722.349 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45866
+NPC: in game / generated / limit
+	45950 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 17
+20260712:113222.393 2400 Message: kernel(ms): 0/16
+20260712:113222.393 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45866
+NPC: in game / generated / limit
+	45950 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 17
+20260712:113722.293 2400 Message: kernel(ms): 0/16
+20260712:113722.293 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45866
+NPC: in game / generated / limit
+	45950 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 17
+20260712:114222.569 2400 Message: kernel(ms): 0/17
+20260712:114222.569 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45866
+NPC: in game / generated / limit
+	45960 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 17
+20260712:114722.161 2400 Message: kernel(ms): 0/16
+20260712:114722.161 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45866
+NPC: in game / generated / limit
+	45960 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 17
+20260712:115222.289 2400 Message: kernel(ms): 0/36
+20260712:115222.289 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45866
+NPC: in game / generated / limit
+	45960 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 17
+20260712:115722.635 2400 Message: kernel(ms): 0/16
+20260712:115722.635 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45866
+NPC: in game / generated / limit
+	45960 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 17
+20260712:120222.597 2400 Message: kernel(ms): 0/31
+20260712:120222.597 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45866
+NPC: in game / generated / limit
+	45960 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 17
+20260712:120722.285 2400 Message: kernel(ms): 0/31
+20260712:120722.285 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45866
+NPC: in game / generated / limit
+	45960 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 17
+20260712:121222.587 2400 Message: kernel(ms): 0/15
+20260712:121222.587 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45866
+NPC: in game / generated / limit
+	45970 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 17
+20260712:121722.339 2400 Message: kernel(ms): 0/16
+20260712:121722.339 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45867
+NPC: in game / generated / limit
+	45971 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 18
+20260712:122222.506 2400 Message: kernel(ms): 0/19
+20260712:122222.506 2400 Message: Player + Pet + Other: 2 + 0 + 0
+NPC active / total: 12 / 45867
+NPC: in game / generated / limit
+	45971 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 18
+20260712:122722.388 2400 Message: kernel(ms): 0/16
+20260712:122722.388 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 19 / 45867
+NPC: in game / generated / limit
+	45971 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 18
+20260712:123222.589 2400 Message: kernel(ms): 0/16
+20260712:123222.589 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 31 / 45867
+NPC: in game / generated / limit
+	45971 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 18
+20260712:123722.344 2400 Message: kernel(ms): 0/16
+20260712:123722.344 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 30 / 45867
+NPC: in game / generated / limit
+	45971 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 18
+20260712:124222.411 2400 Message: kernel(ms): 0/16
+20260712:124222.411 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 34 / 45867
+NPC: in game / generated / limit
+	45981 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 18
+20260712:124722.290 2400 Message: kernel(ms): 0/16
+20260712:124722.290 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 167 / 45867
+NPC: in game / generated / limit
+	45981 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 18
+20260712:125222.162 2400 Message: kernel(ms): 0/16
+20260712:125222.162 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 60 / 45867
+NPC: in game / generated / limit
+	45981 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 18
+20260712:125722.476 2400 Message: kernel(ms): 0/16
+20260712:125722.476 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 18 / 45867
+NPC: in game / generated / limit
+	45981 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 18
+20260712:130222.245 2400 Message: kernel(ms): 0/58
+20260712:130222.245 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 277 / 45867
+NPC: in game / generated / limit
+	45981 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 18
+20260712:130722.292 2400 Message: kernel(ms): 0/16
+20260712:130722.292 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 266 / 45867
+NPC: in game / generated / limit
+	45981 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 18
+20260712:131222.225 2400 Message: kernel(ms): 0/17
+20260712:131222.225 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 148 / 45867
+NPC: in game / generated / limit
+	45991 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 18
+20260712:131722.442 2400 Message: kernel(ms): 0/16
+20260712:131722.442 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 121 / 45868
+NPC: in game / generated / limit
+	45992 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:132222.542 2400 Message: kernel(ms): 0/16
+20260712:132222.542 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 35 / 45869
+NPC: in game / generated / limit
+	45993 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 20
+20260712:132722.232 2400 Message: kernel(ms): 0/16
+20260712:132722.232 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45867
+NPC: in game / generated / limit
+	45992 / 45886 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 19
+20260712:133222.256 2400 Message: kernel(ms): 0/15
+20260712:133222.256 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45867
+NPC: in game / generated / limit
+	45992 / 45886 / 46008
+Generator: active+full+over / total
+	122 + 4441 + 0 / 4563
+SynPet: 19
+20260712:133722.196 2400 Message: kernel(ms): 0/16
+20260712:133722.196 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	45993 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:134222.545 2400 Message: kernel(ms): 0/16
+20260712:134222.545 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46003 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:134722.356 2400 Message: kernel(ms): 0/32
+20260712:134722.356 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46003 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:135222.414 2400 Message: kernel(ms): 0/16
+20260712:135222.414 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46003 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:135722.271 2400 Message: kernel(ms): 0/19
+20260712:135722.271 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46003 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:140222.539 2400 Message: kernel(ms): 0/16
+20260712:140222.539 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46003 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:140722.400 2400 Message: kernel(ms): 0/16
+20260712:140722.400 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46003 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:141222.152 2400 Message: kernel(ms): 0/16
+20260712:141222.152 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46013 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:141722.207 2400 Message: kernel(ms): 0/16
+20260712:141722.207 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46013 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:142222.246 2400 Message: kernel(ms): 0/16
+20260712:142222.246 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46013 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:142722.282 2400 Message: kernel(ms): 0/16
+20260712:142722.282 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46013 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:143222.477 2400 Message: kernel(ms): 0/16
+20260712:143222.477 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46013 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:143722.533 2400 Message: kernel(ms): 0/16
+20260712:143722.533 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46013 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:144222.590 2400 Message: kernel(ms): 0/28
+20260712:144222.590 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46023 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:144722.283 2400 Message: kernel(ms): 0/15
+20260712:144722.283 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46023 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:145222.380 2400 Message: kernel(ms): 0/16
+20260712:145222.380 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46023 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:145722.574 2400 Message: kernel(ms): 0/16
+20260712:145722.574 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46023 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:150222.464 2400 Message: kernel(ms): 0/16
+20260712:150222.464 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46023 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:150722.546 2400 Message: kernel(ms): 0/16
+20260712:150722.546 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46023 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:151222.424 2400 Message: kernel(ms): 0/16
+20260712:151222.424 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46033 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:151722.211 2400 Message: kernel(ms): 0/15
+20260712:151722.211 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46033 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:152222.270 2400 Message: kernel(ms): 0/16
+20260712:152222.270 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46033 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:152722.449 2400 Message: kernel(ms): 0/16
+20260712:152722.449 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46033 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:153222.420 2400 Message: kernel(ms): 0/16
+20260712:153222.420 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46033 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:153722.544 2400 Message: kernel(ms): 0/15
+20260712:153722.544 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46033 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:154222.537 2400 Message: kernel(ms): 0/16
+20260712:154222.537 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46043 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:154722.625 2400 Message: kernel(ms): 0/16
+20260712:154722.625 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46043 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:155222.590 2400 Message: kernel(ms): 0/15
+20260712:155222.590 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46043 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:155722.545 2400 Message: kernel(ms): 0/16
+20260712:155722.545 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46043 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:160222.297 2400 Message: kernel(ms): 0/16
+20260712:160222.297 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46043 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:160722.161 2400 Message: kernel(ms): 0/16
+20260712:160722.161 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46043 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:161222.591 2400 Message: kernel(ms): 0/16
+20260712:161222.591 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46053 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:161722.177 2400 Message: kernel(ms): 0/16
+20260712:161722.177 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46053 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:162222.150 2400 Message: kernel(ms): 0/16
+20260712:162222.150 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46053 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:162722.565 2400 Message: kernel(ms): 0/16
+20260712:162722.565 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46053 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:163222.294 2400 Message: kernel(ms): 0/16
+20260712:163222.294 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45868
+NPC: in game / generated / limit
+	46053 / 45887 / 46008
+Generator: active+full+over / total
+	121 + 4442 + 0 / 4563
+SynPet: 19
+20260712:163722.168 2400 Message: kernel(ms): 0/16
+20260712:163722.168 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46054 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:164222.417 2400 Message: kernel(ms): 0/16
+20260712:164222.417 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46064 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:164722.413 2400 Message: kernel(ms): 0/16
+20260712:164722.413 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46064 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:165222.466 2400 Message: kernel(ms): 0/16
+20260712:165222.466 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46064 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:165722.415 2400 Message: kernel(ms): 0/16
+20260712:165722.415 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46064 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:170222.538 2400 Message: kernel(ms): 0/16
+20260712:170222.538 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46064 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:170722.550 2400 Message: kernel(ms): 0/16
+20260712:170722.550 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46064 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:171222.417 2400 Message: kernel(ms): 0/16
+20260712:171222.417 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46074 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:171722.262 2400 Message: kernel(ms): 0/16
+20260712:171722.262 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46074 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:172222.399 2400 Message: kernel(ms): 0/15
+20260712:172222.399 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46074 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:172722.293 2400 Message: kernel(ms): 0/16
+20260712:172722.293 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46074 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:173222.419 2400 Message: kernel(ms): 0/16
+20260712:173222.419 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 2 / 45869
+NPC: in game / generated / limit
+	46074 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:173722.460 2400 Message: kernel(ms): 0/16
+20260712:173722.460 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 36 / 45869
+NPC: in game / generated / limit
+	46074 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:174222.289 2400 Message: kernel(ms): 0/16
+20260712:174222.289 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 1 / 45869
+NPC: in game / generated / limit
+	46084 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:174722.408 2400 Message: kernel(ms): 0/31
+20260712:174722.408 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 4 / 45869
+NPC: in game / generated / limit
+	46084 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:175222.161 2400 Message: kernel(ms): 0/16
+20260712:175222.161 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 11 / 45869
+NPC: in game / generated / limit
+	46084 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:175722.547 2400 Message: kernel(ms): 0/16
+20260712:175722.547 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 162 / 45869
+NPC: in game / generated / limit
+	46084 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:180222.413 2400 Message: kernel(ms): 0/17
+20260712:180222.413 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46084 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:180722.317 2400 Message: kernel(ms): 0/16
+20260712:180722.317 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46084 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:181222.165 2400 Message: kernel(ms): 0/15
+20260712:181222.165 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46094 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:181722.149 2400 Message: kernel(ms): 0/16
+20260712:181722.149 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46094 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:182222.288 2400 Message: kernel(ms): 0/16
+20260712:182222.288 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46094 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:182722.171 2400 Message: kernel(ms): 0/15
+20260712:182722.171 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46094 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:183222.293 2400 Message: kernel(ms): 0/16
+20260712:183222.293 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46094 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:183722.286 2400 Message: kernel(ms): 0/16
+20260712:183722.286 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46094 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:184222.286 2400 Message: kernel(ms): 0/16
+20260712:184222.286 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45869
+NPC: in game / generated / limit
+	46104 / 45888 / 46008
+Generator: active+full+over / total
+	120 + 4443 + 0 / 4563
+SynPet: 19
+20260712:184722.487 2400 Message: kernel(ms): 0/30
+20260712:184722.487 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45870
+NPC: in game / generated / limit
+	46105 / 45889 / 46008
+Generator: active+full+over / total
+	119 + 4444 + 0 / 4563
+SynPet: 19
+20260712:185222.413 2400 Message: kernel(ms): 0/31
+20260712:185222.413 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45870
+NPC: in game / generated / limit
+	46105 / 45889 / 46008
+Generator: active+full+over / total
+	119 + 4444 + 0 / 4563
+SynPet: 19
+20260712:185722.417 2400 Message: kernel(ms): 0/16
+20260712:185722.417 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45870
+NPC: in game / generated / limit
+	46105 / 45889 / 46008
+Generator: active+full+over / total
+	119 + 4444 + 0 / 4563
+SynPet: 19
+20260712:190222.401 2400 Message: kernel(ms): 0/16
+20260712:190222.401 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45870
+NPC: in game / generated / limit
+	46105 / 45889 / 46008
+Generator: active+full+over / total
+	119 + 4444 + 0 / 4563
+SynPet: 19
+20260712:190722.159 2400 Message: kernel(ms): 0/16
+20260712:190722.159 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45870
+NPC: in game / generated / limit
+	46105 / 45889 / 46008
+Generator: active+full+over / total
+	119 + 4444 + 0 / 4563
+SynPet: 19
+20260712:191222.411 2400 Message: kernel(ms): 0/16
+20260712:191222.411 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45870
+NPC: in game / generated / limit
+	46115 / 45889 / 46008
+Generator: active+full+over / total
+	119 + 4444 + 0 / 4563
+SynPet: 19
+20260712:191722.525 2400 Message: kernel(ms): 0/17
+20260712:191722.525 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45870
+NPC: in game / generated / limit
+	46115 / 45889 / 46008
+Generator: active+full+over / total
+	119 + 4444 + 0 / 4563
+SynPet: 19
+20260712:192222.413 2400 Message: kernel(ms): 0/16
+20260712:192222.413 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45870
+NPC: in game / generated / limit
+	46115 / 45889 / 46008
+Generator: active+full+over / total
+	119 + 4444 + 0 / 4563
+SynPet: 19
+20260712:192722.533 2400 Message: kernel(ms): 0/16
+20260712:192722.533 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45870
+NPC: in game / generated / limit
+	46115 / 45889 / 46008
+Generator: active+full+over / total
+	119 + 4444 + 0 / 4563
+SynPet: 19
+20260712:193222.423 2400 Message: kernel(ms): 0/16
+20260712:193222.423 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45871
+NPC: in game / generated / limit
+	46116 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:193722.224 2400 Message: kernel(ms): 0/17
+20260712:193722.224 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 18 / 45871
+NPC: in game / generated / limit
+	46116 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:194222.488 2400 Message: kernel(ms): 0/15
+20260712:194222.488 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 6 / 45871
+NPC: in game / generated / limit
+	46126 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:194722.322 2400 Message: kernel(ms): 0/16
+20260712:194722.322 2400 Message: Player + Pet + Other: 2 + 0 + 0
+NPC active / total: 6 / 45871
+NPC: in game / generated / limit
+	46126 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:195222.215 2400 Message: kernel(ms): 0/16
+20260712:195222.215 2400 Message: Player + Pet + Other: 2 + 0 + 0
+NPC active / total: 36 / 45871
+NPC: in game / generated / limit
+	46126 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:195722.610 2400 Message: kernel(ms): 0/16
+20260712:195722.610 2400 Message: Player + Pet + Other: 2 + 0 + 0
+NPC active / total: 35 / 45871
+NPC: in game / generated / limit
+	46126 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:200222.166 2400 Message: kernel(ms): 0/17
+20260712:200222.166 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 4 / 45871
+NPC: in game / generated / limit
+	46126 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:200722.212 2400 Message: kernel(ms): 0/16
+20260712:200722.212 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45871
+NPC: in game / generated / limit
+	46126 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:201222.496 2400 Message: kernel(ms): 0/16
+20260712:201222.496 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45871
+NPC: in game / generated / limit
+	46136 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:201722.344 2400 Message: kernel(ms): 0/31
+20260712:201722.344 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45871
+NPC: in game / generated / limit
+	46136 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:202222.333 2400 Message: kernel(ms): 0/16
+20260712:202222.333 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45871
+NPC: in game / generated / limit
+	46136 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:202722.336 2400 Message: kernel(ms): 0/16
+20260712:202722.336 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 20 / 45871
+NPC: in game / generated / limit
+	46136 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:203222.296 2400 Message: kernel(ms): 0/29
+20260712:203222.296 2400 Message: Player + Pet + Other: 2 + 0 + 0
+NPC active / total: 8 / 45871
+NPC: in game / generated / limit
+	46136 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:203722.541 2400 Message: kernel(ms): 0/16
+20260712:203722.541 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 7 / 45871
+NPC: in game / generated / limit
+	46136 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:204222.295 2400 Message: kernel(ms): 0/18
+20260712:204222.295 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 45 / 45871
+NPC: in game / generated / limit
+	46146 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:204722.421 2400 Message: kernel(ms): 0/16
+20260712:204722.421 2400 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 2 / 45871
+NPC: in game / generated / limit
+	46146 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:205222.544 2400 Message: kernel(ms): 0/16
+20260712:205222.544 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45871
+NPC: in game / generated / limit
+	46146 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:205722.594 2400 Message: kernel(ms): 0/16
+20260712:205722.594 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45871
+NPC: in game / generated / limit
+	46146 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:210222.466 2400 Message: kernel(ms): 0/18
+20260712:210222.466 2400 Message: Player + Pet + Other: 2 + 0 + 0
+NPC active / total: 6 / 45871
+NPC: in game / generated / limit
+	46146 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:210722.319 2400 Message: kernel(ms): 0/16
+20260712:210722.319 2400 Message: Player + Pet + Other: 2 + 0 + 0
+NPC active / total: 137 / 45871
+NPC: in game / generated / limit
+	46146 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:211222.414 2400 Message: kernel(ms): 0/16
+20260712:211222.414 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45871
+NPC: in game / generated / limit
+	46156 / 45890 / 46008
+Generator: active+full+over / total
+	118 + 4445 + 0 / 4563
+SynPet: 19
+20260712:211722.592 2400 Message: kernel(ms): 0/16
+20260712:211722.592 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45872
+NPC: in game / generated / limit
+	46157 / 45891 / 46008
+Generator: active+full+over / total
+	117 + 4446 + 0 / 4563
+SynPet: 19
+20260712:212222.516 2400 Message: kernel(ms): 0/16
+20260712:212222.516 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45872
+NPC: in game / generated / limit
+	46157 / 45891 / 46008
+Generator: active+full+over / total
+	117 + 4446 + 0 / 4563
+SynPet: 19
+20260712:212722.298 2400 Message: kernel(ms): 0/16
+20260712:212722.298 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45872
+NPC: in game / generated / limit
+	46157 / 45891 / 46008
+Generator: active+full+over / total
+	117 + 4446 + 0 / 4563
+SynPet: 19
+20260712:213222.161 2400 Message: kernel(ms): 0/16
+20260712:213222.161 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45872
+NPC: in game / generated / limit
+	46157 / 45891 / 46008
+Generator: active+full+over / total
+	117 + 4446 + 0 / 4563
+SynPet: 19
+20260712:213722.169 2400 Message: kernel(ms): 0/16
+20260712:213722.169 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45872
+NPC: in game / generated / limit
+	46157 / 45891 / 46008
+Generator: active+full+over / total
+	117 + 4446 + 0 / 4563
+SynPet: 19
+20260712:214222.390 2400 Message: kernel(ms): 0/16
+20260712:214222.390 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45872
+NPC: in game / generated / limit
+	46167 / 45891 / 46008
+Generator: active+full+over / total
+	117 + 4446 + 0 / 4563
+SynPet: 19
+20260712:214722.608 2400 Message: kernel(ms): 0/16
+20260712:214722.608 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45872
+NPC: in game / generated / limit
+	46167 / 45891 / 46008
+Generator: active+full+over / total
+	117 + 4446 + 0 / 4563
+SynPet: 19
+20260712:215222.563 2400 Message: kernel(ms): 1/31
+20260712:215222.563 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45873
+NPC: in game / generated / limit
+	46168 / 45892 / 46008
+Generator: active+full+over / total
+	116 + 4447 + 0 / 4563
+SynPet: 19
+20260712:215722.292 2400 Message: kernel(ms): 0/17
+20260712:215722.292 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45873
+NPC: in game / generated / limit
+	46168 / 45892 / 46008
+Generator: active+full+over / total
+	116 + 4447 + 0 / 4563
+SynPet: 19
+20260712:220222.268 2400 Message: kernel(ms): 0/0
+20260712:220222.268 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45873
+NPC: in game / generated / limit
+	46168 / 45892 / 46008
+Generator: active+full+over / total
+	116 + 4447 + 0 / 4563
+SynPet: 19
+20260712:220722.234 2400 Message: kernel(ms): 0/16
+20260712:220722.234 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45873
+NPC: in game / generated / limit
+	46168 / 45892 / 46008
+Generator: active+full+over / total
+	116 + 4447 + 0 / 4563
+SynPet: 19
+20260712:221222.416 2400 Message: kernel(ms): 0/16
+20260712:221222.416 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45873
+NPC: in game / generated / limit
+	46178 / 45892 / 46008
+Generator: active+full+over / total
+	116 + 4447 + 0 / 4563
+SynPet: 19
+20260712:221722.337 2400 Message: kernel(ms): 0/16
+20260712:221722.337 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45873
+NPC: in game / generated / limit
+	46178 / 45892 / 46008
+Generator: active+full+over / total
+	116 + 4447 + 0 / 4563
+SynPet: 19
+20260712:222222.162 2400 Message: kernel(ms): 0/16
+20260712:222222.162 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45873
+NPC: in game / generated / limit
+	46178 / 45892 / 46008
+Generator: active+full+over / total
+	116 + 4447 + 0 / 4563
+SynPet: 19
+20260712:222722.352 2400 Message: kernel(ms): 0/16
+20260712:222722.352 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45873
+NPC: in game / generated / limit
+	46178 / 45892 / 46008
+Generator: active+full+over / total
+	116 + 4447 + 0 / 4563
+SynPet: 19
+20260712:223222.166 2400 Message: kernel(ms): 0/16
+20260712:223222.166 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45873
+NPC: in game / generated / limit
+	46178 / 45892 / 46008
+Generator: active+full+over / total
+	116 + 4447 + 0 / 4563
+SynPet: 19
+20260712:223722.419 2400 Message: kernel(ms): 0/16
+20260712:223722.419 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45873
+NPC: in game / generated / limit
+	46178 / 45892 / 46008
+Generator: active+full+over / total
+	116 + 4447 + 0 / 4563
+SynPet: 19
+20260712:224222.577 2400 Message: kernel(ms): 0/17
+20260712:224222.577 2400 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 45873
+NPC: in game / generated / limit
+	46188 / 45892 / 46008
+Generator: active+full+over / total
+	116 + 4447 + 0 / 4563
+SynPet: 19

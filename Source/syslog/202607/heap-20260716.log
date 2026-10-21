@@ -1,0 +1,55 @@
+========== 20260716:163812 ==========
+                      CArenicSystem 1                                 CAstProfMgr 1                       CAuctionSearchService 1                               CBattleSystem 44675     
+                       CCheaterList 1                                    CCompete 9                                CCompeteSort 8                             CCrossVlmResult 1         
+                            CDetain 1                                   CEnemyMgr 1                               CFactionMatch 8                            CFactionMatchMgr 1         
+                          CFateSort 4                                   CFieldStr 491505                            CFlowerSort 8                                  CFriendMgr 1         
+                          CFuseItem 1                                  CGMTalkMgr 1                                       CGame 1                                 CGameAction 1         
+                           CGameMap 415                        CInnerStrengthSort 1                               CInstanceType 5                            CItemAdditionMgr 1         
+                       CItemTypeMgr 1                                   CLevUpExp 1                                    CLottery 1627                            CLuaScriptMgr 1         
+                      CMagicManager 1                             CMapGroupKernel 1                                    CMapItem 3                                 CMapManager 1         
+                           CMapTrap 587                               CMeedRecord 1                               CMessageBoard 6                                   CMineCtrl 1         
+                           CMonster 44088                           CMonsterMagic 44088                       CMonsterTypeMagic 1                                        CNpc 3464      
+                            CNpcBet 1                              CNpcIncomeData 9                                 CNpcManager 1                                    CNpcPath 43        
+                          CNpcScene 11                                   CNpcShop 357                                  CNpcTask 3157                             CPeerageSort 5         
+                            CRecord 437194                             CRecordset 1                                CRoleManager 1                                   CRoulette 20        
+                       CRouletteMgr 1                               CServerSocket 1                               CSuperFlagMgr 1                               CSupermanList 1         
+                     CSynArenicMeed 1                                    CSynAttr 1                          CSynCompeteSponsor 1                                  CSyndicate 1         
+                     CTarAttackInfo 3                                CTexasHoldEm 50                                  CTitleMgr 1                            CTodayFlowerSort 4         
+                             CTotem 2                                  CTotemPole 1                                      CTrade 100                            CTradeBuddyMgr 1         
+               CTrainingVitalityMgr 1                                CTransportor 1                                 CUserKernel 1                                   CUserList 1         
+                       CUserManager 1                                  CWantedMgr 1                              CWeaponSkillUp 1                                    CWeapons 2         
+                           CWeather 15                             CWeatherRegion 15                     TFieldNumeric<__int64> 5230                      TFieldNumeric<char> 27892     
+                 TFieldNumeric<int> 504684                   TFieldNumeric<short> 266220        TFieldNumeric<unsigned __int64> 861              TFieldNumeric<unsigned char> 554269    
+        TFieldNumeric<unsigned int> 2316831         TFieldNumeric<unsigned short> 646642    
+========== 20260716:165251 ==========
+                           CAchInfo 1                             CActivityPlayer 1                               CActivityTask 14                                CArenicInfo 1         
+                      CArenicSystem 1                                 CAstProfMgr 1                       CAuctionSearchService 1                                 CAuraPlayer 1         
+                      CBattleSystem 44702                             CChatPlayer 1                                CCheaterList 1                             CClientDetector 4         
+                           CCompete 9                                CCompeteSort 8                                CConnectUser 0                             CCrossVlmResult 1         
+                            CDetain 1                                   CEnemyMgr 1                               CFactionMatch 8                            CFactionMatchMgr 1         
+                          CFateSort 4                                   CFieldStr 491513                            CFlowerSort 8                                  CFriendMgr 1         
+                          CFuseItem 1                                  CGMTalkMgr 1                                       CGame 1                                 CGameAction 1         
+                           CGameMap 415                        CGoldenLeaguePoint 1                        CInnerStrengthPlayer 1                          CInnerStrengthSort 1         
+                      CInstanceType 5                                       CItem 52                           CItemAdditionMgr 1                             CItemStatusData 14        
+                       CItemTypeMgr 1                              CJiangHuPlayer 1                         CJiangHuPlayerPower 1                                   CLevUpExp 1         
+                       CLoginPlayer 1                                    CLottery 1627                            CLuaScriptMgr 1                                  CMagicData 34        
+                      CMagicManager 1                             CMapGroupKernel 1                                    CMapItem 3                                 CMapManager 1         
+                           CMapTrap 587                               CMeedRecord 1                               CMessageBoard 6                                   CMineCtrl 1         
+                           CMonster 44114                           CMonsterMagic 44114                       CMonsterTypeMagic 1                                        CNpc 3464      
+                            CNpcBet 1                              CNpcIncomeData 9                                 CNpcManager 1                                    CNpcPath 43        
+                          CNpcScene 11                                   CNpcShop 357                                  CNpcTask 3157                             CPKStatistic 1         
+                       CPeerageSort 5                                     CPlayer 0                                CPlayerMagic 1                          CPlayerProcessGoal 1         
+                   CProcessGoalTask 1                                      CProps 1                                     CRecord 437519                             CRecordset 1         
+                       CRoleManager 1                                   CRoulette 20                               CRouletteMgr 1                               CServerSocket 2         
+                        CStatusData 0                                    CStorage 1                               CSuperFlagMgr 1                               CSupermanList 1         
+                     CSynArenicMeed 1                                    CSynAttr 1                          CSynCompeteSponsor 1                                  CSyndicate 1         
+                     CTarAttackInfo 3                                 CTaskDetail 25                                  CTaskList 1                             CTeamArenicUser 1         
+                       CTexasHoldEm 50                                     CTitle 1                                   CTitleMgr 1                            CTodayFlowerSort 4         
+                             CTotem 2                                  CTotemPole 1                                      CTrade 100                            CTradeBuddyMgr 1         
+               CTrainingVitalityMgr 1                                CTransportor 1                                       CUser 1                              CUserAntiCheat 1         
+                       CUserAstProf 1                            CUserFateProtect 1                                 CUserKernel 1                                   CUserList 1         
+                       CUserManager 1                                 CUserStatus 1                             CUserTaskDetail 1                       CUserTrainingVitality 1         
+                   CUserWeaponSkill 1                                  CWantedMgr 1                              CWeaponSkillUp 1                                    CWeapons 2         
+                           CWeather 15                             CWeatherRegion 15                     TFieldNumeric<__int64> 5286                      TFieldNumeric<char> 27947     
+                 TFieldNumeric<int> 504916                   TFieldNumeric<short> 266221        TFieldNumeric<unsigned __int64> 868              TFieldNumeric<unsigned char> 555159    
+        TFieldNumeric<unsigned int> 2319070         TFieldNumeric<unsigned short> 646944    

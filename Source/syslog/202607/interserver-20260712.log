@@ -1,0 +1,110 @@
+Conqer Cross Server - CS_1 - Dec  4 2015 14:01:00
+Server started at 2026-07-12 06:28:10
+Current time is 2026-07-12 06:28:10
+Server has been running for 0 day(s) and 00:00:00
+
+20260712:062810.071 8680 Message: =================================================================
+20260712:062810.071 8680 Message: Conqer Cross Server - CS_1 - Dec  4 2015 14:01:00
+20260712:062810.089 8680 Message: =================================================================
+20260712:062810.103 8680 Message: f:\version\cqserver-78.0.11-1204\crossserver\crossshell.cpp
+20260712:062810.119 8680 Message: Computer name: WIN-F6NF7R6I6PJ
+20260712:062810.135 8680 Message: User name: Administrator
+20260712:062810.135 8680 Message: System information:
+20260712:062810.155 8680 Message: 	OEM ID: 9
+20260712:062810.168 8680 Message: 	Number of processors: 6
+20260712:062810.199 8680 Message: 	Processor type: Intel family 25 model 33 stepping 2
+20260712:062810.215 8680 Message: 	Active processor mask: 0x003f
+20260712:062810.230 8680 Message: 	Page size: 4096
+20260712:062810.246 8680 Message: 	Minimum application address: 0x00010000
+20260712:062810.262 8680 Message: 	Maximum application address: 0xfffeffff
+20260712:062810.278 8680 Message: 	Allocation granularity: 0x00010000
+20260712:062810.278 8680 Message: Memory status:
+20260712:062810.294 8680 Message: 	Total size of physical memory in bytes: 17179312128(15.999481 GB)
+20260712:062810.310 8680 Message: 	Size of physical memory available in bytes: 11647774720(10.847836 GB)
+20260712:062810.326 8680 Message: 	Total possible size of the paging file in bytes: 19729448960
+20260712:062810.342 8680 Message: 	Size of space available in the paging file in bytes: 13692452864
+20260712:062810.358 8680 Message: 	Total size of the user mode portion of the virtual address space in bytes: 140737488224256
+20260712:062810.374 8680 Message: 	Size of space available in the virtual address space in bytes: 140733058424832
+20260712:062810.402 8680 Message: Microsoft Windows 6.x Standard Edition, 64-bit (build 9200)
+20260712:062810.406 8680 Message: The EventInfo...
+20260712:062810.486 8680 Message: thread 8680 created running thread 5604 "LogThread"
+20260712:062810.486 5604 Message: thread 5604 "LogThread" is up and running
+20260712:062810.502 8680 Message: DatabaseInit got intermediary server DB config 127.0.0.1:3306 cq(latin1)
+20260712:062810.589 8680 Message: thread 8680 created running thread 648 "AsyncDBThread"
+20260712:062810.589 8680 Message: Init socket thread...
+20260712:062810.602  648 Message: thread 648 "AsyncDBThread" is up and running
+20260712:062810.636 8680 Message: thread 8680 created suspended thread 7248 "SocketThread"
+20260712:062810.652  648 Message: CAsyncDBThread::OnInit got intermediary server DB config 127.0.0.1:3306 cq(latin1)
+20260712:062810.652 8680 Message: libevent method: win32
+20260712:062810.667 8680 Message: thread 8680 created libevent worker thread 3708
+20260712:062810.683 8680 Message: Init Ok.
+20260712:062810.698 3708 Message: EvnetRoutine worker thread is up and running
+20260712:062810.714  648 Message: CAsyncDBThread::OnInit async DB OK for 127.0.0.1:3306 cq(latin1)
+20260712:062810.752 8680 Message: Init kernel thread...
+20260712:062810.768 8680 Message: thread 8680 created suspended thread 7068 "KernelThread"
+20260712:062810.784 8680 Message: Cross server name: CS_1
+20260712:062810.808 8680 Message: mysql version 5.6.26
+20260712:062810.837 8680 Message: CDatabase::Open sync DB OK for 127.0.0.1:3306 cq(latin1)
+20260712:062810.839 8680 Message: CServerMgr::Create: client count 11
+20260712:062810.853 8680 Message: server id: 9,	sever name:Titan
+20260712:062810.870 8680 Message: server id: 7,	sever name:Cancer
+20260712:062810.886 8680 Message: server id: 5,	sever name:BabyIcey
+20260712:062810.901 8680 Message: server id: 3,	sever name:Volcano
+20260712:062810.918 8680 Message: server id: 2,	sever name:SnowWhite
+20260712:062810.934 8680 Message: server id: 101,	sever name:Realm1
+20260712:062810.950 8680 Message: server id: 10,	sever name:Dragon
+20260712:062810.967 8680 Message: server id: 8,	sever name:Snowfall
+20260712:062810.983 8680 Message: server id: 6,	sever name:Mercury
+20260712:062810.999 8680 Message: server id: 4,	sever name:Mausoleum
+20260712:062811.015 8680 Message: server id: 1,	sever name:Phoenix
+20260712:062811.033 8680 Message: ============================================================
+20260712:062811.048 8680 Message: Init Ok.
+20260712:062811.064 8680 Message: thread 8680 resumed thread 7068 "KernelThread" and it was restarted
+20260712:062811.080 8680 Message: thread 8680 resumed thread 7248 "SocketThread" and it was restarted
+20260712:062811.096 7068 Message: thread 7068 "KernelThread" is up and running
+20260712:062811.121 7248 Message: thread 7248 "SocketThread" is up and running
+20260712:063310.692 7068 Message: 
+ --------------5 Minutes network statistic-----------
+socket send bytes: 0
+socket send Msgs: 0
+socket recv bytes: 0
+socket recv Msgs: 0
+---------------------------------------------------
+
+20260712:063810.140 7068 Message: 
+ --------------5 Minutes network statistic-----------
+socket send bytes: 0
+socket send Msgs: 0
+socket recv bytes: 0
+socket recv Msgs: 0
+---------------------------------------------------
+
+20260712:064310.609 7068 Message: 
+ --------------5 Minutes network statistic-----------
+socket send bytes: 0
+socket send Msgs: 0
+socket recv bytes: 0
+socket recv Msgs: 0
+---------------------------------------------------
+
+20260712:064808.134 8680 Message: thread 8680 is trying to close thread 7068 "KernelThread" in 120000 ms ...
+20260712:064808.166 7068 Message: thread 7068 "KernelThread" is exiting with code 0
+20260712:064808.166 7068 Message: thread 7068 "KernelThread" exited with code 0
+20260712:064808.166 8680 Message: thread 8680 successfully closed thread 7068 "KernelThread" in 120000 ms
+20260712:064808.166 8680 Message: thread 8680 is trying to close thread 7248 "SocketThread" in 4000 ms ...
+20260712:064808.610 7248 Message: thread 7248 "SocketThread" is exiting with code 0
+20260712:064808.610 3708 Message: EvnetRoutine worker thread exited
+20260712:064811.116 7248 Message: thread 7248 "SocketThread" exited with code 0
+20260712:064811.116 8680 Message: thread 8680 successfully closed thread 7248 "SocketThread" in 4000 ms
+20260712:064811.226 8680 Message: thread 8680 is trying to close thread 648 "AsyncDBThread" in 2000 ms ...
+20260712:064811.824  648 Message: thread 648 "AsyncDBThread" is exiting with code 0
+20260712:064811.824  648 Message: Async DB connection was closed
+20260712:064811.824 8680 Message: thread 8680 is trying to close thread 5604 "LogThread" in 60000 ms ...
+20260712:064811.824  648 Message: thread 648 "AsyncDBThread" exited with code 0
+20260712:064811.840 8680 Message: thread 8680 successfully closed thread 648 "AsyncDBThread" in 2000 ms
+20260712:064811.856 8680 Message: Close async DB thread OK
+20260712:064812.285 5604 Message: thread 5604 "LogThread" is exiting with code 0
+20260712:064812.285 5604 Message: thread 5604 "LogThread" exited with code 0
+20260712:064812.301 8680 Message: thread 8680 successfully closed thread 5604 "LogThread" in 60000 ms
+20260712:064812.308 8680 Message: Close log thread OK
+20260712:064812.387 8680 Message: CDatabase sync DB connection was closed

@@ -1,0 +1,11 @@
+test55(1000011) opens a DB Scroll(268) at 2607122035. -- 20260712:203520.660
+test55(1000011) opens DB scroll and gets DB 1(752) at 2607122035. -- 20260712:203520.660
+test55(1000011) opens DB scroll and gets DB 2(753) at 2607122035. -- 20260712:203520.691
+test55(1000011) opens DB scroll and gets DB 3(754) at 2607122035. -- 20260712:203520.707
+test55(1000011) opens DB scroll and gets DB 4(755) at 2607122035. -- 20260712:203520.707
+test55(1000011) opens DB scroll and gets DB 5(756) at 2607122035. -- 20260712:203520.738
+test55(1000011) opens DB scroll and gets DB 6(757) at 2607122035. -- 20260712:203520.754
+test55(1000011) opens DB scroll and gets DB 7(759) at 2607122035. -- 20260712:203520.785
+test55(1000011) opens DB scroll and gets DB 8(760) at 2607122035. -- 20260712:203520.802
+test55(1000011) opens DB scroll and gets DB 9(761) at 2607122035. -- 20260712:203520.816
+test55(1000011) opens DB scroll and gets DB 10(762) at 2607122035. -- 20260712:203520.836

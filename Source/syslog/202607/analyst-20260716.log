@@ -1,0 +1,389 @@
+Conquer Online Server - test - Dec  4 2015 14:00:43
+Server started at 2026-07-16 16:18:50
+Current time is 2026-07-16 16:19:01
+Server has been running for 0 day(s) and 00:00:11
+
+20260716:161901.256 f:\version\cqserver-78.0.11-1204\analyst\analyst.cpp
+20260716:162755.929 f:\version\cqserver-78.0.11-1204\analyst\analyst.cpp
+20260716:163312.604 CMapGroupThread::OnProcess, cnt=14599, tot=10883ms, avg=0.75ms, max=139ms
+20260716:163312.610 |-CMapGroupThread ProcessMsg, cnt=42598, tot=922ms, avg=0.02ms, max=22ms
+20260716:163312.624 | |-ProcessMsg KERNEL_CLOSEKERNEL, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.638 | |-ProcessMsg MAPGROUP_LOGINOVER, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.649 | | |-MAPGROUP_LOGINOVER CreateAllItem, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.659 | | |-MAPGROUP_LOGINOVER GameLogin, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.670 | | `-MAPGROUP_LOGINOVER CUserManager::LoginUser, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.680 | |-ProcessClientMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.690 | | `-CUser::OnLoginOver, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.701 | |-ProcessCrossMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.713 | |-ProcessOSToGSServerMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.725 | `-ProcessGSToOSMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.736 `-CMapGroupKernel::OnTimer, cnt=2399, tot=9929ms, avg=4.14ms, max=139ms
+20260716:163312.748   |-CMapGroup::OnTimer, cnt=1800, tot=9917ms, avg=5.51ms, max=139ms
+20260716:163312.760   | |-CRoleManager::OnTimer, cnt=600, tot=9312ms, avg=15.52ms, max=33ms
+20260716:163312.773   | | |-CUser::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.785   | | | |-CUser::OnTimer ProcessAutoAttack, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.798   | | | |-CUser::OnTimer Process Action, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.810   | | | `-CUser::OnTimer Other Section2, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.824   | | |   `-CUser::OnTimer ProcessExploreResult, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.838   | |-CUserManager::OnTimer, cnt=600, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.850   | | `-CUserManager::OnTimer New day init, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.862   | `-CMapGroup::OnTimer ProcessAction, cnt=600, tot=577ms, avg=0.96ms, max=139ms
+20260716:163312.875   |-CGame::OnTimer, cnt=599, tot=11ms, avg=0.02ms, max=2ms
+20260716:163312.888   |-CElitePKArenicMgr::OnTimer, cnt=599, tot=1ms, avg=0.00ms, max=1ms
+20260716:163312.901   `-CFrontierFlagWarMgr::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.914       |-CFlag::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.927       |-RefreshHighRateAltar, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.942       `-BroadcastAltarAttackRank, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.954 CWorldThread::OnProcess, cnt=307, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.966 |-CWorldThread ProcessMsg, cnt=8, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.978 `-CWorldKernel::OnTimer, cnt=299, tot=0ms, avg=0.00ms, max=0ms
+20260716:163312.993 CUserLoginThread::OnProcess, cnt=149, tot=3ms, avg=0.02ms, max=2ms
+20260716:163313.007 |-CUserLoginThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.022 `-CUserKernel::OnTimer, cnt=149, tot=3ms, avg=0.02ms, max=2ms
+20260716:163313.036 CSocketThread::OnProcess, cnt=27161, tot=2468ms, avg=0.09ms, max=30ms
+20260716:163313.049 |-CSocketThread ProcessMsg, cnt=55858, tot=2417ms, avg=0.04ms, max=10ms
+20260716:163313.063 | |-CONNECTMSG, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.078 | |-READMSG, cnt=13280, tot=106ms, avg=0.01ms, max=3ms
+20260716:163313.091 | |-EVENTMSG, cnt=4, tot=1ms, avg=0.25ms, max=1ms
+20260716:163313.105 | |-SOCKET_BROADCAST_MAPGROUPMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.118 | `-SOCKET_SENDMULTICLIENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.132 `-CSocketKernel::OnTimer, cnt=3946, tot=1ms, avg=0.00ms, max=1ms
+20260716:163313.146 CCrossClientThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.160 |-CCrossClientThread ProcessClientMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.178 |-CCrossKernel::ProcessLocalMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.190 |-CCrossClientThread::ProcessSocket, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.205 CChatThread::OnProcess, cnt=150, tot=85ms, avg=0.57ms, max=40ms
+20260716:163313.218 |-CChatThread ProcessMsg, cnt=415, tot=25ms, avg=0.06ms, max=1ms
+20260716:163313.235 `-CChatThread OnTimer, cnt=149, tot=60ms, avg=0.40ms, max=40ms
+20260716:163313.252 CAuctionSearchThread::OnProcess, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.267 |-CAuctionSearchThread ProcessMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.282 `-CAuctionSearchThread OnTimer, cnt=149, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.294 CIPADPaymentsSocketThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.308 |-CIPADPaymentsSocketThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.322 `-CIPADPaymentsSocketThread::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.337 CGooglePaymentsThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.353 |-CGooglePaymentsThread::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.367 `-CGooglePaymentsThread::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.381   `CGooglePaymentsThread::ProcessPayResultData, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.394 CLogThread OnProcess, cnt=348, tot=13093ms, avg=37.62ms, max=11206ms
+20260716:163313.407 `-CLogThread ProcessMsg, cnt=615, tot=9558ms, avg=15.54ms, max=51ms
+20260716:163313.420 CAsyncDBThread::OnProcess, cnt=327, tot=7ms, avg=0.02ms, max=2ms
+20260716:163313.447 |-CAsyncDBThread mysql_query, cnt=16, tot=7ms, avg=0.44ms, max=1ms
+20260716:163313.461 | |-CDatabase::ExcuteMySQL update, cnt=15, tot=7ms, avg=0.47ms, max=1ms
+20260716:163313.474 | |-CDatabase::ExcuteMySQL delete, cnt=6, tot=2ms, avg=0.33ms, max=1ms
+20260716:163313.487 | |-CDatabase::ExcuteMySQL other, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.501 CDatabase::ExcuteMySQL insert, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.516 CDatabase::ExecuteSyncSQL, cnt=1451, tot=901ms, avg=0.62ms, max=146ms
+20260716:163313.531 CDatabase::ExcuteMySQL select, cnt=1446, tot=391ms, avg=0.27ms, max=4ms
+20260716:163313.544 CRecord::Insert failure, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.558 CMapGroupThread WaitMsg, cnt=14599, tot=289012ms, avg=19.80ms, max=164ms
+20260716:163313.571 CCrossClientThread WaitMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163313.585 CChatThread WaitMsg, cnt=150, tot=297916ms, avg=1986.11ms, max=2038ms
+20260716:163313.599 CAuctionSearchThread WaitMsg, cnt=150, tot=298001ms, avg=1986.67ms, max=2038ms
+20260716:163313.613 CAsyncDBThread WaitMsg, cnt=327, tot=315931ms, avg=966.15ms, max=1042ms
+20260716:163814.409 CMapGroupThread::OnProcess, cnt=3602, tot=11090ms, avg=3.08ms, max=116ms
+20260716:163814.409 |-CMapGroupThread ProcessMsg, cnt=1532, tot=100ms, avg=0.07ms, max=1ms
+20260716:163814.421 | |-ProcessMsg KERNEL_CLOSEKERNEL, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.433 | |-ProcessMsg MAPGROUP_LOGINOVER, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.446 | | |-MAPGROUP_LOGINOVER CreateAllItem, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.459 | | |-MAPGROUP_LOGINOVER GameLogin, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.472 | | `-MAPGROUP_LOGINOVER CUserManager::LoginUser, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.484 | |-ProcessClientMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.496 | | `-CUser::OnLoginOver, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.510 | |-ProcessCrossMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.524 | |-ProcessOSToGSServerMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.538 | `-ProcessGSToOSMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.550 `-CMapGroupKernel::OnTimer, cnt=2401, tot=10988ms, avg=4.58ms, max=116ms
+20260716:163814.564   |-CMapGroup::OnTimer, cnt=1800, tot=10981ms, avg=6.10ms, max=116ms
+20260716:163814.566   | |-CRoleManager::OnTimer, cnt=600, tot=10368ms, avg=17.28ms, max=45ms
+20260716:163814.579   | | |-CUser::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.592   | | | |-CUser::OnTimer ProcessAutoAttack, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.605   | | | |-CUser::OnTimer Process Action, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.618   | | | `-CUser::OnTimer Other Section2, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.629   | | |   `-CUser::OnTimer ProcessExploreResult, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.643   | |-CUserManager::OnTimer, cnt=600, tot=1ms, avg=0.00ms, max=1ms
+20260716:163814.656   | | `-CUserManager::OnTimer New day init, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.669   | `-CMapGroup::OnTimer ProcessAction, cnt=600, tot=564ms, avg=0.94ms, max=116ms
+20260716:163814.681   |-CGame::OnTimer, cnt=601, tot=6ms, avg=0.01ms, max=1ms
+20260716:163814.695   |-CElitePKArenicMgr::OnTimer, cnt=601, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.708   `-CFrontierFlagWarMgr::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.721       |-CFlag::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.734       |-RefreshHighRateAltar, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.748       `-BroadcastAltarAttackRank, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.760 CWorldThread::OnProcess, cnt=307, tot=2ms, avg=0.01ms, max=1ms
+20260716:163814.775 |-CWorldThread ProcessMsg, cnt=6, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.788 `-CWorldKernel::OnTimer, cnt=301, tot=2ms, avg=0.01ms, max=1ms
+20260716:163814.804 CUserLoginThread::OnProcess, cnt=151, tot=5ms, avg=0.03ms, max=1ms
+20260716:163814.817 |-CUserLoginThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.829 `-CUserKernel::OnTimer, cnt=151, tot=5ms, avg=0.03ms, max=1ms
+20260716:163814.843 CSocketThread::OnProcess, cnt=6368, tot=210ms, avg=0.03ms, max=3ms
+20260716:163814.856 |-CSocketThread ProcessMsg, cnt=2824, tot=203ms, avg=0.07ms, max=2ms
+20260716:163814.872 | |-CONNECTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.887 | |-READMSG, cnt=1275, tot=13ms, avg=0.01ms, max=1ms
+20260716:163814.899 | |-EVENTMSG, cnt=4, tot=1ms, avg=0.25ms, max=1ms
+20260716:163814.915 | |-SOCKET_BROADCAST_MAPGROUPMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.932 | `-SOCKET_SENDMULTICLIENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.944 `-CSocketKernel::OnTimer, cnt=3949, tot=5ms, avg=0.00ms, max=1ms
+20260716:163814.958 CCrossClientThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.972 |-CCrossClientThread ProcessClientMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.984 |-CCrossKernel::ProcessLocalMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163814.995 |-CCrossClientThread::ProcessSocket, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.009 CChatThread::OnProcess, cnt=151, tot=7ms, avg=0.05ms, max=1ms
+20260716:163815.020 |-CChatThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.032 `-CChatThread OnTimer, cnt=151, tot=7ms, avg=0.05ms, max=1ms
+20260716:163815.044 CAuctionSearchThread::OnProcess, cnt=151, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.057 |-CAuctionSearchThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.069 `-CAuctionSearchThread OnTimer, cnt=151, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.081 CIPADPaymentsSocketThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.094 |-CIPADPaymentsSocketThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.108 `-CIPADPaymentsSocketThread::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.120 CGooglePaymentsThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.131 |-CGooglePaymentsThread::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.144 `-CGooglePaymentsThread::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.157   `CGooglePaymentsThread::ProcessPayResultData, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.169 CLogThread OnProcess, cnt=312, tot=1102ms, avg=3.53ms, max=1043ms
+20260716:163815.184 `-CLogThread ProcessMsg, cnt=89, tot=1099ms, avg=12.35ms, max=27ms
+20260716:163815.197 CAsyncDBThread::OnProcess, cnt=309, tot=9ms, avg=0.03ms, max=5ms
+20260716:163815.211 |-CAsyncDBThread mysql_query, cnt=15, tot=9ms, avg=0.60ms, max=4ms
+20260716:163815.224 | |-CDatabase::ExcuteMySQL update, cnt=15, tot=9ms, avg=0.60ms, max=4ms
+20260716:163815.237 | |-CDatabase::ExcuteMySQL delete, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.251 | |-CDatabase::ExcuteMySQL other, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.263 CDatabase::ExcuteMySQL insert, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.276 CDatabase::ExecuteSyncSQL, cnt=51, tot=6ms, avg=0.12ms, max=1ms
+20260716:163815.289 CDatabase::ExcuteMySQL select, cnt=51, tot=5ms, avg=0.10ms, max=1ms
+20260716:163815.303 CRecord::Insert failure, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.319 CMapGroupThread WaitMsg, cnt=3602, tot=288989ms, avg=80.23ms, max=170ms
+20260716:163815.332 CCrossClientThread WaitMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163815.348 CChatThread WaitMsg, cnt=151, tot=301993ms, avg=1999.95ms, max=2024ms
+20260716:163815.361 CAuctionSearchThread WaitMsg, cnt=151, tot=302000ms, avg=2000.00ms, max=2024ms
+20260716:163815.375 CAsyncDBThread WaitMsg, cnt=309, tot=299996ms, avg=970.86ms, max=1010ms
+20260716:164234.916 f:\version\cqserver-78.0.11-1204\analyst\analyst.cpp
+20260716:164751.423 CMapGroupThread::OnProcess, cnt=17118, tot=7231ms, avg=0.42ms, max=125ms
+20260716:164751.423 |-CMapGroupThread ProcessMsg, cnt=44361, tot=806ms, avg=0.02ms, max=16ms
+20260716:164751.423 | |-ProcessMsg KERNEL_CLOSEKERNEL, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.439 | |-ProcessMsg MAPGROUP_LOGINOVER, cnt=1, tot=16ms, avg=16.00ms, max=16ms
+20260716:164751.454 | | |-MAPGROUP_LOGINOVER CreateAllItem, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.470 | | |-MAPGROUP_LOGINOVER GameLogin, cnt=1, tot=16ms, avg=16.00ms, max=16ms
+20260716:164751.486 | | `-MAPGROUP_LOGINOVER CUserManager::LoginUser, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.501 | |-ProcessClientMsg, cnt=393, tot=108ms, avg=0.27ms, max=16ms
+20260716:164751.517 | | `-CUser::OnLoginOver, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.517 | |-ProcessCrossMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.517 | |-ProcessOSToGSServerMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.517 | `-ProcessGSToOSMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.532 `-CMapGroupKernel::OnTimer, cnt=2406, tot=6379ms, avg=2.65ms, max=125ms
+20260716:164751.548   |-CMapGroup::OnTimer, cnt=1805, tot=6363ms, avg=3.53ms, max=125ms
+20260716:164751.548   | |-CRoleManager::OnTimer, cnt=602, tot=5841ms, avg=9.70ms, max=32ms
+20260716:164751.564   | | |-CUser::OnTimer, cnt=561, tot=96ms, avg=0.17ms, max=16ms
+20260716:164751.579   | | | |-CUser::OnTimer ProcessAutoAttack, cnt=561, tot=80ms, avg=0.14ms, max=16ms
+20260716:164751.595   | | | |-CUser::OnTimer Process Action, cnt=561, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.611   | | | `-CUser::OnTimer Other Section2, cnt=561, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.611   | | |   `-CUser::OnTimer ProcessExploreResult, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.626   | |-CUserManager::OnTimer, cnt=601, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.642   | | `-CUserManager::OnTimer New day init, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.657   | `-CMapGroup::OnTimer ProcessAction, cnt=602, tot=522ms, avg=0.87ms, max=125ms
+20260716:164751.673   |-CGame::OnTimer, cnt=601, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.673   |-CElitePKArenicMgr::OnTimer, cnt=601, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.689   `-CFrontierFlagWarMgr::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.704       |-CFlag::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.720       |-RefreshHighRateAltar, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.720       `-BroadcastAltarAttackRank, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.736 CWorldThread::OnProcess, cnt=309, tot=16ms, avg=0.05ms, max=16ms
+20260716:164751.751 |-CWorldThread ProcessMsg, cnt=9, tot=16ms, avg=1.78ms, max=16ms
+20260716:164751.767 `-CWorldKernel::OnTimer, cnt=300, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.782 CUserLoginThread::OnProcess, cnt=152, tot=31ms, avg=0.20ms, max=31ms
+20260716:164751.798 |-CUserLoginThread ProcessMsg, cnt=2, tot=31ms, avg=15.50ms, max=31ms
+20260716:164751.798 `-CUserKernel::OnTimer, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.814 CSocketThread::OnProcess, cnt=33895, tot=1220ms, avg=0.04ms, max=32ms
+20260716:164751.829 |-CSocketThread ProcessMsg, cnt=64013, tot=1179ms, avg=0.02ms, max=16ms
+20260716:164751.845 | |-CONNECTMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.861 | |-READMSG, cnt=16753, tot=16ms, avg=0.00ms, max=16ms
+20260716:164751.861 | |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.876 | |-SOCKET_BROADCAST_MAPGROUPMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.892 | `-SOCKET_SENDMULTICLIENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.907 `-CSocketKernel::OnTimer, cnt=3958, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.923 CCrossClientThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.939 |-CCrossClientThread ProcessClientMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.939 |-CCrossKernel::ProcessLocalMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.954 |-CCrossClientThread::ProcessSocket, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164751.970 CChatThread::OnProcess, cnt=394, tot=17ms, avg=0.04ms, max=17ms
+20260716:164751.970 |-CChatThread ProcessMsg, cnt=662, tot=17ms, avg=0.03ms, max=15ms
+20260716:164751.986 `-CChatThread OnTimer, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.001 CAuctionSearchThread::OnProcess, cnt=151, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.017 |-CAuctionSearchThread ProcessMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.032 `-CAuctionSearchThread OnTimer, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.048 CIPADPaymentsSocketThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.048 |-CIPADPaymentsSocketThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.064 `-CIPADPaymentsSocketThread::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.079 CGooglePaymentsThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.095 |-CGooglePaymentsThread::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.111 `-CGooglePaymentsThread::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.126   `CGooglePaymentsThread::ProcessPayResultData, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.126 CLogThread OnProcess, cnt=346, tot=12092ms, avg=34.95ms, max=10204ms
+20260716:164752.142 `-CLogThread ProcessMsg, cnt=613, tot=9343ms, avg=15.24ms, max=33ms
+20260716:164752.157 CAsyncDBThread::OnProcess, cnt=409, tot=63ms, avg=0.15ms, max=16ms
+20260716:164752.173 |-CAsyncDBThread mysql_query, cnt=180, tot=63ms, avg=0.35ms, max=16ms
+20260716:164752.189 | |-CDatabase::ExcuteMySQL update, cnt=104, tot=47ms, avg=0.45ms, max=16ms
+20260716:164752.204 | |-CDatabase::ExcuteMySQL delete, cnt=6, tot=4ms, avg=0.67ms, max=4ms
+20260716:164752.204 | |-CDatabase::ExcuteMySQL other, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.236 CDatabase::ExcuteMySQL insert, cnt=74, tot=16ms, avg=0.22ms, max=16ms
+20260716:164752.251 CDatabase::ExecuteSyncSQL, cnt=1507, tot=865ms, avg=0.57ms, max=141ms
+20260716:164752.251 CDatabase::ExcuteMySQL select, cnt=1501, tot=428ms, avg=0.29ms, max=21ms
+20260716:164752.267 CRecord::Insert failure, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.282 CMapGroupThread WaitMsg, cnt=17118, tot=293538ms, avg=17.15ms, max=172ms
+20260716:164752.298 CCrossClientThread WaitMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:164752.314 CChatThread WaitMsg, cnt=394, tot=299985ms, avg=761.38ms, max=2062ms
+20260716:164752.314 CAuctionSearchThread WaitMsg, cnt=151, tot=300004ms, avg=1986.78ms, max=2047ms
+20260716:164752.329 CAsyncDBThread WaitMsg, cnt=409, tot=315364ms, avg=771.06ms, max=1041ms
+20260716:165253.313 CMapGroupThread::OnProcess, cnt=5197, tot=9062ms, avg=1.74ms, max=125ms
+20260716:165253.329 |-CMapGroupThread ProcessMsg, cnt=3552, tot=95ms, avg=0.03ms, max=16ms
+20260716:165253.344 | |-ProcessMsg KERNEL_CLOSEKERNEL, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.344 | |-ProcessMsg MAPGROUP_LOGINOVER, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.360 | | |-MAPGROUP_LOGINOVER CreateAllItem, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.375 | | |-MAPGROUP_LOGINOVER GameLogin, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.391 | | `-MAPGROUP_LOGINOVER CUserManager::LoginUser, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.407 | |-ProcessClientMsg, cnt=229, tot=63ms, avg=0.28ms, max=16ms
+20260716:165253.422 | | `-CUser::OnLoginOver, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.438 | |-ProcessCrossMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.453 | |-ProcessOSToGSServerMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.469 | `-ProcessGSToOSMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.485 `-CMapGroupKernel::OnTimer, cnt=2401, tot=8967ms, avg=3.73ms, max=125ms
+20260716:165253.500   |-CMapGroup::OnTimer, cnt=1801, tot=8967ms, avg=4.98ms, max=125ms
+20260716:165253.516   | |-CRoleManager::OnTimer, cnt=600, tot=8436ms, avg=14.06ms, max=47ms
+20260716:165253.532   | | |-CUser::OnTimer, cnt=600, tot=15ms, avg=0.03ms, max=15ms
+20260716:165253.547   | | | |-CUser::OnTimer ProcessAutoAttack, cnt=600, tot=15ms, avg=0.03ms, max=15ms
+20260716:165253.547   | | | |-CUser::OnTimer Process Action, cnt=600, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.563   | | | `-CUser::OnTimer Other Section2, cnt=600, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.578   | | |   `-CUser::OnTimer ProcessExploreResult, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.594   | |-CUserManager::OnTimer, cnt=601, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.610   | | `-CUserManager::OnTimer New day init, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.625   | `-CMapGroup::OnTimer ProcessAction, cnt=600, tot=531ms, avg=0.88ms, max=125ms
+20260716:165253.641   |-CGame::OnTimer, cnt=600, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.657   |-CElitePKArenicMgr::OnTimer, cnt=600, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.672   `-CFrontierFlagWarMgr::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.672       |-CFlag::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.688       |-RefreshHighRateAltar, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.703       `-BroadcastAltarAttackRank, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.719 CWorldThread::OnProcess, cnt=301, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.735 |-CWorldThread ProcessMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.750 `-CWorldKernel::OnTimer, cnt=300, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.766 CUserLoginThread::OnProcess, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.782 |-CUserLoginThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.797 `-CUserKernel::OnTimer, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.813 CSocketThread::OnProcess, cnt=11360, tot=377ms, avg=0.03ms, max=31ms
+20260716:165253.828 |-CSocketThread ProcessMsg, cnt=10881, tot=377ms, avg=0.03ms, max=16ms
+20260716:165253.844 | |-CONNECTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.860 | |-READMSG, cnt=3021, tot=32ms, avg=0.01ms, max=16ms
+20260716:165253.875 | |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.891 | |-SOCKET_BROADCAST_MAPGROUPMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.907 | `-SOCKET_SENDMULTICLIENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.922 `-CSocketKernel::OnTimer, cnt=3948, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.922 CCrossClientThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.938 |-CCrossClientThread ProcessClientMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.953 |-CCrossKernel::ProcessLocalMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.969 |-CCrossClientThread::ProcessSocket, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165253.985 CChatThread::OnProcess, cnt=309, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.000 |-CChatThread ProcessMsg, cnt=159, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.016 `-CChatThread OnTimer, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.032 CAuctionSearchThread::OnProcess, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.047 |-CAuctionSearchThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.047 `-CAuctionSearchThread OnTimer, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.063 CIPADPaymentsSocketThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.078 |-CIPADPaymentsSocketThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.094 `-CIPADPaymentsSocketThread::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.110 CGooglePaymentsThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.125 |-CGooglePaymentsThread::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.141 `-CGooglePaymentsThread::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.157   `CGooglePaymentsThread::ProcessPayResultData, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.172 CLogThread OnProcess, cnt=305, tot=970ms, avg=3.18ms, max=922ms
+20260716:165254.188 `-CLogThread ProcessMsg, cnt=83, tot=986ms, avg=11.88ms, max=32ms
+20260716:165254.188 CAsyncDBThread::OnProcess, cnt=460, tot=30ms, avg=0.07ms, max=15ms
+20260716:165254.219 |-CAsyncDBThread mysql_query, cnt=316, tot=30ms, avg=0.09ms, max=15ms
+20260716:165254.235 | |-CDatabase::ExcuteMySQL update, cnt=168, tot=30ms, avg=0.18ms, max=15ms
+20260716:165254.250 | |-CDatabase::ExcuteMySQL delete, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.266 | |-CDatabase::ExcuteMySQL other, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.283 CDatabase::ExcuteMySQL insert, cnt=148, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.297 CDatabase::ExecuteSyncSQL, cnt=50, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.314 CDatabase::ExcuteMySQL select, cnt=50, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.329 CRecord::Insert failure, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.344 CMapGroupThread WaitMsg, cnt=5197, tot=290983ms, avg=55.99ms, max=172ms
+20260716:165254.360 CCrossClientThread WaitMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165254.375 CChatThread WaitMsg, cnt=309, tot=299985ms, avg=970.83ms, max=2006ms
+20260716:165254.391 CAuctionSearchThread WaitMsg, cnt=150, tot=299999ms, avg=1999.99ms, max=2015ms
+20260716:165254.407 CAsyncDBThread WaitMsg, cnt=460, tot=300954ms, avg=654.25ms, max=1016ms
+20260716:165751.406 CMapGroupThread::OnProcess, cnt=4459, tot=10776ms, avg=2.42ms, max=140ms
+20260716:165751.406 |-CMapGroupThread ProcessMsg, cnt=2492, tot=218ms, avg=0.09ms, max=17ms
+20260716:165751.406 | |-ProcessMsg KERNEL_CLOSEKERNEL, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.421 | |-ProcessMsg MAPGROUP_LOGINOVER, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.437 | | |-MAPGROUP_LOGINOVER CreateAllItem, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.453 | | |-MAPGROUP_LOGINOVER GameLogin, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.468 | | `-MAPGROUP_LOGINOVER CUserManager::LoginUser, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.484 | |-ProcessClientMsg, cnt=214, tot=108ms, avg=0.50ms, max=16ms
+20260716:165751.500 | | `-CUser::OnLoginOver, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.515 | |-ProcessCrossMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.531 | |-ProcessOSToGSServerMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.546 | `-ProcessGSToOSMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.562 `-CMapGroupKernel::OnTimer, cnt=2399, tot=10558ms, avg=4.40ms, max=140ms
+20260716:165751.578   |-CMapGroup::OnTimer, cnt=1799, tot=10543ms, avg=5.86ms, max=140ms
+20260716:165751.593   | |-CRoleManager::OnTimer, cnt=600, tot=9951ms, avg=16.58ms, max=47ms
+20260716:165751.609   | | |-CUser::OnTimer, cnt=600, tot=16ms, avg=0.03ms, max=16ms
+20260716:165751.625   | | | |-CUser::OnTimer ProcessAutoAttack, cnt=600, tot=16ms, avg=0.03ms, max=16ms
+20260716:165751.640   | | | |-CUser::OnTimer Process Action, cnt=600, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.656   | | | `-CUser::OnTimer Other Section2, cnt=600, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.671   | | |   `-CUser::OnTimer ProcessExploreResult, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.687   | |-CUserManager::OnTimer, cnt=599, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.703   | | `-CUserManager::OnTimer New day init, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.718   | `-CMapGroup::OnTimer ProcessAction, cnt=600, tot=592ms, avg=0.99ms, max=140ms
+20260716:165751.718   |-CGame::OnTimer, cnt=600, tot=15ms, avg=0.03ms, max=15ms
+20260716:165751.718   |-CElitePKArenicMgr::OnTimer, cnt=600, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.718   `-CFrontierFlagWarMgr::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.734       |-CFlag::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.750       |-RefreshHighRateAltar, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.765       `-BroadcastAltarAttackRank, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.781 CWorldThread::OnProcess, cnt=300, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.796 |-CWorldThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.812 `-CWorldKernel::OnTimer, cnt=300, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.828 CUserLoginThread::OnProcess, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.843 |-CUserLoginThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.859 `-CUserKernel::OnTimer, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.875 CSocketThread::OnProcess, cnt=9130, tot=303ms, avg=0.03ms, max=18ms
+20260716:165751.890 |-CSocketThread ProcessMsg, cnt=7804, tot=272ms, avg=0.03ms, max=18ms
+20260716:165751.906 | |-CONNECTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.921 | |-READMSG, cnt=2295, tot=15ms, avg=0.01ms, max=15ms
+20260716:165751.937 | |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.953 | |-SOCKET_BROADCAST_MAPGROUPMSG, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.968 | `-SOCKET_SENDMULTICLIENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165751.984 `-CSocketKernel::OnTimer, cnt=3946, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.000 CCrossClientThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.015 |-CCrossClientThread ProcessClientMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.031 |-CCrossKernel::ProcessLocalMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.046 |-CCrossClientThread::ProcessSocket, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.062 CChatThread::OnProcess, cnt=296, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.078 |-CChatThread ProcessMsg, cnt=146, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.093 `-CChatThread OnTimer, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.109 CAuctionSearchThread::OnProcess, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.109 |-CAuctionSearchThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.125 `-CAuctionSearchThread OnTimer, cnt=150, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.140 CIPADPaymentsSocketThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.156 |-CIPADPaymentsSocketThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.171 `-CIPADPaymentsSocketThread::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.187 CGooglePaymentsThread::OnProcess, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.203 |-CGooglePaymentsThread::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.218 `-CGooglePaymentsThread::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.218   `CGooglePaymentsThread::ProcessPayResultData, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.234 CLogThread OnProcess, cnt=303, tot=2970ms, avg=9.80ms, max=2939ms
+20260716:165752.250 `-CLogThread ProcessMsg, cnt=209, tot=2954ms, avg=14.13ms, max=32ms
+20260716:165752.281 CAsyncDBThread::OnProcess, cnt=410, tot=61ms, avg=0.15ms, max=16ms
+20260716:165752.281 |-CAsyncDBThread mysql_query, cnt=197, tot=45ms, avg=0.23ms, max=16ms
+20260716:165752.296 | |-CDatabase::ExcuteMySQL update, cnt=108, tot=31ms, avg=0.29ms, max=16ms
+20260716:165752.312 | |-CDatabase::ExcuteMySQL delete, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.328 | |-CDatabase::ExcuteMySQL other, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.343 CDatabase::ExcuteMySQL insert, cnt=89, tot=14ms, avg=0.16ms, max=14ms
+20260716:165752.359 CDatabase::ExecuteSyncSQL, cnt=50, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.375 CDatabase::ExcuteMySQL select, cnt=50, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.390 CRecord::Insert failure, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.406 CMapGroupThread WaitMsg, cnt=4459, tot=289067ms, avg=64.83ms, max=156ms
+20260716:165752.421 CCrossClientThread WaitMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165752.437 CChatThread WaitMsg, cnt=296, tot=299999ms, avg=1013.51ms, max=2016ms
+20260716:165752.453 CAuctionSearchThread WaitMsg, cnt=150, tot=300000ms, avg=2000.00ms, max=2001ms
+20260716:165752.468 CAsyncDBThread WaitMsg, cnt=410, tot=298938ms, avg=729.12ms, max=1047ms
+20260716:170821.089 f:\version\cqserver-78.0.11-1204\analyst\analyst.cpp

@@ -1,0 +1,558 @@
+1000 1 Thunder 1 0 0 0 0 1 7 500 100 0 0 9 0 4194303 2000 0 0 0 0 0 0 0 0 0 0 0 0 1000 0 1 903 Upgradable 魔法攻击力7 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+1000 1 Thunder 1 0 0 0 1 6 16 500 100 0 0 9 0 4194303 113060 10 0 0 0 0 0 0 0 0 0 0 0 1000 0 1 903 Upgrade~after~lvl~10 魔法攻击力16 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+1000 1 Thunder 1 0 0 0 2 10 32 500 100 0 0 10 0 4194302 326107 20 0 0 0 0 0 0 0 0 0 0 0 1000 0 1 903 Upgrade~after~lvl~20 魔法攻击力32 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+1000 1 Thunder 1 0 0 0 3 11 57 500 100 0 0 10 0 4194302 777950 30 0 0 0 0 0 0 0 0 0 0 0 1000 0 1 903 Upgrade~after~lvl~30 魔法攻击力57 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+1000 1 Thunder 1 0 0 0 4 17 86 500 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1000 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+
+1001 1 Fire 1 0 0 0 0 21 130 500 100 0 0 12 0 245823 4859520 40 0 0 0 0 0 0 0 0 0 0 0 1001 0 1 903 Upgrade~after~lvl~40 魔法攻击力130 Intone-1 NULL NULL NULL 0 RedThunder sound\magic002.wav NULL NULL 0 0 0
+1001 1 Fire 1 0 0 0 1 21 189 500 100 0 0 13 0 245823 11231517 60 0 0 0 0 0 0 0 0 0 0 0 1001 0 1 903 Upgrade~after~lvl~60 魔法攻击力189 Intone-1 NULL NULL NULL 0 RedThunder sound\magic002.wav NULL NULL 0 0 0
+1001 1 Fire 1 0 0 0 2 28 275 500 100 0 0 14 0 245823 26497813 70 0 0 0 0 0 0 0 0 0 0 0 1001 0 1 903 Upgrade~after~lvl~70 魔法攻击力275 Intone-1 NULL NULL NULL 0 RedThunder sound\magic002.wav NULL NULL 0 0 0
+1001 1 Fire 1 0 0 0 3 32 380 500 100 0 0 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1001 0 1 903 Fixed 魔法攻击力380 Intone-1 NULL NULL NULL 0 RedThunder sound\magic002.wav NULL NULL 0 0 0
+
+1002 1 Tornado 1 0 0 0 0 32 505 500 100 0 0 15 0 245823 118246825 90 0 0 0 0 0 0 0 0 0 0 0 1002 0 1 903 Upgrade~after~lvl~90 魔法攻击力505 magicfull-1 NULL NULL NULL 0 thor-1 sound\thunder.wav NULL NULL 0 0 0
+1002 1 Tornado 1 0 0 0 1 36 666 500 100 0 0 17 0 245823 277035437 100 0 0 0 0 0 0 0 0 0 0 0 1002 0 1 903 Upgrade~after~lvl~100 魔法攻击力666 magicfull-1 NULL NULL NULL 0 thor-2 sound\thunder.wav NULL NULL 0 0 0
+1002 1 Tornado 1 0 0 0 2 50 882 500 100 0 0 19 0 245823 920692259 110 0 0 0 0 0 0 0 0 0 0 0 1002 0 1 903 1Upgrade~after~lvl~110 魔法攻击力882 magicfull-1 NULL NULL NULL 0 thor-3 sound\thunder.wav NULL NULL 0 0 0
+1002 1 Tornado 1 0 0 0 3 64 1166 500 100 0 0 21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1002 0 1 903 Fixed 魔法攻击力1166 magicfull-1 NULL NULL NULL 0 thor-4 sound\thunder.wav NULL NULL 0 0 0
+                       
+1005 2 Cure 0 0 0 1 0 10 20 1000 100 0 0 10 0 4194303 2000 5 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgradable 回复生命20 Intone-1 NULL NULL NULL 0 Health sound\Health.wav NULL NULL 0 1 0
+1005 2 Cure 0 0 0 1 1 30 70 1000 100 0 0 10 0 4194303 12000 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~10 回复生命70 Intone-1 NULL NULL NULL 0 Health sound\Health.wav NULL NULL 0 1 0
+1005 2 Cure 0 0 0 1 2 60 150 1000 100 0 0 10 0 4194302 30000 25 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~20 回复生命180 Intone-1 NULL NULL NULL 0 Health sound\Health.wav NULL NULL 0 1 0
+1005 2 Cure 0 0 0 1 3 100 280 1000 100 0 0 10 0 4194302 64000 35 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~30 回复生命280 Intone-1 NULL NULL NULL 0 Health sound\Health.wav NULL NULL 0 1 0
+1005 2 Cure 0 0 0 1 4 130 400 1000 100 0 0 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 回复生命400 Intone-1 NULL NULL NULL 0 Health sound\Health.wav NULL NULL 0 1 0
+
+
+1010 5 Lightning 1 0 1 0 0 0 50 0 100 0 9 9 0 245823 0 15 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 thunder2 sound\magic003.wav NULL NULL 0 0 0
+1015 6 Accuracy 0 0 0 2 0 0 30300 0 100 120 0 0 32 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 命中增加3倍 NULL NULL NULL NULL 0 nicety20 sound\Health.wav NULL NULL 0 1 0
+1020 6 Shield 0 0 0 2 0 0 30300 0 100 20 0 0 64 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 防御增加3倍 NULL NULL NULL NULL 0 defendup20 sound\magic008.wav NULL NULL 0 1 0
+1025 6 Superman 0 0 0 2 0 0 31000 0 100 20 0 0 8192 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 无双 NULL NULL NULL NULL 0 SuperXp sound\Health.wav NULL NULL 0 0 0
+
+
+1030 1 Thunder 1 0 0 0 0 1 7 1000 100 0 0 9 0 4194303 2000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgradable 魔法攻击力7 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+
+1050 7 Revive 0 0 0 0 0 0 0 0 100 0 0 12 1 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可让死亡的鬼魂复活 NULL NULL NULL NULL 0 relive sound\magic013.wav NULL NULL 0 1 0
+
+1040 5 Roar 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可让所有队友的XP增加20％ NULL NULL NULL NULL 0 bellow sound\Health.wav NULL NULL 0 1 0
+
+1055 2 HealingRain 0 0 1 1 0 150 100 0 100 0 0 10 0 4194303 27300 40 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~40 可给所有队友增加100点血 NULL NULL NULL NULL 0 allcure1 sound\magic014.wav NULL NULL 0 1 0
+1055 2 HealingRain 0 0 1 1 1 270 200 0 100 0 0 10 0 4194303 121300 50 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~50 可给所有队友增加200点血 NULL NULL NULL NULL 0 allcure2 sound\magic014.wav NULL NULL 0 1 0
+1055 2 HealingRain 0 0 1 1 2 375 300 0 100 0 0 10 0 4194303 283900 60 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~60 可给所有队友增加300点血 NULL NULL NULL NULL 0 allcure3 sound\magic014.wav NULL NULL 0 1 0
+1055 2 HealingRain 0 0 1 1 3 440 400 0 100 0 0 10 0 4194303 595600 70 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~70 可给所有队友增加400点血 NULL NULL NULL NULL 0 allcure4 sound\magic014.wav NULL NULL 0 1 0
+1055 2 HealingRain 0 0 1 1 4 500 500 0 100 0 0 10 0 4194303 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可给所有队友增加500点血 NULL NULL NULL NULL 0 allcure5 sound\magic014.wav NULL NULL 0 1 0
+
+1060 17 Summon 0 0 0 2 0 0 0 0 100 0 0 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可以将队友召到身边 NULL NULL NULL NULL 0 SuperXp sound\Health.wav NULL NULL 0 1 0
+
+1065 7 Dispel 0 0 0 1 0 0 0 0 100 0 0 14 2 0 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可以清除对方身上的不良状态 NULL NULL NULL NULL 0 dispel sound\Health.wav NULL NULL 0 1 0
+1070 7 AdvancedDispel 0 0 0 1 0 0 0 0 100 0 0 14 8 0 0 70 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可以清除对方身上的所有状态 NULL NULL NULL NULL 0 dispel sound\Health.wav NULL NULL 0 1 0
+
+1075 6 Invisibility 0 0 0 1 0 200 1 0 100 20 0 14 131072 0 720 60 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~60 可持续20秒不被怪物主动攻击 NULL NULL NULL NULL 0 qianxing30 sound\magic016.wav NULL NULL 0 1 0
+1075 6 Invisibility 0 0 0 1 1 250 1 0 100 30 0 14 131072 0 860 70 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~70 可持续30秒不被怪物主动攻击 NULL NULL NULL NULL 0 qianxing40 sound\magic016.wav NULL NULL 0 1 0
+1075 6 Invisibility 0 0 0 1 2 300 1 0 100 40 0 14 131072 0 960 80 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~80 可持续40秒不被怪物主动攻击 NULL NULL NULL NULL 0 qianxing50 sound\magic016.wav NULL NULL 0 1 0
+1075 6 Invisibility 0 0 0 1 3 330 1 0 100 50 0 14 131072 0 1010 90 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~90 可持续50秒不被怪物主动攻击 NULL NULL NULL NULL 0 qianxing60 sound\magic016.wav NULL NULL 0 1 0
+1075 6 Invisibility 0 0 0 1 4 360 1 0 100 60 0 14 131072 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可持续60秒不被怪物主动攻击 NULL NULL NULL NULL 0 qianxing70 sound\magic016.wav NULL NULL 0 1 0
+                       
+1080 10 RandomTeleport 0 0 0 2 0 0 0 0 100 0 0 14 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可持续60秒不被怪物主动攻击 NULL NULL NULL NULL 0 SuperXp sound\Health.wav NULL NULL 0 1 0
+
+1045 14 FastBlade 1 1 1 4 0 0 100 0 100 0 4 10 0 0 100000 40 2 410 0 0 0 1 5 0 20 1 0 0 500 3 401 Upgrade~after~lvl~40 可以直线攻击 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav windblade4.tme NULL 0 0 0
+1045 14 FastBlade 1 1 1 4 1 0 100 0 100 0 5 10 0 0 300000 50 2 410 0 0 0 0 0 0 20 1 0 0 500 3 401 Upgrade~after~lvl~50 可以直线攻击 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav windblade5.tme NULL 0 0 0
+1045 14 FastBlade 1 1 1 4 2 0 100 0 100 0 6 10 0 0 741000 60 2 410 0 0 0 0 0 0 20 1 0 0 500 3 401 Upgrade~after~lvl~60 可以直线攻击 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav windblade6.tme NULL 0 0 0
+1045 14 FastBlade 1 1 1 4 3 0 100 0 100 0 7 10 0 0 1440000 70 2 410 0 0 0 0 0 0 20 1 0 0 500 3 401 Upgrade~after~lvl~70 可以直线攻击 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav windblade7-1.tme NULL 0 0 0
+1045 14 FastBlade 1 1 1 4 4 0 100 0 100 0 8 10 0 0 0 0 2 410 0 0 0 0 0 0 20 1 0 0 500 3 401 Fixed 可以直线攻击 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav windblade8.tme NULL 0 0 0
+
+
+1046 14 ScentSword 1 1 1 4 0 0 100 0 100 0 4 10 0 0 100000 40 2 420 0 0 0 1 5 0 20 1 0 0 500 3 401 Upgrade~after~lvl~40 可以直线攻击 NULL NULL NULL NULL 0 ballblast1 sound\magic030.wav swordrain4.tme NULL 0 0 0
+1046 14 ScentSword 1 1 1 4 1 0 100 0 100 0 5 10 0 0 300000 50 2 420 0 0 0 0 0 0 20 1 0 0 500 3 401 Upgrade~after~lvl~50 可以直线攻击 NULL NULL NULL NULL 0 ballblast1 sound\magic030.wav swordrain5.tme NULL 0 0 0
+1046 14 ScentSword 1 1 1 4 2 0 100 0 100 0 6 10 0 0 741000 60 2 420 0 0 0 0 0 0 20 1 0 0 500 3 401 Upgrade~after~lvl~60 可以直线攻击 NULL NULL NULL NULL 0 ballblast1 sound\magic030.wav swordrain6.tme NULL 0 0 0
+1046 14 ScentSword 1 1 1 4 3 0 100 0 100 0 7 10 0 0 1440000 70 2 420 0 0 0 0 0 0 20 1 0 0 500 3 401 Upgrade~after~lvl~70 可以直线攻击 NULL NULL NULL NULL 0 ballblast1 sound\magic030.wav swordrain7.tme NULL 0 0 0
+1046 14 ScentSword 1 1 1 4 4 0 100 0 100 0 8 10 0 0 0 0 2 420 0 0 0 0 0 0 20 1 0 0 500 3 401 Fixed 可以直线攻击 NULL NULL NULL NULL 0 ballblast1 sound\magic030.wav swordrain8.tme NULL 0 0 0
+
+1085 6 StarofAccuracy 0 0 0 1 0 200 30110 0 100 20 0 10 32 4194303 430 40 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~40 可持续20秒增加命中10% NULL NULL NULL NULL 0 attackfast20 sound\magic017.wav NULL NULL 0 1 0
+1085 6 StarofAccuracy 0 0 0 1 1 250 30115 0 100 25 0 11 32 4194303 520 40 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~40 可持续25秒增加命中15% NULL NULL NULL NULL 0 attackfast25 sound\magic017.wav NULL NULL 0 1 0
+1085 6 StarofAccuracy 0 0 0 1 2 300 30120 0 100 30 0 12 32 4194303 570 50 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~50 可持续30秒增加命中20% NULL NULL NULL NULL 0 attackfast30 sound\magic017.wav NULL NULL 0 1 0
+1085 6 StarofAccuracy 0 0 0 1 3 350 30125 0 100 35 0 13 32 4194303 620 60 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~60 可持续35秒增加命中25% NULL NULL NULL NULL 0 attackfast35 sound\magic017.wav NULL NULL 0 1 0
+1085 6 StarofAccuracy 0 0 0 1 4 400 30130 0 100 40 0 14 32 4194303 0 70 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可持续40秒增加命中30% NULL NULL NULL NULL 0 attackfast40 sound\magic017.wav NULL NULL 0 1 0
+
+1090 6 MagicShield 0 0 0 1 0 200 30110 0 100 20 0 10 64 4194303 430 40 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~40 可持续20秒增加防御10% NULL NULL NULL NULL 0 defendup20-1 sound\magic011.wav NULL NULL 0 1 0
+1090 6 MagicShield 0 0 0 1 1 250 30115 0 100 25 0 11 64 4194303 520 40 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~40 可持续25秒增加防御15% NULL NULL NULL NULL 0 defendup25 sound\magic011.wav NULL NULL 0 1 0
+1090 6 MagicShield 0 0 0 1 2 300 30120 0 100 30 0 12 64 4194303 570 50 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~50 可持续30秒增加防御20% NULL NULL NULL NULL 0 defendup30 sound\magic011.wav NULL NULL 0 1 0
+1090 6 MagicShield 0 0 0 1 3 350 30125 0 100 35 0 13 64 4194303 620 60 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~60 可持续35秒增加防御25% NULL NULL NULL NULL 0 defendup35 sound\magic011.wav NULL NULL 0 1 0
+1090 6 MagicShield 0 0 0 1 4 400 30130 0 100 40 0 14 64 4194303 0 70 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可持续40秒增加防御30% NULL NULL NULL NULL 0 defendup40 sound\magic011.wav NULL NULL 0 1 0
+                       
+1095 6 Stigma 0 0 0 1 0 200 30110 0 100 20 0 10 65536 4194303 430 40 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~40 可持续20秒增加攻击10% NULL NULL NULL NULL 0 attackup20 sound\magic020.wav NULL NULL 0 1 0
+1095 6 Stigma 0 0 0 1 1 250 30115 0 100 25 0 11 65536 4194303 520 40 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~40 可持续25秒增加攻击15% NULL NULL NULL NULL 0 attackup25 sound\magic020.wav NULL NULL 0 1 0
+1095 6 Stigma 0 0 0 1 2 300 30120 0 100 30 0 12 65536 4194303 570 50 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~50 可持续30秒增加攻击20% NULL NULL NULL NULL 0 attackup30 sound\magic020.wav NULL NULL 0 1 0
+1095 6 Stigma 0 0 0 1 3 350 30125 0 100 35 0 13 65536 4194303 620 60 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~60 可持续35秒增加攻击25% NULL NULL NULL NULL 0 attackup35 sound\magic020.wav NULL NULL 0 1 0
+1095 6 Stigma 0 0 0 1 4 400 30130 0 100 40 0 14 65536 4194303 0 70 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可持续40秒增加攻击30% NULL NULL NULL NULL 0 attackup40 sound\magic020.wav NULL NULL 0 1 0
+
+1100 7 Pray 0 0 0 0 0 1000 0 0 100 0 0 12 1 4194303 0 70 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可以消耗一定的法力复活灵魂 NULL NULL NULL NULL 0 relive1 sound\magic013.wav NULL NULL 0 1 0
+
+1105 2 Restore 0 0 0 2 0 0 -32768 0 100 0 0 12 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可以消耗一定的法力复活灵魂 NULL NULL NULL NULL 0 relive1 sound\magic013.wav NULL NULL 0 1 0
+
+1110 6 Cyclone 0 0 0 2 0 0 30020 0 100 20 0 0 262144 0 0 15 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 攻击和移动速度加快 NULL NULL NULL NULL 0 SuperXp-3 sound\magic018.wav NULL NULL 0 0 0
+
+1115 5 Hercules 1 1 1 4 0 0 30035 0 100 0 2 10 0 0 167600 40 2 0 0 0 0 0 0 0 30 1 0 0 0 3 403 Upgrade~after~lvl~40 双手拿同类武器才能使用，每次使用消耗体力 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze1.tme NULL 0 0 0
+1115 5 Hercules 1 1 1 4 1 0 30035 0 100 0 3 10 0 0 590000 50 2 0 0 0 0 0 0 0 30 1 0 0 0 3 403 Upgrade~after~lvl~50 双手拿同类武器才能使用，每次使用消耗体力 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze4.tme NULL 0 0 0
+1115 5 Hercules 1 1 1 4 2 0 30035 0 100 0 4 10 0 0 1216800 60 2 0 0 0 0 0 0 0 30 1 0 0 0 3 403 Upgrade~after~lvl~60 双手拿同类武器才能使用，每次使用消耗体力 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze3.tme NULL 0 0 0
+1115 5 Hercules 1 1 1 4 3 0 30040 0 100 0 4 10 0 0 2948000 70 2 0 0 0 0 0 0 0 30 1 0 0 0 3 403 Upgrade~after~lvl~70 双手拿同类武器才能使用，每次使用消耗体力 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze8.tme NULL 0 0 0
+1115 5 Hercules 1 1 1 4 4 0 30040 0 100 0 5 10 0 0 0 0 2 0 0 0 0 0 0 0 30 1 0 0 0 3 403 Fixed 双手拿同类武器才能使用，每次使用消耗体力 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze7.tme NULL 0 0 0
+
+1120 5 FireCircle 1 1 1 2 0 150 540 1500 100 0 8 6 0 4194303 53104696 65 0 0 0 0 0 0 0 0 0 0 0 0 0 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 impulse6 NULL fire4 NULL 0 m-bomb sound\magic028.wav NULL NULL 0 0 0
+1120 5 FireArista 1 1 1 2 1 170 650 1500 100 0 9 7 0 4194303 98875022 75 0 0 0 0 0 0 0 0 0 0 0 0 0 3 903 Upgrade~after~lvl~75 可以攻击身边5格内怪物 impulse6 NULL 5fire NULL 0 m-bomb sound\magic028.wav NULL NULL 0 0 0
+1120 5 Blaze 1 1 1 2 2 190 720 1500 100 0 10 8 0 4194303 180034734 85 0 0 0 0 0 0 0 0 0 0 0 0 0 3 903 Upgrade~after~lvl~85 可以攻击身边6格内怪物 impulse6 NULL fire3 NULL 0 m-bomb sound\magic028.wav NULL NULL 0 0 0
+1120 5 Inferno 1 1 1 2 3 210 770 1500 100 0 12 10 0 4194303 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 903 Fixed 可以攻击身边6格内怪物 impulse6 NULL glebesword NULL 0 m-bomb sound\magic028.wav NULL NULL 0 0 0
+
+1125 5 Volcano 1 0 1 0 0 0 300 0 100 0 12 12 0 4194303 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力300 Intone-1 NULL NULL NULL 0 thunder1 sound\magic003.wav NULL NULL 0 0 0
+
+1150 1 FireRing 1 0 0 0 0 33 290 1500 80 0 0 9 0 245823 195000 55 0 0 0 0 0 0 0 0 0 0 0 0 0 2 903 Upgrade~after~lvl~55 魔法攻击力195 fireball-Intone15 NULL NULL NULL 0 fireball-bomb2 sound\thunder.wav NULL fireball-fly2 0 0 0
+1150 1 FireRing 1 0 0 0 1 33 360 1500 80 0 0 9 0 245823 339600 65 0 0 0 0 0 0 0 0 0 0 0 0 0 2 903 Upgrade~after~lvl~65 魔法攻击力283 fireball-Intone15 NULL NULL NULL 0 fireball-bomb2 sound\thunder.wav NULL fireball-fly2 0 0 0
+1150 1 FireRing 1 0 0 0 2 46 412 1500 80 0 0 10 0 245823 576800 75 0 0 0 0 0 0 0 0 0 0 0 0 0 2 903 Upgrade~after~lvl~75 魔法攻击力412 fireball-Intone15 NULL NULL NULL 0 fireball-bomb2 sound\thunder.wav NULL fireball-fly2 0 0 0
+1150 1 FireRing 1 0 0 0 3 53 570 1500 80 0 0 10 0 245823 912000 85 0 0 0 0 0 0 0 0 0 0 0 0 0 2 903 Upgrade~after~lvl~85 魔法攻击力570 fireball-Intone15 NULL NULL NULL 0 fireball-bomb2 sound\thunder.wav NULL fireball-fly2 0 0 0
+1150 1 FireBall 1 0 0 0 4 53 757 1500 80 0 0 11 0 245823 1362600 95 0 0 0 0 0 0 0 0 0 0 0 0 0 2 903 Upgrade~after~lvl~95 魔法攻击力757 fireball-Intone15 NULL NULL NULL 0 fireball-bomb sound\thunder.wav NULL fireball-fly 0 0 0
+1150 1 FireBall 1 0 0 0 5 60 999 1500 80 0 0 12 0 245823 1998000 105 0 0 0 0 0 0 0 0 0 0 0 0 0 2 903 Upgrade~after~lvl~105 魔法攻击力999 fireball-Intone15 NULL NULL NULL 0 fireball-bomb sound\thunder.wav NULL fireball-fly 0 0 0
+1150 1 FireBall 1 0 0 0 6 82 1323 1500 80 0 0 13 0 245823 3307500 115 0 0 0 0 0 0 0 0 0 0 0 0 0 2 903 Upgrade~after~lvl~115 魔法攻击力1323 fireball-Intone15 NULL NULL NULL 0 fireball-bomb sound\thunder.wav NULL fireball-fly 0 0 0
+1150 1 FireBall 1 0 0 0 7 105 1749 1500 80 0 0 14 0 245823 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 903 Fixed 魔法攻击力1749 fireball-Intone15 NULL NULL NULL 0 fireball-bomb sound\thunder.wav NULL fireball-fly 0 0 0
+
+1165 5 FireofHell 1 0 1 0 0 106 285 0 100 0 3 6 0 245823 1282500 84 0 0 0 0 0 0 0 0 0 0 0 0 500 1 903 Upgrade~after~lvl~84 局域攻击魔法，魔法攻击力285 fireball-Intone20 NULL NULL NULL 0 fire-bomb sound\thunder.wav NULL NULL 0 0 0
+1165 5 FireofHell 1 0 1 0 1 120 500 0 100 0 4 7 0 245823 2696400 106 0 0 0 0 0 0 0 0 0 0 0 0 500 1 903 Upgrade~after~lvl~106 局域攻击魔法，魔法攻击力500 fireball-Intone20 NULL NULL NULL 0 fire-bomb sound\thunder.wav NULL NULL 0 0 0
+1165 5 FireofHell 1 0 1 0 2 164 660 0 100 0 5 8 0 245823 3970000 113 0 0 0 0 0 0 0 0 0 0 0 0 500 1 903 Upgrade~after~lvl~113 局域攻击魔法，魔法攻击力660 fireball-Intone20 NULL NULL NULL 0 fire-bomb sound\thunder.wav NULL NULL 0 0 0
+1165 5 FireofHell 1 0 1 0 3 210 870 0 100 0 5 9 0 245823 0 0 0 0 0 0 0 0 0 0 0 0 0 0 500 1 903 Fixed 局域攻击魔法，魔法攻击力870 fireball-Intone20 NULL NULL NULL 0 fire-bomb sound\thunder.wav NULL NULL 0 0 0
+
+1160 1 Bomb 1 0 0 0 0 53 855 2000 80 0 0 11 0 245823 1282500 82 0 0 0 0 0 0 0 0 0 0 0 0 0 2 903 Upgrade~after~lvl~82 魔法攻击力855 fireball-Intone20-1 NULL NULL NULL 0 thunder1-8 sound\thunder.wav NULL fireball-fly2 0 0 0
+1160 1 Bomb 1 0 0 0 1 60 1498 2000 80 0 0 12 0 245823 2696400 102 0 0 0 0 0 0 0 0 0 0 0 0 0 2 903 Upgrade~after~lvl~102 魔法攻击力1498 fireball-Intone20-1 NULL NULL NULL 0 thunder1-8 sound\thunder.wav NULL fireball-fly2 0 0 0
+1160 1 Bomb 1 0 0 0 2 82 1985 2000 80 0 0 13 0 245823 3970000 112 0 0 0 0 0 0 0 0 0 0 0 0 0 2 903 Upgrade~after~lvl~112 魔法攻击力1985 fireball-Intone20-1 NULL NULL NULL 0 thunder1-8 sound\thunder.wav NULL fireball-fly2 0 0 0
+1160 1 Bomb 1 0 0 0 3 105 2623 2000 80 0 0 14 0 245823 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 903 Fixed 魔法攻击力2623 fireball-Intone20-1 NULL NULL NULL 0 thunder1-8 sound\thunder.wav NULL fireball-fly2 0 0 0
+
+1051 12 Dash 1 1 0 0 0 0 30200 0 100 0 0 1 0 0 0 0 2 900 0 0 0 0 0 0 0 0 0 0 0 1 401 Fixed 可以将敌人撞退 NULL NULL NULL NULL 0 NULL sound\thunder.wav NULL NULL 0 0 0
+
+1021 6 Fortress 0 0 0 1 0 0 30050 0 100 0 0 0 16384 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 1 401 Fixed 魔法攻击力2623 fireball-Intone20-1 NULL NULL NULL 0 thunder1-8 sound\thunder.wav NULL NULL 0 0 0
+
+1175 2 AdvancedCure 0 0 0 1 0 160 500 1000 100 0 0 10 0 4194303 500000 81 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgradable 回复生命500 Intone-1 NULL NULL NULL 0 Health1 sound\Health.wav NULL NULL 0 1 0
+1175 2 AdvancedCure 0 0 0 1 1 190 600 1000 100 0 0 10 0 4194303 720000 91 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~91 回复生命600 Intone-1 NULL NULL NULL 0 Health4 sound\Health.wav NULL NULL 0 1 0
+1175 2 AdvancedCure 0 0 0 1 2 215 700 1000 100 0 0 10 0 4194302 980000 101 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~101 回复生命700 Intone-1 NULL NULL NULL 0 Health5 sound\Health.wav NULL NULL 0 1 0
+1175 2 AdvancedCure 0 0 0 1 3 235 800 1000 100 0 0 10 0 4194302 1280000 111 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~111 回复生命800 Intone-1 NULL NULL NULL 0 Health6 sound\Health.wav NULL NULL 0 1 0
+1175 2 AdvancedCure 0 0 0 1 4 255 900 1000 100 0 0 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 回复生命900 Intone-1 NULL NULL NULL 0 Health2 sound\Health.wav NULL NULL 0 1 0
+
+1170 2 Nectar 0 0 1 1 0 600 600 0 100 0 0 10 0 4194303 163600 94 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~94 可给所有队友增加600点血 NULL NULL NULL NULL 0 heal2-1 sound\magic014.wav NULL NULL 0 1 0
+1170 2 Nectar 0 0 1 1 1 660 700 0 100 0 0 10 0 4194303 303700 104 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~104 可给所有队友增加700点血 NULL NULL NULL NULL 0 heal2-4 sound\magic014.wav NULL NULL 0 1 0
+1170 2 Nectar 0 0 1 1 2 720 800 0 100 0 0 10 0 4194303 727200 114 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~114 可给所有队友增加800点血 NULL NULL NULL NULL 0 heal2-2 sound\magic014.wav NULL NULL 0 1 0
+1170 2 Nectar 0 0 1 1 3 770 900 0 100 0 0 10 0 4194303 1075800 118 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~118 可给所有队友增加900点血 NULL NULL NULL NULL 0 heal2-1 sound\magic014.wav NULL NULL 0 1 0
+1170 2 Nectar 0 0 1 1 4 820 1000 0 100 0 0 10 0 4194303 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可给所有队友增加1000点血 NULL NULL NULL NULL 0 heal2-5 sound\magic014.wav NULL NULL 0 1 0
+
+1180 1 FireMeteor 1 0 0 0 0 31 433 0 30 0 0 10 0 245823 8631000 52 0 0 0 0 0 0 0 0 0 0 0 0 1500 1 903 Upgrade~after~lvl~52 魔法攻击力433 NULL NULL NULL NULL 500 meteorolite01 sound\Health.wav NULL NULL 0 0 0
+1180 1 FireMeteor 1 0 0 0 1 36 630 0 30 0 0 11 0 245823 13981500 62 0 0 0 0 0 0 0 0 0 0 0 0 1500 1 903 Upgrade~after~lvl~62 魔法攻击力630 NULL NULL NULL NULL 500 meteorolite02 sound\Health.wav NULL NULL 0 0 0
+1180 1 FireMeteor 1 0 0 0 2 84 916 0 40 0 0 12 0 245823 24242000 72 0 0 0 0 0 0 0 0 0 0 0 0 1500 1 903 Upgrade~after~lvl~72 魔法攻击力916 NULL NULL NULL NULL 500 meteorolite02 sound\Health.wav NULL NULL 0 0 0
+1180 1 FireMeteor 1 0 0 0 3 96 1266 0 40 0 0 13 0 245823 38661200 82 0 0 0 0 0 0 0 0 0 0 0 0 1500 1 903 Upgrade~after~lvl~82 魔法攻击力1266 NULL NULL NULL NULL 500 meteorolite03 sound\Health.wav NULL NULL 0 0 0
+1180 1 FireMeteor 1 0 0 0 4 102 1683 0 50 0 0 14 0 245823 67900000 92 0 0 0 0 0 0 0 0 0 0 0 0 1500 1 903 Upgrade~after~lvl~92 魔法攻击力1683 NULL NULL NULL NULL 500 meteorolite03 sound\Health.wav NULL NULL 0 0 0
+1180 1 FireMeteor 1 0 0 0 5 108 2220 0 50 0 0 15 0 245823 269625000 105 0 0 0 0 0 0 0 0 0 0 0 0 1500 1 903 Upgrade~after~lvl~105 魔法攻击力2220 NULL NULL NULL NULL 500 meteorolite06 sound\Health.wav NULL NULL 0 0 0
+1180 1 FireMeteor 1 0 0 0 6 200 2940 0 50 0 0 15 0 245823 815850000 115 0 0 0 0 0 0 0 0 0 0 0 0 1500 1 903 Upgrade~after~lvl~115 魔法攻击力2940 NULL NULL NULL NULL 500 meteorolite04 sound\Health.wav NULL NULL 0 0 0
+1180 1 FireMeteor 1 0 0 0 7 320 3886 0 60 0 0 15 0 245823 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1500 1 903 Fixed 魔法攻击力3886 NULL NULL NULL NULL 500 meteorolite05 sound\Health.wav NULL NULL 0 0 0
+
+1190 2 SpiritHealing 0 0 0 2 0 0 500 0 100 0 0 5 0 0 560000 40 2 0 0 0 0 0 0 0 100 0 0 0 0 1 903 Upgrade~after~lvl~40 可恢复500点血 NULL NULL NULL NULL 0 getxp2 sound\Health.wav NULL NULL 0 1 0
+1190 2 SpiritHealing 0 0 0 2 1 0 800 0 100 0 0 5 0 0 4000000 70 2 0 0 0 0 0 0 0 100 0 0 0 0 1 903 Upgrade~after~lvl~70 可恢复800点血 NULL NULL NULL NULL 0 getxp2 sound\Health.wav NULL NULL 0 1 0
+1190 2 SpiritHealing 0 0 0 2 2 0 1300 0 100 0 0 5 0 0 0 0 2 0 0 0 0 0 0 0 100 0 0 0 0 1 903 Fixed 可恢复800点血 NULL NULL NULL NULL 0 getxp2 sound\Health.wav NULL NULL 0 1 0
+
+1195 20 Meditation 0 0 0 2 0 0 310 0 100 0 0 5 0 0 537140 44 2 0 0 0 0 0 0 0 100 0 0 0 0 1 903 Upgrade~after~lvl~44 可恢复310点法力 NULL NULL NULL NULL 0 magicfull sound\Health.wav NULL NULL 0 1 0
+1195 20 Meditation 0 0 0 2 1 0 600 0 100 0 0 5 0 0 918542 74 2 0 0 0 0 0 0 0 100 0 0 0 0 1 903 Upgrade~after~lvl~74 可恢复600点法力 NULL NULL NULL NULL 0 magicfull sound\Health.wav NULL NULL 0 1 0
+1195 20 Meditation 0 0 0 2 2 0 1020 0 100 0 0 5 0 0 0 0 2 0 0 0 0 0 0 0 100 0 0 0 0 1 903 Fixed 可恢复1020点法力 NULL NULL NULL NULL 0 magicfull sound\Health.wav NULL NULL 0 1 0
+
+1210 19 Disguise 0 0 0 2 0 20 20 0 100 60 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 903 Fixed 变身 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 1 0
+1220 16 Stun 1 0 0 0 0 0 100000 0 50 0 0 9 65536 0 2000 0 2 580 0 4 0 0 0 0 0 0 0 0 0 1 903 Fixed 半月 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+1230 16 Strike 1 0 0 0 0 0 0 0 50 0 0 9 128 0 2000 0 2 580 0 4 0 0 0 0 1 0 0 0 0 0 903 Fixed 半月 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+
+3000 1 Fire 0 1 0 0 0 0 8000 0 100 0 0 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 401 Fixed 魔法攻击力8000 Intone-1 NULL NULL NULL 0 RedThunder sound\magic002.wav NULL NULL 0 0 0
+
+
+
+1250 4 WideStrike 1 1 0 8 0 0 30090 0 20 0 3 9 0 0 20243 30 2 510 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~30 扇形攻击技能，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector3.tme NULL 0 0 0
+1250 4 WideStrike 1 1 0 8 1 0 30100 0 22 0 3 9 0 0 37056 40 2 510 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~40 扇形攻击技能，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector3.tme NULL 0 0 0
+1250 4 WideStrike 1 1 0 8 2 0 30110 0 24 0 4 9 0 0 66011 50 2 510 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~50 扇形攻击技能，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector4.tme NULL 0 0 0
+1250 4 WideStrike 1 1 0 8 3 0 30120 0 26 0 4 9 0 0 116140 60 2 510 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~60 物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector4.tme NULL 0 0 0
+1250 4 WideStrike 1 1 0 8 4 0 30130 0 28 0 5 9 0 0 192800 70 2 510 0 4 0 0 0 0 0 1 0 0 0 3 903 Upgrade~after~lvl~70 扇形攻击技能，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector5.tme NULL 0 0 0
+1250 4 WideStrike 1 1 0 8 5 0 30140 0 30 0 5 9 0 0 418030 80 2 510 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~80 扇形攻击技能，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector5.tme NULL 0 0 0
+1250 4 WideStrike 1 1 0 8 6 0 30150 0 32 0 6 9 0 0 454350 90 2 510 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~90 扇形攻击技能，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector6.tme NULL 0 0 0
+1250 4 WideStrike 1 1 0 8 7 0 30160 0 34 0 6 9 0 0 491200 100 2 510 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~100 扇形攻击技能，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector6.tme NULL 0 0 0
+1250 4 WideStrike 1 1 0 8 8 0 30170 0 36 0 6 9 0 0 520030 110 2 510 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~110 扇形攻击技能，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector6.tme NULL 0 0 0
+1250 4 WideStrike 1 1 0 8 9 0 30180 0 38 0 6 9 0 0 0 0 2 510 0 4 0 0 0 0 0 1 0 0 0 3 903 Fixed 扇形攻击技能，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector6.tme NULL 0 0 0
+
+
+
+
+1260 14 SpeedGun 1 1 0 8 0 0 30100 0 20 0 3 9 0 0 20243 30 2 560 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~30 直线攻击，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav line04.tme NULL 0 0 0
+1260 14 SpeedGun 1 1 0 8 1 0 30115 0 23 0 3 9 0 0 37056 40 2 560 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~40 直线攻击，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav line04.tme NULL 0 0 0
+1260 14 SpeedGun 1 1 0 8 2 0 30125 0 26 0 4 9 0 0 66011 50 2 560 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~50 直线攻击，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav line04.tme NULL 0 0 0
+1260 14 SpeedGun 1 1 0 8 3 0 30140 0 29 0 4 9 0 0 116140 60 2 560 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~60 直线攻击，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav line04.tme NULL 0 0 0
+1260 14 SpeedGun 1 1 0 8 4 0 30150 0 32 0 5 9 0 0 192800 70 2 560 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~70 直线攻击，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav line05.tme NULL 0 0 0
+1260 14 SpeedGun 1 1 0 8 5 0 30165 0 35 0 5 9 0 0 418030 80 2 560 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~80 直线攻击，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav line05.tme NULL 0 0 0
+1260 14 SpeedGun 1 1 0 8 6 0 30175 0 38 0 6 9 0 0 454350 90 2 560 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~90 直线攻击，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav line06.tme NULL 0 0 0
+1260 14 SpeedGun 1 1 0 8 7 0 30190 0 41 0 6 9 0 0 491200 100 2 560 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~100 直线攻击，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav line06.tme NULL 0 0 0
+1260 14 SpeedGun 1 1 0 8 8 0 30200 0 44 0 7 9 0 0 520030 110 2 560 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~110 直线攻击，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav line07.tme NULL 0 0 0
+1260 14 SpeedGun 1 1 0 8 9 0 30210 0 47 0 7 9 0 0 0 0 2 560 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 直线攻击，物理攻击中随机发出 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav line07.tme NULL 0 0 0
+
+
+
+1270 19 Robot 0 0 0 2 0 0 2000 0 100 35 0 5 0 0 60 41 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~41 可以变身成鬼将 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1270 19 Robot 0 0 0 2 1 0 2001 0 100 40 0 5 0 0 100 46 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~46 可以变身成鬼将 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1270 19 Robot 0 0 0 2 2 0 2002 0 100 45 0 5 0 0 140 51 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~51 可以变身成鬼将 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1270 19 Robot 0 0 0 2 3 0 2003 0 100 50 0 5 0 0 240 61 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~61 可以变身成鬼将 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1270 19 Robot 0 0 0 2 4 0 2010 0 100 55 0 5 0 0 370 71 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~71 可以变身成鬼将 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1270 19 Robot 0 0 0 2 5 0 2011 0 100 60 0 5 0 0 600 81 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~81 可以变身成鬼将 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1270 19 Robot 0 0 0 2 6 0 2012 0 100 65 0 5 0 0 1050 91 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~91 可以变身成鬼将 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1270 19 Robot 0 0 0 2 7 0 2013 0 100 70 0 5 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可以变身成鬼将 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+
+
+
+1290 16 Penetration 1 1 0 8 0 0 30200 0 10 0 0 9 128 0 20243 30 2 490 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~30 一定机率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+1290 16 Penetration 1 1 0 8 1 0 30210 0 12 0 0 9 128 0 37056 40 2 490 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~40 一定机率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+1290 16 Penetration 1 1 0 8 2 0 30220 0 14 0 0 9 128 0 66011 50 2 490 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~50 一定机率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+1290 16 Penetration 1 1 0 8 3 0 30230 0 16 0 0 9 128 0 116140 60 2 490 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~60 一定机率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+1290 16 Penetration 1 1 0 8 4 0 30240 0 18 0 0 9 128 0 192800 70 2 490 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~70 一定机率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+1290 16 Penetration 1 1 0 8 5 0 30250 0 20 0 0 9 128 0 418030 80 2 490 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~80 一定机率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+1290 16 Penetration 1 1 0 8 6 0 30260 0 22 0 0 9 128 0 454350 90 2 490 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~90 一定机率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+1290 16 Penetration 1 1 0 8 7 0 30270 0 24 0 0 9 128 0 491200 100 2 490 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~100 一定机率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+1290 16 Penetration 1 1 0 8 8 0 30280 0 26 0 0 9 128 0 520030 110 2 490 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~110 一定机率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+1290 16 Penetration 1 1 0 8 9 0 30290 0 28 0 0 9 128 0 0 0 2 490 0 4 0 0 0 0 0 1 0 0 0 1 401 Fixed 一定机率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+
+1300 4 Halt 1 1 0 8 0 0 30090 0 20 0 3 9 0 0 20243 30 2 540 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~30 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector3.tme NULL 0 0 0
+1300 4 Halt 1 1 0 8 1 0 30100 0 22 0 3 9 0 0 37056 40 2 540 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~40 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector3.tme NULL 0 0 0
+1300 4 Halt 1 1 0 8 2 0 30110 0 24 0 4 9 0 0 66011 50 2 540 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~50 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector4.tme NULL 0 0 0
+1300 4 Halt 1 1 0 8 3 0 30120 0 26 0 4 9 0 0 116140 60 2 540 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~60 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector4.tme NULL 0 0 0
+1300 4 Halt 1 1 0 8 4 0 30130 0 28 0 5 9 0 0 192800 70 2 540 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~70 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector5.tme NULL 0 0 0
+1300 4 Halt 1 1 0 8 5 0 30140 0 30 0 5 9 0 0 418030 80 2 540 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~80 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector5.tme NULL 0 0 0
+1300 4 Halt 1 1 0 8 6 0 30150 0 32 0 6 9 0 0 454350 90 2 540 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~90 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector6.tme NULL 0 0 0
+1300 4 Halt 1 1 0 8 7 0 30160 0 34 0 6 9 0 0 491200 100 2 540 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~100 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector6.tme NULL 0 0 0
+1300 4 Halt 1 1 0 8 8 0 30170 0 36 0 6 9 0 0 520030 110 2 540 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~110 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector6.tme NULL 0 0 0
+1300 4 Halt 1 1 0 8 9 0 30180 0 38 0 6 9 0 0 0 0 2 540 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector6.tme NULL 0 0 0
+
+5040 16 Boom 1 1 0 8 0 0 6000 0 10 0 0 9 2048 0 200 30 2 460 0 4 0 0 0 0 0 0 0 0 0 1 401 Upgrade~after~lvl~30 一定机率让对方停止攻击一段时间 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+5040 16 Boom 1 1 0 8 1 0 6000 0 12 0 0 9 2048 0 300 40 2 460 0 4 0 0 0 0 0 0 0 0 0 1 401 Upgrade~after~lvl~40 一定机率让对方停止攻击一段时间 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+5040 16 Boom 1 1 0 8 2 0 7000 0 14 0 0 9 2048 0 400 50 2 460 0 4 0 0 0 0 0 0 0 0 0 1 401 Upgrade~after~lvl~50 一定机率让对方停止攻击7秒 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+5040 16 Boom 1 1 0 8 3 0 7000 0 16 0 0 9 2048 0 500 60 2 460 0 4 0 0 0 0 0 0 0 0 0 1 401 Upgrade~after~lvl~60 一定机率让对方停止攻击7秒 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+5040 16 Boom 1 1 0 8 4 0 8000 0 18 0 0 9 2048 0 600 70 2 460 0 4 0 0 0 0 0 0 0 0 0 1 401 Upgrade~after~lvl~70 一定机率让对方停止攻击8秒 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+5040 16 Boom 1 1 0 8 5 0 8000 0 20 0 0 9 2048 0 700 80 2 460 0 4 0 0 0 0 0 0 0 0 0 1 401 Upgrade~after~lvl~80 一定机率让对方停止攻击8秒 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+5040 16 Boom 1 1 0 8 6 0 9000 0 22 0 0 9 2048 0 800 90 2 460 0 4 0 0 0 0 0 0 0 0 0 1 401 Upgrade~after~lvl~90 一定机率让对方停止攻击9秒 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+5040 16 Boom 1 1 0 8 7 0 9000 0 24 0 0 9 2048 0 900 100 2 460 0 4 0 0 0 0 0 0 0 0 0 1 401 Upgrade~after~lvl~100 一定机率让对方停止攻击9秒 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+5040 16 Boom 1 1 0 8 8 0 10000 0 26 0 0 9 2048 0 1000 110 2 460 0 4 0 0 0 0 0 0 0 0 0 1 401 Upgrade~after~lvl~110 一定机率让对方停止攻击10秒 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+5040 16 Boom 1 1 0 8 9 0 10000 0 28 0 0 9 2048 0 0 0 2 460 0 4 0 0 0 0 0 0 0 0 0 1 401 Fixed 一定机率让对方停止攻击10秒 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+
+5050 4 Boreas 1 1 0 8 0 0 30090 0 20 0 3 9 0 0 20243 30 2 530 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~30 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector3.tme NULL 0 0 0
+5050 4 Boreas 1 1 0 8 1 0 30100 0 22 0 3 9 0 0 37056 40 2 530 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~40 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector3.tme NULL 0 0 0
+5050 4 Boreas 1 1 0 8 2 0 30110 0 24 0 4 9 0 0 66011 50 2 530 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~50 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector4.tme NULL 0 0 0
+5050 4 Boreas 1 1 0 8 3 0 30120 0 26 0 4 9 0 0 116140 60 2 530 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~60 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector4.tme NULL 0 0 0
+5050 4 Boreas 1 1 0 8 4 0 30130 0 28 0 5 9 0 0 192800 70 2 530 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~70 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector5.tme NULL 0 0 0
+5050 4 Boreas 1 1 0 8 5 0 30140 0 30 0 5 9 0 0 418030 80 2 530 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~80 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector5.tme NULL 0 0 0
+5050 4 Boreas 1 1 0 8 6 0 30150 0 32 0 6 9 0 0 454350 90 2 530 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~90 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector6.tme NULL 0 0 0
+5050 4 Boreas 1 1 0 8 7 0 30160 0 34 0 6 9 0 0 491200 100 2 530 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~100 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector6.tme NULL 0 0 0
+5050 4 Boreas 1 1 0 8 8 0 30170 0 36 0 6 9 0 0 520030 110 2 530 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~110 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector6.tme NULL 0 0 0
+5050 4 Boreas 1 1 0 8 9 0 30180 0 38 0 6 9 0 0 0 0 2 530 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector6.tme NULL 0 0 0
+
+1310 16 Binding 1 1 0 8 0 0 30015 0 16 0 0 9 16384 0 200 80 2 530 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~80 一定机率让对方停止攻击一段时间 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+1310 16 Binding 1 1 0 8 1 0 30016 0 17 0 0 9 16384 0 400 90 2 530 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~90 一定机率让对方停止攻击一段时间 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+1310 16 Binding 1 1 0 8 2 0 30017 0 18 0 0 9 16384 0 600 100 2 530 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~100 一定机率让对方停止攻击7秒 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+1310 16 Binding 1 1 0 8 3 0 30018 0 19 0 0 9 16384 0 1000 110 2 530 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~110 一定机率让对方停止攻击7秒 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+1310 16 Binding 1 1 0 8 4 0 30019 0 20 0 0 9 16384 0 0 0 2 530 0 4 0 0 0 0 0 1 0 0 0 1 401 Fixed 一定机率让对方停止攻击8秒 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+
+1320 1 FlyingMoon 1 0 0 0 0 0 490 0 100 0 0 13 0 0 500 70 1 0 0 0 0 0 0 0 0 0 0 0 0 2 401 Upgrade~after~lvl~70 远程攻击的XP技能 NULL NULL NULL NULL 0 NULL sound\Health.wav NULL scimitar1 0 0 0
+1320 1 FlyingMoon 1 0 0 0 1 0 1950 0 100 0 0 14 0 0 1000 100 1 0 0 0 0 0 0 0 0 0 0 0 0 2 401 Upgrade~after~lvl~100 远程攻击的XP技能 NULL NULL NULL NULL 0 NULL sound\Health.wav NULL scimitar3 0 0 0
+1320 1 FlyingMoon 1 0 0 0 2 0 5560 0 100 0 0 15 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 2 401 Fixed 远程攻击的XP技能 NULL NULL NULL NULL 0 NULL sound\Health.wav NULL scimitar 0 0 0
+
+
+1280 19 WaterElf 0 0 0 2 0 0 2005 0 100 30 0 5 0 0 80 55 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~55 可以变身成水灵 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1280 19 WaterElf 0 0 0 2 1 0 2006 0 100 35 0 5 0 0 100 60 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~60 可以变身成水灵 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1280 19 WaterElf 0 0 0 2 2 0 2007 0 100 40 0 5 0 0 120 65 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~65 可以变身成水灵 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1280 19 WaterElf 0 0 0 2 3 0 2008 0 100 45 0 5 0 0 150 70 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~70 可以变身成水灵 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1280 19 WaterElf 0 0 0 2 4 0 2009 0 100 50 0 5 0 0 840 80 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~80 可以变身成水灵 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1280 19 WaterElf 0 0 0 2 5 0 2040 0 100 55 0 5 0 0 1340 90 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~90 可以变身成水灵 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1280 19 WaterElf 0 0 0 2 6 0 2041 0 100 60 0 5 0 0 2080 100 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~100 可以变身成水灵 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1280 19 WaterElf 0 0 0 2 7 0 2042 0 100 60 0 5 0 0 3490 110 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~110 可以变身成水灵 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1280 19 WaterElf 0 0 0 2 8 0 2043 0 100 60 0 5 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可以变身成水灵 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+
+
+1360 19 NightDevil 0 0 0 2 0 0 2030 0 100 60 0 5 0 0 40 80 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~80 可以变身成夜叉 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1360 19 NightDevil 0 0 0 2 1 0 2031 0 100 80 0 5 0 0 250 90 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~90 可以变身成夜叉 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1360 19 NightDevil 0 0 0 2 2 0 2032 0 100 90 0 5 0 0 450 100 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~100 可以变身成夜叉 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1360 19 NightDevil 0 0 0 2 3 0 2033 0 100 100 0 5 0 0 700 110 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Upgrade~after~lvl~110 可以变身成夜叉 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1360 19 NightDevil 0 0 0 2 4 0 2034 0 100 110 0 5 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 可以变身成夜叉 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+
+
+1350 19 DivineHare 0 0 0 2 0 0 2020 0 100 40 0 5 0 0 1800 55 2 0 0 0 0 0 0 0 100 0 0 0 0 1 903 Upgrade~after~lvl~55 可以变身成神甲 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1350 19 DivineHare 0 0 0 2 1 0 2021 0 100 50 0 5 0 0 4000 65 2 0 0 0 0 0 0 0 100 0 0 0 0 1 903 Upgrade~after~lvl~65 可以变身成神甲 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1350 19 DivineHare 0 0 0 2 2 0 2022 0 100 60 0 5 0 0 5500 75 2 0 0 0 0 0 0 0 100 0 0 0 0 1 903 Upgrade~after~lvl~75 可以变身成神甲 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1350 19 DivineHare 0 0 0 2 3 0 2023 0 100 70 0 5 0 0 9000 85 2 0 0 0 0 0 0 0 100 0 0 0 0 1 903 Upgrade~after~lvl~85 可以变身成神甲 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1350 19 DivineHare 0 0 0 2 4 0 2024 0 100 80 0 5 0 0 0 0 2 0 0 0 0 0 0 0 100 0 0 0 0 1 903 Fixed 可以变身成神甲 Disapear13 NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+
+
+1380 22 Dance2 0 0 0 2 0 0 0 0 100 0 0 5 0 0 0 0 2 0 0 0 0 0 0 0 10 0 0 0 0 1 2 Fixed 可以表演一段舞蹈 NULL NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1385 22 Dance3 0 0 0 2 0 0 0 0 100 0 0 5 0 0 0 0 2 0 0 0 0 0 0 0 10 0 0 0 0 1 3 Fixed 可以表演一段舞蹈 NULL NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1390 22 Dance4 0 0 0 2 0 0 0 0 100 0 0 5 0 0 0 0 2 0 0 0 0 0 0 0 10 0 0 0 0 1 4 Fixed 可以表演一段舞蹈 NULL NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1395 22 Dance5 0 0 0 2 0 0 0 0 100 0 0 5 0 0 0 0 2 0 0 0 0 0 0 0 10 0 0 0 0 1 5 Fixed 可以表演一段舞蹈 NULL NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1400 22 Dance6 0 0 0 2 0 0 0 0 100 0 0 5 0 0 0 0 2 0 0 0 0 0 0 0 10 0 0 0 0 1 6 Fixed 可以表演一段舞蹈 NULL NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1405 22 Dance7 0 0 0 2 0 0 0 0 100 0 0 5 0 0 0 0 2 0 0 0 0 0 0 0 10 0 0 0 0 1 7 Fixed 可以表演一段舞蹈 NULL NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+1410 22 Dance8 0 0 0 2 0 0 0 0 100 0 0 5 0 0 0 0 2 0 0 0 0 0 0 0 10 0 0 0 0 1 8 Fixed 可以表演一段舞蹈 NULL NULL NULL NULL 0 NULL sound\Health.wav NULL NULL 0 1 0
+
+
+5010 5 Snow 1 1 1 8 0 0 30110 0 20 0 2 9 0 0 20243 30 2 561 0 4 0 0 0 0 0 1 0 0 0 1 403 Upgrade~after~lvl~30 可以攻击身体周围一定范围敌人 1－bomb4 NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav NULL NULL 0 0 0
+5010 5 Snow 1 1 1 8 1 0 30110 0 23 0 2 9 0 0 37056 40 2 561 0 4 0 0 0 0 0 1 0 0 0 1 403 Upgrade~after~lvl~40 可以攻击身体周围一定范围敌人 1－bomb4 NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav NULL NULL 0 0 0
+5010 5 Snow 1 1 1 8 2 0 30110 0 26 0 2 9 0 0 66011 50 2 561 0 4 0 0 0 0 0 1 0 0 0 1 403 Upgrade~after~lvl~50 可以攻击身体周围一定范围敌人 2－bomb3 NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav NULL NULL 0 0 0
+5010 5 Snow 1 1 1 8 3 0 30110 0 29 0 2 9 0 0 116140 60 2 561 0 4 0 0 0 0 0 1 0 0 0 1 403 Upgrade~after~lvl~60 可以攻击身体周围一定范围敌人 2－bomb3 NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav NULL NULL 0 0 0
+5010 5 Snow 1 1 1 8 4 0 30140 0 31 0 3 9 0 0 192800 70 2 561 0 4 0 0 0 0 0 1 0 0 0 1 403 Upgrade~after~lvl~70 可以攻击身体周围一定范围敌人 3－bomb NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav NULL NULL 0 0 0
+5010 5 Snow 1 1 1 8 5 0 30140 0 34 0 3 9 0 0 418030 80 2 561 0 4 0 0 0 0 0 1 0 0 0 1 403 Upgrade~after~lvl~80 可以攻击身体周围一定范围敌人 3－bomb NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav NULL NULL 0 0 0
+5010 5 Snow 1 1 1 8 6 0 30140 0 37 0 3 9 0 0 454350 90 2 561 0 4 0 0 0 0 0 1 0 0 0 1 403 Upgrade~after~lvl~90 可以攻击身体周围一定范围敌人 4－bomb2 NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav NULL NULL 0 0 0
+5010 5 Snow 1 1 1 8 7 0 30140 0 40 0 3 9 0 0 491200 100 2 561 0 4 0 0 0 0 0 1 0 0 0 1 403 Upgrade~after~lvl~100 可以攻击身体周围一定范围敌人 4－bomb2 NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav NULL NULL 0 0 0
+5010 5 Snow 1 1 1 8 8 0 30140 0 43 0 3 9 0 0 520030 110 2 561 0 4 0 0 0 0 0 1 0 0 0 1 403 Upgrade~after~lvl~110 可以攻击身体周围一定范围敌人 5－bomb1 NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav NULL NULL 0 0 0
+5010 5 Snow 1 1 1 8 9 0 30145 0 45 0 3 9 0 0 0 0 2 561 0 4 0 0 0 0 0 1 0 0 0 1 403 Fixed 可以攻击身体周围一定范围敌人 5－bomb1 NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav NULL NULL 0 0 0
+
+
+
+5020 4 StrandedMonster 1 1 1 8 0 0 30130 0 20 0 3 9 0 0 20243 30 2 580 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~30 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector3.tme NULL 0 0 0
+5020 4 StrandedMonster 1 1 1 8 1 0 30130 0 23 0 3 9 0 0 37056 40 2 580 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~40 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector3.tme NULL 0 0 0
+5020 4 StrandedMonster 1 1 1 8 2 0 30130 0 26 0 3 9 0 0 66011 50 2 580 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~50 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector4.tme NULL 0 0 0
+5020 4 StrandedMonster 1 1 1 8 3 0 30130 0 29 0 4 9 0 0 116140 60 2 580 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~60 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector4.tme NULL 0 0 0
+5020 4 StrandedMonster 1 1 1 8 4 0 30130 0 31 0 4 9 0 0 192800 70 2 580 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~70 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector5.tme NULL 0 0 0
+5020 4 StrandedMonster 1 1 1 8 5 0 30130 0 34 0 4 9 0 0 418030 80 2 580 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~80 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector5.tme NULL 0 0 0
+5020 4 StrandedMonster 1 1 1 8 6 0 30130 0 37 0 5 9 0 0 454350 90 2 580 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~90 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector6.tme NULL 0 0 0
+5020 4 StrandedMonster 1 1 1 8 7 0 30130 0 40 0 5 9 0 0 491200 100 2 580 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~100 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector6.tme NULL 0 0 0
+5020 4 StrandedMonster 1 1 1 8 8 0 30130 0 43 0 6 9 0 0 520030 110 2 580 0 4 0 0 0 0 0 1 0 0 0 3 403 Upgrade~after~lvl~110 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector6.tme NULL 0 0 0
+5020 4 StrandedMonster 1 1 1 8 9 0 30135 0 45 0 6 9 0 0 0 0 2 580 0 4 0 0 0 0 0 1 0 0 0 3 403 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav sector6.tme NULL 0 0 0
+
+5001 5 SpeedLightning 1 1 1 0 0 0 450 0 100 0 15 15 0 245823 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 3 403 Fixed XP法术，可以攻击一定范围的敌人 light04 NULL NULL NULL 0 levin sound\thunder.wav NULL NULL 0 0 0
+
+
+5030 16 Phoenix 1 1 0 8 0 0 30115 0 33 0 0 9 128 0 20243 30 2 420 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~30 一定机率攻击力增加 NULL NULL NULL NULL 0 flysword6 sound\magic029.wav NULL NULL 0 0 0
+5030 16 Phoenix 1 1 0 8 1 0 30116 0 38 0 0 9 128 0 37056 40 2 420 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~40 一定机率攻击力增加 NULL NULL NULL NULL 0 flysword8 sound\magic029.wav NULL NULL 0 0 0
+5030 16 Phoenix 1 1 0 8 2 0 30117 0 43 0 0 9 128 0 66011 50 2 420 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~50 一定机率攻击力增加 NULL NULL NULL NULL 0 flysword8 sound\magic029.wav NULL NULL 0 0 0
+5030 16 Phoenix 1 1 0 8 3 0 30118 0 48 0 0 9 128 0 116140 60 2 420 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~60 一定机率攻击力增加 NULL NULL NULL NULL 0 flysword2 sound\magic029.wav NULL NULL 0 0 0
+5030 16 Phoenix 1 1 0 8 4 0 30119 0 53 0 0 9 128 0 192800 70 2 420 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~70 一定机率攻击力增加 NULL NULL NULL NULL 0 flysword4 sound\magic029.wav NULL NULL 0 0 0
+5030 16 Phoenix 1 1 0 8 5 0 30120 0 58 0 0 9 128 0 418030 80 2 420 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~80 一定机率攻击力增加 NULL NULL NULL NULL 0 flysword3 sound\magic029.wav NULL NULL 0 0 0
+5030 16 Phoenix 1 1 0 8 6 0 30121 0 63 0 0 9 128 0 454350 90 2 420 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~90 一定机率攻击力增加 NULL NULL NULL NULL 0 flysword5 sound\magic029.wav NULL NULL 0 0 0
+5030 16 Phoenix 1 1 0 8 7 0 30122 0 68 0 0 9 128 0 491200 100 2 420 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~100 一定机率攻击力增加 NULL NULL NULL NULL 0 flysword7 sound\magic029.wav NULL NULL 0 0 0
+5030 16 Phoenix 1 1 0 8 8 0 30123 0 73 0 0 9 128 0 520030 110 2 420 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~110 一定机率攻击力增加 NULL NULL NULL NULL 0 flysword1 sound\magic029.wav NULL NULL 0 0 0
+5030 16 Phoenix 1 1 0 8 9 0 30124 0 78 0 0 9 128 0 0 0 2 420 0 4 0 0 0 0 0 1 0 0 0 1 401 Fixed 一定机率攻击力增加 NULL NULL NULL NULL 0 flysword sound\magic029.wav NULL NULL 0 0 0
+
+8000 1 RapidFire 1 0 0 0 0 0 30150 0 100 0 0 15 0 0 100000 56 2 500 0 0 0 0 0 0 100 1 0 0 0 1 800 Upgrade~after~lvl~56 可以快速射出数箭 NULL NULL NULL NULL 0 hitstar sound\bow2.wav NULL NULL 0 0 0
+8000 1 RapidFire 1 0 0 0 1 0 30180 0 100 0 0 16 0 0 150000 68 2 500 0 0 0 0 0 0 100 1 0 0 0 1 800 Upgrade~after~lvl~68 可以快速射出数箭 NULL NULL NULL NULL 0 hitstar sound\bow2.wav NULL NULL 0 0 0
+8000 1 RapidFire 1 0 0 0 2 0 30210 0 100 0 0 17 0 0 200000 78 2 500 0 0 0 0 0 0 100 1 0 0 0 1 800 Upgrade~after~lvl~78 可以快速射出数箭 NULL NULL NULL NULL 0 hitstar sound\bow2.wav NULL NULL 0 0 0
+8000 1 RapidFire 1 0 0 0 3 0 30240 0 100 0 0 18 0 0 250000 88 2 500 0 0 0 0 0 0 100 1 0 0 0 1 800 Upgrade~after~lvl~88 可以快速射出数箭 NULL NULL NULL NULL 0 hitstar sound\bow2.wav NULL NULL 0 0 0
+8000 1 RapidFire 1 0 0 0 4 0 30270 0 100 0 0 19 0 0 300000 98 2 500 0 0 0 0 0 0 100 1 0 0 0 1 800 Upgrade~after~lv~98 可以快速射出数箭 NULL NULL NULL NULL 0 hitstar sound\bow2.wav NULL NULL 0 0 0
+8000 1 RapidFire 1 0 0 0 5 0 30300 0 100 0 0 20 0 0 0 70 2 500 0 0 0 0 0 0 100 1 0 0 0 1 800 Fixed 可以快速射出数箭 NULL NULL NULL NULL 0 hitstar sound\bow2.wav NULL NULL 0 0 0
+
+8001 4 ScatterFire 1 1 0 4 0 0 30050 0 100 0 8 15 0 0 100000 32 2 500 0 0 0 0 0 0 0 1 0 0 1000 3 801 Upgrade~after~lvl~32 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 fire-bomb sound\bow1.wav NULL NULL 0 0 0
+8001 4 ScatterFire 1 1 0 4 1 0 30055 0 100 0 8 16 0 0 150000 48 2 500 0 0 0 0 0 0 0 1 0 0 1000 3 801 Upgrade~after~lvl~48 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 fire-bomb sound\bow1.wav NULL NULL 0 0 0
+8001 4 ScatterFire 1 1 0 4 2 0 30060 0 100 0 10 17 0 0 200000 54 2 500 0 0 0 0 0 0 0 1 0 0 1000 3 801 Upgrade~after~lvl~54 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 fire-bomb sound\bow1.wav NULL NULL 0 0 0
+8001 4 ScatterFire 1 1 0 4 3 0 30065 0 100 0 10 18 0 0 250000 66 2 500 0 0 0 0 0 0 0 1 0 0 1000 3 801 Upgrade~after~lvl~66 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 fire-bomb sound\bow1.wav NULL NULL 0 0 0
+8001 4 ScatterFire 1 1 0 4 4 0 30065 0 100 0 12 19 0 0 300000 72 2 500 0 0 0 0 0 0 0 1 0 0 1000 3 801 Upgrade~after~lvl~72 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 fire-bomb sound\bow1.wav NULL NULL 0 0 0
+8001 4 ScatterFire 1 1 0 4 5 0 30070 0 100 0 12 20 0 0 0 0 2 500 0 0 0 0 0 0 0 1 0 0 1000 3 801 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 fire-bomb sound\bow1.wav NULL NULL 0 0 0
+
+8030 5 ArrowRain 1 0 1 0 0 0 30100 0 100 0 9 9 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 8031 0 1 903 Fixed 使用该法术后只要自己不移动，就会引发威力无比的暴雨梨花箭 NULL NULL NULL NULL 0 arrowrain1 sound\bow1.wav NULL NULL 0 0 0
+8031 4 Scatter2 1 1 0 4 0 0 30030 0 100 0 8 16 0 0 0 0 0 500 0 0 0 0 0 0 0 0 0 8032 0 3 801 Upgrade~after~lvl~48 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 arrowrain1 sound\bow1.wav NULL NULL 0 0 0
+8032 4 Scatter3 1 1 0 4 0 0 30030 0 100 0 9 17 0 0 0 0 0 500 0 0 0 0 0 0 0 0 0 8033 0 3 801 Upgrade~after~lvl~54 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 arrowrain1 sound\bow1.wav NULL NULL 0 0 0
+8033 4 Scatter4 1 1 0 4 0 0 30030 0 100 0 9 18 0 0 0 0 0 500 0 0 0 0 0 0 0 0 0 8034 0 3 801 Upgrade~after~lvl~66 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 arrowrain1 sound\bow1.wav NULL NULL 0 0 0
+8034 4 Scatter5 1 1 0 4 0 0 30030 0 100 0 10 19 0 0 0 0 0 500 0 0 0 0 0 0 0 0 0 8035 0 3 801 Upgrade~after~lvl~72 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 arrowrain1 sound\bow1.wav NULL NULL 0 0 0
+8035 4 Scatter6 1 1 0 4 0 0 30030 0 100 0 10 20 0 0 0 0 0 500 0 0 0 0 0 0 0 0 0 0 0 3 801 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 arrowrain1 sound\bow1.wav NULL NULL 0 0 0
+
+8036 1 Guard`sSpell 1 0 0 0 0 0 30035 0 100 0 0 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 401 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL sound\bow1.wav NULL NULL 0 0 0
+
+8002 6 Fly 0 0 0 2 0 0 0 0 100 40 0 9 4194304 0 0 0 1 500 0 0 0 0 0 0 0 0 0 0 0 1 501 Fixed 可以飞到空中40秒，不会被物理攻击击中 takeoff NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+8003 6 Fly 0 0 0 2 0 0 0 0 100 40 0 9 4194304 0 0 0 0 500 0 0 0 0 0 0 100 0 0 0 0 1 501 Fixed 可以消耗体力飞到空中40秒，不会被物理攻击击中 takeoff NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+8003 6 Fly 0 0 0 2 1 0 0 0 100 60 0 9 4194304 0 0 0 0 500 0 0 0 0 0 0 100 0 0 0 0 1 501 Fixed 可以消耗体力飞到空中60秒，不会被物理攻击击中 takeoff NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+
+
+9000 6 Intensify 0 0 0 2 0 0 30200 5000 100 60 0 15 268435456 0 300000 83 2 500 0 0 0 0 0 0 0 1 0 0 0 1 630 Upgrade~after~lvl~83 集中力量发出一箭，威力无比 mass NULL NULL NULL 0 hit sound\bow3.wav NULL NULL 0 0 0
+9000 6 Intensify 0 0 0 2 1 0 30250 5000 100 80 0 15 268435456 0 400000 93 2 500 0 0 0 0 0 0 0 1 0 0 0 1 630 Upgrade~after~lvl~93 集中力量发出一箭，威力无比 mass NULL NULL NULL 0 hit sound\bow3.wav NULL NULL 0 0 0
+9000 6 Intensify 0 0 0 2 2 0 30300 5000 100 100 0 15 268435456 0 500000 104 2 500 0 0 0 0 0 0 0 1 0 0 0 1 630 Upgrade~after~lvl~104 集中力量发出一箭，威力无比 mass NULL NULL NULL 0 hit sound\bow3.wav NULL NULL 0 0 0
+9000 6 Intensify 0 0 0 2 3 0 30350 5000 100 120 0 15 268435456 0 0 55 2 500 0 0 0 0 0 0 0 1 0 0 0 1 630 Fixed 集中力量发出一箭，威力无比 mass NULL NULL NULL 0 hit sound\bow3.wav NULL NULL 0 0 0
+
+
+10010 16 Poison0 0 0 0 8 0 0 30002 0 100 2 0 15 4 0 0 0 0 0 15 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+10011 16 Poison1 0 0 0 8 0 0 30002 0 100 2 0 15 4 0 0 0 0 0 20 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+10012 16 Poison2 0 0 0 8 0 0 30002 0 100 2 0 15 4 0 0 0 0 0 25 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+10013 16 Poison3 0 0 0 8 0 0 30002 0 100 2 0 15 4 0 0 0 0 0 30 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+
+
+10015 16 IcyArrow0 1 0 0 8 9 0 10000 0 100 0 0 9 2048 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 401 Fixed 一定机率让对方停止攻击10秒 NULL NULL NULL NULL 0 faint10 NULL NULL NULL 0 0 0
+10016 16 IcyArrow1 1 0 0 8 9 0 15000 0 100 0 0 9 2048 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 401 Fixed 一定机率让对方停止攻击10秒 NULL NULL NULL NULL 0 faint15 NULL NULL NULL 0 0 0
+10017 16 IcyArrow2 1 0 0 8 9 0 20000 0 100 0 0 9 2048 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 401 Fixed 一定机率让对方停止攻击10秒 NULL NULL NULL NULL 0 faint20 NULL NULL NULL 0 0 0
+
+
+10020 16 Bolt0 1 0 0 8 0 0 30100 0 100 0 0 15 128 0 0 0 0 0 0 4 0 0 0 0 0 1 0 10030 700 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 hitlight sound\thunder.wav NULL dianjian 0 0 0
+10021 16 Bolt1 1 0 0 8 0 0 30100 0 100 0 0 15 128 0 0 0 0 0 0 4 0 0 0 0 0 1 0 10031 700 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 hitlight sound\thunder.wav NULL dianjian 0 0 0
+10022 16 Bolt2 1 0 0 8 0 0 30100 0 100 0 0 15 128 0 0 0 0 0 0 4 0 0 0 0 0 1 0 10032 700 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 hitlight sound\thunder.wav NULL dianjian 0 0 0
+10023 16 Bolt3 1 0 0 8 0 0 30100 0 100 0 0 15 128 0 0 0 0 0 0 4 0 0 0 0 0 1 0 10033 700 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 hitlight sound\thunder.wav NULL dianjian 0 0 0
+
+10030 1 Bolt10 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10040 700 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 hitlight sound\thunder.wav NULL dianjian 0 0 0
+10031 1 Bolt11 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10041 700 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 hitlight sound\thunder.wav NULL dianjian 0 0 0
+10032 1 Bolt12 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10042 700 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 hitlight sound\thunder.wav NULL dianjian 0 0 0
+10033 1 Bolt13 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10043 700 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 hitlight sound\thunder.wav NULL dianjian 0 0 0
+
+10040 1 Bolt20 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10050 700 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 hitlight sound\thunder.wav NULL dianjian 0 0 0
+10041 1 Bolt21 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10051 700 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 hitlight sound\thunder.wav NULL dianjian 0 0 0
+10042 1 Bolt22 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10052 700 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 hitlight sound\thunder.wav NULL dianjian 0 0 0
+10043 1 Bolt23 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10053 700 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 hitlight sound\thunder.wav NULL dianjian 0 0 0
+
+10050 1 ArrowStorm0 1 0 0 0 0 0 30120 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10060 700 1 903 Fixed 魔法攻击力86 NULL NULL NULL NULL 0 arrowrain1 sound\thunder.wav NULL NULL 0 0 0
+10051 1 ArrowStorm1 1 0 0 0 0 0 30140 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10061 700 1 903 Fixed 魔法攻击力86 NULL NULL NULL NULL 0 arrowrain2 sound\thunder.wav NULL NULL 0 0 0
+10052 1 ArrowStorm2 1 0 0 0 0 0 30160 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10062 700 1 903 Fixed 魔法攻击力86 NULL NULL NULL NULL 0 arrowrain2 sound\thunder.wav NULL NULL 0 0 0
+10053 1 ArrowStorm3 1 0 0 0 0 0 30180 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10063 700 1 903 Fixed 魔法攻击力86 NULL NULL NULL NULL 0 arrowrain3 sound\thunder.wav NULL NULL 0 0 0
+
+10060 1 ArrowStorm10 1 0 0 0 0 0 30120 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10070 700 1 903 Fixed 魔法攻击力86 NULL NULL NULL NULL 0 arrowrain1 sound\thunder.wav NULL NULL 0 0 0
+10061 1 ArrowStorm11 1 0 0 0 0 0 30140 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10071 700 1 903 Fixed 魔法攻击力86 NULL NULL NULL NULL 0 arrowrain2 sound\thunder.wav NULL NULL 0 0 0
+10062 1 ArrowStorm12 1 0 0 0 0 0 30160 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10072 700 1 903 Fixed 魔法攻击力86 NULL NULL NULL NULL 0 arrowrain2 sound\thunder.wav NULL NULL 0 0 0
+10063 1 ArrowStorm13 1 0 0 0 0 0 30180 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10073 700 1 903 Fixed 魔法攻击力86 NULL NULL NULL NULL 0 arrowrain3 sound\thunder.wav NULL NULL 0 0 0
+
+10070 1 ArrowStorm20 1 0 0 0 0 0 30120 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10080 700 1 903 Fixed 魔法攻击力86 NULL NULL NULL NULL 0 arrowrain1 sound\thunder.wav NULL NULL 0 0 0
+10071 1 ArrowStorm21 1 0 0 0 0 0 30140 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10080 700 1 903 Fixed 魔法攻击力86 NULL NULL NULL NULL 0 arrowrain2 sound\thunder.wav NULL NULL 0 0 0
+10072 1 ArrowStorm22 1 0 0 0 0 0 30160 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10080 700 1 903 Fixed 魔法攻击力86 NULL NULL NULL NULL 0 arrowrain2 sound\thunder.wav NULL NULL 0 0 0
+10073 1 ArrowStorm23 1 0 0 0 0 0 30180 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10080 700 1 903 Fixed 魔法攻击力86 NULL NULL NULL NULL 0 arrowrain3 sound\thunder.wav NULL NULL 0 0 0
+
+10080 1 ArrowStorm30 1 0 0 0 0 0 30140 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10081 700 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 arrowrain1 sound\thunder.wav NULL NULL 0 0 0
+10081 1 ArrowStorm31 1 0 0 0 0 0 30160 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10082 700 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 arrowrain2 sound\thunder.wav NULL NULL 0 0 0
+10082 1 ArrowStorm32 1 0 0 0 0 0 30170 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10083 700 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 arrowrain3 sound\thunder.wav NULL NULL 0 0 0
+10083 1 ArrowStorm33 1 0 0 0 0 0 30200 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 700 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 arrowrain3 sound\thunder.wav NULL NULL 0 0 0
+
+
+10100 16 Rocket0 1 0 0 8 0 0 30100 0 100 0 0 15 128 0 0 0 0 0 0 4 0 0 0 0 0 1 0 10110 600 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 m-bomb sound\thunder.wav NULL huojian 0 0 0
+10101 16 Rocket1 1 0 0 8 0 0 30100 0 100 0 0 15 128 0 0 0 0 0 0 4 0 0 0 0 0 1 0 10111 600 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 m-bomb sound\thunder.wav NULL huojian 0 0 0
+10102 16 Rocket2 1 0 0 8 0 0 30100 0 100 0 0 15 128 0 0 0 0 0 0 4 0 0 0 0 0 1 0 10112 600 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 m-bomb sound\thunder.wav NULL huojian 0 0 0
+10103 16 Rocket3 1 0 0 8 0 0 30100 0 100 0 0 15 128 0 0 0 0 0 0 4 0 0 0 0 0 1 0 10113 600 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 m-bomb sound\thunder.wav NULL huojian 0 0 0
+
+10110 1 Rocket10 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10120 600 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 m-bomb sound\thunder.wav NULL huojian 0 0 0
+10111 1 Rocket11 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10121 600 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 m-bomb sound\thunder.wav NULL huojian 0 0 0
+10113 1 Rocket13 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10123 600 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 m-bomb sound\thunder.wav NULL huojian 0 0 0
+
+10120 1 Rocket20 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10130 600 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 m-bomb sound\thunder.wav NULL huojian 0 0 0
+10121 1 Rocket21 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10131 600 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 m-bomb sound\thunder.wav NULL huojian 0 0 0
+10122 1 Rocket22 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10132 600 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 m-bomb sound\thunder.wav NULL huojian 0 0 0
+10123 1 Rocket23 1 0 0 0 0 0 30100 0 100 0 0 15 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 10133 600 2 401 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 m-bomb sound\thunder.wav NULL huojian 0 0 0
+
+10130 5 Rocket30 1 1 1 4 0 0 30030 0 100 0 10 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10140 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 thunder2 sound\magic028.wav NULL NULL 0 0 0
+10131 5 Rocket31 1 1 1 4 0 0 30040 0 100 0 12 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10141 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 thunder2 sound\magic028.wav NULL NULL 0 0 0
+10132 5 Rocket32 1 1 1 4 0 0 30050 0 100 0 14 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10142 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 thunder2 sound\magic028.wav NULL NULL 0 0 0
+10133 5 Rocket33 1 1 1 4 0 0 30060 0 100 0 16 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10143 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 thunder2 sound\magic028.wav NULL NULL 0 0 0
+
+10140 5 Rocket40 1 1 1 4 0 0 30030 0 100 0 10 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10150 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 thunder2 sound\magic028.wav NULL NULL 0 0 0
+10141 5 Rocket41 1 1 1 4 0 0 30040 0 100 0 12 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10151 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 thunder2 sound\magic028.wav NULL NULL 0 0 0
+10142 5 Rocket42 1 1 1 4 0 0 30050 0 100 0 14 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10152 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 thunder2 sound\magic028.wav NULL NULL 0 0 0
+10143 5 Rocket43 1 1 1 4 0 0 30060 0 100 0 16 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10153 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 thunder2 sound\magic028.wav NULL NULL 0 0 0
+
+10150 5 Rocket50 1 1 1 4 0 0 30030 0 100 0 10 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10160 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 bombarrow sound\magic028.wav NULL NULL 0 0 0
+10151 5 Rocket51 1 1 1 4 0 0 30040 0 100 0 12 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10161 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 bombarrow sound\magic028.wav NULL NULL 0 0 0
+10152 5 Rocket52 1 1 1 4 0 0 30050 0 100 0 14 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10162 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 bombarrow sound\magic028.wav NULL NULL 0 0 0
+10153 5 Rocket53 1 1 1 4 0 0 30060 0 100 0 16 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10163 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 bombarrow sound\magic028.wav NULL NULL 0 0 0
+
+10160 5 Rocket60 1 1 1 4 0 0 30030 0 100 0 12 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10170 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 bombarrow sound\magic028.wav NULL NULL 0 0 0
+10161 5 Rocket61 1 1 1 4 0 0 30040 0 100 0 14 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10170 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 bombarrow sound\magic028.wav NULL NULL 0 0 0
+10162 5 Rocket62 1 1 1 4 0 0 30050 0 100 0 16 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10180 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 bombarrow sound\magic028.wav NULL NULL 0 0 0
+10163 5 Rocket63 1 1 1 4 0 0 30060 0 100 0 18 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10180 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 bombarrow sound\magic028.wav NULL NULL 0 0 0
+
+10170 5 Rocket70 1 1 1 4 0 0 30030 0 100 0 14 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10171 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 bombarrow sound\magic028.wav NULL NULL 0 0 0
+10171 5 Rocket71 1 1 1 4 0 0 30040 0 100 0 16 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10172 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 bombarrow sound\magic028.wav NULL NULL 0 0 0
+10172 5 Rocket72 1 1 1 4 0 0 30050 0 100 0 18 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10173 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL NULL NULL 0 bombarrow sound\blast.wav NULL NULL 0 0 0
+10173 5 Rocket73 1 1 1 4 0 0 30060 0 100 0 20 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL firemagic NULL 0 m-bomb sound\blast.wav NULL NULL 1 1 0
+
+10180 5 Rocket80 1 1 1 4 0 0 30040 0 100 0 20 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10181 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL firemagic NULL 0 m-bomb sound\blast.wav NULL NULL 0 0 0
+10181 5 Rocket81 1 1 1 4 0 0 30050 0 100 0 20 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10182 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL firemagic NULL 0 m-bomb sound\blast.wav NULL NULL 0 0 0
+10182 5 Rocket82 1 1 1 4 0 0 30060 0 100 0 20 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10183 600 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL firemagic NULL 0 m-bomb sound\blast.wav NULL NULL 1 0 0
+10183 5 Rocket83 1 1 1 4 0 0 30070 0 100 0 20 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 903 Upgrade~after~lvl~65 可以攻击身边4格内怪物 NULL NULL firemagic NULL 0 m-bomb sound\blast.wav NULL NULL 3 1 0
+
+
+
+7000 16 Seizer 1 1 0 8 0 0 30105 0 15 0 0 9 128 0 5000 30 2 430 0 4 0 0 0 0 0 1 0 7100 0 3 401 Upgrade~after~lvl~30 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7000 16 Seizer 1 1 0 8 1 0 30106 0 19 0 0 9 128 0 9000 40 2 430 0 4 0 0 0 0 0 1 0 7101 0 3 401 Upgrade~after~lvl~40 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7000 16 Seizer 1 1 0 8 2 0 30107 0 22 0 0 9 128 0 16000 50 2 430 0 4 0 0 0 0 0 1 0 7102 0 3 401 Upgrade~after~lvl~50 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7000 16 Seizer 1 1 0 8 3 0 30108 0 24 0 0 9 128 0 29000 60 2 430 0 4 0 0 0 0 0 1 0 7103 0 3 401 Upgrade~after~lvl~60 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7000 16 Seizer 1 1 0 8 4 0 30109 0 25 0 0 9 128 0 48000 70 2 430 0 4 0 0 0 0 0 1 0 7104 0 3 401 Upgrade~after~lvl~70 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7000 16 Seizer 1 1 0 8 5 0 30110 0 26 0 0 9 128 0 104000 80 2 430 0 4 0 0 0 0 0 1 0 7105 0 3 401 Upgrade~after~lvl~80 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7000 16 Seizer 1 1 0 8 6 0 30111 0 27 0 0 9 128 0 113000 90 2 430 0 4 0 0 0 0 0 1 0 7106 0 3 401 Upgrade~after~lvl~90 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7000 16 Seizer 1 1 0 8 7 0 30112 0 28 0 0 9 128 0 122000 100 2 430 0 4 0 0 0 0 0 1 0 7107 0 3 401 Upgrade~after~lvl~100 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7000 16 Seizer 1 1 0 8 8 0 30113 0 29 0 0 9 128 0 130000 110 2 430 0 4 0 0 0 0 0 1 0 7108 0 3 401 Upgrade~after~lvl~110 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7000 16 Seizer 1 1 0 8 9 0 30114 0 30 0 0 9 128 0 0 0 2 430 0 4 0 0 0 0 0 1 0 7109 0 3 401 Fixed 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+
+7030 16 Celestial  1 1 0 8 0 0 30110 0 10 0 0 9 128 0 5000 30 2 481 0 4 0 0 0 0 0 1 0 7130 0 3 401 Upgrade~after~lvl~30 一定几率攻击力增加，并且能引发中毒 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7030 16 Celestial  1 1 0 8 1 0 30112 0 11 0 0 9 128 0 9000 40 2 481 0 4 0 0 0 0 0 1 0 7131 0 3 401 Upgrade~after~lvl~40 一定几率攻击力增加，并且能引发中毒 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7030 16 Celestial  1 1 0 8 2 0 30114 0 12 0 0 9 128 0 16000 50 2 481 0 4 0 0 0 0 0 1 0 7132 0 3 401 Upgrade~after~lvl~50 一定几率攻击力增加，并且能引发中毒 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7030 16 Celestial  1 1 0 8 3 0 30116 0 13 0 0 9 128 0 29000 60 2 481 0 4 0 0 0 0 0 1 0 7133 0 3 401 Upgrade~after~lvl~60 一定几率攻击力增加，并且能引发中毒 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7030 16 Celestial  1 1 0 8 4 0 30118 0 14 0 0 9 128 0 48000 70 2 481 0 4 0 0 0 0 0 1 0 7134 0 3 401 Upgrade~after~lvl~70 一定几率攻击力增加，并且能引发中毒 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7030 16 Celestial  1 1 0 8 5 0 30120 0 15 0 0 9 128 0 104000 80 2 481 0 4 0 0 0 0 0 1 0 7135 0 3 401 Upgrade~after~lvl~80 一定几率攻击力增加，并且能引发中毒 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7030 16 Celestial  1 1 0 8 6 0 30122 0 16 0 0 9 128 0 113000 90 2 481 0 4 0 0 0 0 0 1 0 7136 0 3 401 Upgrade~after~lvl~90 一定几率攻击力增加，并且能引发中毒 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7030 16 Celestial  1 1 0 8 7 0 30124 0 17 0 0 9 128 0 122000 100 2 481 0 4 0 0 0 0 0 1 0 7137 0 3 401 Upgrade~after~lvl~100 一定几率攻击力增加，并且能引发中毒 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7030 16 Celestial  1 1 0 8 8 0 30126 0 18 0 0 9 128 0 130000 110 2 481 0 4 0 0 0 0 0 1 0 7138 0 3 401 Upgrade~after~lvl~110 一定几率攻击力增加，并且能引发中毒 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7030 16 Celestial  1 1 0 8 9 0 30128 0 19 0 0 9 128 0 0 0 2 481 0 4 0 0 0 0 0 1 0 7139 0 3 401 Fixed 一定几率攻击力增加，并且能引发中毒 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+
+7100 16 Seizer0 1 1 0 8 0 0 30110 0 100 0 0 15 128 0 0 0 2 430 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7101 16 Seizer1 1 1 0 8 0 0 30115 0 100 0 0 15 128 0 0 0 2 430 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7102 16 Seizer2 1 1 0 8 0 0 30119 0 100 0 0 15 128 0 0 0 2 430 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7103 16 Seizer3 1 1 0 8 0 0 30122 0 100 0 0 15 128 0 0 0 2 430 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7104 16 Seizer4 1 1 0 8 0 0 30125 0 100 0 0 15 128 0 0 0 2 430 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7105 16 Seizer5 1 1 0 8 0 0 30126 0 100 0 0 15 128 0 0 0 2 430 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7106 16 Seizer6 1 1 0 8 0 0 30127 0 100 0 0 15 128 0 0 0 2 430 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7107 16 Seizer7 1 1 0 8 0 0 30128 0 100 0 0 15 128 0 0 0 2 430 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7108 16 Seizer8 1 1 0 8 0 0 30129 0 100 0 0 15 128 0 0 0 2 430 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+7109 16 Seizer9 1 1 0 8 0 0 30130 0 100 0 0 15 128 0 0 0 2 430 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 一定几率攻击力增加 NULL NULL NULL NULL 0 mangle-1 sound\magic029.wav NULL NULL 0 0 0
+
+7010 16 Earthquake 1 1 0 8 0 0 6000 0 10 0 0 9 65536 0 200 30 2 450 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~30 一定几率让对方不能攻击 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+7010 16 Earthquake 1 1 0 8 1 0 6000 0 12 0 0 9 65536 0 300 40 2 450 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~40 一定几率让对方不能攻击 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+7010 16 Earthquake 1 1 0 8 2 0 7000 0 14 0 0 9 65536 0 400 50 2 450 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~50 一定几率让对方不能攻击 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+7010 16 Earthquake 1 1 0 8 3 0 7000 0 16 0 0 9 65536 0 500 60 2 450 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~60 一定几率让对方不能攻击 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+7010 16 Earthquake 1 1 0 8 4 0 8000 0 18 0 0 9 65536 0 600 70 2 450 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~70 一定几率让对方不能攻击 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+7010 16 Earthquake 1 1 0 8 5 0 8000 0 20 0 0 9 65536 0 700 80 2 450 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~80 一定几率让对方不能攻击 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+7010 16 Earthquake 1 1 0 8 6 0 9000 0 22 0 0 9 65536 0 800 90 2 450 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~90 一定几率让对方不能攻击 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+7010 16 Earthquake 1 1 0 8 7 0 9000 0 24 0 0 9 65536 0 900 100 2 450 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~100 一定几率让对方不能攻击 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+7010 16 Earthquake 1 1 0 8 8 0 10000 0 26 0 0 9 65536 0 1000 110 2 450 0 4 0 0 0 0 0 1 0 0 0 1 401 Upgrade~after~lvl~110 一定几率让对方不能攻击 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+7010 16 Earthquake 1 1 0 8 9 0 10000 0 28 0 0 9 65536 0 0 0 2 450 0 4 0 0 0 0 0 1 0 0 0 1 401 Fixed 一定几率让对方不能攻击 NULL NULL NULL NULL 0 lounder-1 sound\magic029.wav NULL NULL 0 0 0
+
+7020 5 Rage 1 1 1 8 0 0 30110 0 20 0 2 9 0 0 20243 30 2 561 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~30 一定几率攻击前后左右一定范围的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze1.tme NULL 0 0 0
+7020 5 Rage 1 1 1 8 1 0 30110 0 23 0 2 9 0 0 37056 40 2 561 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~40 一定几率攻击前后左右一定范围的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze1.tme NULL 0 0 0
+7020 5 Rage 1 1 1 8 2 0 30110 0 26 0 2 9 0 0 66011 50 2 561 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~50 一定几率攻击前后左右一定范围的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze1.tme NULL 0 0 0
+7020 5 Rage 1 1 1 8 3 0 30110 0 29 0 2 9 0 0 116140 60 2 561 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~60 一定几率攻击前后左右一定范围的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze1.tme NULL 0 0 0
+7020 5 Rage 1 1 1 8 4 0 30140 0 31 0 3 9 0 0 192800 70 2 561 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~70 一定几率攻击前后左右一定范围的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze1.tme NULL 0 0 0
+7020 5 Rage 1 1 1 8 5 0 30140 0 34 0 3 9 0 0 418030 80 2 561 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~80 一定几率攻击前后左右一定范围的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze1.tme NULL 0 0 0
+7020 5 Rage 1 1 1 8 6 0 30140 0 37 0 3 9 0 0 454350 90 2 561 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~90 一定几率攻击前后左右一定范围的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze1.tme NULL 0 0 0
+7020 5 Rage 1 1 1 8 7 0 30140 0 40 0 3 9 0 0 491200 100 2 561 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~100 一定几率攻击前后左右一定范围的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze1.tme NULL 0 0 0
+7020 5 Rage 1 1 1 8 8 0 30140 0 43 0 3 9 0 0 520030 110 2 561 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~110 一定几率攻击前后左右一定范围的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze1.tme NULL 0 0 0
+7020 5 Rage 1 1 1 8 9 0 30145 0 45 0 3 9 0 0 0 0 2 561 0 4 0 0 0 0 0 1 0 0 0 3 403 Fixed 一定几率攻击前后左右一定范围的敌人 NULL NULL NULL NULL 0 m-bomb sound\magic029.wav blaze1.tme NULL 0 0 0
+
+
+7130 16 Poison10 0 0 0 8 0 0 30001 0 100 2 0 15 4 0 0 0 0 0 15 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+7131 16 Poison11 0 0 0 8 0 0 30001 0 100 2 0 15 4 0 0 0 0 0 16 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+7132 16 Poison12 0 0 0 8 0 0 30001 0 100 2 0 15 4 0 0 0 0 0 17 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+7133 16 Poison13 0 0 0 8 0 0 30001 0 100 2 0 15 4 0 0 0 0 0 18 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+7134 16 Poison14 0 0 0 8 0 0 30001 0 100 2 0 15 4 0 0 0 0 0 19 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+7135 16 Poison15 0 0 0 8 0 0 30001 0 100 2 0 15 4 0 0 0 0 0 20 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+7136 16 Poison16 0 0 0 8 0 0 30002 0 100 2 0 15 4 0 0 0 0 0 17 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+7137 16 Poison17 0 0 0 8 0 0 30002 0 100 2 0 15 4 0 0 0 0 0 18 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+7138 16 Poison18 0 0 0 8 0 0 30002 0 100 2 0 15 4 0 0 0 0 0 19 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+7139 16 Poison19 0 0 0 8 0 0 30002 0 100 2 0 15 4 0 0 0 0 0 20 4 0 0 0 0 0 1 0 0 0 1 300 Fixed 可以攻击身体前方扇形区域的敌人 NULL NULL NULL NULL 0 NULL NULL NULL NULL 0 0 0
+
+
+
+7040 4 Roamer 1 1 0 8 0 0 30090 0 20 0 4 9 0 0 20243 30 2 440 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~30 一定几率攻击身前一定范围敌人 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector3.tme NULL 0 0 0
+7040 4 Roamer 1 1 0 8 1 0 30092 0 23 0 4 9 0 0 37056 40 2 440 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~40 一定几率攻击身前一定范围敌人 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector3.tme NULL 0 0 0
+7040 4 Roamer 1 1 0 8 2 0 30094 0 26 0 4 9 0 0 66011 50 2 440 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lv~50 一定几率攻击身前一定范围敌人 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector3.tme NULL 0 0 0
+7040 4 Roamer 1 1 0 8 3 0 30096 0 29 0 4 9 0 0 116140 60 2 440 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~60 一定几率攻击身前一定范围敌人 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector3.tme NULL 0 0 0
+7040 4 Roamer 1 1 0 8 4 0 30098 0 32 0 4 9 0 0 192800 70 2 440 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~70 一定几率攻击身前一定范围敌人 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector3.tme NULL 0 0 0
+7040 4 Roamer 1 1 0 8 5 0 30100 0 35 0 4 9 0 0 418030 80 2 440 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~80 一定几率攻击身前一定范围敌人 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector3.tme NULL 0 0 0
+7040 4 Roamer 1 1 0 8 6 0 30102 0 38 0 5 9 0 0 454350 90 2 440 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~90 一定几率攻击身前一定范围敌人 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector3.tme NULL 0 0 0
+7040 4 Roamer 1 1 0 8 7 0 30104 0 41 0 5 9 0 0 491200 100 2 440 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~100 一定几率攻击身前一定范围敌人 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector3.tme NULL 0 0 0
+7040 4 Roamer 1 1 0 8 8 0 30106 0 43 0 5 9 0 0 520030 110 2 440 0 4 0 0 0 0 0 1 0 0 0 3 401 Upgrade~after~lvl~110 一定几率攻击身前一定范围敌人 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector3.tme NULL 0 0 0
+7040 4 Roamer 1 1 0 8 9 0 30108 0 45 0 5 9 0 0 0 0 2 440 0 4 0 0 0 0 0 1 0 0 0 3 401 Fixed 一定几率攻击身前一定范围敌人 NULL NULL NULL NULL 0 fireball-bomb2 sound\magic029.wav sector3.tme NULL 0 0 0
+
+
+3000 1 HumanMessenger 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3001 1 WingedSnakeMsgr 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3002 1 BanditMessenger 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3003 1 RatMessenger 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3004 1 ElfMessenger 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3005 1 MonkeyMessenger 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3006 1 GiantApeMsgr 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3007 1 ThunderApeMsgr 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3008 1 SnakemanMsgr 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3009 1 SandMonsterMsgr 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3010 1 HillMonsterMsgr 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3011 1 RockMonsterMsgr 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3012 1 BladeGhostMsgr 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3013 1 BirdmanMsgr 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3014 1 HawMsgr 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3015 1 BanditMessenger 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3016 1 BatMessenger 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3017 1 BloodyBatMsgr 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3018 1 BullMessenger 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+3019 1 DevilMessenger 1 0 0 0 0 0 0 0 100 0 0 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 903 Fixed 魔法攻击力86 Intone-1 NULL NULL NULL 0 Thunder sound\thunder.wav NULL NULL 0 0 0
+

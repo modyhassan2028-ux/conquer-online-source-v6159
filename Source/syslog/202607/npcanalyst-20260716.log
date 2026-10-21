@@ -1,0 +1,69 @@
+Conquer Online NPC Server - test - Dec  4 2015 14:01:42
+Server started at 2026-07-16 16:18:35
+Current time is 2026-07-16 16:18:35
+Server has been running for 0 day(s) and 00:00:00
+
+20260716:161835.973 f:\version\cqserver-78.0.11-1204\analyst\analyst.cpp
+20260716:162752.502 f:\version\cqserver-78.0.11-1204\analyst\analyst.cpp
+20260716:163252.037 CLogThread OnProcess, cnt=317, tot=224ms, avg=0.71ms, max=85ms
+20260716:163252.049 `-CLogThread ProcessMsg, cnt=32, tot=224ms, avg=7.00ms, max=16ms
+20260716:163252.059 CKernelThread::OnProcess, cnt=11688, tot=21312ms, avg=1.82ms, max=54ms
+20260716:163252.063 |-READMSG, cnt=16689, tot=3729ms, avg=0.22ms, max=39ms
+20260716:163252.074 | |-CNpcWorld::ProcessMsg, cnt=42344, tot=3703ms, avg=0.09ms, max=12ms
+20260716:163252.085 |-EVENTMSG, cnt=6, tot=1ms, avg=0.17ms, max=1ms
+20260716:163252.097 `-CNpcWorld::OnTimer, cnt=2922, tot=17568ms, avg=6.01ms, max=54ms
+20260716:163252.107   `-NpcManager::OnTimer, cnt=2693, tot=17383ms, avg=6.45ms, max=54ms
+20260716:163252.119     |-CNpcGenerator::DoGenerator, cnt=11653569, tot=11215ms, avg=0.00ms, max=44ms
+20260716:163252.130     | `-CNpcGenerator::Generator, cnt=315470, tot=3897ms, avg=0.01ms, max=44ms
+20260716:163252.143     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163252.156 CNpcWorld::SendMsg, cnt=42388, tot=3618ms, avg=0.09ms, max=15ms
+20260716:163752.033 CLogThread OnProcess, cnt=301, tot=159ms, avg=0.53ms, max=159ms
+20260716:163752.033 `-CLogThread ProcessMsg, cnt=14, tot=159ms, avg=11.36ms, max=15ms
+20260716:163752.044 CKernelThread::OnProcess, cnt=11183, tot=17366ms, avg=1.55ms, max=34ms
+20260716:163752.056 |-READMSG, cnt=1453, tot=227ms, avg=0.16ms, max=4ms
+20260716:163752.067 | |-CNpcWorld::ProcessMsg, cnt=1695, tot=224ms, avg=0.13ms, max=4ms
+20260716:163752.078 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163752.089 `-CNpcWorld::OnTimer, cnt=3000, tot=17136ms, avg=5.71ms, max=34ms
+20260716:163752.100   `-NpcManager::OnTimer, cnt=3000, tot=16910ms, avg=5.64ms, max=34ms
+20260716:163752.112     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=9162ms, avg=0.00ms, max=29ms
+20260716:163752.124     | `-CNpcGenerator::Generator, cnt=345874, tot=649ms, avg=0.00ms, max=17ms
+20260716:163752.135     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:163752.148 CNpcWorld::SendMsg, cnt=1695, tot=456ms, avg=0.27ms, max=17ms
+20260716:164216.688 f:\version\cqserver-78.0.11-1204\analyst\analyst.cpp
+20260716:164716.267 CLogThread OnProcess, cnt=323, tot=165ms, avg=0.51ms, max=79ms
+20260716:164716.267 `-CLogThread ProcessMsg, cnt=37, tot=165ms, avg=4.46ms, max=17ms
+20260716:164716.267 CKernelThread::OnProcess, cnt=11048, tot=6123ms, avg=0.55ms, max=33ms
+20260716:164716.282 |-READMSG, cnt=22470, tot=2618ms, avg=0.12ms, max=32ms
+20260716:164716.282 | |-CNpcWorld::ProcessMsg, cnt=44147, tot=2603ms, avg=0.06ms, max=16ms
+20260716:164716.282 |-EVENTMSG, cnt=10, tot=0ms, avg=0.00ms, max=0ms
+20260716:164716.282 `-CNpcWorld::OnTimer, cnt=2862, tot=3475ms, avg=1.21ms, max=33ms
+20260716:164716.298   `-NpcManager::OnTimer, cnt=2559, tot=3273ms, avg=1.28ms, max=33ms
+20260716:164716.298     |-CNpcGenerator::DoGenerator, cnt=11043996, tot=2204ms, avg=0.00ms, max=23ms
+20260716:164716.314     | `-CNpcGenerator::Generator, cnt=297819, tot=1449ms, avg=0.00ms, max=23ms
+20260716:164716.329     `-CNpc::OnTimer, cnt=53168, tot=15ms, avg=0.00ms, max=15ms
+20260716:164716.345 CNpcWorld::SendMsg, cnt=43423, tot=1401ms, avg=0.03ms, max=16ms
+20260716:165216.297 CLogThread OnProcess, cnt=302, tot=94ms, avg=0.31ms, max=94ms
+20260716:165216.313 `-CLogThread ProcessMsg, cnt=14, tot=94ms, avg=6.71ms, max=16ms
+20260716:165216.313 CKernelThread::OnProcess, cnt=9286, tot=3231ms, avg=0.35ms, max=63ms
+20260716:165216.329 |-READMSG, cnt=4147, tot=282ms, avg=0.07ms, max=16ms
+20260716:165216.344 | |-CNpcWorld::ProcessMsg, cnt=5064, tot=282ms, avg=0.06ms, max=16ms
+20260716:165216.360 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165216.360 `-CNpcWorld::OnTimer, cnt=3000, tot=2949ms, avg=0.98ms, max=63ms
+20260716:165216.375   `-NpcManager::OnTimer, cnt=3000, tot=2791ms, avg=0.93ms, max=63ms
+20260716:165216.391     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=992ms, avg=0.00ms, max=16ms
+20260716:165216.407     | `-CNpcGenerator::Generator, cnt=342934, tot=47ms, avg=0.00ms, max=16ms
+20260716:165216.422     `-CNpc::OnTimer, cnt=79755, tot=48ms, avg=0.00ms, max=16ms
+20260716:165216.438 CNpcWorld::SendMsg, cnt=3277, tot=48ms, avg=0.01ms, max=16ms
+20260716:165716.312 CLogThread OnProcess, cnt=302, tot=157ms, avg=0.52ms, max=141ms
+20260716:165716.312 `-CLogThread ProcessMsg, cnt=14, tot=157ms, avg=11.21ms, max=16ms
+20260716:165716.328 CKernelThread::OnProcess, cnt=8875, tot=2931ms, avg=0.33ms, max=34ms
+20260716:165716.328 |-READMSG, cnt=3397, tot=203ms, avg=0.06ms, max=16ms
+20260716:165716.343 | |-CNpcWorld::ProcessMsg, cnt=3889, tot=187ms, avg=0.05ms, max=16ms
+20260716:165716.359 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260716:165716.375 `-CNpcWorld::OnTimer, cnt=3000, tot=2728ms, avg=0.91ms, max=34ms
+20260716:165716.390   `-NpcManager::OnTimer, cnt=3000, tot=2542ms, avg=0.85ms, max=31ms
+20260716:165716.390     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=329ms, avg=0.00ms, max=16ms
+20260716:165716.390     | `-CNpcGenerator::Generator, cnt=342362, tot=16ms, avg=0.00ms, max=16ms
+20260716:165716.390     `-CNpc::OnTimer, cnt=110961, tot=133ms, avg=0.00ms, max=23ms
+20260716:165716.390 CNpcWorld::SendMsg, cnt=2656, tot=86ms, avg=0.03ms, max=23ms
+20260716:170717.765 f:\version\cqserver-78.0.11-1204\analyst\analyst.cpp

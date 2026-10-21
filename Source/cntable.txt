@@ -1,0 +1,17 @@
+#ifndef CN_RES_H
+#define CN_RES_H
+//---------------------------------------------------------------------------
+
+#define	TABLE_USER		"cq_user"
+#define TABLE_ITEM           "cq_item"
+#define TABLE_FAMILY		"family"
+#define TABLE_DYNA_RANK_TYPE           "cq_dyna_rank_type"
+#define TABLE_DYNA_RANK_REC           "cq_dyna_rank_rec"
+#define TABLE_FAMILY        "family"
+#define TABLE_FAMILY_MEMBER    "family_attr"
+#define TABLE_FAMILY_BATTLE_EFFECT "family_battle_effect_share_limit"
+
+//----------------------------------------------------------------------------
+#define TABLE_END	"最后一条STR"
+
+#endif

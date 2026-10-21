@@ -1,0 +1,118 @@
+Conqer Cross Server - CS_1 - Dec  4 2015 14:01:00
+Server started at 2026-07-12 06:28:10
+Current time is 2026-07-12 06:28:10
+Server has been running for 0 day(s) and 00:00:00
+
+20260712:062810.486 f:\version\cqserver-78.0.11-1204\analyst\analyst.cpp
+20260712:063310.270 CLogThread OnProcess, cnt=301, tot=574ms, avg=1.91ms, max=542ms
+20260712:063310.270 `-CLogThread ProcessMsg, cnt=35, tot=574ms, avg=16.40ms, max=38ms
+20260712:063310.286 CAsyncDBThread::OnProcess, cnt=297, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.302 | |-CAsyncDBThread mysql_query, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.317 | |-CDatabase::ExcuteMySQL update, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.333 | |-CDatabase::ExcuteMySQL delete, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.364 | |-CDatabase::ExcuteMySQL other, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.380 CDatabase::ExcuteMySQL insert, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.380 CDatabase::ExecuteSyncSQL, cnt=5, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.411 CDatabase::ExcuteMySQL select, cnt=5, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.411 CRecord::Insert failure, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.427 CAsyncDBThread WaitMsg, cnt=297, tot=299010ms, avg=1006.77ms, max=1031ms
+20260712:063310.442 CCSKernelThread::OnProcess, cnt=1794, tot=1ms, avg=0.00ms, max=1ms
+20260712:063310.458 |-CCSKernelThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.473 | |-ProcessMsg NETMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.490 | |-ProcessMsg SERVERNAME, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.505 | |-ProcessMsg CHECKCONNECT, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.520 | |-ProcessMsg CLOSEKERNEL, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.552 |-CCrossServerKernel::OnTimer, cnt=1794, tot=1ms, avg=0.00ms, max=1ms
+20260712:063310.552   |-CCountrySysMgr::OnTimer, cnt=598, tot=1ms, avg=0.00ms, max=1ms
+20260712:063310.567 CSocketThread::OnProcess, cnt=299, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.583 |-CSocketThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.598 | |-CONNECTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.614 | |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.630 | | |-CLIENTMULTIMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.645 | |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.661 `-CSocketKernel::OnTimer, cnt=299, tot=0ms, avg=0.00ms, max=0ms
+20260712:063310.677 CSocketKernel::CompletionRoutine, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.327 CLogThread OnProcess, cnt=302, tot=438ms, avg=1.45ms, max=438ms
+20260712:063810.327 `-CLogThread ProcessMsg, cnt=30, tot=438ms, avg=14.60ms, max=32ms
+20260712:063810.343 CAsyncDBThread::OnProcess, cnt=299, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.358 | |-CAsyncDBThread mysql_query, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.374 | |-CDatabase::ExcuteMySQL update, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.390 | |-CDatabase::ExcuteMySQL delete, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.405 | |-CDatabase::ExcuteMySQL other, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.421 CDatabase::ExcuteMySQL insert, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.452 CDatabase::ExecuteSyncSQL, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.468 CDatabase::ExcuteMySQL select, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.483 CRecord::Insert failure, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.499 CAsyncDBThread WaitMsg, cnt=299, tot=300665ms, avg=1005.57ms, max=1032ms
+20260712:063810.515 CCSKernelThread::OnProcess, cnt=1797, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.530 |-CCSKernelThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.547 | |-ProcessMsg NETMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.561 | |-ProcessMsg SERVERNAME, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.577 | |-ProcessMsg CHECKCONNECT, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.608 | |-ProcessMsg CLOSEKERNEL, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.608 |-CCrossServerKernel::OnTimer, cnt=1797, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.624   |-CCountrySysMgr::OnTimer, cnt=599, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.640 CSocketThread::OnProcess, cnt=300, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.655 |-CSocketThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.671 | |-CONNECTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.686 | |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.702 | | |-CLIENTMULTIMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.733 | |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.749 `-CSocketKernel::OnTimer, cnt=300, tot=0ms, avg=0.00ms, max=0ms
+20260712:063810.749 CSocketKernel::CompletionRoutine, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.187 CLogThread OnProcess, cnt=301, tot=2516ms, avg=8.36ms, max=2516ms
+20260712:064310.187 `-CLogThread ProcessMsg, cnt=155, tot=2516ms, avg=16.23ms, max=32ms
+20260712:064310.187 CAsyncDBThread::OnProcess, cnt=297, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.203 | |-CAsyncDBThread mysql_query, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.218 | |-CDatabase::ExcuteMySQL update, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.234 | |-CDatabase::ExcuteMySQL delete, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.249 | |-CDatabase::ExcuteMySQL other, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.265 CDatabase::ExcuteMySQL insert, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.281 CDatabase::ExecuteSyncSQL, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.296 CDatabase::ExcuteMySQL select, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.312 CRecord::Insert failure, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.328 CAsyncDBThread WaitMsg, cnt=297, tot=298953ms, avg=1006.58ms, max=1041ms
+20260712:064310.343 CCSKernelThread::OnProcess, cnt=1795, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.359 |-CCSKernelThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.374 | |-ProcessMsg NETMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.390 | |-ProcessMsg SERVERNAME, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.406 | |-ProcessMsg CHECKCONNECT, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.421 | |-ProcessMsg CLOSEKERNEL, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.437 |-CCrossServerKernel::OnTimer, cnt=1795, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.453   |-CCountrySysMgr::OnTimer, cnt=599, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.468 CSocketThread::OnProcess, cnt=300, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.484 |-CSocketThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.515 | |-CONNECTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.546 | |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.562 | | |-CLIENTMULTIMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.578 | |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.578 `-CSocketKernel::OnTimer, cnt=300, tot=0ms, avg=0.00ms, max=0ms
+20260712:064310.593 CSocketKernel::CompletionRoutine, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064811.871 CLogThread OnProcess, cnt=310, tot=454ms, avg=1.46ms, max=422ms
+20260712:064811.871 `-CLogThread ProcessMsg, cnt=40, tot=454ms, avg=11.35ms, max=31ms
+20260712:064811.887 CAsyncDBThread::OnProcess, cnt=301, tot=0ms, avg=0.00ms, max=0ms
+20260712:064811.903 | |-CAsyncDBThread mysql_query, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064811.933 | |-CDatabase::ExcuteMySQL update, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064811.935 | |-CDatabase::ExcuteMySQL delete, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064811.951 | |-CDatabase::ExcuteMySQL other, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064811.967 CDatabase::ExcuteMySQL insert, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064811.983 CDatabase::ExecuteSyncSQL, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064811.999 CDatabase::ExcuteMySQL select, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.015 CRecord::Insert failure, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.031 CAsyncDBThread WaitMsg, cnt=301, tot=302607ms, avg=1005.34ms, max=1057ms
+20260712:064812.058 CCSKernelThread::OnProcess, cnt=1785, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.072 |-CCSKernelThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.078 | |-ProcessMsg NETMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.094 | |-ProcessMsg SERVERNAME, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.110 | |-ProcessMsg CHECKCONNECT, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.126 | |-ProcessMsg CLOSEKERNEL, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.142 |-CCrossServerKernel::OnTimer, cnt=1785, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.158   |-CCountrySysMgr::OnTimer, cnt=595, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.158 CSocketThread::OnProcess, cnt=299, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.183 |-CSocketThread ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.190 | |-CONNECTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.214 | |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.222 | | |-CLIENTMULTIMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.237 | |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.254 `-CSocketKernel::OnTimer, cnt=299, tot=0ms, avg=0.00ms, max=0ms
+20260712:064812.269 CSocketKernel::CompletionRoutine, cnt=0, tot=0ms, avg=0.00ms, max=0ms

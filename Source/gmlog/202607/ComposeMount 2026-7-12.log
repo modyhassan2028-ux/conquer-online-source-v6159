@@ -1,0 +1,4 @@
+test55(1000011) ComposeItem [id=208, type=300000, addition_level=12, addlevel_exp=2240] spend:[id=256, type=300000, addition_level=6, addlevel_exp=0], dur=100, max_dur=100 -- 20260712:083123.122
+test55(1000011) ComposeItem [id=208, type=300000, addition_level=12, addlevel_exp=5480] spend:[id=260, type=300000, addition_level=6, addlevel_exp=0], dur=100, max_dur=100 -- 20260712:083123.122
+Chainz(1000012) ComposeItem [id=688, type=300000, addition_level=3, addlevel_exp=0] spend:[id=689, type=300000, addition_level=1, addlevel_exp=0], dur=100, max_dur=100 -- 20260712:194449.203
+Chainz(1000012) ComposeItem [id=688, type=300000, addition_level=3, addlevel_exp=10] spend:[id=830, type=300000, addition_level=1, addlevel_exp=0], dur=100, max_dur=100 -- 20260712:194449.203

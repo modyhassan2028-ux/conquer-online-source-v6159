@@ -1,0 +1,2323 @@
+Conquer Online NPC Server - Epoch - Dec  4 2015 14:01:42
+Server started at 2026-07-12 06:29:08
+Current time is 2026-07-12 06:29:09
+Server has been running for 0 day(s) and 00:00:01
+
+20260712:062909.402 f:\version\cqserver-78.0.11-1204\analyst\analyst.cpp
+20260712:063409.168 CLogThread OnProcess, cnt=313, tot=235ms, avg=0.75ms, max=104ms
+20260712:063409.168 `-CLogThread ProcessMsg, cnt=27, tot=235ms, avg=8.70ms, max=32ms
+20260712:063409.168 CKernelThread::OnProcess, cnt=11214, tot=7907ms, avg=0.71ms, max=63ms
+20260712:063409.200 |-READMSG, cnt=18589, tot=4218ms, avg=0.23ms, max=48ms
+20260712:063409.216 | |-CNpcWorld::ProcessMsg, cnt=49918, tot=4203ms, avg=0.08ms, max=32ms
+20260712:063409.232 |-EVENTMSG, cnt=3, tot=0ms, avg=0.00ms, max=0ms
+20260712:063409.247 `-CNpcWorld::OnTimer, cnt=2888, tot=3652ms, avg=1.26ms, max=32ms
+20260712:063409.247   `-NpcManager::OnTimer, cnt=2700, tot=3376ms, avg=1.25ms, max=32ms
+20260712:063409.263     |-CNpcGenerator::DoGenerator, cnt=11686886, tot=1089ms, avg=0.00ms, max=19ms
+20260712:063409.278     | `-CNpcGenerator::Generator, cnt=311507, tot=592ms, avg=0.00ms, max=19ms
+20260712:063409.294     `-CNpc::OnTimer, cnt=92016, tot=339ms, avg=0.00ms, max=31ms
+20260712:063409.294 CNpcWorld::SendMsg, cnt=44790, tot=747ms, avg=0.02ms, max=31ms
+20260712:063909.535 CLogThread OnProcess, cnt=303, tot=142ms, avg=0.47ms, max=142ms
+20260712:063909.535 `-CLogThread ProcessMsg, cnt=14, tot=142ms, avg=10.14ms, max=33ms
+20260712:063909.550 CKernelThread::OnProcess, cnt=9270, tot=2464ms, avg=0.27ms, max=32ms
+20260712:063909.550 |-READMSG, cnt=3758, tot=221ms, avg=0.06ms, max=17ms
+20260712:063909.566 | |-CNpcWorld::ProcessMsg, cnt=4982, tot=221ms, avg=0.04ms, max=17ms
+20260712:063909.597 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:063909.597 `-CNpcWorld::OnTimer, cnt=3003, tot=2212ms, avg=0.74ms, max=32ms
+20260712:063909.613   `-NpcManager::OnTimer, cnt=3003, tot=2041ms, avg=0.68ms, max=32ms
+20260712:063909.629     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=203ms, avg=0.00ms, max=16ms
+20260712:063909.644     | `-CNpcGenerator::Generator, cnt=340380, tot=9ms, avg=0.00ms, max=9ms
+20260712:063909.660     `-CNpc::OnTimer, cnt=69456, tot=47ms, avg=0.00ms, max=16ms
+20260712:063909.675 CNpcWorld::SendMsg, cnt=3253, tot=41ms, avg=0.01ms, max=16ms
+20260712:064409.151 CLogThread OnProcess, cnt=301, tot=172ms, avg=0.57ms, max=156ms
+20260712:064409.151 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=32ms
+20260712:064409.166 CKernelThread::OnProcess, cnt=8374, tot=2972ms, avg=0.35ms, max=31ms
+20260712:064409.182 |-READMSG, cnt=1827, tot=169ms, avg=0.09ms, max=17ms
+20260712:064409.182 | |-CNpcWorld::ProcessMsg, cnt=2433, tot=153ms, avg=0.06ms, max=17ms
+20260712:064409.198 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:064409.229 `-CNpcWorld::OnTimer, cnt=2996, tot=2803ms, avg=0.94ms, max=31ms
+20260712:064409.229   `-NpcManager::OnTimer, cnt=2997, tot=2600ms, avg=0.87ms, max=31ms
+20260712:064409.245     |-CNpcGenerator::DoGenerator, cnt=13675311, tot=229ms, avg=0.00ms, max=17ms
+20260712:064409.260     | `-CNpcGenerator::Generator, cnt=339013, tot=0ms, avg=0.00ms, max=0ms
+20260712:064409.276     `-CNpc::OnTimer, cnt=33030, tot=106ms, avg=0.00ms, max=16ms
+20260712:064409.307 CNpcWorld::SendMsg, cnt=1352, tot=76ms, avg=0.06ms, max=16ms
+20260712:065223.214 f:\version\cqserver-78.0.11-1204\analyst\analyst.cpp
+20260712:065723.409 CLogThread OnProcess, cnt=322, tot=314ms, avg=0.98ms, max=111ms
+20260712:065723.409 `-CLogThread ProcessMsg, cnt=36, tot=314ms, avg=8.72ms, max=62ms
+20260712:065723.425 CKernelThread::OnProcess, cnt=12843, tot=9079ms, avg=0.71ms, max=63ms
+20260712:065723.440 |-READMSG, cnt=17944, tot=5216ms, avg=0.29ms, max=63ms
+20260712:065723.456 | |-CNpcWorld::ProcessMsg, cnt=64567, tot=5168ms, avg=0.08ms, max=20ms
+20260712:065723.456 |-EVENTMSG, cnt=8, tot=0ms, avg=0.00ms, max=0ms
+20260712:065723.471 `-CNpcWorld::OnTimer, cnt=2937, tot=3832ms, avg=1.30ms, max=31ms
+20260712:065723.487   `-NpcManager::OnTimer, cnt=2662, tot=3707ms, avg=1.39ms, max=31ms
+20260712:065723.503     |-CNpcGenerator::DoGenerator, cnt=11512606, tot=467ms, avg=0.00ms, max=17ms
+20260712:065723.518     | `-CNpcGenerator::Generator, cnt=307418, tot=40ms, avg=0.00ms, max=15ms
+20260712:065723.534     `-CNpc::OnTimer, cnt=336024, tot=343ms, avg=0.00ms, max=16ms
+20260712:065723.550 CNpcWorld::SendMsg, cnt=49236, tot=213ms, avg=0.00ms, max=16ms
+20260712:070223.587 CLogThread OnProcess, cnt=302, tot=156ms, avg=0.52ms, max=156ms
+20260712:070223.587 `-CLogThread ProcessMsg, cnt=14, tot=156ms, avg=11.14ms, max=16ms
+20260712:070223.602 CKernelThread::OnProcess, cnt=13283, tot=19924ms, avg=1.50ms, max=64ms
+20260712:070223.602 |-READMSG, cnt=10634, tot=1248ms, avg=0.12ms, max=23ms
+20260712:070223.618 | |-CNpcWorld::ProcessMsg, cnt=22030, tot=1198ms, avg=0.05ms, max=16ms
+20260712:070223.634 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:070223.649 `-CNpcWorld::OnTimer, cnt=3001, tot=18650ms, avg=6.21ms, max=64ms
+20260712:070223.665   `-NpcManager::OnTimer, cnt=3001, tot=18381ms, avg=6.12ms, max=64ms
+20260712:070223.680     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=8481ms, avg=0.00ms, max=16ms
+20260712:070223.696     | `-CNpcGenerator::Generator, cnt=340310, tot=397ms, avg=0.00ms, max=16ms
+20260712:070223.712     `-CNpc::OnTimer, cnt=422892, tot=1220ms, avg=0.00ms, max=16ms
+20260712:070223.728 CNpcWorld::SendMsg, cnt=9361, tot=645ms, avg=0.07ms, max=9ms
+20260712:070723.158 CLogThread OnProcess, cnt=301, tot=172ms, avg=0.57ms, max=156ms
+20260712:070723.159 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=16ms
+20260712:070723.173 CKernelThread::OnProcess, cnt=11505, tot=15192ms, avg=1.32ms, max=33ms
+20260712:070723.187 |-READMSG, cnt=5737, tot=367ms, avg=0.06ms, max=16ms
+20260712:070723.204 | |-CNpcWorld::ProcessMsg, cnt=9610, tot=295ms, avg=0.03ms, max=16ms
+20260712:070723.225 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:070723.239 `-CNpcWorld::OnTimer, cnt=2996, tot=14806ms, avg=4.94ms, max=33ms
+20260712:070723.254   `-NpcManager::OnTimer, cnt=2996, tot=14556ms, avg=4.86ms, max=33ms
+20260712:070723.269     |-CNpcGenerator::DoGenerator, cnt=13670748, tot=6474ms, avg=0.00ms, max=16ms
+20260712:070723.287     | `-CNpcGenerator::Generator, cnt=339069, tot=265ms, avg=0.00ms, max=8ms
+20260712:070723.306     `-CNpc::OnTimer, cnt=135326, tot=578ms, avg=0.00ms, max=17ms
+20260712:070723.320 CNpcWorld::SendMsg, cnt=3762, tot=415ms, avg=0.11ms, max=17ms
+20260712:071223.412 CLogThread OnProcess, cnt=303, tot=195ms, avg=0.64ms, max=179ms
+20260712:071223.412 `-CLogThread ProcessMsg, cnt=14, tot=195ms, avg=13.93ms, max=21ms
+20260712:071223.428 CKernelThread::OnProcess, cnt=10413, tot=12202ms, avg=1.17ms, max=49ms
+20260712:071223.444 |-READMSG, cnt=5226, tot=607ms, avg=0.12ms, max=16ms
+20260712:071223.459 | |-CNpcWorld::ProcessMsg, cnt=10787, tot=579ms, avg=0.05ms, max=16ms
+20260712:071223.459 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:071223.475 `-CNpcWorld::OnTimer, cnt=3003, tot=11585ms, avg=3.86ms, max=49ms
+20260712:071223.490   `-NpcManager::OnTimer, cnt=3003, tot=11365ms, avg=3.78ms, max=49ms
+20260712:071223.506     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=4750ms, avg=0.00ms, max=18ms
+20260712:071223.522     | `-CNpcGenerator::Generator, cnt=339669, tot=161ms, avg=0.00ms, max=17ms
+20260712:071223.553     `-CNpc::OnTimer, cnt=258929, tot=750ms, avg=0.00ms, max=16ms
+20260712:071223.569 CNpcWorld::SendMsg, cnt=4985, tot=393ms, avg=0.08ms, max=17ms
+20260712:071723.224 CLogThread OnProcess, cnt=302, tot=171ms, avg=0.57ms, max=171ms
+20260712:071723.224 `-CLogThread ProcessMsg, cnt=14, tot=171ms, avg=12.21ms, max=31ms
+20260712:071723.240 CKernelThread::OnProcess, cnt=7796, tot=2552ms, avg=0.33ms, max=31ms
+20260712:071723.256 |-READMSG, cnt=204, tot=30ms, avg=0.15ms, max=16ms
+20260712:071723.271 | |-CNpcWorld::ProcessMsg, cnt=245, tot=30ms, avg=0.12ms, max=16ms
+20260712:071723.287 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:071723.302 `-CNpcWorld::OnTimer, cnt=2998, tot=2522ms, avg=0.84ms, max=31ms
+20260712:071723.334   `-NpcManager::OnTimer, cnt=2998, tot=2321ms, avg=0.77ms, max=31ms
+20260712:071723.349     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=280ms, avg=0.00ms, max=16ms
+20260712:071723.365     | `-CNpcGenerator::Generator, cnt=338874, tot=2ms, avg=0.00ms, max=2ms
+20260712:071723.381     `-CNpc::OnTimer, cnt=232, tot=0ms, avg=0.00ms, max=0ms
+20260712:071723.396 CNpcWorld::SendMsg, cnt=243, tot=2ms, avg=0.01ms, max=2ms
+20260712:072223.209 CLogThread OnProcess, cnt=301, tot=204ms, avg=0.68ms, max=188ms
+20260712:072223.209 `-CLogThread ProcessMsg, cnt=14, tot=204ms, avg=14.57ms, max=31ms
+20260712:072223.224 CKernelThread::OnProcess, cnt=7774, tot=3258ms, avg=0.42ms, max=47ms
+20260712:072223.240 |-READMSG, cnt=199, tot=15ms, avg=0.08ms, max=15ms
+20260712:072223.255 | |-CNpcWorld::ProcessMsg, cnt=211, tot=15ms, avg=0.07ms, max=15ms
+20260712:072223.271 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:072223.287 `-CNpcWorld::OnTimer, cnt=3000, tot=3243ms, avg=1.08ms, max=47ms
+20260712:072223.302   `-NpcManager::OnTimer, cnt=3000, tot=3023ms, avg=1.01ms, max=36ms
+20260712:072223.334     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=326ms, avg=0.00ms, max=31ms
+20260712:072223.349     | `-CNpcGenerator::Generator, cnt=339092, tot=16ms, avg=0.00ms, max=16ms
+20260712:072223.365     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:072223.380 CNpcWorld::SendMsg, cnt=211, tot=0ms, avg=0.00ms, max=0ms
+20260712:072723.327 CLogThread OnProcess, cnt=303, tot=188ms, avg=0.62ms, max=188ms
+20260712:072723.327 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=31ms
+20260712:072723.343 CKernelThread::OnProcess, cnt=7791, tot=3399ms, avg=0.44ms, max=47ms
+20260712:072723.358 |-READMSG, cnt=138, tot=16ms, avg=0.12ms, max=16ms
+20260712:072723.374 | |-CNpcWorld::ProcessMsg, cnt=148, tot=16ms, avg=0.11ms, max=16ms
+20260712:072723.390 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:072723.405 `-CNpcWorld::OnTimer, cnt=3001, tot=3383ms, avg=1.13ms, max=47ms
+20260712:072723.421   `-NpcManager::OnTimer, cnt=3001, tot=3211ms, avg=1.07ms, max=32ms
+20260712:072723.421     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=373ms, avg=0.00ms, max=16ms
+20260712:072723.436     | `-CNpcGenerator::Generator, cnt=339180, tot=0ms, avg=0.00ms, max=0ms
+20260712:072723.452     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:072723.468 CNpcWorld::SendMsg, cnt=148, tot=0ms, avg=0.00ms, max=0ms
+20260712:073223.218 CLogThread OnProcess, cnt=301, tot=156ms, avg=0.52ms, max=156ms
+20260712:073223.218 `-CLogThread ProcessMsg, cnt=14, tot=156ms, avg=11.14ms, max=16ms
+20260712:073223.234 CKernelThread::OnProcess, cnt=7723, tot=2911ms, avg=0.38ms, max=20ms
+20260712:073223.250 |-READMSG, cnt=42, tot=0ms, avg=0.00ms, max=0ms
+20260712:073223.265 | |-CNpcWorld::ProcessMsg, cnt=42, tot=0ms, avg=0.00ms, max=0ms
+20260712:073223.281 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:073223.297 `-CNpcWorld::OnTimer, cnt=2999, tot=2911ms, avg=0.97ms, max=20ms
+20260712:073223.312   `-NpcManager::OnTimer, cnt=2999, tot=2649ms, avg=0.88ms, max=20ms
+20260712:073223.328     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=368ms, avg=0.00ms, max=16ms
+20260712:073223.343     | `-CNpcGenerator::Generator, cnt=338915, tot=16ms, avg=0.00ms, max=16ms
+20260712:073223.366     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:073223.375 CNpcWorld::SendMsg, cnt=42, tot=0ms, avg=0.00ms, max=0ms
+20260712:073723.338 CLogThread OnProcess, cnt=303, tot=173ms, avg=0.57ms, max=173ms
+20260712:073723.338 `-CLogThread ProcessMsg, cnt=14, tot=173ms, avg=12.36ms, max=23ms
+20260712:073723.353 CKernelThread::OnProcess, cnt=7727, tot=3713ms, avg=0.48ms, max=47ms
+20260712:073723.369 |-READMSG, cnt=32, tot=0ms, avg=0.00ms, max=0ms
+20260712:073723.385 | |-CNpcWorld::ProcessMsg, cnt=35, tot=0ms, avg=0.00ms, max=0ms
+20260712:073723.401 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:073723.418 `-CNpcWorld::OnTimer, cnt=3001, tot=3713ms, avg=1.24ms, max=47ms
+20260712:073723.432   `-NpcManager::OnTimer, cnt=3001, tot=3541ms, avg=1.18ms, max=47ms
+20260712:073723.447     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=567ms, avg=0.00ms, max=29ms
+20260712:073723.463     | `-CNpcGenerator::Generator, cnt=339136, tot=16ms, avg=0.00ms, max=16ms
+20260712:073723.478     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:073723.494 CNpcWorld::SendMsg, cnt=35, tot=0ms, avg=0.00ms, max=0ms
+20260712:074223.140 CLogThread OnProcess, cnt=301, tot=181ms, avg=0.60ms, max=171ms
+20260712:074223.140 `-CLogThread ProcessMsg, cnt=14, tot=181ms, avg=12.93ms, max=18ms
+20260712:074223.155 CKernelThread::OnProcess, cnt=7666, tot=4768ms, avg=0.62ms, max=107ms
+20260712:074223.171 |-READMSG, cnt=25, tot=28ms, avg=1.12ms, max=16ms
+20260712:074223.187 | |-CNpcWorld::ProcessMsg, cnt=43, tot=28ms, avg=0.65ms, max=16ms
+20260712:074223.202 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:074223.218 `-CNpcWorld::OnTimer, cnt=2998, tot=4740ms, avg=1.58ms, max=107ms
+20260712:074223.234   `-NpcManager::OnTimer, cnt=2998, tot=4527ms, avg=1.51ms, max=107ms
+20260712:074223.250     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=638ms, avg=0.00ms, max=47ms
+20260712:074223.265     | `-CNpcGenerator::Generator, cnt=338795, tot=17ms, avg=0.00ms, max=16ms
+20260712:074223.280     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:074223.312 CNpcWorld::SendMsg, cnt=23, tot=0ms, avg=0.00ms, max=0ms
+20260712:074723.293 CLogThread OnProcess, cnt=303, tot=202ms, avg=0.67ms, max=187ms
+20260712:074723.293 `-CLogThread ProcessMsg, cnt=14, tot=202ms, avg=14.43ms, max=31ms
+20260712:074723.309 CKernelThread::OnProcess, cnt=7592, tot=3853ms, avg=0.51ms, max=31ms
+20260712:074723.309 |-READMSG, cnt=22, tot=15ms, avg=0.68ms, max=15ms
+20260712:074723.324 | |-CNpcWorld::ProcessMsg, cnt=25, tot=15ms, avg=0.60ms, max=15ms
+20260712:074723.340 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:074723.355 `-CNpcWorld::OnTimer, cnt=3001, tot=3838ms, avg=1.28ms, max=31ms
+20260712:074723.371   `-NpcManager::OnTimer, cnt=3001, tot=3622ms, avg=1.21ms, max=31ms
+20260712:074723.402     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=489ms, avg=0.00ms, max=27ms
+20260712:074723.418     | `-CNpcGenerator::Generator, cnt=339132, tot=0ms, avg=0.00ms, max=0ms
+20260712:074723.433     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:074723.449 CNpcWorld::SendMsg, cnt=25, tot=0ms, avg=0.00ms, max=0ms
+20260712:075223.167 CLogThread OnProcess, cnt=301, tot=187ms, avg=0.62ms, max=171ms
+20260712:075223.167 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=31ms
+20260712:075223.182 CKernelThread::OnProcess, cnt=7916, tot=4482ms, avg=0.57ms, max=32ms
+20260712:075223.196 |-READMSG, cnt=12, tot=0ms, avg=0.00ms, max=0ms
+20260712:075223.243 | |-CNpcWorld::ProcessMsg, cnt=12, tot=0ms, avg=0.00ms, max=0ms
+20260712:075223.243 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:075223.274 `-CNpcWorld::OnTimer, cnt=2999, tot=4482ms, avg=1.49ms, max=32ms
+20260712:075223.290   `-NpcManager::OnTimer, cnt=2999, tot=4332ms, avg=1.44ms, max=31ms
+20260712:075223.306     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=700ms, avg=0.00ms, max=18ms
+20260712:075223.321     | `-CNpcGenerator::Generator, cnt=338899, tot=38ms, avg=0.00ms, max=16ms
+20260712:075223.337     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:075223.368 CNpcWorld::SendMsg, cnt=12, tot=0ms, avg=0.00ms, max=0ms
+20260712:075723.158 CLogThread OnProcess, cnt=302, tot=234ms, avg=0.77ms, max=218ms
+20260712:075723.158 `-CLogThread ProcessMsg, cnt=14, tot=234ms, avg=16.71ms, max=47ms
+20260712:075723.175 CKernelThread::OnProcess, cnt=8721, tot=5963ms, avg=0.68ms, max=33ms
+20260712:075723.189 |-READMSG, cnt=1777, tot=0ms, avg=0.00ms, max=0ms
+20260712:075723.189 | |-CNpcWorld::ProcessMsg, cnt=2162, tot=0ms, avg=0.00ms, max=0ms
+20260712:075723.221 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:075723.240 `-CNpcWorld::OnTimer, cnt=3000, tot=5963ms, avg=1.99ms, max=33ms
+20260712:075723.267   `-NpcManager::OnTimer, cnt=3000, tot=5757ms, avg=1.92ms, max=33ms
+20260712:075723.283     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=751ms, avg=0.00ms, max=23ms
+20260712:075723.315     | `-CNpcGenerator::Generator, cnt=339031, tot=5ms, avg=0.00ms, max=3ms
+20260712:075723.330     `-CNpc::OnTimer, cnt=42152, tot=392ms, avg=0.01ms, max=16ms
+20260712:075723.361 CNpcWorld::SendMsg, cnt=1125, tot=276ms, avg=0.25ms, max=16ms
+20260712:080223.158 CLogThread OnProcess, cnt=302, tot=251ms, avg=0.83ms, max=219ms
+20260712:080223.158 `-CLogThread ProcessMsg, cnt=14, tot=236ms, avg=16.86ms, max=33ms
+20260712:080223.173 CKernelThread::OnProcess, cnt=8952, tot=5920ms, avg=0.66ms, max=33ms
+20260712:080223.189 |-READMSG, cnt=1982, tot=31ms, avg=0.02ms, max=16ms
+20260712:080223.205 | |-CNpcWorld::ProcessMsg, cnt=2422, tot=16ms, avg=0.01ms, max=16ms
+20260712:080223.220 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:080223.236 `-CNpcWorld::OnTimer, cnt=3000, tot=5889ms, avg=1.96ms, max=33ms
+20260712:080223.252   `-NpcManager::OnTimer, cnt=3000, tot=5706ms, avg=1.90ms, max=33ms
+20260712:080223.269     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=831ms, avg=0.00ms, max=18ms
+20260712:080223.283     | `-CNpcGenerator::Generator, cnt=339007, tot=17ms, avg=0.00ms, max=15ms
+20260712:080223.298     `-CNpc::OnTimer, cnt=35536, tot=306ms, avg=0.01ms, max=16ms
+20260712:080223.314 CNpcWorld::SendMsg, cnt=733, tot=184ms, avg=0.25ms, max=16ms
+20260712:080723.168 CLogThread OnProcess, cnt=302, tot=202ms, avg=0.67ms, max=187ms
+20260712:080723.168 `-CLogThread ProcessMsg, cnt=14, tot=202ms, avg=14.43ms, max=31ms
+20260712:080723.186 CKernelThread::OnProcess, cnt=9951, tot=6744ms, avg=0.68ms, max=31ms
+20260712:080723.199 |-READMSG, cnt=4374, tot=66ms, avg=0.02ms, max=16ms
+20260712:080723.214 | |-CNpcWorld::ProcessMsg, cnt=6337, tot=50ms, avg=0.01ms, max=16ms
+20260712:080723.230 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:080723.246 `-CNpcWorld::OnTimer, cnt=3000, tot=6659ms, avg=2.22ms, max=31ms
+20260712:080723.261   `-NpcManager::OnTimer, cnt=3000, tot=6472ms, avg=2.16ms, max=31ms
+20260712:080723.293     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=1084ms, avg=0.00ms, max=22ms
+20260712:080723.308     | `-CNpcGenerator::Generator, cnt=339172, tot=59ms, avg=0.00ms, max=16ms
+20260712:080723.324     `-CNpc::OnTimer, cnt=127318, tot=530ms, avg=0.00ms, max=17ms
+20260712:080723.340 CNpcWorld::SendMsg, cnt=3185, tot=331ms, avg=0.10ms, max=17ms
+20260712:081223.581 CLogThread OnProcess, cnt=303, tot=202ms, avg=0.67ms, max=187ms
+20260712:081223.581 `-CLogThread ProcessMsg, cnt=14, tot=202ms, avg=14.43ms, max=32ms
+20260712:081223.597 CKernelThread::OnProcess, cnt=8549, tot=4897ms, avg=0.57ms, max=33ms
+20260712:081223.613 |-READMSG, cnt=1182, tot=28ms, avg=0.02ms, max=15ms
+20260712:081223.629 | |-CNpcWorld::ProcessMsg, cnt=1314, tot=28ms, avg=0.02ms, max=15ms
+20260712:081223.645 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:081223.660 `-CNpcWorld::OnTimer, cnt=3004, tot=4869ms, avg=1.62ms, max=33ms
+20260712:081223.683   `-NpcManager::OnTimer, cnt=3004, tot=4608ms, avg=1.53ms, max=33ms
+20260712:081223.692     |-CNpcGenerator::DoGenerator, cnt=13707252, tot=800ms, avg=0.00ms, max=16ms
+20260712:081223.714     | `-CNpcGenerator::Generator, cnt=339473, tot=30ms, avg=0.00ms, max=16ms
+20260712:081223.724     `-CNpc::OnTimer, cnt=31599, tot=118ms, avg=0.00ms, max=17ms
+20260712:081223.745 CNpcWorld::SendMsg, cnt=775, tot=113ms, avg=0.15ms, max=17ms
+20260712:081723.427 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=204ms
+20260712:081723.427 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=40ms
+20260712:081723.443 CKernelThread::OnProcess, cnt=8189, tot=4955ms, avg=0.61ms, max=32ms
+20260712:081723.458 |-READMSG, cnt=150, tot=5ms, avg=0.03ms, max=5ms
+20260712:081723.473 | |-CNpcWorld::ProcessMsg, cnt=155, tot=5ms, avg=0.03ms, max=5ms
+20260712:081723.489 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:081723.505 `-CNpcWorld::OnTimer, cnt=2998, tot=4950ms, avg=1.65ms, max=32ms
+20260712:081723.520   `-NpcManager::OnTimer, cnt=2998, tot=4711ms, avg=1.57ms, max=32ms
+20260712:081723.536     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=838ms, avg=0.00ms, max=16ms
+20260712:081723.552     | `-CNpcGenerator::Generator, cnt=338776, tot=6ms, avg=0.00ms, max=3ms
+20260712:081723.567     `-CNpc::OnTimer, cnt=5011, tot=50ms, avg=0.01ms, max=16ms
+20260712:081723.600 CNpcWorld::SendMsg, cnt=28, tot=0ms, avg=0.00ms, max=0ms
+20260712:082223.128 CLogThread OnProcess, cnt=301, tot=205ms, avg=0.68ms, max=188ms
+20260712:082223.128 `-CLogThread ProcessMsg, cnt=14, tot=205ms, avg=14.64ms, max=32ms
+20260712:082223.143 CKernelThread::OnProcess, cnt=8346, tot=4688ms, avg=0.56ms, max=48ms
+20260712:082223.159 |-READMSG, cnt=787, tot=8ms, avg=0.01ms, max=6ms
+20260712:082223.190 | |-CNpcWorld::ProcessMsg, cnt=971, tot=8ms, avg=0.01ms, max=6ms
+20260712:082223.206 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:082223.222 `-CNpcWorld::OnTimer, cnt=2997, tot=4664ms, avg=1.56ms, max=48ms
+20260712:082223.237   `-NpcManager::OnTimer, cnt=2997, tot=4462ms, avg=1.49ms, max=33ms
+20260712:082223.253     |-CNpcGenerator::DoGenerator, cnt=13675311, tot=752ms, avg=0.00ms, max=16ms
+20260712:082223.268     | `-CNpcGenerator::Generator, cnt=338702, tot=27ms, avg=0.00ms, max=15ms
+20260712:082223.284     `-CNpc::OnTimer, cnt=19594, tot=92ms, avg=0.00ms, max=16ms
+20260712:082223.302 CNpcWorld::SendMsg, cnt=514, tot=54ms, avg=0.11ms, max=15ms
+20260712:082723.360 CLogThread OnProcess, cnt=303, tot=204ms, avg=0.67ms, max=188ms
+20260712:082723.360 `-CLogThread ProcessMsg, cnt=14, tot=204ms, avg=14.57ms, max=31ms
+20260712:082723.376 CKernelThread::OnProcess, cnt=7557, tot=2953ms, avg=0.39ms, max=40ms
+20260712:082723.391 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:082723.407 | |-CNpcWorld::ProcessMsg, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:082723.423 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:082723.454 `-CNpcWorld::OnTimer, cnt=3002, tot=2953ms, avg=0.98ms, max=40ms
+20260712:082723.470   `-NpcManager::OnTimer, cnt=3002, tot=2797ms, avg=0.93ms, max=40ms
+20260712:082723.485     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=266ms, avg=0.00ms, max=16ms
+20260712:082723.501     | `-CNpcGenerator::Generator, cnt=339341, tot=0ms, avg=0.00ms, max=0ms
+20260712:082723.533     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:082723.548 CNpcWorld::SendMsg, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:083223.284 CLogThread OnProcess, cnt=302, tot=210ms, avg=0.70ms, max=210ms
+20260712:083223.284 `-CLogThread ProcessMsg, cnt=14, tot=210ms, avg=15.00ms, max=32ms
+20260712:083223.300 CKernelThread::OnProcess, cnt=8156, tot=3465ms, avg=0.42ms, max=31ms
+20260712:083223.315 |-READMSG, cnt=771, tot=16ms, avg=0.02ms, max=16ms
+20260712:083223.331 | |-CNpcWorld::ProcessMsg, cnt=1113, tot=16ms, avg=0.01ms, max=16ms
+20260712:083223.346 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:083223.362 `-CNpcWorld::OnTimer, cnt=3000, tot=3434ms, avg=1.14ms, max=31ms
+20260712:083223.378   `-NpcManager::OnTimer, cnt=3000, tot=3202ms, avg=1.07ms, max=31ms
+20260712:083223.393     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=397ms, avg=0.00ms, max=17ms
+20260712:083223.409     | `-CNpcGenerator::Generator, cnt=338917, tot=15ms, avg=0.00ms, max=15ms
+20260712:083223.425     `-CNpc::OnTimer, cnt=23409, tot=94ms, avg=0.00ms, max=16ms
+20260712:083223.440 CNpcWorld::SendMsg, cnt=509, tot=63ms, avg=0.12ms, max=16ms
+20260712:083723.215 CLogThread OnProcess, cnt=301, tot=184ms, avg=0.61ms, max=171ms
+20260712:083723.215 `-CLogThread ProcessMsg, cnt=14, tot=184ms, avg=13.14ms, max=16ms
+20260712:083723.231 CKernelThread::OnProcess, cnt=9279, tot=4809ms, avg=0.52ms, max=32ms
+20260712:083723.246 |-READMSG, cnt=3424, tot=59ms, avg=0.02ms, max=16ms
+20260712:083723.262 | |-CNpcWorld::ProcessMsg, cnt=4860, tot=43ms, avg=0.01ms, max=16ms
+20260712:083723.278 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:083723.293 `-CNpcWorld::OnTimer, cnt=2999, tot=4720ms, avg=1.57ms, max=32ms
+20260712:083723.309   `-NpcManager::OnTimer, cnt=2999, tot=4470ms, avg=1.49ms, max=32ms
+20260712:083723.340     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=606ms, avg=0.00ms, max=32ms
+20260712:083723.356     | `-CNpcGenerator::Generator, cnt=339017, tot=31ms, avg=0.00ms, max=16ms
+20260712:083723.371     `-CNpc::OnTimer, cnt=70865, tot=179ms, avg=0.00ms, max=17ms
+20260712:083723.387 CNpcWorld::SendMsg, cnt=1957, tot=49ms, avg=0.03ms, max=17ms
+20260712:084223.415 CLogThread OnProcess, cnt=303, tot=188ms, avg=0.62ms, max=188ms
+20260712:084223.415 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=31ms
+20260712:084223.430 CKernelThread::OnProcess, cnt=8681, tot=3767ms, avg=0.43ms, max=48ms
+20260712:084223.446 |-READMSG, cnt=1979, tot=44ms, avg=0.02ms, max=15ms
+20260712:084223.462 | |-CNpcWorld::ProcessMsg, cnt=2557, tot=30ms, avg=0.01ms, max=15ms
+20260712:084223.477 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:084223.493 `-CNpcWorld::OnTimer, cnt=3003, tot=3685ms, avg=1.23ms, max=48ms
+20260712:084223.508   `-NpcManager::OnTimer, cnt=3003, tot=3513ms, avg=1.17ms, max=48ms
+20260712:084223.524     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=422ms, avg=0.00ms, max=19ms
+20260712:084223.540     | `-CNpcGenerator::Generator, cnt=339395, tot=0ms, avg=0.00ms, max=0ms
+20260712:084223.555     `-CNpc::OnTimer, cnt=40611, tot=108ms, avg=0.00ms, max=31ms
+20260712:084223.571 CNpcWorld::SendMsg, cnt=1140, tot=63ms, avg=0.06ms, max=31ms
+20260712:084723.230 CLogThread OnProcess, cnt=301, tot=188ms, avg=0.62ms, max=172ms
+20260712:084723.230 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=16ms
+20260712:084723.245 CKernelThread::OnProcess, cnt=8638, tot=4545ms, avg=0.53ms, max=47ms
+20260712:084723.261 |-READMSG, cnt=2438, tot=40ms, avg=0.02ms, max=16ms
+20260712:084723.277 | |-CNpcWorld::ProcessMsg, cnt=3058, tot=16ms, avg=0.01ms, max=16ms
+20260712:084723.292 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:084723.308 `-CNpcWorld::OnTimer, cnt=2998, tot=4473ms, avg=1.49ms, max=47ms
+20260712:084723.323   `-NpcManager::OnTimer, cnt=2998, tot=4302ms, avg=1.43ms, max=47ms
+20260712:084723.339     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=545ms, avg=0.00ms, max=16ms
+20260712:084723.370     | `-CNpcGenerator::Generator, cnt=338795, tot=30ms, avg=0.00ms, max=15ms
+20260712:084723.386     `-CNpc::OnTimer, cnt=79313, tot=123ms, avg=0.00ms, max=16ms
+20260712:084723.402 CNpcWorld::SendMsg, cnt=1933, tot=61ms, avg=0.03ms, max=16ms
+20260712:085223.144 CLogThread OnProcess, cnt=303, tot=204ms, avg=0.67ms, max=188ms
+20260712:085223.144 `-CLogThread ProcessMsg, cnt=14, tot=204ms, avg=14.57ms, max=32ms
+20260712:085223.158 CKernelThread::OnProcess, cnt=8871, tot=4592ms, avg=0.52ms, max=36ms
+20260712:085223.173 |-READMSG, cnt=3113, tot=94ms, avg=0.03ms, max=16ms
+20260712:085223.189 | |-CNpcWorld::ProcessMsg, cnt=4434, tot=62ms, avg=0.01ms, max=16ms
+20260712:085223.220 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:085223.236 `-CNpcWorld::OnTimer, cnt=2999, tot=4483ms, avg=1.49ms, max=36ms
+20260712:085223.252   `-NpcManager::OnTimer, cnt=2999, tot=4278ms, avg=1.43ms, max=36ms
+20260712:085223.267     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=449ms, avg=0.00ms, max=17ms
+20260712:085223.283     | `-CNpcGenerator::Generator, cnt=338892, tot=15ms, avg=0.00ms, max=15ms
+20260712:085223.298     `-CNpc::OnTimer, cnt=149437, tot=206ms, avg=0.00ms, max=16ms
+20260712:085223.314 CNpcWorld::SendMsg, cnt=3214, tot=58ms, avg=0.02ms, max=16ms
+20260712:085723.172 CLogThread OnProcess, cnt=302, tot=186ms, avg=0.62ms, max=186ms
+20260712:085723.172 `-CLogThread ProcessMsg, cnt=14, tot=186ms, avg=13.29ms, max=31ms
+20260712:085723.188 CKernelThread::OnProcess, cnt=8903, tot=3347ms, avg=0.38ms, max=32ms
+20260712:085723.203 |-READMSG, cnt=2186, tot=61ms, avg=0.03ms, max=16ms
+20260712:085723.219 | |-CNpcWorld::ProcessMsg, cnt=2993, tot=61ms, avg=0.02ms, max=16ms
+20260712:085723.235 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:085723.250 `-CNpcWorld::OnTimer, cnt=3000, tot=3286ms, avg=1.10ms, max=32ms
+20260712:085723.250   `-NpcManager::OnTimer, cnt=3000, tot=3124ms, avg=1.04ms, max=32ms
+20260712:085723.266     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=594ms, avg=0.00ms, max=16ms
+20260712:085723.282     | `-CNpcGenerator::Generator, cnt=339055, tot=15ms, avg=0.00ms, max=15ms
+20260712:085723.313     `-CNpc::OnTimer, cnt=33656, tot=78ms, avg=0.00ms, max=17ms
+20260712:085723.328 CNpcWorld::SendMsg, cnt=640, tot=63ms, avg=0.10ms, max=17ms
+20260712:090223.459 CLogThread OnProcess, cnt=303, tot=172ms, avg=0.57ms, max=172ms
+20260712:090223.459 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=31ms
+20260712:090223.475 CKernelThread::OnProcess, cnt=8593, tot=4065ms, avg=0.47ms, max=46ms
+20260712:090223.491 |-READMSG, cnt=1965, tot=78ms, avg=0.04ms, max=16ms
+20260712:090223.506 | |-CNpcWorld::ProcessMsg, cnt=2616, tot=47ms, avg=0.02ms, max=16ms
+20260712:090223.522 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:090223.537 `-CNpcWorld::OnTimer, cnt=3003, tot=3987ms, avg=1.33ms, max=46ms
+20260712:090223.553   `-NpcManager::OnTimer, cnt=3003, tot=3784ms, avg=1.26ms, max=46ms
+20260712:090223.584     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=521ms, avg=0.00ms, max=17ms
+20260712:090223.600     | `-CNpcGenerator::Generator, cnt=339570, tot=32ms, avg=0.00ms, max=16ms
+20260712:090223.616     `-CNpc::OnTimer, cnt=57101, tot=356ms, avg=0.01ms, max=30ms
+20260712:090223.631 CNpcWorld::SendMsg, cnt=1833, tot=278ms, avg=0.15ms, max=30ms
+20260712:090723.419 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=203ms
+20260712:090723.419 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=31ms
+20260712:090723.435 CKernelThread::OnProcess, cnt=7595, tot=3280ms, avg=0.43ms, max=32ms
+20260712:090723.451 |-READMSG, cnt=16, tot=0ms, avg=0.00ms, max=0ms
+20260712:090723.466 | |-CNpcWorld::ProcessMsg, cnt=16, tot=0ms, avg=0.00ms, max=0ms
+20260712:090723.482 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:090723.498 `-CNpcWorld::OnTimer, cnt=3000, tot=3264ms, avg=1.09ms, max=32ms
+20260712:090723.513   `-NpcManager::OnTimer, cnt=3000, tot=3048ms, avg=1.02ms, max=32ms
+20260712:090723.529     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=332ms, avg=0.00ms, max=16ms
+20260712:090723.544     | `-CNpcGenerator::Generator, cnt=339016, tot=2ms, avg=0.00ms, max=2ms
+20260712:090723.560     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:090723.576 CNpcWorld::SendMsg, cnt=16, tot=2ms, avg=0.13ms, max=2ms
+20260712:091223.275 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=172ms
+20260712:091223.275 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=16ms
+20260712:091223.290 CKernelThread::OnProcess, cnt=7843, tot=3488ms, avg=0.44ms, max=47ms
+20260712:091223.306 |-READMSG, cnt=685, tot=16ms, avg=0.02ms, max=16ms
+20260712:091223.322 | |-CNpcWorld::ProcessMsg, cnt=825, tot=16ms, avg=0.02ms, max=16ms
+20260712:091223.338 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:091223.368 `-CNpcWorld::OnTimer, cnt=2998, tot=3457ms, avg=1.15ms, max=47ms
+20260712:091223.384   `-NpcManager::OnTimer, cnt=2998, tot=3177ms, avg=1.06ms, max=47ms
+20260712:091223.400     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=379ms, avg=0.00ms, max=16ms
+20260712:091223.415     | `-CNpcGenerator::Generator, cnt=338777, tot=0ms, avg=0.00ms, max=0ms
+20260712:091223.431     `-CNpc::OnTimer, cnt=11337, tot=63ms, avg=0.01ms, max=16ms
+20260712:091223.462 CNpcWorld::SendMsg, cnt=631, tot=48ms, avg=0.08ms, max=16ms
+20260712:091723.159 CLogThread OnProcess, cnt=301, tot=203ms, avg=0.67ms, max=203ms
+20260712:091723.159 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:091723.174 CKernelThread::OnProcess, cnt=8267, tot=4320ms, avg=0.52ms, max=32ms
+20260712:091723.190 |-READMSG, cnt=1749, tot=47ms, avg=0.03ms, max=16ms
+20260712:091723.207 | |-CNpcWorld::ProcessMsg, cnt=2408, tot=47ms, avg=0.02ms, max=16ms
+20260712:091723.221 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:091723.237 `-CNpcWorld::OnTimer, cnt=2999, tot=4273ms, avg=1.42ms, max=32ms
+20260712:091723.252   `-NpcManager::OnTimer, cnt=2999, tot=4073ms, avg=1.36ms, max=31ms
+20260712:091723.268     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=517ms, avg=0.00ms, max=16ms
+20260712:091723.284     | `-CNpcGenerator::Generator, cnt=338887, tot=0ms, avg=0.00ms, max=0ms
+20260712:091723.299     `-CNpc::OnTimer, cnt=89652, tot=512ms, avg=0.01ms, max=16ms
+20260712:091723.315 CNpcWorld::SendMsg, cnt=1897, tot=266ms, avg=0.14ms, max=16ms
+20260712:092223.300 CLogThread OnProcess, cnt=303, tot=189ms, avg=0.62ms, max=172ms
+20260712:092223.300 `-CLogThread ProcessMsg, cnt=14, tot=189ms, avg=13.50ms, max=17ms
+20260712:092223.316 CKernelThread::OnProcess, cnt=8064, tot=4139ms, avg=0.51ms, max=297ms
+20260712:092223.331 |-READMSG, cnt=868, tot=0ms, avg=0.00ms, max=0ms
+20260712:092223.347 | |-CNpcWorld::ProcessMsg, cnt=1010, tot=0ms, avg=0.00ms, max=0ms
+20260712:092223.363 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:092223.378 `-CNpcWorld::OnTimer, cnt=3001, tot=4139ms, avg=1.38ms, max=297ms
+20260712:092223.394   `-NpcManager::OnTimer, cnt=3001, tot=3961ms, avg=1.32ms, max=297ms
+20260712:092223.410     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=398ms, avg=0.00ms, max=16ms
+20260712:092223.425     | `-CNpcGenerator::Generator, cnt=339115, tot=15ms, avg=0.00ms, max=15ms
+20260712:092223.456     `-CNpc::OnTimer, cnt=28714, tot=490ms, avg=0.02ms, max=282ms
+20260712:092223.472 CNpcWorld::SendMsg, cnt=667, tot=176ms, avg=0.26ms, max=21ms
+20260712:092723.363 CLogThread OnProcess, cnt=302, tot=202ms, avg=0.67ms, max=187ms
+20260712:092723.363 `-CLogThread ProcessMsg, cnt=14, tot=202ms, avg=14.43ms, max=31ms
+20260712:092723.396 CKernelThread::OnProcess, cnt=8444, tot=3904ms, avg=0.46ms, max=31ms
+20260712:092723.412 |-READMSG, cnt=1415, tot=32ms, avg=0.02ms, max=16ms
+20260712:092723.427 | |-CNpcWorld::ProcessMsg, cnt=1609, tot=32ms, avg=0.02ms, max=16ms
+20260712:092723.443 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:092723.459 `-CNpcWorld::OnTimer, cnt=3001, tot=3857ms, avg=1.29ms, max=31ms
+20260712:092723.474   `-NpcManager::OnTimer, cnt=3001, tot=3672ms, avg=1.22ms, max=18ms
+20260712:092723.506     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=439ms, avg=0.00ms, max=16ms
+20260712:092723.521     | `-CNpcGenerator::Generator, cnt=339114, tot=0ms, avg=0.00ms, max=0ms
+20260712:092723.537     `-CNpc::OnTimer, cnt=57069, tot=169ms, avg=0.00ms, max=16ms
+20260712:092723.552 CNpcWorld::SendMsg, cnt=1011, tot=154ms, avg=0.15ms, max=16ms
+20260712:093223.293 CLogThread OnProcess, cnt=302, tot=205ms, avg=0.68ms, max=205ms
+20260712:093223.293 `-CLogThread ProcessMsg, cnt=14, tot=205ms, avg=14.64ms, max=32ms
+20260712:093223.308 CKernelThread::OnProcess, cnt=7681, tot=3526ms, avg=0.46ms, max=35ms
+20260712:093223.339 |-READMSG, cnt=256, tot=15ms, avg=0.06ms, max=15ms
+20260712:093223.371 | |-CNpcWorld::ProcessMsg, cnt=265, tot=15ms, avg=0.06ms, max=15ms
+20260712:093223.386 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:093223.402 `-CNpcWorld::OnTimer, cnt=2999, tot=3495ms, avg=1.17ms, max=35ms
+20260712:093223.418   `-NpcManager::OnTimer, cnt=2999, tot=3281ms, avg=1.09ms, max=35ms
+20260712:093223.433     |-CNpcGenerator::DoGenerator, cnt=13687348, tot=347ms, avg=0.00ms, max=27ms
+20260712:093223.449     | `-CNpcGenerator::Generator, cnt=339000, tot=16ms, avg=0.00ms, max=16ms
+20260712:093223.464     `-CNpc::OnTimer, cnt=11029, tot=38ms, avg=0.00ms, max=22ms
+20260712:093223.480 CNpcWorld::SendMsg, cnt=134, tot=22ms, avg=0.16ms, max=22ms
+20260712:093723.538 CLogThread OnProcess, cnt=302, tot=218ms, avg=0.72ms, max=203ms
+20260712:093723.538 `-CLogThread ProcessMsg, cnt=14, tot=218ms, avg=15.57ms, max=31ms
+20260712:093723.554 CKernelThread::OnProcess, cnt=8583, tot=5342ms, avg=0.62ms, max=32ms
+20260712:093723.569 |-READMSG, cnt=1820, tot=46ms, avg=0.03ms, max=16ms
+20260712:093723.601 | |-CNpcWorld::ProcessMsg, cnt=2336, tot=46ms, avg=0.02ms, max=16ms
+20260712:093723.616 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:093723.632 `-CNpcWorld::OnTimer, cnt=3002, tot=5280ms, avg=1.76ms, max=32ms
+20260712:093723.648   `-NpcManager::OnTimer, cnt=3002, tot=5050ms, avg=1.68ms, max=31ms
+20260712:093723.679     |-CNpcGenerator::DoGenerator, cnt=13695215, tot=777ms, avg=0.00ms, max=31ms
+20260712:093723.695     | `-CNpcGenerator::Generator, cnt=339139, tot=15ms, avg=0.00ms, max=15ms
+20260712:093723.710     `-CNpc::OnTimer, cnt=54936, tot=209ms, avg=0.00ms, max=16ms
+20260712:093723.741 CNpcWorld::SendMsg, cnt=1547, tot=84ms, avg=0.05ms, max=16ms
+20260712:094223.537 CLogThread OnProcess, cnt=302, tot=218ms, avg=0.72ms, max=218ms
+20260712:094223.537 `-CLogThread ProcessMsg, cnt=14, tot=218ms, avg=15.57ms, max=31ms
+20260712:094223.552 CKernelThread::OnProcess, cnt=9646, tot=5352ms, avg=0.55ms, max=47ms
+20260712:094223.568 |-READMSG, cnt=5268, tot=203ms, avg=0.04ms, max=16ms
+20260712:094223.583 | |-CNpcWorld::ProcessMsg, cnt=7358, tot=108ms, avg=0.01ms, max=16ms
+20260712:094223.599 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:094223.632 `-CNpcWorld::OnTimer, cnt=3001, tot=5149ms, avg=1.72ms, max=47ms
+20260712:094223.646   `-NpcManager::OnTimer, cnt=3001, tot=4976ms, avg=1.66ms, max=47ms
+20260712:094223.661     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=653ms, avg=0.00ms, max=19ms
+20260712:094223.677     | `-CNpcGenerator::Generator, cnt=339125, tot=0ms, avg=0.00ms, max=0ms
+20260712:094223.693     `-CNpc::OnTimer, cnt=216010, tot=333ms, avg=0.00ms, max=24ms
+20260712:094223.724 CNpcWorld::SendMsg, cnt=4887, tot=224ms, avg=0.05ms, max=24ms
+20260712:094723.290 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=203ms
+20260712:094723.290 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=33ms
+20260712:094723.306 CKernelThread::OnProcess, cnt=9112, tot=4043ms, avg=0.44ms, max=31ms
+20260712:094723.321 |-READMSG, cnt=3196, tot=32ms, avg=0.01ms, max=16ms
+20260712:094723.321 | |-CNpcWorld::ProcessMsg, cnt=4072, tot=32ms, avg=0.01ms, max=16ms
+20260712:094723.352 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:094723.368 `-CNpcWorld::OnTimer, cnt=2997, tot=3981ms, avg=1.33ms, max=31ms
+20260712:094723.384   `-NpcManager::OnTimer, cnt=2997, tot=3810ms, avg=1.27ms, max=31ms
+20260712:094723.399     |-CNpcGenerator::DoGenerator, cnt=13675311, tot=581ms, avg=0.00ms, max=31ms
+20260712:094723.415     | `-CNpcGenerator::Generator, cnt=338669, tot=16ms, avg=0.00ms, max=16ms
+20260712:094723.446     `-CNpc::OnTimer, cnt=103172, tot=183ms, avg=0.00ms, max=19ms
+20260712:094723.462 CNpcWorld::SendMsg, cnt=2713, tot=136ms, avg=0.05ms, max=19ms
+20260712:095223.355 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=188ms
+20260712:095223.355 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=31ms
+20260712:095223.371 CKernelThread::OnProcess, cnt=8556, tot=4779ms, avg=0.56ms, max=31ms
+20260712:095223.388 |-READMSG, cnt=2041, tot=46ms, avg=0.02ms, max=16ms
+20260712:095223.402 | |-CNpcWorld::ProcessMsg, cnt=2634, tot=0ms, avg=0.00ms, max=0ms
+20260712:095223.418 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:095223.433 `-CNpcWorld::OnTimer, cnt=3001, tot=4717ms, avg=1.57ms, max=31ms
+20260712:095223.449   `-NpcManager::OnTimer, cnt=3001, tot=4516ms, avg=1.50ms, max=31ms
+20260712:095223.469     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=686ms, avg=0.00ms, max=16ms
+20260712:095223.496     | `-CNpcGenerator::Generator, cnt=339132, tot=0ms, avg=0.00ms, max=0ms
+20260712:095223.512     `-CNpc::OnTimer, cnt=66906, tot=122ms, avg=0.00ms, max=29ms
+20260712:095223.527 CNpcWorld::SendMsg, cnt=1857, tot=90ms, avg=0.05ms, max=29ms
+20260712:095723.334 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=188ms
+20260712:095723.334 `-CLogThread ProcessMsg, cnt=14, tot=173ms, avg=12.36ms, max=20ms
+20260712:095723.350 CKernelThread::OnProcess, cnt=9645, tot=5529ms, avg=0.57ms, max=32ms
+20260712:095723.365 |-READMSG, cnt=4488, tot=64ms, avg=0.01ms, max=16ms
+20260712:095723.381 | |-CNpcWorld::ProcessMsg, cnt=5525, tot=16ms, avg=0.00ms, max=16ms
+20260712:095723.397 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:095723.412 `-CNpcWorld::OnTimer, cnt=2999, tot=5465ms, avg=1.82ms, max=32ms
+20260712:095723.428   `-NpcManager::OnTimer, cnt=2999, tot=5280ms, avg=1.76ms, max=32ms
+20260712:095723.444     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=917ms, avg=0.00ms, max=18ms
+20260712:095723.459     | `-CNpcGenerator::Generator, cnt=338909, tot=80ms, avg=0.00ms, max=18ms
+20260712:095723.475     `-CNpc::OnTimer, cnt=95501, tot=380ms, avg=0.00ms, max=20ms
+20260712:095723.490 CNpcWorld::SendMsg, cnt=3635, tot=318ms, avg=0.09ms, max=20ms
+20260712:100223.169 CLogThread OnProcess, cnt=301, tot=202ms, avg=0.67ms, max=187ms
+20260712:100223.169 `-CLogThread ProcessMsg, cnt=14, tot=202ms, avg=14.43ms, max=31ms
+20260712:100223.191 CKernelThread::OnProcess, cnt=10072, tot=7100ms, avg=0.70ms, max=32ms
+20260712:100223.200 |-READMSG, cnt=6653, tot=265ms, avg=0.04ms, max=19ms
+20260712:100223.215 | |-CNpcWorld::ProcessMsg, cnt=9747, tot=136ms, avg=0.01ms, max=16ms
+20260712:100223.231 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:100223.262 `-CNpcWorld::OnTimer, cnt=2999, tot=6819ms, avg=2.27ms, max=32ms
+20260712:100223.278   `-NpcManager::OnTimer, cnt=2999, tot=6602ms, avg=2.20ms, max=32ms
+20260712:100223.294     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=708ms, avg=0.00ms, max=16ms
+20260712:100223.309     | `-CNpcGenerator::Generator, cnt=338903, tot=0ms, avg=0.00ms, max=0ms
+20260712:100223.325     `-CNpc::OnTimer, cnt=263913, tot=1089ms, avg=0.00ms, max=17ms
+20260712:100223.340 CNpcWorld::SendMsg, cnt=6742, tot=710ms, avg=0.11ms, max=17ms
+20260712:100723.548 CLogThread OnProcess, cnt=303, tot=187ms, avg=0.62ms, max=187ms
+20260712:100723.548 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=32ms
+20260712:100723.563 CKernelThread::OnProcess, cnt=8228, tot=4617ms, avg=0.56ms, max=37ms
+20260712:100723.579 |-READMSG, cnt=2153, tot=0ms, avg=0.00ms, max=0ms
+20260712:100723.594 | |-CNpcWorld::ProcessMsg, cnt=3243, tot=0ms, avg=0.00ms, max=0ms
+20260712:100723.594 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:100723.610 `-CNpcWorld::OnTimer, cnt=3004, tot=4617ms, avg=1.54ms, max=37ms
+20260712:100723.626   `-NpcManager::OnTimer, cnt=3004, tot=4400ms, avg=1.46ms, max=37ms
+20260712:100723.641     |-CNpcGenerator::DoGenerator, cnt=13707252, tot=612ms, avg=0.00ms, max=16ms
+20260712:100723.672     | `-CNpcGenerator::Generator, cnt=339454, tot=0ms, avg=0.00ms, max=0ms
+20260712:100723.688     `-CNpc::OnTimer, cnt=116495, tot=394ms, avg=0.00ms, max=18ms
+20260712:100723.704 CNpcWorld::SendMsg, cnt=2634, tot=204ms, avg=0.08ms, max=16ms
+20260712:101223.330 CLogThread OnProcess, cnt=303, tot=203ms, avg=0.67ms, max=172ms
+20260712:101223.330 `-CLogThread ProcessMsg, cnt=16, tot=203ms, avg=12.69ms, max=31ms
+20260712:101223.346 CKernelThread::OnProcess, cnt=7853, tot=3680ms, avg=0.47ms, max=47ms
+20260712:101223.361 |-READMSG, cnt=358, tot=16ms, avg=0.04ms, max=16ms
+20260712:101223.377 | |-CNpcWorld::ProcessMsg, cnt=460, tot=16ms, avg=0.03ms, max=16ms
+20260712:101223.392 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:101223.408 `-CNpcWorld::OnTimer, cnt=2997, tot=3664ms, avg=1.22ms, max=47ms
+20260712:101223.424   `-NpcManager::OnTimer, cnt=2997, tot=3402ms, avg=1.14ms, max=31ms
+20260712:101223.439     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=429ms, avg=0.00ms, max=18ms
+20260712:101223.456     | `-CNpcGenerator::Generator, cnt=338774, tot=15ms, avg=0.00ms, max=15ms
+20260712:101223.470     `-CNpc::OnTimer, cnt=3165, tot=16ms, avg=0.01ms, max=16ms
+20260712:101223.486 CNpcWorld::SendMsg, cnt=7, tot=16ms, avg=2.29ms, max=16ms
+20260712:101723.539 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=172ms
+20260712:101723.539 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=17ms
+20260712:101723.555 CKernelThread::OnProcess, cnt=7704, tot=3544ms, avg=0.46ms, max=31ms
+20260712:101723.571 |-READMSG, cnt=56, tot=0ms, avg=0.00ms, max=0ms
+20260712:101723.602 | |-CNpcWorld::ProcessMsg, cnt=56, tot=0ms, avg=0.00ms, max=0ms
+20260712:101723.617 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:101723.633 `-CNpcWorld::OnTimer, cnt=3003, tot=3544ms, avg=1.18ms, max=31ms
+20260712:101723.665   `-NpcManager::OnTimer, cnt=3003, tot=3307ms, avg=1.10ms, max=31ms
+20260712:101723.680     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=357ms, avg=0.00ms, max=19ms
+20260712:101723.711     | `-CNpcGenerator::Generator, cnt=339226, tot=19ms, avg=0.00ms, max=19ms
+20260712:101723.727     `-CNpc::OnTimer, cnt=795, tot=44ms, avg=0.06ms, max=16ms
+20260712:101723.743 CNpcWorld::SendMsg, cnt=31, tot=28ms, avg=0.90ms, max=15ms
+20260712:102223.158 CLogThread OnProcess, cnt=301, tot=218ms, avg=0.72ms, max=218ms
+20260712:102223.158 `-CLogThread ProcessMsg, cnt=14, tot=218ms, avg=15.57ms, max=32ms
+20260712:102223.172 CKernelThread::OnProcess, cnt=7689, tot=3395ms, avg=0.44ms, max=33ms
+20260712:102223.188 |-READMSG, cnt=63, tot=0ms, avg=0.00ms, max=0ms
+20260712:102223.204 | |-CNpcWorld::ProcessMsg, cnt=65, tot=0ms, avg=0.00ms, max=0ms
+20260712:102223.219 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:102223.235 `-CNpcWorld::OnTimer, cnt=2996, tot=3395ms, avg=1.13ms, max=33ms
+20260712:102223.266   `-NpcManager::OnTimer, cnt=2996, tot=3206ms, avg=1.07ms, max=33ms
+20260712:102223.282     |-CNpcGenerator::DoGenerator, cnt=13670748, tot=425ms, avg=0.00ms, max=16ms
+20260712:102223.313     | `-CNpcGenerator::Generator, cnt=338548, tot=15ms, avg=0.00ms, max=15ms
+20260712:102223.329     `-CNpc::OnTimer, cnt=2594, tot=16ms, avg=0.01ms, max=16ms
+20260712:102223.344 CNpcWorld::SendMsg, cnt=4, tot=0ms, avg=0.00ms, max=0ms
+20260712:102723.250 CLogThread OnProcess, cnt=303, tot=217ms, avg=0.72ms, max=201ms
+20260712:102723.250 `-CLogThread ProcessMsg, cnt=14, tot=217ms, avg=15.50ms, max=31ms
+20260712:102723.265 CKernelThread::OnProcess, cnt=7658, tot=3754ms, avg=0.49ms, max=20ms
+20260712:102723.281 |-READMSG, cnt=3, tot=0ms, avg=0.00ms, max=0ms
+20260712:102723.296 | |-CNpcWorld::ProcessMsg, cnt=5, tot=0ms, avg=0.00ms, max=0ms
+20260712:102723.327 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:102723.343 `-CNpcWorld::OnTimer, cnt=3001, tot=3754ms, avg=1.25ms, max=20ms
+20260712:102723.359   `-NpcManager::OnTimer, cnt=3001, tot=3488ms, avg=1.16ms, max=17ms
+20260712:102723.390     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=422ms, avg=0.00ms, max=17ms
+20260712:102723.410     | `-CNpcGenerator::Generator, cnt=339114, tot=1ms, avg=0.00ms, max=1ms
+20260712:102723.421     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:102723.453 CNpcWorld::SendMsg, cnt=5, tot=0ms, avg=0.00ms, max=0ms
+20260712:103223.166 CLogThread OnProcess, cnt=301, tot=250ms, avg=0.83ms, max=234ms
+20260712:103223.166 `-CLogThread ProcessMsg, cnt=14, tot=250ms, avg=17.86ms, max=32ms
+20260712:103223.181 CKernelThread::OnProcess, cnt=7651, tot=2947ms, avg=0.39ms, max=31ms
+20260712:103223.197 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:103223.228 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:103223.244 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:103223.275 `-CNpcWorld::OnTimer, cnt=2999, tot=2947ms, avg=0.98ms, max=31ms
+20260712:103223.291   `-NpcManager::OnTimer, cnt=2999, tot=2681ms, avg=0.89ms, max=31ms
+20260712:103223.322     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=319ms, avg=0.00ms, max=17ms
+20260712:103223.338     | `-CNpcGenerator::Generator, cnt=338887, tot=0ms, avg=0.00ms, max=0ms
+20260712:103223.353     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:103223.369 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:103723.322 CLogThread OnProcess, cnt=303, tot=219ms, avg=0.72ms, max=219ms
+20260712:103723.322 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=31ms
+20260712:103723.338 CKernelThread::OnProcess, cnt=7691, tot=3514ms, avg=0.46ms, max=32ms
+20260712:103723.369 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:103723.385 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:103723.400 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:103723.432 `-CNpcWorld::OnTimer, cnt=3001, tot=3514ms, avg=1.17ms, max=32ms
+20260712:103723.447   `-NpcManager::OnTimer, cnt=3001, tot=3233ms, avg=1.08ms, max=32ms
+20260712:103723.463     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=348ms, avg=0.00ms, max=16ms
+20260712:103723.494     | `-CNpcGenerator::Generator, cnt=339113, tot=0ms, avg=0.00ms, max=0ms
+20260712:103723.541     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:103723.557 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:104223.259 CLogThread OnProcess, cnt=302, tot=267ms, avg=0.88ms, max=251ms
+20260712:104223.259 `-CLogThread ProcessMsg, cnt=14, tot=267ms, avg=19.07ms, max=47ms
+20260712:104223.274 CKernelThread::OnProcess, cnt=7561, tot=3757ms, avg=0.50ms, max=31ms
+20260712:104223.306 |-READMSG, cnt=7, tot=0ms, avg=0.00ms, max=0ms
+20260712:104223.337 | |-CNpcWorld::ProcessMsg, cnt=25, tot=0ms, avg=0.00ms, max=0ms
+20260712:104223.352 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:104223.368 `-CNpcWorld::OnTimer, cnt=3000, tot=3757ms, avg=1.25ms, max=31ms
+20260712:104223.384   `-NpcManager::OnTimer, cnt=3000, tot=3540ms, avg=1.18ms, max=31ms
+20260712:104223.399     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=477ms, avg=0.00ms, max=16ms
+20260712:104223.431     | `-CNpcGenerator::Generator, cnt=339001, tot=0ms, avg=0.00ms, max=0ms
+20260712:104223.446     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:104223.462 CNpcWorld::SendMsg, cnt=5, tot=0ms, avg=0.00ms, max=0ms
+20260712:104723.212 CLogThread OnProcess, cnt=301, tot=235ms, avg=0.78ms, max=219ms
+20260712:104723.212 `-CLogThread ProcessMsg, cnt=14, tot=235ms, avg=16.79ms, max=31ms
+20260712:104723.227 CKernelThread::OnProcess, cnt=7686, tot=3331ms, avg=0.43ms, max=32ms
+20260712:104723.243 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:104723.259 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:104723.274 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:104723.321 `-CNpcWorld::OnTimer, cnt=2999, tot=3331ms, avg=1.11ms, max=32ms
+20260712:104723.337   `-NpcManager::OnTimer, cnt=2999, tot=3137ms, avg=1.05ms, max=32ms
+20260712:104723.352     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=298ms, avg=0.00ms, max=16ms
+20260712:104723.368     | `-CNpcGenerator::Generator, cnt=338887, tot=34ms, avg=0.00ms, max=16ms
+20260712:104723.399     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:104723.415 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:105223.545 CLogThread OnProcess, cnt=303, tot=234ms, avg=0.77ms, max=234ms
+20260712:105223.545 `-CLogThread ProcessMsg, cnt=14, tot=234ms, avg=16.71ms, max=46ms
+20260712:105223.560 CKernelThread::OnProcess, cnt=7585, tot=3486ms, avg=0.46ms, max=32ms
+20260712:105223.576 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:105223.607 | |-CNpcWorld::ProcessMsg, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:105223.623 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:105223.654 `-CNpcWorld::OnTimer, cnt=3003, tot=3486ms, avg=1.16ms, max=32ms
+20260712:105223.670   `-NpcManager::OnTimer, cnt=3003, tot=3238ms, avg=1.08ms, max=32ms
+20260712:105223.685     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=376ms, avg=0.00ms, max=16ms
+20260712:105223.701     | `-CNpcGenerator::Generator, cnt=339340, tot=15ms, avg=0.00ms, max=15ms
+20260712:105223.732     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:105223.748 CNpcWorld::SendMsg, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:105723.415 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=219ms
+20260712:105723.415 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=32ms
+20260712:105723.430 CKernelThread::OnProcess, cnt=7670, tot=3316ms, avg=0.43ms, max=32ms
+20260712:105723.446 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:105723.477 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:105723.493 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:105723.509 `-CNpcWorld::OnTimer, cnt=3000, tot=3316ms, avg=1.11ms, max=32ms
+20260712:105723.524   `-NpcManager::OnTimer, cnt=3000, tot=3075ms, avg=1.02ms, max=32ms
+20260712:105723.540     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=328ms, avg=0.00ms, max=16ms
+20260712:105723.571     | `-CNpcGenerator::Generator, cnt=339000, tot=16ms, avg=0.00ms, max=16ms
+20260712:105723.587     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:105723.602 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:110223.217 CLogThread OnProcess, cnt=301, tot=219ms, avg=0.73ms, max=203ms
+20260712:110223.217 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=31ms
+20260712:110223.233 CKernelThread::OnProcess, cnt=7670, tot=3724ms, avg=0.49ms, max=32ms
+20260712:110223.248 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:110223.280 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:110223.295 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:110223.327 `-CNpcWorld::OnTimer, cnt=2998, tot=3724ms, avg=1.24ms, max=32ms
+20260712:110223.358   `-NpcManager::OnTimer, cnt=2998, tot=3447ms, avg=1.15ms, max=32ms
+20260712:110223.390     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=475ms, avg=0.00ms, max=20ms
+20260712:110223.421     | `-CNpcGenerator::Generator, cnt=338774, tot=19ms, avg=0.00ms, max=19ms
+20260712:110223.452     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:110223.515 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:110723.238 CLogThread OnProcess, cnt=302, tot=313ms, avg=1.04ms, max=298ms
+20260712:110723.238 `-CLogThread ProcessMsg, cnt=14, tot=313ms, avg=22.36ms, max=63ms
+20260712:110723.269 CKernelThread::OnProcess, cnt=7736, tot=3959ms, avg=0.51ms, max=33ms
+20260712:110723.285 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:110723.316 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:110723.332 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:110723.348 `-CNpcWorld::OnTimer, cnt=3000, tot=3959ms, avg=1.32ms, max=33ms
+20260712:110723.379   `-NpcManager::OnTimer, cnt=3000, tot=3728ms, avg=1.24ms, max=33ms
+20260712:110723.410     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=608ms, avg=0.00ms, max=17ms
+20260712:110723.426     | `-CNpcGenerator::Generator, cnt=339000, tot=24ms, avg=0.00ms, max=15ms
+20260712:110723.443     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:110723.473 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:111223.557 CLogThread OnProcess, cnt=303, tot=265ms, avg=0.87ms, max=252ms
+20260712:111223.557 `-CLogThread ProcessMsg, cnt=14, tot=265ms, avg=18.93ms, max=32ms
+20260712:111223.572 CKernelThread::OnProcess, cnt=7618, tot=5425ms, avg=0.71ms, max=32ms
+20260712:111223.588 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:111223.604 | |-CNpcWorld::ProcessMsg, cnt=20, tot=0ms, avg=0.00ms, max=0ms
+20260712:111223.619 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:111223.650 `-CNpcWorld::OnTimer, cnt=3003, tot=5425ms, avg=1.81ms, max=32ms
+20260712:111223.666   `-NpcManager::OnTimer, cnt=3003, tot=5212ms, avg=1.74ms, max=32ms
+20260712:111223.682     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=499ms, avg=0.00ms, max=16ms
+20260712:111223.714     | `-CNpcGenerator::Generator, cnt=339339, tot=0ms, avg=0.00ms, max=0ms
+20260712:111223.729     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:111223.760 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:111723.195 CLogThread OnProcess, cnt=301, tot=249ms, avg=0.83ms, max=234ms
+20260712:111723.195 `-CLogThread ProcessMsg, cnt=14, tot=249ms, avg=17.79ms, max=32ms
+20260712:111723.213 CKernelThread::OnProcess, cnt=7634, tot=6263ms, avg=0.82ms, max=47ms
+20260712:111723.243 |-READMSG, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:111723.258 | |-CNpcWorld::ProcessMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:111723.289 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:111723.304 `-CNpcWorld::OnTimer, cnt=2996, tot=6263ms, avg=2.09ms, max=47ms
+20260712:111723.320   `-NpcManager::OnTimer, cnt=2996, tot=6002ms, avg=2.00ms, max=34ms
+20260712:111723.336     |-CNpcGenerator::DoGenerator, cnt=13671221, tot=1165ms, avg=0.00ms, max=17ms
+20260712:111723.368     | `-CNpcGenerator::Generator, cnt=338654, tot=44ms, avg=0.00ms, max=15ms
+20260712:111723.383     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:111723.414 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:112223.129 CLogThread OnProcess, cnt=302, tot=250ms, avg=0.83ms, max=234ms
+20260712:112223.129 `-CLogThread ProcessMsg, cnt=14, tot=250ms, avg=17.86ms, max=32ms
+20260712:112223.145 CKernelThread::OnProcess, cnt=7623, tot=5226ms, avg=0.69ms, max=31ms
+20260712:112223.162 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:112223.176 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:112223.194 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:112223.208 `-CNpcWorld::OnTimer, cnt=3000, tot=5226ms, avg=1.74ms, max=31ms
+20260712:112223.224   `-NpcManager::OnTimer, cnt=3000, tot=4912ms, avg=1.64ms, max=31ms
+20260712:112223.255     |-CNpcGenerator::DoGenerator, cnt=13688527, tot=518ms, avg=0.00ms, max=19ms
+20260712:112223.286     | `-CNpcGenerator::Generator, cnt=338894, tot=0ms, avg=0.00ms, max=0ms
+20260712:112223.302     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:112223.317 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:112723.365 CLogThread OnProcess, cnt=303, tot=237ms, avg=0.78ms, max=221ms
+20260712:112723.365 `-CLogThread ProcessMsg, cnt=14, tot=237ms, avg=16.93ms, max=33ms
+20260712:112723.380 CKernelThread::OnProcess, cnt=7689, tot=4448ms, avg=0.58ms, max=47ms
+20260712:112723.396 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:112723.427 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:112723.443 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:112723.475 `-CNpcWorld::OnTimer, cnt=3002, tot=4448ms, avg=1.48ms, max=47ms
+20260712:112723.490   `-NpcManager::OnTimer, cnt=3002, tot=4193ms, avg=1.40ms, max=47ms
+20260712:112723.522     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=546ms, avg=0.00ms, max=16ms
+20260712:112723.537     | `-CNpcGenerator::Generator, cnt=339226, tot=16ms, avg=0.00ms, max=16ms
+20260712:112723.553     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:112723.584 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:113223.408 CLogThread OnProcess, cnt=302, tot=251ms, avg=0.83ms, max=235ms
+20260712:113223.408 `-CLogThread ProcessMsg, cnt=14, tot=251ms, avg=17.93ms, max=31ms
+20260712:113223.424 CKernelThread::OnProcess, cnt=7534, tot=4865ms, avg=0.65ms, max=47ms
+20260712:113223.440 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:113223.471 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:113223.486 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:113223.518 `-CNpcWorld::OnTimer, cnt=3000, tot=4865ms, avg=1.62ms, max=47ms
+20260712:113223.533   `-NpcManager::OnTimer, cnt=3000, tot=4572ms, avg=1.52ms, max=32ms
+20260712:113223.549     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=668ms, avg=0.00ms, max=17ms
+20260712:113223.565     | `-CNpcGenerator::Generator, cnt=339000, tot=15ms, avg=0.00ms, max=15ms
+20260712:113223.596     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:113223.627 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:113723.293 CLogThread OnProcess, cnt=302, tot=234ms, avg=0.77ms, max=234ms
+20260712:113723.293 `-CLogThread ProcessMsg, cnt=14, tot=234ms, avg=16.71ms, max=32ms
+20260712:113723.308 CKernelThread::OnProcess, cnt=7686, tot=3410ms, avg=0.44ms, max=37ms
+20260712:113723.324 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:113723.372 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:113723.387 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:113723.418 `-CNpcWorld::OnTimer, cnt=2999, tot=3394ms, avg=1.13ms, max=37ms
+20260712:113723.433   `-NpcManager::OnTimer, cnt=2999, tot=3147ms, avg=1.05ms, max=37ms
+20260712:113723.480     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=354ms, avg=0.00ms, max=17ms
+20260712:113723.496     | `-CNpcGenerator::Generator, cnt=338887, tot=0ms, avg=0.00ms, max=0ms
+20260712:113723.527     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:113723.543 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:114223.585 CLogThread OnProcess, cnt=302, tot=281ms, avg=0.93ms, max=266ms
+20260712:114223.585 `-CLogThread ProcessMsg, cnt=14, tot=281ms, avg=20.07ms, max=47ms
+20260712:114223.600 CKernelThread::OnProcess, cnt=7624, tot=3637ms, avg=0.48ms, max=47ms
+20260712:114223.616 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:114223.631 | |-CNpcWorld::ProcessMsg, cnt=20, tot=0ms, avg=0.00ms, max=0ms
+20260712:114223.647 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:114223.663 `-CNpcWorld::OnTimer, cnt=3003, tot=3622ms, avg=1.21ms, max=47ms
+20260712:114223.678   `-NpcManager::OnTimer, cnt=3003, tot=3464ms, avg=1.15ms, max=47ms
+20260712:114223.709     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=341ms, avg=0.00ms, max=16ms
+20260712:114223.725     | `-CNpcGenerator::Generator, cnt=339339, tot=0ms, avg=0.00ms, max=0ms
+20260712:114223.741     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:114223.756 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:114723.162 CLogThread OnProcess, cnt=301, tot=187ms, avg=0.62ms, max=187ms
+20260712:114723.162 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=31ms
+20260712:114723.178 CKernelThread::OnProcess, cnt=7768, tot=4740ms, avg=0.61ms, max=33ms
+20260712:114723.194 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:114723.209 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:114723.226 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:114723.256 `-CNpcWorld::OnTimer, cnt=2996, tot=4740ms, avg=1.58ms, max=33ms
+20260712:114723.272   `-NpcManager::OnTimer, cnt=2996, tot=4541ms, avg=1.52ms, max=33ms
+20260712:114723.289     |-CNpcGenerator::DoGenerator, cnt=13670748, tot=594ms, avg=0.00ms, max=16ms
+20260712:114723.304     | `-CNpcGenerator::Generator, cnt=338548, tot=16ms, avg=0.00ms, max=16ms
+20260712:114723.319     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:114723.350 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:115223.290 CLogThread OnProcess, cnt=303, tot=203ms, avg=0.67ms, max=203ms
+20260712:115223.290 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:115223.305 CKernelThread::OnProcess, cnt=7559, tot=5397ms, avg=0.71ms, max=47ms
+20260712:115223.321 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:115223.337 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:115223.352 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:115223.368 `-CNpcWorld::OnTimer, cnt=3001, tot=5397ms, avg=1.80ms, max=47ms
+20260712:115223.384   `-NpcManager::OnTimer, cnt=3001, tot=5224ms, avg=1.74ms, max=47ms
+20260712:115223.399     |-CNpcGenerator::DoGenerator, cnt=13693774, tot=995ms, avg=0.00ms, max=16ms
+20260712:115223.415     | `-CNpcGenerator::Generator, cnt=339199, tot=30ms, avg=0.00ms, max=15ms
+20260712:115223.430     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:115223.461 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:115723.135 CLogThread OnProcess, cnt=301, tot=203ms, avg=0.67ms, max=188ms
+20260712:115723.135 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=31ms
+20260712:115723.151 CKernelThread::OnProcess, cnt=7599, tot=4955ms, avg=0.65ms, max=39ms
+20260712:115723.167 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:115723.182 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:115723.198 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:115723.229 `-CNpcWorld::OnTimer, cnt=2998, tot=4955ms, avg=1.65ms, max=39ms
+20260712:115723.245   `-NpcManager::OnTimer, cnt=2998, tot=4678ms, avg=1.56ms, max=39ms
+20260712:115723.260     |-CNpcGenerator::DoGenerator, cnt=13680885, tot=518ms, avg=0.00ms, max=16ms
+20260712:115723.276     | `-CNpcGenerator::Generator, cnt=338795, tot=16ms, avg=0.00ms, max=16ms
+20260712:115723.292     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:115723.307 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:120223.613 CLogThread OnProcess, cnt=303, tot=203ms, avg=0.67ms, max=187ms
+20260712:120223.613 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:120223.628 CKernelThread::OnProcess, cnt=7679, tot=5026ms, avg=0.65ms, max=46ms
+20260712:120223.643 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:120223.659 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:120223.675 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:120223.706 `-CNpcWorld::OnTimer, cnt=3005, tot=5026ms, avg=1.67ms, max=46ms
+20260712:120223.722   `-NpcManager::OnTimer, cnt=3005, tot=4760ms, avg=1.58ms, max=46ms
+20260712:120223.737     |-CNpcGenerator::DoGenerator, cnt=13710593, tot=564ms, avg=0.00ms, max=16ms
+20260712:120223.753     | `-CNpcGenerator::Generator, cnt=339458, tot=0ms, avg=0.00ms, max=0ms
+20260712:120223.769     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:120223.800 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:120723.285 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=203ms
+20260712:120723.285 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:120723.301 CKernelThread::OnProcess, cnt=7607, tot=4166ms, avg=0.55ms, max=38ms
+20260712:120723.316 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:120723.316 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:120723.348 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:120723.364 `-CNpcWorld::OnTimer, cnt=2997, tot=4166ms, avg=1.39ms, max=38ms
+20260712:120723.379   `-NpcManager::OnTimer, cnt=2997, tot=4015ms, avg=1.34ms, max=38ms
+20260712:120723.395     |-CNpcGenerator::DoGenerator, cnt=13675311, tot=533ms, avg=0.00ms, max=31ms
+20260712:120723.410     | `-CNpcGenerator::Generator, cnt=338661, tot=34ms, avg=0.00ms, max=16ms
+20260712:120723.426     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:120723.441 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:121223.619 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:121223.619 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=31ms
+20260712:121223.635 CKernelThread::OnProcess, cnt=7703, tot=5969ms, avg=0.77ms, max=47ms
+20260712:121223.650 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:121223.666 | |-CNpcWorld::ProcessMsg, cnt=20, tot=0ms, avg=0.00ms, max=0ms
+20260712:121223.682 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:121223.697 `-CNpcWorld::OnTimer, cnt=3004, tot=5969ms, avg=1.99ms, max=47ms
+20260712:121223.713   `-NpcManager::OnTimer, cnt=3004, tot=5781ms, avg=1.92ms, max=47ms
+20260712:121223.728     |-CNpcGenerator::DoGenerator, cnt=13707252, tot=715ms, avg=0.00ms, max=16ms
+20260712:121223.744     | `-CNpcGenerator::Generator, cnt=339452, tot=0ms, avg=0.00ms, max=0ms
+20260712:121223.760     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:121223.775 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:121723.340 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:121723.340 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=16ms
+20260712:121723.355 CKernelThread::OnProcess, cnt=7690, tot=4326ms, avg=0.56ms, max=35ms
+20260712:121723.371 |-READMSG, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:121723.386 | |-CNpcWorld::ProcessMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:121723.402 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:121723.420 `-CNpcWorld::OnTimer, cnt=2997, tot=4326ms, avg=1.44ms, max=35ms
+20260712:121723.449   `-NpcManager::OnTimer, cnt=2997, tot=4103ms, avg=1.37ms, max=35ms
+20260712:121723.465     |-CNpcGenerator::DoGenerator, cnt=13675311, tot=632ms, avg=0.00ms, max=16ms
+20260712:121723.480     | `-CNpcGenerator::Generator, cnt=338661, tot=15ms, avg=0.00ms, max=15ms
+20260712:121723.497     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:121723.511 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:122223.507 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=188ms
+20260712:122223.507 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=30ms
+20260712:122223.522 CKernelThread::OnProcess, cnt=7960, tot=4145ms, avg=0.52ms, max=35ms
+20260712:122223.538 |-READMSG, cnt=654, tot=47ms, avg=0.07ms, max=16ms
+20260712:122223.554 | |-CNpcWorld::ProcessMsg, cnt=811, tot=47ms, avg=0.06ms, max=16ms
+20260712:122223.569 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:122223.600 `-CNpcWorld::OnTimer, cnt=3002, tot=4083ms, avg=1.36ms, max=35ms
+20260712:122223.616   `-NpcManager::OnTimer, cnt=3002, tot=3887ms, avg=1.29ms, max=35ms
+20260712:122223.632     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=438ms, avg=0.00ms, max=16ms
+20260712:122223.663     | `-CNpcGenerator::Generator, cnt=339231, tot=16ms, avg=0.00ms, max=16ms
+20260712:122223.679     `-CNpc::OnTimer, cnt=20889, tot=229ms, avg=0.01ms, max=16ms
+20260712:122223.696 CNpcWorld::SendMsg, cnt=468, tot=124ms, avg=0.26ms, max=16ms
+20260712:122723.404 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=219ms
+20260712:122723.404 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=31ms
+20260712:122723.419 CKernelThread::OnProcess, cnt=8467, tot=3987ms, avg=0.47ms, max=31ms
+20260712:122723.435 |-READMSG, cnt=1689, tot=13ms, avg=0.01ms, max=13ms
+20260712:122723.451 | |-CNpcWorld::ProcessMsg, cnt=2138, tot=13ms, avg=0.01ms, max=13ms
+20260712:122723.466 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:122723.482 `-CNpcWorld::OnTimer, cnt=2999, tot=3958ms, avg=1.32ms, max=31ms
+20260712:122723.497   `-NpcManager::OnTimer, cnt=2999, tot=3784ms, avg=1.26ms, max=26ms
+20260712:122723.513     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=587ms, avg=0.00ms, max=16ms
+20260712:122723.544     | `-CNpcGenerator::Generator, cnt=338944, tot=16ms, avg=0.00ms, max=15ms
+20260712:122723.560     `-CNpc::OnTimer, cnt=42785, tot=113ms, avg=0.00ms, max=20ms
+20260712:122723.576 CNpcWorld::SendMsg, cnt=941, tot=65ms, avg=0.07ms, max=20ms
+20260712:123223.589 CLogThread OnProcess, cnt=302, tot=204ms, avg=0.68ms, max=188ms
+20260712:123223.589 `-CLogThread ProcessMsg, cnt=14, tot=204ms, avg=14.57ms, max=31ms
+20260712:123223.604 CKernelThread::OnProcess, cnt=8628, tot=4490ms, avg=0.52ms, max=33ms
+20260712:123223.620 |-READMSG, cnt=1909, tot=77ms, avg=0.04ms, max=16ms
+20260712:123223.636 | |-CNpcWorld::ProcessMsg, cnt=2243, tot=15ms, avg=0.01ms, max=15ms
+20260712:123223.651 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:123223.667 `-CNpcWorld::OnTimer, cnt=3001, tot=4397ms, avg=1.47ms, max=33ms
+20260712:123223.683   `-NpcManager::OnTimer, cnt=3001, tot=4180ms, avg=1.39ms, max=33ms
+20260712:123223.698     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=614ms, avg=0.00ms, max=18ms
+20260712:123223.714     | `-CNpcGenerator::Generator, cnt=339172, tot=18ms, avg=0.00ms, max=15ms
+20260712:123223.729     `-CNpc::OnTimer, cnt=44505, tot=117ms, avg=0.00ms, max=16ms
+20260712:123223.745 CNpcWorld::SendMsg, cnt=1148, tot=88ms, avg=0.08ms, max=16ms
+20260712:123723.345 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=188ms
+20260712:123723.345 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:123723.360 CKernelThread::OnProcess, cnt=7933, tot=3659ms, avg=0.46ms, max=46ms
+20260712:123723.376 |-READMSG, cnt=500, tot=0ms, avg=0.00ms, max=0ms
+20260712:123723.392 | |-CNpcWorld::ProcessMsg, cnt=528, tot=0ms, avg=0.00ms, max=0ms
+20260712:123723.407 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:123723.439 `-CNpcWorld::OnTimer, cnt=2998, tot=3644ms, avg=1.22ms, max=46ms
+20260712:123723.454   `-NpcManager::OnTimer, cnt=2998, tot=3482ms, avg=1.16ms, max=33ms
+20260712:123723.470     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=454ms, avg=0.00ms, max=17ms
+20260712:123723.485     | `-CNpcGenerator::Generator, cnt=338782, tot=15ms, avg=0.00ms, max=15ms
+20260712:123723.501     `-CNpc::OnTimer, cnt=12878, tot=93ms, avg=0.01ms, max=16ms
+20260712:123723.517 CNpcWorld::SendMsg, cnt=226, tot=63ms, avg=0.28ms, max=16ms
+20260712:124223.412 CLogThread OnProcess, cnt=302, tot=187ms, avg=0.62ms, max=187ms
+20260712:124223.412 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=31ms
+20260712:124223.428 CKernelThread::OnProcess, cnt=8869, tot=5621ms, avg=0.63ms, max=31ms
+20260712:124223.443 |-READMSG, cnt=2763, tot=61ms, avg=0.02ms, max=16ms
+20260712:124223.459 | |-CNpcWorld::ProcessMsg, cnt=3443, tot=30ms, avg=0.01ms, max=15ms
+20260712:124223.475 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:124223.490 `-CNpcWorld::OnTimer, cnt=3000, tot=5544ms, avg=1.85ms, max=31ms
+20260712:124223.506   `-NpcManager::OnTimer, cnt=3000, tot=5358ms, avg=1.79ms, max=31ms
+20260712:124223.521     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=728ms, avg=0.00ms, max=17ms
+20260712:124223.537     | `-CNpcGenerator::Generator, cnt=339035, tot=16ms, avg=0.00ms, max=16ms
+20260712:124223.553     `-CNpc::OnTimer, cnt=71633, tot=248ms, avg=0.00ms, max=16ms
+20260712:124223.568 CNpcWorld::SendMsg, cnt=1930, tot=171ms, avg=0.09ms, max=16ms
+20260712:124723.321 CLogThread OnProcess, cnt=302, tot=187ms, avg=0.62ms, max=172ms
+20260712:124723.321 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=16ms
+20260712:124723.337 CKernelThread::OnProcess, cnt=9095, tot=5311ms, avg=0.58ms, max=35ms
+20260712:124723.352 |-READMSG, cnt=3000, tot=79ms, avg=0.03ms, max=16ms
+20260712:124723.368 | |-CNpcWorld::ProcessMsg, cnt=3849, tot=47ms, avg=0.01ms, max=16ms
+20260712:124723.368 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:124723.384 `-CNpcWorld::OnTimer, cnt=3000, tot=5232ms, avg=1.74ms, max=35ms
+20260712:124723.415   `-NpcManager::OnTimer, cnt=3000, tot=5031ms, avg=1.68ms, max=35ms
+20260712:124723.431     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=719ms, avg=0.00ms, max=20ms
+20260712:124723.446     | `-CNpcGenerator::Generator, cnt=339026, tot=5ms, avg=0.00ms, max=5ms
+20260712:124723.462     `-CNpc::OnTimer, cnt=75374, tot=264ms, avg=0.00ms, max=16ms
+20260712:124723.477 CNpcWorld::SendMsg, cnt=2441, tot=155ms, avg=0.06ms, max=16ms
+20260712:125223.162 CLogThread OnProcess, cnt=301, tot=171ms, avg=0.57ms, max=171ms
+20260712:125223.162 `-CLogThread ProcessMsg, cnt=14, tot=171ms, avg=12.21ms, max=31ms
+20260712:125223.178 CKernelThread::OnProcess, cnt=7949, tot=3950ms, avg=0.50ms, max=31ms
+20260712:125223.193 |-READMSG, cnt=536, tot=16ms, avg=0.03ms, max=16ms
+20260712:125223.209 | |-CNpcWorld::ProcessMsg, cnt=584, tot=16ms, avg=0.03ms, max=16ms
+20260712:125223.225 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:125223.246 `-CNpcWorld::OnTimer, cnt=2998, tot=3903ms, avg=1.30ms, max=31ms
+20260712:125223.257   `-NpcManager::OnTimer, cnt=2998, tot=3703ms, avg=1.24ms, max=31ms
+20260712:125223.272     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=372ms, avg=0.00ms, max=16ms
+20260712:125223.304     | `-CNpcGenerator::Generator, cnt=338779, tot=0ms, avg=0.00ms, max=0ms
+20260712:125223.304     `-CNpc::OnTimer, cnt=20592, tot=47ms, avg=0.00ms, max=16ms
+20260712:125223.319 CNpcWorld::SendMsg, cnt=310, tot=47ms, avg=0.15ms, max=16ms
+20260712:125723.499 CLogThread OnProcess, cnt=303, tot=205ms, avg=0.68ms, max=189ms
+20260712:125723.499 `-CLogThread ProcessMsg, cnt=14, tot=205ms, avg=14.64ms, max=31ms
+20260712:125723.515 CKernelThread::OnProcess, cnt=8925, tot=4479ms, avg=0.50ms, max=32ms
+20260712:125723.531 |-READMSG, cnt=2409, tot=61ms, avg=0.03ms, max=16ms
+20260712:125723.547 | |-CNpcWorld::ProcessMsg, cnt=2893, tot=46ms, avg=0.02ms, max=16ms
+20260712:125723.578 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:125723.593 `-CNpcWorld::OnTimer, cnt=3003, tot=4418ms, avg=1.47ms, max=32ms
+20260712:125723.609   `-NpcManager::OnTimer, cnt=3003, tot=4239ms, avg=1.41ms, max=32ms
+20260712:125723.625     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=667ms, avg=0.00ms, max=17ms
+20260712:125723.656     | `-CNpcGenerator::Generator, cnt=339399, tot=15ms, avg=0.00ms, max=15ms
+20260712:125723.672     `-CNpc::OnTimer, cnt=60673, tot=163ms, avg=0.00ms, max=20ms
+20260712:125723.687 CNpcWorld::SendMsg, cnt=1630, tot=150ms, avg=0.09ms, max=20ms
+20260712:130223.261 CLogThread OnProcess, cnt=302, tot=204ms, avg=0.68ms, max=204ms
+20260712:130223.261 `-CLogThread ProcessMsg, cnt=14, tot=204ms, avg=14.57ms, max=32ms
+20260712:130223.277 CKernelThread::OnProcess, cnt=8419, tot=6048ms, avg=0.72ms, max=62ms
+20260712:130223.292 |-READMSG, cnt=1818, tot=61ms, avg=0.03ms, max=16ms
+20260712:130223.308 | |-CNpcWorld::ProcessMsg, cnt=2254, tot=46ms, avg=0.02ms, max=16ms
+20260712:130223.323 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:130223.339 `-CNpcWorld::OnTimer, cnt=2998, tot=5987ms, avg=2.00ms, max=62ms
+20260712:130223.370   `-NpcManager::OnTimer, cnt=2998, tot=5847ms, avg=1.95ms, max=62ms
+20260712:130223.386     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=800ms, avg=0.00ms, max=42ms
+20260712:130223.402     | `-CNpcGenerator::Generator, cnt=338797, tot=0ms, avg=0.00ms, max=0ms
+20260712:130223.417     `-CNpc::OnTimer, cnt=49358, tot=327ms, avg=0.01ms, max=19ms
+20260712:130223.433 CNpcWorld::SendMsg, cnt=1382, tot=201ms, avg=0.15ms, max=19ms
+20260712:130723.284 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=188ms
+20260712:130723.284 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=32ms
+20260712:130723.300 CKernelThread::OnProcess, cnt=9926, tot=6252ms, avg=0.63ms, max=37ms
+20260712:130723.315 |-READMSG, cnt=5683, tot=75ms, avg=0.01ms, max=16ms
+20260712:130723.331 | |-CNpcWorld::ProcessMsg, cnt=8173, tot=75ms, avg=0.01ms, max=16ms
+20260712:130723.346 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:130723.362 `-CNpcWorld::OnTimer, cnt=3000, tot=6113ms, avg=2.04ms, max=37ms
+20260712:130723.378   `-NpcManager::OnTimer, cnt=3000, tot=5942ms, avg=1.98ms, max=37ms
+20260712:130723.409     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=540ms, avg=0.00ms, max=16ms
+20260712:130723.425     | `-CNpcGenerator::Generator, cnt=339024, tot=15ms, avg=0.00ms, max=15ms
+20260712:130723.440     `-CNpc::OnTimer, cnt=211799, tot=675ms, avg=0.00ms, max=18ms
+20260712:130723.456 CNpcWorld::SendMsg, cnt=5566, tot=444ms, avg=0.08ms, max=18ms
+20260712:131223.242 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=187ms
+20260712:131223.242 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:131223.257 CKernelThread::OnProcess, cnt=9698, tot=7401ms, avg=0.76ms, max=50ms
+20260712:131223.257 |-READMSG, cnt=5080, tot=95ms, avg=0.02ms, max=16ms
+20260712:131223.273 | |-CNpcWorld::ProcessMsg, cnt=7160, tot=79ms, avg=0.01ms, max=16ms
+20260712:131223.288 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:131223.320 `-CNpcWorld::OnTimer, cnt=3000, tot=7272ms, avg=2.42ms, max=50ms
+20260712:131223.335   `-NpcManager::OnTimer, cnt=3000, tot=7034ms, avg=2.34ms, max=50ms
+20260712:131223.351     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=777ms, avg=0.00ms, max=31ms
+20260712:131223.367     | `-CNpcGenerator::Generator, cnt=339064, tot=16ms, avg=0.00ms, max=16ms
+20260712:131223.382     `-CNpc::OnTimer, cnt=174156, tot=654ms, avg=0.00ms, max=21ms
+20260712:131223.398 CNpcWorld::SendMsg, cnt=4480, tot=408ms, avg=0.09ms, max=21ms
+20260712:131723.458 CLogThread OnProcess, cnt=302, tot=187ms, avg=0.62ms, max=172ms
+20260712:131723.458 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=31ms
+20260712:131723.474 CKernelThread::OnProcess, cnt=10123, tot=9732ms, avg=0.96ms, max=62ms
+20260712:131723.505 |-READMSG, cnt=6946, tot=155ms, avg=0.02ms, max=16ms
+20260712:131723.520 | |-CNpcWorld::ProcessMsg, cnt=11005, tot=78ms, avg=0.01ms, max=16ms
+20260712:131723.536 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:131723.552 `-CNpcWorld::OnTimer, cnt=3002, tot=9503ms, avg=3.17ms, max=62ms
+20260712:131723.567   `-NpcManager::OnTimer, cnt=3002, tot=9358ms, avg=3.12ms, max=62ms
+20260712:131723.583     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=973ms, avg=0.00ms, max=24ms
+20260712:131723.614     | `-CNpcGenerator::Generator, cnt=339305, tot=39ms, avg=0.00ms, max=24ms
+20260712:131723.630     `-CNpc::OnTimer, cnt=288107, tot=1402ms, avg=0.00ms, max=19ms
+20260712:131723.645 CNpcWorld::SendMsg, cnt=7736, tot=960ms, avg=0.12ms, max=19ms
+20260712:132223.542 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=219ms
+20260712:132223.542 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=31ms
+20260712:132223.558 CKernelThread::OnProcess, cnt=8708, tot=5096ms, avg=0.59ms, max=34ms
+20260712:132223.573 |-READMSG, cnt=2210, tot=156ms, avg=0.07ms, max=16ms
+20260712:132223.589 | |-CNpcWorld::ProcessMsg, cnt=2490, tot=94ms, avg=0.04ms, max=16ms
+20260712:132223.605 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:132223.620 `-CNpcWorld::OnTimer, cnt=3000, tot=4940ms, avg=1.65ms, max=34ms
+20260712:132223.636   `-NpcManager::OnTimer, cnt=3000, tot=4783ms, avg=1.59ms, max=34ms
+20260712:132223.652     |-CNpcGenerator::DoGenerator, cnt=13689323, tot=548ms, avg=0.00ms, max=16ms
+20260712:132223.667     | `-CNpcGenerator::Generator, cnt=339148, tot=63ms, avg=0.00ms, max=16ms
+20260712:132223.699     `-CNpc::OnTimer, cnt=40412, tot=152ms, avg=0.00ms, max=20ms
+20260712:132223.714 CNpcWorld::SendMsg, cnt=1392, tot=122ms, avg=0.09ms, max=20ms
+20260712:132723.248 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=188ms
+20260712:132723.248 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=31ms
+20260712:132723.263 CKernelThread::OnProcess, cnt=9212, tot=6632ms, avg=0.72ms, max=44ms
+20260712:132723.278 |-READMSG, cnt=3455, tot=124ms, avg=0.04ms, max=17ms
+20260712:132723.297 | |-CNpcWorld::ProcessMsg, cnt=4580, tot=60ms, avg=0.01ms, max=16ms
+20260712:132723.325 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:132723.341 `-CNpcWorld::OnTimer, cnt=2998, tot=6446ms, avg=2.15ms, max=44ms
+20260712:132723.357   `-NpcManager::OnTimer, cnt=2998, tot=6220ms, avg=2.07ms, max=44ms
+20260712:132723.372     |-CNpcGenerator::DoGenerator, cnt=13679551, tot=902ms, avg=0.00ms, max=16ms
+20260712:132723.403     | `-CNpcGenerator::Generator, cnt=338713, tot=16ms, avg=0.00ms, max=16ms
+20260712:132723.419     `-CNpc::OnTimer, cnt=104915, tot=472ms, avg=0.00ms, max=19ms
+20260712:132723.450 CNpcWorld::SendMsg, cnt=3007, tot=438ms, avg=0.15ms, max=19ms
+20260712:133223.271 CLogThread OnProcess, cnt=302, tot=239ms, avg=0.79ms, max=219ms
+20260712:133223.271 `-CLogThread ProcessMsg, cnt=14, tot=239ms, avg=17.07ms, max=31ms
+20260712:133223.287 CKernelThread::OnProcess, cnt=7739, tot=3955ms, avg=0.51ms, max=31ms
+20260712:133223.318 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:133223.334 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:133223.349 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:133223.365 `-CNpcWorld::OnTimer, cnt=3000, tot=3955ms, avg=1.32ms, max=31ms
+20260712:133223.381   `-NpcManager::OnTimer, cnt=3000, tot=3705ms, avg=1.24ms, max=31ms
+20260712:133223.396     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=331ms, avg=0.00ms, max=18ms
+20260712:133223.428     | `-CNpcGenerator::Generator, cnt=339000, tot=16ms, avg=0.00ms, max=16ms
+20260712:133223.443     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:133223.459 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:133723.213 CLogThread OnProcess, cnt=301, tot=219ms, avg=0.73ms, max=203ms
+20260712:133723.213 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=31ms
+20260712:133723.228 CKernelThread::OnProcess, cnt=7653, tot=3988ms, avg=0.52ms, max=51ms
+20260712:133723.244 |-READMSG, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:133723.260 | |-CNpcWorld::ProcessMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:133723.275 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:133723.306 `-CNpcWorld::OnTimer, cnt=3000, tot=3988ms, avg=1.33ms, max=51ms
+20260712:133723.322   `-NpcManager::OnTimer, cnt=3000, tot=3785ms, avg=1.26ms, max=51ms
+20260712:133723.353     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=424ms, avg=0.00ms, max=17ms
+20260712:133723.369     | `-CNpcGenerator::Generator, cnt=339001, tot=0ms, avg=0.00ms, max=0ms
+20260712:133723.369     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:133723.400 CNpcWorld::SendMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:134223.545 CLogThread OnProcess, cnt=303, tot=202ms, avg=0.67ms, max=202ms
+20260712:134223.545 `-CLogThread ProcessMsg, cnt=14, tot=202ms, avg=14.43ms, max=31ms
+20260712:134223.561 CKernelThread::OnProcess, cnt=7729, tot=4049ms, avg=0.52ms, max=32ms
+20260712:134223.592 |-READMSG, cnt=2, tot=15ms, avg=7.50ms, max=15ms
+20260712:134223.608 | |-CNpcWorld::ProcessMsg, cnt=20, tot=15ms, avg=0.75ms, max=15ms
+20260712:134223.624 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:134223.639 `-CNpcWorld::OnTimer, cnt=3003, tot=4034ms, avg=1.34ms, max=32ms
+20260712:134223.670   `-NpcManager::OnTimer, cnt=3003, tot=3879ms, avg=1.29ms, max=32ms
+20260712:134223.686     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=380ms, avg=0.00ms, max=16ms
+20260712:134223.702     | `-CNpcGenerator::Generator, cnt=339339, tot=47ms, avg=0.00ms, max=16ms
+20260712:134223.717     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:134223.733 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:134723.357 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=203ms
+20260712:134723.357 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=31ms
+20260712:134723.373 CKernelThread::OnProcess, cnt=7649, tot=3878ms, avg=0.51ms, max=32ms
+20260712:134723.388 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:134723.404 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:134723.420 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:134723.435 `-CNpcWorld::OnTimer, cnt=2998, tot=3862ms, avg=1.29ms, max=32ms
+20260712:134723.451   `-NpcManager::OnTimer, cnt=2998, tot=3620ms, avg=1.21ms, max=32ms
+20260712:134723.466     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=367ms, avg=0.00ms, max=20ms
+20260712:134723.482     | `-CNpcGenerator::Generator, cnt=338774, tot=15ms, avg=0.00ms, max=15ms
+20260712:134723.498     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:134723.513 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:135223.445 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:135223.445 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=16ms
+20260712:135223.461 CKernelThread::OnProcess, cnt=7553, tot=3598ms, avg=0.48ms, max=32ms
+20260712:135223.477 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:135223.492 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:135223.508 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:135223.524 `-CNpcWorld::OnTimer, cnt=3001, tot=3598ms, avg=1.20ms, max=32ms
+20260712:135223.539   `-NpcManager::OnTimer, cnt=3001, tot=3324ms, avg=1.11ms, max=16ms
+20260712:135223.555     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=427ms, avg=0.00ms, max=16ms
+20260712:135223.571     | `-CNpcGenerator::Generator, cnt=339113, tot=16ms, avg=0.00ms, max=16ms
+20260712:135223.586     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:135223.602 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:135723.286 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:135723.286 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=16ms
+20260712:135723.302 CKernelThread::OnProcess, cnt=7704, tot=4323ms, avg=0.56ms, max=47ms
+20260712:135723.318 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:135723.333 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:135723.349 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:135723.365 `-CNpcWorld::OnTimer, cnt=2998, tot=4323ms, avg=1.44ms, max=47ms
+20260712:135723.396   `-NpcManager::OnTimer, cnt=2998, tot=4139ms, avg=1.38ms, max=47ms
+20260712:135723.412     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=701ms, avg=0.00ms, max=16ms
+20260712:135723.427     | `-CNpcGenerator::Generator, cnt=338774, tot=43ms, avg=0.00ms, max=16ms
+20260712:135723.443     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:135723.458 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:140223.555 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=188ms
+20260712:140223.555 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=31ms
+20260712:140223.570 CKernelThread::OnProcess, cnt=7735, tot=3304ms, avg=0.43ms, max=33ms
+20260712:140223.586 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:140223.586 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:140223.601 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:140223.617 `-CNpcWorld::OnTimer, cnt=3003, tot=3304ms, avg=1.10ms, max=33ms
+20260712:140223.648   `-NpcManager::OnTimer, cnt=3003, tot=3055ms, avg=1.02ms, max=31ms
+20260712:140223.664     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=379ms, avg=0.00ms, max=17ms
+20260712:140223.680     | `-CNpcGenerator::Generator, cnt=339339, tot=0ms, avg=0.00ms, max=0ms
+20260712:140223.695     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:140223.711 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:140723.411 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:140723.411 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=31ms
+20260712:140723.427 CKernelThread::OnProcess, cnt=7659, tot=1816ms, avg=0.24ms, max=16ms
+20260712:140723.442 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:140723.458 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:140723.473 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:140723.489 `-CNpcWorld::OnTimer, cnt=2998, tot=1816ms, avg=0.61ms, max=16ms
+20260712:140723.505   `-NpcManager::OnTimer, cnt=2998, tot=1633ms, avg=0.54ms, max=16ms
+20260712:140723.520     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=148ms, avg=0.00ms, max=16ms
+20260712:140723.536     | `-CNpcGenerator::Generator, cnt=338774, tot=0ms, avg=0.00ms, max=0ms
+20260712:140723.552     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:140723.567 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:141223.169 CLogThread OnProcess, cnt=301, tot=187ms, avg=0.62ms, max=172ms
+20260712:141223.169 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=16ms
+20260712:141223.184 CKernelThread::OnProcess, cnt=7602, tot=2848ms, avg=0.37ms, max=32ms
+20260712:141223.200 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:141223.216 | |-CNpcWorld::ProcessMsg, cnt=20, tot=0ms, avg=0.00ms, max=0ms
+20260712:141223.231 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:141223.247 `-CNpcWorld::OnTimer, cnt=2998, tot=2831ms, avg=0.94ms, max=32ms
+20260712:141223.262   `-NpcManager::OnTimer, cnt=2998, tot=2613ms, avg=0.87ms, max=32ms
+20260712:141223.278     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=257ms, avg=0.00ms, max=16ms
+20260712:141223.294     | `-CNpcGenerator::Generator, cnt=338774, tot=0ms, avg=0.00ms, max=0ms
+20260712:141223.325     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:141223.341 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:141723.207 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=203ms
+20260712:141723.207 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:141723.223 CKernelThread::OnProcess, cnt=7620, tot=1879ms, avg=0.25ms, max=32ms
+20260712:141723.238 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:141723.255 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:141723.275 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:141723.290 `-CNpcWorld::OnTimer, cnt=3000, tot=1879ms, avg=0.63ms, max=32ms
+20260712:141723.322   `-NpcManager::OnTimer, cnt=3000, tot=1672ms, avg=0.56ms, max=32ms
+20260712:141723.337     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=75ms, avg=0.00ms, max=16ms
+20260712:141723.353     | `-CNpcGenerator::Generator, cnt=339000, tot=15ms, avg=0.00ms, max=15ms
+20260712:141723.368     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:141723.384 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:142223.262 CLogThread OnProcess, cnt=303, tot=193ms, avg=0.64ms, max=193ms
+20260712:142223.262 `-CLogThread ProcessMsg, cnt=14, tot=193ms, avg=13.79ms, max=31ms
+20260712:142223.278 CKernelThread::OnProcess, cnt=7797, tot=1950ms, avg=0.25ms, max=17ms
+20260712:142223.293 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:142223.309 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:142223.340 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:142223.356 `-CNpcWorld::OnTimer, cnt=3001, tot=1950ms, avg=0.65ms, max=17ms
+20260712:142223.372   `-NpcManager::OnTimer, cnt=3001, tot=1762ms, avg=0.59ms, max=17ms
+20260712:142223.403     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=198ms, avg=0.00ms, max=16ms
+20260712:142223.418     | `-CNpcGenerator::Generator, cnt=339113, tot=0ms, avg=0.00ms, max=0ms
+20260712:142223.434     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:142223.449 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:142723.282 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=203ms
+20260712:142723.282 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=31ms
+20260712:142723.298 CKernelThread::OnProcess, cnt=7753, tot=2812ms, avg=0.36ms, max=46ms
+20260712:142723.314 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:142723.345 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:142723.361 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:142723.376 `-CNpcWorld::OnTimer, cnt=3000, tot=2812ms, avg=0.94ms, max=46ms
+20260712:142723.407   `-NpcManager::OnTimer, cnt=3000, tot=2610ms, avg=0.87ms, max=46ms
+20260712:142723.423     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=351ms, avg=0.00ms, max=46ms
+20260712:142723.439     | `-CNpcGenerator::Generator, cnt=339000, tot=0ms, avg=0.00ms, max=0ms
+20260712:142723.470     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:142723.485 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:143223.492 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=219ms
+20260712:143223.492 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=32ms
+20260712:143223.508 CKernelThread::OnProcess, cnt=7638, tot=3196ms, avg=0.42ms, max=18ms
+20260712:143223.524 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:143223.539 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:143223.570 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:143223.586 `-CNpcWorld::OnTimer, cnt=3002, tot=3180ms, avg=1.06ms, max=18ms
+20260712:143223.602   `-NpcManager::OnTimer, cnt=3002, tot=3008ms, avg=1.00ms, max=18ms
+20260712:143223.617     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=428ms, avg=0.00ms, max=18ms
+20260712:143223.634     | `-CNpcGenerator::Generator, cnt=339226, tot=18ms, avg=0.00ms, max=15ms
+20260712:143223.665     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:143223.680 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:143723.533 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=203ms
+20260712:143723.533 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=31ms
+20260712:143723.548 CKernelThread::OnProcess, cnt=7658, tot=3139ms, avg=0.41ms, max=47ms
+20260712:143723.564 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:143723.579 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:143723.595 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:143723.611 `-CNpcWorld::OnTimer, cnt=3001, tot=3139ms, avg=1.05ms, max=47ms
+20260712:143723.642   `-NpcManager::OnTimer, cnt=3001, tot=2906ms, avg=0.97ms, max=31ms
+20260712:143723.658     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=425ms, avg=0.00ms, max=16ms
+20260712:143723.674     | `-CNpcGenerator::Generator, cnt=339113, tot=27ms, avg=0.00ms, max=16ms
+20260712:143723.689     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:143723.704 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:144223.606 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=188ms
+20260712:144223.606 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=32ms
+20260712:144223.622 CKernelThread::OnProcess, cnt=7707, tot=2105ms, avg=0.27ms, max=28ms
+20260712:144223.637 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:144223.653 | |-CNpcWorld::ProcessMsg, cnt=20, tot=0ms, avg=0.00ms, max=0ms
+20260712:144223.669 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:144223.684 `-CNpcWorld::OnTimer, cnt=3000, tot=2105ms, avg=0.70ms, max=28ms
+20260712:144223.700   `-NpcManager::OnTimer, cnt=3000, tot=1935ms, avg=0.64ms, max=28ms
+20260712:144223.715     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=137ms, avg=0.00ms, max=16ms
+20260712:144223.731     | `-CNpcGenerator::Generator, cnt=339000, tot=1ms, avg=0.00ms, max=1ms
+20260712:144223.762     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:144223.778 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:144723.283 CLogThread OnProcess, cnt=302, tot=187ms, avg=0.62ms, max=187ms
+20260712:144723.283 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=31ms
+20260712:144723.298 CKernelThread::OnProcess, cnt=7719, tot=2274ms, avg=0.29ms, max=32ms
+20260712:144723.314 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:144723.330 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:144723.345 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:144723.361 `-CNpcWorld::OnTimer, cnt=2997, tot=2274ms, avg=0.76ms, max=32ms
+20260712:144723.377   `-NpcManager::OnTimer, cnt=2997, tot=2117ms, avg=0.71ms, max=32ms
+20260712:144723.408     |-CNpcGenerator::DoGenerator, cnt=13675311, tot=141ms, avg=0.00ms, max=22ms
+20260712:144723.423     | `-CNpcGenerator::Generator, cnt=338661, tot=0ms, avg=0.00ms, max=0ms
+20260712:144723.439     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:144723.455 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:145223.397 CLogThread OnProcess, cnt=302, tot=187ms, avg=0.62ms, max=187ms
+20260712:145223.397 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=32ms
+20260712:145223.412 CKernelThread::OnProcess, cnt=7615, tot=2247ms, avg=0.30ms, max=31ms
+20260712:145223.428 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:145223.443 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:145223.459 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:145223.475 `-CNpcWorld::OnTimer, cnt=3001, tot=2247ms, avg=0.75ms, max=31ms
+20260712:145223.490   `-NpcManager::OnTimer, cnt=3001, tot=2077ms, avg=0.69ms, max=31ms
+20260712:145223.522     |-CNpcGenerator::DoGenerator, cnt=13697829, tot=277ms, avg=0.00ms, max=16ms
+20260712:145223.537     | `-CNpcGenerator::Generator, cnt=339226, tot=18ms, avg=0.00ms, max=16ms
+20260712:145223.568     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:145223.584 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:145723.590 CLogThread OnProcess, cnt=302, tot=220ms, avg=0.73ms, max=204ms
+20260712:145723.590 `-CLogThread ProcessMsg, cnt=14, tot=220ms, avg=15.71ms, max=31ms
+20260712:145723.606 CKernelThread::OnProcess, cnt=7744, tot=2585ms, avg=0.33ms, max=20ms
+20260712:145723.621 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:145723.637 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:145723.653 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:145723.668 `-CNpcWorld::OnTimer, cnt=3002, tot=2585ms, avg=0.86ms, max=20ms
+20260712:145723.699   `-NpcManager::OnTimer, cnt=3002, tot=2317ms, avg=0.77ms, max=20ms
+20260712:145723.715     |-CNpcGenerator::DoGenerator, cnt=13696075, tot=225ms, avg=0.00ms, max=16ms
+20260712:145723.731     | `-CNpcGenerator::Generator, cnt=339220, tot=0ms, avg=0.00ms, max=0ms
+20260712:145723.762     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:145723.778 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:150223.464 CLogThread OnProcess, cnt=302, tot=204ms, avg=0.68ms, max=204ms
+20260712:150223.464 `-CLogThread ProcessMsg, cnt=14, tot=204ms, avg=14.57ms, max=31ms
+20260712:150223.479 CKernelThread::OnProcess, cnt=7789, tot=2929ms, avg=0.38ms, max=32ms
+20260712:150223.495 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:150223.510 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:150223.526 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:150223.542 `-CNpcWorld::OnTimer, cnt=2999, tot=2914ms, avg=0.97ms, max=32ms
+20260712:150223.557   `-NpcManager::OnTimer, cnt=2999, tot=2744ms, avg=0.91ms, max=32ms
+20260712:150223.573     |-CNpcGenerator::DoGenerator, cnt=13682222, tot=306ms, avg=0.00ms, max=16ms
+20260712:150223.588     | `-CNpcGenerator::Generator, cnt=338780, tot=0ms, avg=0.00ms, max=0ms
+20260712:150223.604     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:150223.620 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:150723.546 CLogThread OnProcess, cnt=302, tot=171ms, avg=0.57ms, max=171ms
+20260712:150723.546 `-CLogThread ProcessMsg, cnt=14, tot=171ms, avg=12.21ms, max=16ms
+20260712:150723.561 CKernelThread::OnProcess, cnt=7659, tot=2622ms, avg=0.34ms, max=32ms
+20260712:150723.577 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:150723.593 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:150723.608 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:150723.624 `-CNpcWorld::OnTimer, cnt=3001, tot=2622ms, avg=0.87ms, max=32ms
+20260712:150723.639   `-NpcManager::OnTimer, cnt=3001, tot=2449ms, avg=0.82ms, max=32ms
+20260712:150723.671     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=163ms, avg=0.00ms, max=16ms
+20260712:150723.686     | `-CNpcGenerator::Generator, cnt=339113, tot=16ms, avg=0.00ms, max=16ms
+20260712:150723.702     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:150723.718 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:151223.456 CLogThread OnProcess, cnt=302, tot=202ms, avg=0.67ms, max=187ms
+20260712:151223.456 `-CLogThread ProcessMsg, cnt=14, tot=202ms, avg=14.43ms, max=32ms
+20260712:151223.471 CKernelThread::OnProcess, cnt=7602, tot=2157ms, avg=0.28ms, max=16ms
+20260712:151223.487 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:151223.504 | |-CNpcWorld::ProcessMsg, cnt=20, tot=0ms, avg=0.00ms, max=0ms
+20260712:151223.518 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:151223.549 `-CNpcWorld::OnTimer, cnt=2999, tot=2157ms, avg=0.72ms, max=16ms
+20260712:151223.565   `-NpcManager::OnTimer, cnt=2999, tot=1956ms, avg=0.65ms, max=16ms
+20260712:151223.581     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=231ms, avg=0.00ms, max=16ms
+20260712:151223.596     | `-CNpcGenerator::Generator, cnt=338887, tot=0ms, avg=0.00ms, max=0ms
+20260712:151223.612     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:151223.643 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:151723.227 CLogThread OnProcess, cnt=301, tot=203ms, avg=0.67ms, max=203ms
+20260712:151723.227 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=31ms
+20260712:151723.243 CKernelThread::OnProcess, cnt=7653, tot=2561ms, avg=0.33ms, max=32ms
+20260712:151723.258 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:151723.274 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:151723.290 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:151723.321 `-CNpcWorld::OnTimer, cnt=2998, tot=2561ms, avg=0.85ms, max=32ms
+20260712:151723.336   `-NpcManager::OnTimer, cnt=2998, tot=2357ms, avg=0.79ms, max=31ms
+20260712:151723.352     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=228ms, avg=0.00ms, max=16ms
+20260712:151723.368     | `-CNpcGenerator::Generator, cnt=338774, tot=15ms, avg=0.00ms, max=15ms
+20260712:151723.383     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:151723.399 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:152223.287 CLogThread OnProcess, cnt=303, tot=203ms, avg=0.67ms, max=203ms
+20260712:152223.287 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:152223.302 CKernelThread::OnProcess, cnt=7778, tot=2947ms, avg=0.38ms, max=47ms
+20260712:152223.318 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:152223.334 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:152223.349 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:152223.365 `-CNpcWorld::OnTimer, cnt=3000, tot=2931ms, avg=0.98ms, max=47ms
+20260712:152223.396   `-NpcManager::OnTimer, cnt=3000, tot=2820ms, avg=0.94ms, max=47ms
+20260712:152223.412     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=226ms, avg=0.00ms, max=16ms
+20260712:152223.427     | `-CNpcGenerator::Generator, cnt=339000, tot=0ms, avg=0.00ms, max=0ms
+20260712:152223.443     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:152223.459 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:152723.465 CLogThread OnProcess, cnt=302, tot=202ms, avg=0.67ms, max=187ms
+20260712:152723.465 `-CLogThread ProcessMsg, cnt=14, tot=202ms, avg=14.43ms, max=31ms
+20260712:152723.481 CKernelThread::OnProcess, cnt=7744, tot=2244ms, avg=0.29ms, max=16ms
+20260712:152723.496 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:152723.512 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:152723.527 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:152723.543 `-CNpcWorld::OnTimer, cnt=3002, tot=2244ms, avg=0.75ms, max=16ms
+20260712:152723.559   `-NpcManager::OnTimer, cnt=3002, tot=2064ms, avg=0.69ms, max=16ms
+20260712:152723.574     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=238ms, avg=0.00ms, max=16ms
+20260712:152723.606     | `-CNpcGenerator::Generator, cnt=339226, tot=15ms, avg=0.00ms, max=15ms
+20260712:152723.621     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:152723.653 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:153223.420 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=203ms
+20260712:153223.420 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=32ms
+20260712:153223.436 CKernelThread::OnProcess, cnt=7806, tot=2164ms, avg=0.28ms, max=32ms
+20260712:153223.452 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:153223.467 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:153223.483 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:153223.498 `-CNpcWorld::OnTimer, cnt=2999, tot=2164ms, avg=0.72ms, max=32ms
+20260712:153223.514   `-NpcManager::OnTimer, cnt=2999, tot=1948ms, avg=0.65ms, max=32ms
+20260712:153223.530     |-CNpcGenerator::DoGenerator, cnt=13685234, tot=268ms, avg=0.00ms, max=16ms
+20260712:153223.546     | `-CNpcGenerator::Generator, cnt=338993, tot=0ms, avg=0.00ms, max=0ms
+20260712:153223.561     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:153223.577 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:153723.544 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:153723.544 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=16ms
+20260712:153723.559 CKernelThread::OnProcess, cnt=7681, tot=2410ms, avg=0.31ms, max=31ms
+20260712:153723.575 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:153723.591 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:153723.606 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:153723.622 `-CNpcWorld::OnTimer, cnt=3002, tot=2410ms, avg=0.80ms, max=31ms
+20260712:153723.622   `-NpcManager::OnTimer, cnt=3002, tot=2270ms, avg=0.76ms, max=31ms
+20260712:153723.638     |-CNpcGenerator::DoGenerator, cnt=13697302, tot=273ms, avg=0.00ms, max=16ms
+20260712:153723.653     | `-CNpcGenerator::Generator, cnt=339120, tot=17ms, avg=0.00ms, max=16ms
+20260712:153723.685     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:153723.700 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:154223.537 CLogThread OnProcess, cnt=302, tot=187ms, avg=0.62ms, max=172ms
+20260712:154223.537 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=31ms
+20260712:154223.552 CKernelThread::OnProcess, cnt=7830, tot=2086ms, avg=0.27ms, max=31ms
+20260712:154223.568 |-READMSG, cnt=2, tot=16ms, avg=8.00ms, max=16ms
+20260712:154223.585 | |-CNpcWorld::ProcessMsg, cnt=20, tot=16ms, avg=0.80ms, max=16ms
+20260712:154223.615 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:154223.631 `-CNpcWorld::OnTimer, cnt=3000, tot=2070ms, avg=0.69ms, max=31ms
+20260712:154223.646   `-NpcManager::OnTimer, cnt=3000, tot=1888ms, avg=0.63ms, max=31ms
+20260712:154223.662     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=122ms, avg=0.00ms, max=16ms
+20260712:154223.680     | `-CNpcGenerator::Generator, cnt=339000, tot=0ms, avg=0.00ms, max=0ms
+20260712:154223.693     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:154223.724 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:154723.141 CLogThread OnProcess, cnt=301, tot=203ms, avg=0.67ms, max=203ms
+20260712:154723.141 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=31ms
+20260712:154723.156 CKernelThread::OnProcess, cnt=7607, tot=1728ms, avg=0.23ms, max=47ms
+20260712:154723.187 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:154723.203 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:154723.219 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:154723.234 `-CNpcWorld::OnTimer, cnt=2996, tot=1728ms, avg=0.58ms, max=47ms
+20260712:154723.266   `-NpcManager::OnTimer, cnt=2996, tot=1557ms, avg=0.52ms, max=47ms
+20260712:154723.281     |-CNpcGenerator::DoGenerator, cnt=13670748, tot=126ms, avg=0.00ms, max=16ms
+20260712:154723.297     | `-CNpcGenerator::Generator, cnt=338548, tot=0ms, avg=0.00ms, max=0ms
+20260712:154723.312     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:154723.328 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:155223.607 CLogThread OnProcess, cnt=303, tot=219ms, avg=0.72ms, max=219ms
+20260712:155223.607 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=31ms
+20260712:155223.622 CKernelThread::OnProcess, cnt=7656, tot=2623ms, avg=0.34ms, max=23ms
+20260712:155223.638 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:155223.653 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:155223.670 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:155223.685 `-CNpcWorld::OnTimer, cnt=3004, tot=2623ms, avg=0.87ms, max=23ms
+20260712:155223.716   `-NpcManager::OnTimer, cnt=3004, tot=2403ms, avg=0.80ms, max=23ms
+20260712:155223.732     |-CNpcGenerator::DoGenerator, cnt=13707252, tot=261ms, avg=0.00ms, max=16ms
+20260712:155223.747     | `-CNpcGenerator::Generator, cnt=339452, tot=16ms, avg=0.00ms, max=16ms
+20260712:155223.763     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:155223.794 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:155723.546 CLogThread OnProcess, cnt=302, tot=204ms, avg=0.68ms, max=204ms
+20260712:155723.546 `-CLogThread ProcessMsg, cnt=14, tot=204ms, avg=14.57ms, max=31ms
+20260712:155723.561 CKernelThread::OnProcess, cnt=7711, tot=2093ms, avg=0.27ms, max=47ms
+20260712:155723.577 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:155723.592 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:155723.608 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:155723.624 `-CNpcWorld::OnTimer, cnt=3000, tot=2093ms, avg=0.70ms, max=47ms
+20260712:155723.639   `-NpcManager::OnTimer, cnt=3000, tot=1906ms, avg=0.64ms, max=47ms
+20260712:155723.655     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=246ms, avg=0.00ms, max=47ms
+20260712:155723.671     | `-CNpcGenerator::Generator, cnt=339000, tot=0ms, avg=0.00ms, max=0ms
+20260712:155723.686     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:155723.702 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:160223.298 CLogThread OnProcess, cnt=302, tot=187ms, avg=0.62ms, max=172ms
+20260712:160223.298 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=16ms
+20260712:160223.313 CKernelThread::OnProcess, cnt=7655, tot=2302ms, avg=0.30ms, max=18ms
+20260712:160223.329 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:160223.344 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:160223.365 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:160223.391 `-CNpcWorld::OnTimer, cnt=2997, tot=2302ms, avg=0.77ms, max=18ms
+20260712:160223.407   `-NpcManager::OnTimer, cnt=2997, tot=2074ms, avg=0.69ms, max=17ms
+20260712:160223.423     |-CNpcGenerator::DoGenerator, cnt=13675311, tot=177ms, avg=0.00ms, max=16ms
+20260712:160223.438     | `-CNpcGenerator::Generator, cnt=338661, tot=0ms, avg=0.00ms, max=0ms
+20260712:160223.469     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:160223.485 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:160723.161 CLogThread OnProcess, cnt=301, tot=218ms, avg=0.72ms, max=203ms
+20260712:160723.161 `-CLogThread ProcessMsg, cnt=14, tot=218ms, avg=15.57ms, max=31ms
+20260712:160723.176 CKernelThread::OnProcess, cnt=7662, tot=2468ms, avg=0.32ms, max=31ms
+20260712:160723.207 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:160723.224 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:160723.239 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:160723.270 `-CNpcWorld::OnTimer, cnt=2999, tot=2468ms, avg=0.82ms, max=31ms
+20260712:160723.285   `-NpcManager::OnTimer, cnt=2999, tot=2313ms, avg=0.77ms, max=17ms
+20260712:160723.301     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=110ms, avg=0.00ms, max=16ms
+20260712:160723.317     | `-CNpcGenerator::Generator, cnt=338887, tot=15ms, avg=0.00ms, max=15ms
+20260712:160723.332     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:160723.348 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:161223.591 CLogThread OnProcess, cnt=303, tot=219ms, avg=0.72ms, max=219ms
+20260712:161223.591 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=32ms
+20260712:161223.607 CKernelThread::OnProcess, cnt=7892, tot=3279ms, avg=0.42ms, max=32ms
+20260712:161223.622 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:161223.638 | |-CNpcWorld::ProcessMsg, cnt=20, tot=0ms, avg=0.00ms, max=0ms
+20260712:161223.669 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:161223.685 `-CNpcWorld::OnTimer, cnt=3004, tot=3279ms, avg=1.09ms, max=32ms
+20260712:161223.700   `-NpcManager::OnTimer, cnt=3004, tot=3078ms, avg=1.02ms, max=31ms
+20260712:161223.732     |-CNpcGenerator::DoGenerator, cnt=13707252, tot=297ms, avg=0.00ms, max=19ms
+20260712:161223.747     | `-CNpcGenerator::Generator, cnt=339452, tot=16ms, avg=0.00ms, max=16ms
+20260712:161223.778     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:161223.794 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:161723.193 CLogThread OnProcess, cnt=301, tot=235ms, avg=0.78ms, max=219ms
+20260712:161723.193 `-CLogThread ProcessMsg, cnt=14, tot=235ms, avg=16.79ms, max=31ms
+20260712:161723.209 CKernelThread::OnProcess, cnt=7539, tot=3593ms, avg=0.48ms, max=31ms
+20260712:161723.240 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:161723.272 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:161723.288 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:161723.303 `-CNpcWorld::OnTimer, cnt=2996, tot=3593ms, avg=1.20ms, max=31ms
+20260712:161723.334   `-NpcManager::OnTimer, cnt=2996, tot=3391ms, avg=1.13ms, max=31ms
+20260712:161723.350     |-CNpcGenerator::DoGenerator, cnt=13671272, tot=532ms, avg=0.00ms, max=16ms
+20260712:161723.365     | `-CNpcGenerator::Generator, cnt=338654, tot=0ms, avg=0.00ms, max=0ms
+20260712:161723.381     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:161723.412 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:162223.166 CLogThread OnProcess, cnt=302, tot=235ms, avg=0.78ms, max=235ms
+20260712:162223.166 `-CLogThread ProcessMsg, cnt=14, tot=235ms, avg=16.79ms, max=31ms
+20260712:162223.181 CKernelThread::OnProcess, cnt=7715, tot=3155ms, avg=0.41ms, max=31ms
+20260712:162223.197 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:162223.213 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:162223.229 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:162223.244 `-CNpcWorld::OnTimer, cnt=3000, tot=3155ms, avg=1.05ms, max=31ms
+20260712:162223.275   `-NpcManager::OnTimer, cnt=3000, tot=2939ms, avg=0.98ms, max=31ms
+20260712:162223.291     |-CNpcGenerator::DoGenerator, cnt=13688476, tot=394ms, avg=0.00ms, max=31ms
+20260712:162223.306     | `-CNpcGenerator::Generator, cnt=338894, tot=16ms, avg=0.00ms, max=16ms
+20260712:162223.322     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:162223.338 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:162723.581 CLogThread OnProcess, cnt=303, tot=187ms, avg=0.62ms, max=187ms
+20260712:162723.581 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=31ms
+20260712:162723.597 CKernelThread::OnProcess, cnt=7733, tot=3138ms, avg=0.41ms, max=32ms
+20260712:162723.612 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:162723.628 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:162723.643 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:162723.659 `-CNpcWorld::OnTimer, cnt=3004, tot=3138ms, avg=1.04ms, max=32ms
+20260712:162723.690   `-NpcManager::OnTimer, cnt=3004, tot=2886ms, avg=0.96ms, max=32ms
+20260712:162723.706     |-CNpcGenerator::DoGenerator, cnt=13707252, tot=359ms, avg=0.00ms, max=17ms
+20260712:162723.722     | `-CNpcGenerator::Generator, cnt=339452, tot=0ms, avg=0.00ms, max=0ms
+20260712:162723.755     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:162723.768 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:163223.294 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=203ms
+20260712:163223.294 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=32ms
+20260712:163223.310 CKernelThread::OnProcess, cnt=7934, tot=2191ms, avg=0.28ms, max=32ms
+20260712:163223.326 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:163223.341 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:163223.357 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:163223.373 `-CNpcWorld::OnTimer, cnt=2997, tot=2191ms, avg=0.73ms, max=32ms
+20260712:163223.373   `-NpcManager::OnTimer, cnt=2997, tot=1942ms, avg=0.65ms, max=32ms
+20260712:163223.389     |-CNpcGenerator::DoGenerator, cnt=13675311, tot=352ms, avg=0.00ms, max=31ms
+20260712:163223.420     | `-CNpcGenerator::Generator, cnt=338661, tot=0ms, avg=0.00ms, max=0ms
+20260712:163223.436     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:163223.451 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:163723.167 CLogThread OnProcess, cnt=301, tot=188ms, avg=0.62ms, max=173ms
+20260712:163723.167 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=31ms
+20260712:163723.183 CKernelThread::OnProcess, cnt=7617, tot=4003ms, avg=0.53ms, max=32ms
+20260712:163723.199 |-READMSG, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:163723.214 | |-CNpcWorld::ProcessMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:163723.230 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:163723.246 `-CNpcWorld::OnTimer, cnt=2999, tot=4003ms, avg=1.33ms, max=32ms
+20260712:163723.261   `-NpcManager::OnTimer, cnt=2999, tot=3833ms, avg=1.28ms, max=32ms
+20260712:163723.277     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=553ms, avg=0.00ms, max=17ms
+20260712:163723.292     | `-CNpcGenerator::Generator, cnt=338888, tot=16ms, avg=0.00ms, max=16ms
+20260712:163723.310     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:163723.324 CNpcWorld::SendMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:164223.417 CLogThread OnProcess, cnt=303, tot=172ms, avg=0.57ms, max=172ms
+20260712:164223.417 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=17ms
+20260712:164223.417 CKernelThread::OnProcess, cnt=7862, tot=1926ms, avg=0.24ms, max=31ms
+20260712:164223.433 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:164223.448 | |-CNpcWorld::ProcessMsg, cnt=20, tot=0ms, avg=0.00ms, max=0ms
+20260712:164223.464 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:164223.495 `-CNpcWorld::OnTimer, cnt=3002, tot=1926ms, avg=0.64ms, max=31ms
+20260712:164223.511   `-NpcManager::OnTimer, cnt=3002, tot=1773ms, avg=0.59ms, max=31ms
+20260712:164223.526     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=217ms, avg=0.00ms, max=16ms
+20260712:164223.542     | `-CNpcGenerator::Generator, cnt=339226, tot=31ms, avg=0.00ms, max=16ms
+20260712:164223.558     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:164223.573 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:164723.413 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=188ms
+20260712:164723.413 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=32ms
+20260712:164723.429 CKernelThread::OnProcess, cnt=7720, tot=1255ms, avg=0.16ms, max=31ms
+20260712:164723.444 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:164723.460 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:164723.475 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:164723.491 `-CNpcWorld::OnTimer, cnt=3000, tot=1255ms, avg=0.42ms, max=31ms
+20260712:164723.507   `-NpcManager::OnTimer, cnt=3000, tot=1084ms, avg=0.36ms, max=31ms
+20260712:164723.522     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=71ms, avg=0.00ms, max=16ms
+20260712:164723.538     | `-CNpcGenerator::Generator, cnt=339000, tot=0ms, avg=0.00ms, max=0ms
+20260712:164723.569     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:164723.585 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:165223.466 CLogThread OnProcess, cnt=302, tot=187ms, avg=0.62ms, max=187ms
+20260712:165223.466 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=31ms
+20260712:165223.481 CKernelThread::OnProcess, cnt=7711, tot=2282ms, avg=0.30ms, max=27ms
+20260712:165223.497 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:165223.513 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:165223.528 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:165223.544 `-CNpcWorld::OnTimer, cnt=3001, tot=2282ms, avg=0.76ms, max=27ms
+20260712:165223.560   `-NpcManager::OnTimer, cnt=3001, tot=2093ms, avg=0.70ms, max=27ms
+20260712:165223.575     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=187ms, avg=0.00ms, max=16ms
+20260712:165223.591     | `-CNpcGenerator::Generator, cnt=339113, tot=31ms, avg=0.00ms, max=16ms
+20260712:165223.606     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:165223.622 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:165723.415 CLogThread OnProcess, cnt=302, tot=187ms, avg=0.62ms, max=172ms
+20260712:165723.415 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=16ms
+20260712:165723.430 CKernelThread::OnProcess, cnt=7747, tot=2468ms, avg=0.32ms, max=32ms
+20260712:165723.446 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:165723.462 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:165723.477 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:165723.493 `-CNpcWorld::OnTimer, cnt=3000, tot=2468ms, avg=0.82ms, max=32ms
+20260712:165723.509   `-NpcManager::OnTimer, cnt=3000, tot=2189ms, avg=0.73ms, max=16ms
+20260712:165723.524     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=204ms, avg=0.00ms, max=16ms
+20260712:165723.540     | `-CNpcGenerator::Generator, cnt=339000, tot=0ms, avg=0.00ms, max=0ms
+20260712:165723.556     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:165723.571 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:170223.538 CLogThread OnProcess, cnt=302, tot=187ms, avg=0.62ms, max=172ms
+20260712:170223.538 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=16ms
+20260712:170223.553 CKernelThread::OnProcess, cnt=7635, tot=2442ms, avg=0.32ms, max=31ms
+20260712:170223.569 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:170223.585 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:170223.600 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:170223.616 `-CNpcWorld::OnTimer, cnt=3001, tot=2427ms, avg=0.81ms, max=31ms
+20260712:170223.631   `-NpcManager::OnTimer, cnt=3001, tot=2300ms, avg=0.77ms, max=31ms
+20260712:170223.647     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=217ms, avg=0.00ms, max=16ms
+20260712:170223.678     | `-CNpcGenerator::Generator, cnt=339113, tot=0ms, avg=0.00ms, max=0ms
+20260712:170223.694     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:170223.710 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:170723.551 CLogThread OnProcess, cnt=302, tot=187ms, avg=0.62ms, max=187ms
+20260712:170723.551 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=31ms
+20260712:170723.566 CKernelThread::OnProcess, cnt=7677, tot=2370ms, avg=0.31ms, max=21ms
+20260712:170723.582 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:170723.597 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:170723.613 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:170723.629 `-CNpcWorld::OnTimer, cnt=3000, tot=2370ms, avg=0.79ms, max=21ms
+20260712:170723.660   `-NpcManager::OnTimer, cnt=3000, tot=2096ms, avg=0.70ms, max=16ms
+20260712:170723.676     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=224ms, avg=0.00ms, max=16ms
+20260712:170723.708     | `-CNpcGenerator::Generator, cnt=339000, tot=16ms, avg=0.00ms, max=16ms
+20260712:170723.723     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:170723.738 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:171223.448 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=203ms
+20260712:171223.448 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:171223.463 CKernelThread::OnProcess, cnt=7615, tot=2403ms, avg=0.32ms, max=20ms
+20260712:171223.479 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:171223.495 | |-CNpcWorld::ProcessMsg, cnt=20, tot=0ms, avg=0.00ms, max=0ms
+20260712:171223.526 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:171223.542 `-CNpcWorld::OnTimer, cnt=2999, tot=2403ms, avg=0.80ms, max=20ms
+20260712:171223.557   `-NpcManager::OnTimer, cnt=2999, tot=2186ms, avg=0.73ms, max=20ms
+20260712:171223.573     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=181ms, avg=0.00ms, max=16ms
+20260712:171223.588     | `-CNpcGenerator::Generator, cnt=338887, tot=0ms, avg=0.00ms, max=0ms
+20260712:171223.604     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:171223.635 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:171723.262 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=203ms
+20260712:171723.262 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=31ms
+20260712:171723.278 CKernelThread::OnProcess, cnt=7791, tot=1673ms, avg=0.21ms, max=31ms
+20260712:171723.294 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:171723.325 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:171723.340 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:171723.356 `-CNpcWorld::OnTimer, cnt=2998, tot=1673ms, avg=0.56ms, max=31ms
+20260712:171723.372   `-NpcManager::OnTimer, cnt=2998, tot=1471ms, avg=0.49ms, max=31ms
+20260712:171723.387     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=167ms, avg=0.00ms, max=16ms
+20260712:171723.419     | `-CNpcGenerator::Generator, cnt=338774, tot=16ms, avg=0.00ms, max=16ms
+20260712:171723.434     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:171723.450 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:172223.415 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=203ms
+20260712:172223.415 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:172223.430 CKernelThread::OnProcess, cnt=7724, tot=2597ms, avg=0.34ms, max=20ms
+20260712:172223.446 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:172223.462 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:172223.477 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:172223.509 `-CNpcWorld::OnTimer, cnt=3002, tot=2597ms, avg=0.87ms, max=20ms
+20260712:172223.524   `-NpcManager::OnTimer, cnt=3002, tot=2457ms, avg=0.82ms, max=20ms
+20260712:172223.540     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=329ms, avg=0.00ms, max=20ms
+20260712:172223.555     | `-CNpcGenerator::Generator, cnt=339226, tot=0ms, avg=0.00ms, max=0ms
+20260712:172223.571     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:172223.587 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:172723.309 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=203ms
+20260712:172723.309 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:172723.324 CKernelThread::OnProcess, cnt=7562, tot=2023ms, avg=0.27ms, max=20ms
+20260712:172723.340 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:172723.356 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:172723.371 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:172723.387 `-CNpcWorld::OnTimer, cnt=2998, tot=2023ms, avg=0.67ms, max=20ms
+20260712:172723.402   `-NpcManager::OnTimer, cnt=2998, tot=1817ms, avg=0.61ms, max=20ms
+20260712:172723.434     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=169ms, avg=0.00ms, max=20ms
+20260712:172723.449     | `-CNpcGenerator::Generator, cnt=338774, tot=1ms, avg=0.00ms, max=1ms
+20260712:172723.465     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:172723.496 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:173223.420 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=203ms
+20260712:173223.420 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:173223.436 CKernelThread::OnProcess, cnt=7768, tot=2271ms, avg=0.29ms, max=16ms
+20260712:173223.451 |-READMSG, cnt=12, tot=0ms, avg=0.00ms, max=0ms
+20260712:173223.467 | |-CNpcWorld::ProcessMsg, cnt=12, tot=0ms, avg=0.00ms, max=0ms
+20260712:173223.483 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:173223.498 `-CNpcWorld::OnTimer, cnt=3002, tot=2255ms, avg=0.75ms, max=16ms
+20260712:173223.514   `-NpcManager::OnTimer, cnt=3002, tot=2003ms, avg=0.67ms, max=16ms
+20260712:173223.530     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=67ms, avg=0.00ms, max=16ms
+20260712:173223.545     | `-CNpcGenerator::Generator, cnt=339226, tot=0ms, avg=0.00ms, max=0ms
+20260712:173223.561     `-CNpc::OnTimer, cnt=112, tot=0ms, avg=0.00ms, max=0ms
+20260712:173223.577 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:173723.476 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=188ms
+20260712:173723.476 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=31ms
+20260712:173723.492 CKernelThread::OnProcess, cnt=9592, tot=3922ms, avg=0.41ms, max=31ms
+20260712:173723.507 |-READMSG, cnt=4178, tot=81ms, avg=0.02ms, max=19ms
+20260712:173723.507 | |-CNpcWorld::ProcessMsg, cnt=5362, tot=62ms, avg=0.01ms, max=16ms
+20260712:173723.523 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:173723.538 `-CNpcWorld::OnTimer, cnt=3000, tot=3794ms, avg=1.26ms, max=31ms
+20260712:173723.554   `-NpcManager::OnTimer, cnt=3000, tot=3607ms, avg=1.20ms, max=17ms
+20260712:173723.570     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=472ms, avg=0.00ms, max=17ms
+20260712:173723.585     | `-CNpcGenerator::Generator, cnt=339091, tot=0ms, avg=0.00ms, max=0ms
+20260712:173723.617     `-CNpc::OnTimer, cnt=121266, tot=312ms, avg=0.00ms, max=17ms
+20260712:173723.632 CNpcWorld::SendMsg, cnt=3233, tot=205ms, avg=0.06ms, max=17ms
+20260712:174223.290 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:174223.290 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=31ms
+20260712:174223.305 CKernelThread::OnProcess, cnt=7851, tot=1632ms, avg=0.21ms, max=31ms
+20260712:174223.321 |-READMSG, cnt=238, tot=0ms, avg=0.00ms, max=0ms
+20260712:174223.352 | |-CNpcWorld::ProcessMsg, cnt=273, tot=0ms, avg=0.00ms, max=0ms
+20260712:174223.368 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:174223.383 `-CNpcWorld::OnTimer, cnt=2998, tot=1632ms, avg=0.54ms, max=31ms
+20260712:174223.399   `-NpcManager::OnTimer, cnt=2998, tot=1393ms, avg=0.46ms, max=18ms
+20260712:174223.415     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=199ms, avg=0.00ms, max=17ms
+20260712:174223.430     | `-CNpcGenerator::Generator, cnt=338774, tot=0ms, avg=0.00ms, max=0ms
+20260712:174223.446     `-CNpc::OnTimer, cnt=10931, tot=32ms, avg=0.00ms, max=16ms
+20260712:174223.461 CNpcWorld::SendMsg, cnt=161, tot=16ms, avg=0.10ms, max=16ms
+20260712:174723.408 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=187ms
+20260712:174723.408 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=31ms
+20260712:174723.424 CKernelThread::OnProcess, cnt=8033, tot=3200ms, avg=0.40ms, max=32ms
+20260712:174723.440 |-READMSG, cnt=737, tot=45ms, avg=0.06ms, max=16ms
+20260712:174723.455 | |-CNpcWorld::ProcessMsg, cnt=813, tot=15ms, avg=0.02ms, max=15ms
+20260712:174723.471 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:174723.486 `-CNpcWorld::OnTimer, cnt=3002, tot=3155ms, avg=1.05ms, max=32ms
+20260712:174723.503   `-NpcManager::OnTimer, cnt=3002, tot=2945ms, avg=0.98ms, max=31ms
+20260712:174723.518     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=388ms, avg=0.00ms, max=16ms
+20260712:174723.533     | `-CNpcGenerator::Generator, cnt=339227, tot=0ms, avg=0.00ms, max=0ms
+20260712:174723.549     `-CNpc::OnTimer, cnt=21500, tot=71ms, avg=0.00ms, max=16ms
+20260712:174723.565 CNpcWorld::SendMsg, cnt=453, tot=24ms, avg=0.05ms, max=15ms
+20260712:175223.161 CLogThread OnProcess, cnt=301, tot=203ms, avg=0.67ms, max=187ms
+20260712:175223.161 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=31ms
+20260712:175223.177 CKernelThread::OnProcess, cnt=9174, tot=4562ms, avg=0.50ms, max=33ms
+20260712:175223.177 |-READMSG, cnt=4464, tot=402ms, avg=0.09ms, max=16ms
+20260712:175223.192 | |-CNpcWorld::ProcessMsg, cnt=6953, tot=356ms, avg=0.05ms, max=16ms
+20260712:175223.208 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:175223.224 `-CNpcWorld::OnTimer, cnt=2997, tot=4160ms, avg=1.39ms, max=33ms
+20260712:175223.239   `-NpcManager::OnTimer, cnt=2997, tot=4019ms, avg=1.34ms, max=33ms
+20260712:175223.255     |-CNpcGenerator::DoGenerator, cnt=13675311, tot=397ms, avg=0.00ms, max=16ms
+20260712:175223.286     | `-CNpcGenerator::Generator, cnt=338748, tot=0ms, avg=0.00ms, max=0ms
+20260712:175223.302     `-CNpc::OnTimer, cnt=231291, tot=402ms, avg=0.00ms, max=16ms
+20260712:175223.318 CNpcWorld::SendMsg, cnt=4107, tot=187ms, avg=0.05ms, max=16ms
+20260712:175723.578 CLogThread OnProcess, cnt=303, tot=188ms, avg=0.62ms, max=172ms
+20260712:175723.578 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=31ms
+20260712:175723.594 CKernelThread::OnProcess, cnt=8427, tot=2661ms, avg=0.32ms, max=47ms
+20260712:175723.609 |-READMSG, cnt=1692, tot=16ms, avg=0.01ms, max=16ms
+20260712:175723.625 | |-CNpcWorld::ProcessMsg, cnt=2146, tot=16ms, avg=0.01ms, max=16ms
+20260712:175723.641 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:175723.656 `-CNpcWorld::OnTimer, cnt=3004, tot=2645ms, avg=0.88ms, max=47ms
+20260712:175723.672   `-NpcManager::OnTimer, cnt=3004, tot=2488ms, avg=0.83ms, max=47ms
+20260712:175723.687     |-CNpcGenerator::DoGenerator, cnt=13707252, tot=223ms, avg=0.00ms, max=16ms
+20260712:175723.703     | `-CNpcGenerator::Generator, cnt=339469, tot=16ms, avg=0.00ms, max=16ms
+20260712:175723.719     `-CNpc::OnTimer, cnt=57157, tot=234ms, avg=0.00ms, max=47ms
+20260712:175723.734 CNpcWorld::SendMsg, cnt=1386, tot=140ms, avg=0.10ms, max=47ms
+20260712:180223.413 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:180223.413 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=16ms
+20260712:180223.429 CKernelThread::OnProcess, cnt=8357, tot=3220ms, avg=0.39ms, max=31ms
+20260712:180223.444 |-READMSG, cnt=1832, tot=0ms, avg=0.00ms, max=0ms
+20260712:180223.460 | |-CNpcWorld::ProcessMsg, cnt=2227, tot=0ms, avg=0.00ms, max=0ms
+20260712:180223.476 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:180223.491 `-CNpcWorld::OnTimer, cnt=2998, tot=3189ms, avg=1.06ms, max=31ms
+20260712:180223.523   `-NpcManager::OnTimer, cnt=2998, tot=2922ms, avg=0.97ms, max=31ms
+20260712:180223.538     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=299ms, avg=0.00ms, max=16ms
+20260712:180223.554     | `-CNpcGenerator::Generator, cnt=338806, tot=0ms, avg=0.00ms, max=0ms
+20260712:180223.569     `-CNpc::OnTimer, cnt=60626, tot=72ms, avg=0.00ms, max=16ms
+20260712:180223.585 CNpcWorld::SendMsg, cnt=1465, tot=25ms, avg=0.02ms, max=16ms
+20260712:180723.333 CLogThread OnProcess, cnt=302, tot=218ms, avg=0.72ms, max=203ms
+20260712:180723.333 `-CLogThread ProcessMsg, cnt=14, tot=218ms, avg=15.57ms, max=32ms
+20260712:180723.349 CKernelThread::OnProcess, cnt=7721, tot=2961ms, avg=0.38ms, max=31ms
+20260712:180723.380 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:180723.396 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:180723.427 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:180723.443 `-CNpcWorld::OnTimer, cnt=3000, tot=2961ms, avg=0.99ms, max=31ms
+20260712:180723.474   `-NpcManager::OnTimer, cnt=3000, tot=2804ms, avg=0.93ms, max=31ms
+20260712:180723.490     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=316ms, avg=0.00ms, max=16ms
+20260712:180723.521     | `-CNpcGenerator::Generator, cnt=339000, tot=16ms, avg=0.00ms, max=16ms
+20260712:180723.536     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:180723.552 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:181223.165 CLogThread OnProcess, cnt=301, tot=235ms, avg=0.78ms, max=235ms
+20260712:181223.165 `-CLogThread ProcessMsg, cnt=14, tot=235ms, avg=16.79ms, max=31ms
+20260712:181223.181 CKernelThread::OnProcess, cnt=7619, tot=2978ms, avg=0.39ms, max=32ms
+20260712:181223.197 |-READMSG, cnt=3, tot=16ms, avg=5.33ms, max=16ms
+20260712:181223.213 | |-CNpcWorld::ProcessMsg, cnt=20, tot=16ms, avg=0.80ms, max=16ms
+20260712:181223.229 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:181223.245 `-CNpcWorld::OnTimer, cnt=2998, tot=2962ms, avg=0.99ms, max=32ms
+20260712:181223.260   `-NpcManager::OnTimer, cnt=2998, tot=2781ms, avg=0.93ms, max=25ms
+20260712:181223.275     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=404ms, avg=0.00ms, max=16ms
+20260712:181223.291     | `-CNpcGenerator::Generator, cnt=338774, tot=0ms, avg=0.00ms, max=0ms
+20260712:181223.307     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:181223.322 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:181723.164 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=188ms
+20260712:181723.164 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=31ms
+20260712:181723.180 CKernelThread::OnProcess, cnt=7909, tot=2026ms, avg=0.26ms, max=31ms
+20260712:181723.196 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:181723.211 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:181723.227 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:181723.243 `-CNpcWorld::OnTimer, cnt=3000, tot=2026ms, avg=0.68ms, max=31ms
+20260712:181723.274   `-NpcManager::OnTimer, cnt=3000, tot=1812ms, avg=0.60ms, max=31ms
+20260712:181723.289     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=245ms, avg=0.00ms, max=16ms
+20260712:181723.305     | `-CNpcGenerator::Generator, cnt=339000, tot=47ms, avg=0.00ms, max=16ms
+20260712:181723.321     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:181723.352 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:182223.288 CLogThread OnProcess, cnt=303, tot=203ms, avg=0.67ms, max=203ms
+20260712:182223.288 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:182223.304 CKernelThread::OnProcess, cnt=7603, tot=3295ms, avg=0.43ms, max=17ms
+20260712:182223.319 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:182223.335 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:182223.351 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:182223.366 `-CNpcWorld::OnTimer, cnt=3001, tot=3295ms, avg=1.10ms, max=17ms
+20260712:182223.413   `-NpcManager::OnTimer, cnt=3001, tot=3107ms, avg=1.04ms, max=17ms
+20260712:182223.429     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=372ms, avg=0.00ms, max=16ms
+20260712:182223.444     | `-CNpcGenerator::Generator, cnt=339113, tot=2ms, avg=0.00ms, max=2ms
+20260712:182223.460     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:182223.475 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:182723.171 CLogThread OnProcess, cnt=301, tot=204ms, avg=0.68ms, max=204ms
+20260712:182723.171 `-CLogThread ProcessMsg, cnt=14, tot=204ms, avg=14.57ms, max=46ms
+20260712:182723.187 CKernelThread::OnProcess, cnt=7743, tot=2401ms, avg=0.31ms, max=31ms
+20260712:182723.202 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:182723.218 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:182723.249 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:182723.265 `-CNpcWorld::OnTimer, cnt=2999, tot=2386ms, avg=0.80ms, max=31ms
+20260712:182723.296   `-NpcManager::OnTimer, cnt=2999, tot=2231ms, avg=0.74ms, max=31ms
+20260712:182723.312     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=192ms, avg=0.00ms, max=17ms
+20260712:182723.327     | `-CNpcGenerator::Generator, cnt=338887, tot=0ms, avg=0.00ms, max=0ms
+20260712:182723.359     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:182723.374 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:183223.293 CLogThread OnProcess, cnt=303, tot=235ms, avg=0.78ms, max=235ms
+20260712:183223.293 `-CLogThread ProcessMsg, cnt=14, tot=235ms, avg=16.79ms, max=32ms
+20260712:183223.309 CKernelThread::OnProcess, cnt=7779, tot=1899ms, avg=0.24ms, max=16ms
+20260712:183223.325 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:183223.340 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:183223.371 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:183223.387 `-CNpcWorld::OnTimer, cnt=3001, tot=1899ms, avg=0.63ms, max=16ms
+20260712:183223.403   `-NpcManager::OnTimer, cnt=3001, tot=1729ms, avg=0.58ms, max=16ms
+20260712:183223.418     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=139ms, avg=0.00ms, max=16ms
+20260712:183223.450     | `-CNpcGenerator::Generator, cnt=339113, tot=0ms, avg=0.00ms, max=0ms
+20260712:183223.465     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:183223.481 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:183723.286 CLogThread OnProcess, cnt=302, tot=218ms, avg=0.72ms, max=218ms
+20260712:183723.286 `-CLogThread ProcessMsg, cnt=14, tot=218ms, avg=15.57ms, max=32ms
+20260712:183723.302 CKernelThread::OnProcess, cnt=7612, tot=3505ms, avg=0.46ms, max=32ms
+20260712:183723.318 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:183723.333 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:183723.349 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:183723.365 `-CNpcWorld::OnTimer, cnt=3000, tot=3505ms, avg=1.17ms, max=32ms
+20260712:183723.380   `-NpcManager::OnTimer, cnt=3000, tot=3211ms, avg=1.07ms, max=32ms
+20260712:183723.396     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=290ms, avg=0.00ms, max=16ms
+20260712:183723.411     | `-CNpcGenerator::Generator, cnt=339000, tot=0ms, avg=0.00ms, max=0ms
+20260712:183723.443     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:183723.458 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:184223.286 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=188ms
+20260712:184223.286 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=32ms
+20260712:184223.302 CKernelThread::OnProcess, cnt=7628, tot=3952ms, avg=0.52ms, max=47ms
+20260712:184223.317 |-READMSG, cnt=4, tot=0ms, avg=0.00ms, max=0ms
+20260712:184223.333 | |-CNpcWorld::ProcessMsg, cnt=20, tot=0ms, avg=0.00ms, max=0ms
+20260712:184223.349 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:184223.380 `-CNpcWorld::OnTimer, cnt=3000, tot=3952ms, avg=1.32ms, max=47ms
+20260712:184223.396   `-NpcManager::OnTimer, cnt=3000, tot=3635ms, avg=1.21ms, max=33ms
+20260712:184223.411     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=475ms, avg=0.00ms, max=16ms
+20260712:184223.427     | `-CNpcGenerator::Generator, cnt=339000, tot=1ms, avg=0.00ms, max=1ms
+20260712:184223.443     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:184223.474 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:184723.504 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=203ms
+20260712:184723.504 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=32ms
+20260712:184723.520 CKernelThread::OnProcess, cnt=7566, tot=4389ms, avg=0.58ms, max=62ms
+20260712:184723.535 |-READMSG, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:184723.551 | |-CNpcWorld::ProcessMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:184723.566 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:184723.582 `-CNpcWorld::OnTimer, cnt=3002, tot=4389ms, avg=1.46ms, max=62ms
+20260712:184723.613   `-NpcManager::OnTimer, cnt=3002, tot=4112ms, avg=1.37ms, max=62ms
+20260712:184723.629     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=426ms, avg=0.00ms, max=17ms
+20260712:184723.644     | `-CNpcGenerator::Generator, cnt=339227, tot=0ms, avg=0.00ms, max=0ms
+20260712:184723.661     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:184723.676 CNpcWorld::SendMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:185223.429 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=203ms
+20260712:185223.429 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=31ms
+20260712:185223.445 CKernelThread::OnProcess, cnt=7583, tot=5180ms, avg=0.68ms, max=46ms
+20260712:185223.460 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:185223.476 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:185223.491 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:185223.507 `-CNpcWorld::OnTimer, cnt=3000, tot=5180ms, avg=1.73ms, max=46ms
+20260712:185223.538   `-NpcManager::OnTimer, cnt=3000, tot=4920ms, avg=1.64ms, max=46ms
+20260712:185223.554     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=415ms, avg=0.00ms, max=28ms
+20260712:185223.570     | `-CNpcGenerator::Generator, cnt=339000, tot=31ms, avg=0.00ms, max=16ms
+20260712:185223.586     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:185223.602 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:185723.417 CLogThread OnProcess, cnt=302, tot=204ms, avg=0.68ms, max=204ms
+20260712:185723.417 `-CLogThread ProcessMsg, cnt=14, tot=204ms, avg=14.57ms, max=32ms
+20260712:185723.433 CKernelThread::OnProcess, cnt=7627, tot=3320ms, avg=0.44ms, max=94ms
+20260712:185723.433 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:185723.448 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:185723.464 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:185723.479 `-CNpcWorld::OnTimer, cnt=2999, tot=3320ms, avg=1.11ms, max=94ms
+20260712:185723.495   `-NpcManager::OnTimer, cnt=2999, tot=3075ms, avg=1.03ms, max=63ms
+20260712:185723.511     |-CNpcGenerator::DoGenerator, cnt=13684559, tot=308ms, avg=0.00ms, max=16ms
+20260712:185723.526     | `-CNpcGenerator::Generator, cnt=338932, tot=0ms, avg=0.00ms, max=0ms
+20260712:185723.542     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:185723.542 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:190223.416 CLogThread OnProcess, cnt=302, tot=155ms, avg=0.51ms, max=140ms
+20260712:190223.416 `-CLogThread ProcessMsg, cnt=14, tot=155ms, avg=11.07ms, max=16ms
+20260712:190223.432 CKernelThread::OnProcess, cnt=7649, tot=3635ms, avg=0.48ms, max=47ms
+20260712:190223.448 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:190223.463 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:190223.479 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:190223.495 `-CNpcWorld::OnTimer, cnt=3000, tot=3635ms, avg=1.21ms, max=47ms
+20260712:190223.526   `-NpcManager::OnTimer, cnt=3000, tot=3415ms, avg=1.14ms, max=47ms
+20260712:190223.541     |-CNpcGenerator::DoGenerator, cnt=13688864, tot=647ms, avg=0.00ms, max=17ms
+20260712:190223.557     | `-CNpcGenerator::Generator, cnt=338952, tot=16ms, avg=0.00ms, max=16ms
+20260712:190223.573     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:190223.590 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:190723.159 CLogThread OnProcess, cnt=301, tot=204ms, avg=0.68ms, max=188ms
+20260712:190723.159 `-CLogThread ProcessMsg, cnt=14, tot=204ms, avg=14.57ms, max=32ms
+20260712:190723.175 CKernelThread::OnProcess, cnt=7684, tot=2437ms, avg=0.32ms, max=31ms
+20260712:190723.191 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:190723.206 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:190723.222 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:190723.237 `-CNpcWorld::OnTimer, cnt=2998, tot=2437ms, avg=0.81ms, max=31ms
+20260712:190723.269   `-NpcManager::OnTimer, cnt=2998, tot=2265ms, avg=0.76ms, max=31ms
+20260712:190723.284     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=124ms, avg=0.00ms, max=16ms
+20260712:190723.331     | `-CNpcGenerator::Generator, cnt=338774, tot=0ms, avg=0.00ms, max=0ms
+20260712:190723.347     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:190723.362 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:191223.442 CLogThread OnProcess, cnt=303, tot=250ms, avg=0.83ms, max=219ms
+20260712:191223.442 `-CLogThread ProcessMsg, cnt=14, tot=235ms, avg=16.79ms, max=47ms
+20260712:191223.458 CKernelThread::OnProcess, cnt=7677, tot=2529ms, avg=0.33ms, max=31ms
+20260712:191223.474 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:191223.489 | |-CNpcWorld::ProcessMsg, cnt=20, tot=0ms, avg=0.00ms, max=0ms
+20260712:191223.505 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:191223.522 `-CNpcWorld::OnTimer, cnt=3003, tot=2529ms, avg=0.84ms, max=31ms
+20260712:191223.536   `-NpcManager::OnTimer, cnt=3003, tot=2360ms, avg=0.79ms, max=31ms
+20260712:191223.552     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=245ms, avg=0.00ms, max=16ms
+20260712:191223.567     | `-CNpcGenerator::Generator, cnt=339339, tot=0ms, avg=0.00ms, max=0ms
+20260712:191223.583     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:191223.598 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:191723.527 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:191723.527 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=17ms
+20260712:191723.541 CKernelThread::OnProcess, cnt=7577, tot=4045ms, avg=0.53ms, max=32ms
+20260712:191723.556 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:191723.572 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:191723.603 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:191723.619 `-CNpcWorld::OnTimer, cnt=3001, tot=4014ms, avg=1.34ms, max=32ms
+20260712:191723.634   `-NpcManager::OnTimer, cnt=3001, tot=3807ms, avg=1.27ms, max=32ms
+20260712:191723.650     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=500ms, avg=0.00ms, max=19ms
+20260712:191723.666     | `-CNpcGenerator::Generator, cnt=339113, tot=15ms, avg=0.00ms, max=15ms
+20260712:191723.681     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:191723.697 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:192223.413 CLogThread OnProcess, cnt=302, tot=201ms, avg=0.67ms, max=201ms
+20260712:192223.413 `-CLogThread ProcessMsg, cnt=14, tot=201ms, avg=14.36ms, max=31ms
+20260712:192223.428 CKernelThread::OnProcess, cnt=7613, tot=4177ms, avg=0.55ms, max=32ms
+20260712:192223.444 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:192223.460 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:192223.490 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:192223.506 `-CNpcWorld::OnTimer, cnt=2998, tot=4177ms, avg=1.39ms, max=32ms
+20260712:192223.522   `-NpcManager::OnTimer, cnt=2998, tot=3892ms, avg=1.30ms, max=32ms
+20260712:192223.537     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=441ms, avg=0.00ms, max=16ms
+20260712:192223.569     | `-CNpcGenerator::Generator, cnt=338774, tot=16ms, avg=0.00ms, max=16ms
+20260712:192223.584     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:192223.600 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:192723.533 CLogThread OnProcess, cnt=302, tot=202ms, avg=0.67ms, max=202ms
+20260712:192723.533 `-CLogThread ProcessMsg, cnt=14, tot=202ms, avg=14.43ms, max=31ms
+20260712:192723.548 CKernelThread::OnProcess, cnt=7650, tot=4286ms, avg=0.56ms, max=32ms
+20260712:192723.564 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:192723.580 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:192723.580 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:192723.595 `-CNpcWorld::OnTimer, cnt=3002, tot=4286ms, avg=1.43ms, max=32ms
+20260712:192723.611   `-NpcManager::OnTimer, cnt=3002, tot=3977ms, avg=1.32ms, max=32ms
+20260712:192723.626     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=507ms, avg=0.00ms, max=19ms
+20260712:192723.642     | `-CNpcGenerator::Generator, cnt=339226, tot=31ms, avg=0.00ms, max=16ms
+20260712:192723.658     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:192723.673 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:193223.407 CLogThread OnProcess, cnt=302, tot=156ms, avg=0.52ms, max=156ms
+20260712:193223.407 `-CLogThread ProcessMsg, cnt=14, tot=156ms, avg=11.14ms, max=16ms
+20260712:193223.423 CKernelThread::OnProcess, cnt=7787, tot=1791ms, avg=0.23ms, max=47ms
+20260712:193223.439 |-READMSG, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:193223.454 | |-CNpcWorld::ProcessMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:193223.470 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:193223.485 `-CNpcWorld::OnTimer, cnt=2998, tot=1791ms, avg=0.60ms, max=47ms
+20260712:193223.501   `-NpcManager::OnTimer, cnt=2998, tot=1602ms, avg=0.53ms, max=47ms
+20260712:193223.517     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=132ms, avg=0.00ms, max=47ms
+20260712:193223.532     | `-CNpcGenerator::Generator, cnt=338775, tot=0ms, avg=0.00ms, max=0ms
+20260712:193223.548     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:193223.564 CNpcWorld::SendMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:193723.242 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=172ms
+20260712:193723.242 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=16ms
+20260712:193723.257 CKernelThread::OnProcess, cnt=7822, tot=2067ms, avg=0.26ms, max=31ms
+20260712:193723.273 |-READMSG, cnt=40, tot=0ms, avg=0.00ms, max=0ms
+20260712:193723.288 | |-CNpcWorld::ProcessMsg, cnt=41, tot=0ms, avg=0.00ms, max=0ms
+20260712:193723.304 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:193723.336 `-CNpcWorld::OnTimer, cnt=2999, tot=2067ms, avg=0.69ms, max=31ms
+20260712:193723.351   `-NpcManager::OnTimer, cnt=2999, tot=1880ms, avg=0.63ms, max=31ms
+20260712:193723.366     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=284ms, avg=0.00ms, max=16ms
+20260712:193723.382     | `-CNpcGenerator::Generator, cnt=338887, tot=0ms, avg=0.00ms, max=0ms
+20260712:193723.398     `-CNpc::OnTimer, cnt=1919, tot=0ms, avg=0.00ms, max=0ms
+20260712:193723.413 CNpcWorld::SendMsg, cnt=4, tot=0ms, avg=0.00ms, max=0ms
+20260712:194223.504 CLogThread OnProcess, cnt=302, tot=187ms, avg=0.62ms, max=187ms
+20260712:194223.504 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=32ms
+20260712:194223.519 CKernelThread::OnProcess, cnt=8226, tot=2174ms, avg=0.26ms, max=31ms
+20260712:194223.535 |-READMSG, cnt=1286, tot=16ms, avg=0.01ms, max=16ms
+20260712:194223.551 | |-CNpcWorld::ProcessMsg, cnt=1884, tot=16ms, avg=0.01ms, max=16ms
+20260712:194223.566 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:194223.582 `-CNpcWorld::OnTimer, cnt=3002, tot=2143ms, avg=0.71ms, max=31ms
+20260712:194223.598   `-NpcManager::OnTimer, cnt=3002, tot=1971ms, avg=0.66ms, max=31ms
+20260712:194223.613     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=197ms, avg=0.00ms, max=18ms
+20260712:194223.629     | `-CNpcGenerator::Generator, cnt=339229, tot=32ms, avg=0.00ms, max=16ms
+20260712:194223.644     `-CNpc::OnTimer, cnt=66918, tot=76ms, avg=0.00ms, max=16ms
+20260712:194223.660 CNpcWorld::SendMsg, cnt=1464, tot=48ms, avg=0.03ms, max=16ms
+20260712:194723.338 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=172ms
+20260712:194723.338 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=16ms
+20260712:194723.353 CKernelThread::OnProcess, cnt=7707, tot=2338ms, avg=0.30ms, max=46ms
+20260712:194723.369 |-READMSG, cnt=69, tot=16ms, avg=0.23ms, max=16ms
+20260712:194723.384 | |-CNpcWorld::ProcessMsg, cnt=69, tot=16ms, avg=0.23ms, max=16ms
+20260712:194723.400 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:194723.416 `-CNpcWorld::OnTimer, cnt=2999, tot=2322ms, avg=0.77ms, max=46ms
+20260712:194723.431   `-NpcManager::OnTimer, cnt=2999, tot=2153ms, avg=0.72ms, max=46ms
+20260712:194723.447     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=186ms, avg=0.00ms, max=46ms
+20260712:194723.469     | `-CNpcGenerator::Generator, cnt=338887, tot=15ms, avg=0.00ms, max=15ms
+20260712:194723.479     `-CNpc::OnTimer, cnt=6799, tot=0ms, avg=0.00ms, max=0ms
+20260712:194723.495 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:195223.215 CLogThread OnProcess, cnt=301, tot=173ms, avg=0.57ms, max=173ms
+20260712:195223.215 `-CLogThread ProcessMsg, cnt=14, tot=173ms, avg=12.36ms, max=22ms
+20260712:195223.231 CKernelThread::OnProcess, cnt=8146, tot=1884ms, avg=0.23ms, max=32ms
+20260712:195223.246 |-READMSG, cnt=828, tot=62ms, avg=0.07ms, max=16ms
+20260712:195223.262 | |-CNpcWorld::ProcessMsg, cnt=899, tot=46ms, avg=0.05ms, max=16ms
+20260712:195223.278 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:195223.293 `-CNpcWorld::OnTimer, cnt=2998, tot=1822ms, avg=0.61ms, max=32ms
+20260712:195223.309   `-NpcManager::OnTimer, cnt=2998, tot=1589ms, avg=0.53ms, max=32ms
+20260712:195223.324     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=241ms, avg=0.00ms, max=16ms
+20260712:195223.340     | `-CNpcGenerator::Generator, cnt=338789, tot=0ms, avg=0.00ms, max=0ms
+20260712:195223.356     `-CNpc::OnTimer, cnt=16206, tot=31ms, avg=0.00ms, max=16ms
+20260712:195223.371 CNpcWorld::SendMsg, cnt=521, tot=15ms, avg=0.03ms, max=15ms
+20260712:195723.641 CLogThread OnProcess, cnt=303, tot=172ms, avg=0.57ms, max=172ms
+20260712:195723.641 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=16ms
+20260712:195723.657 CKernelThread::OnProcess, cnt=8837, tot=3017ms, avg=0.34ms, max=32ms
+20260712:195723.657 |-READMSG, cnt=2509, tot=47ms, avg=0.02ms, max=16ms
+20260712:195723.688 | |-CNpcWorld::ProcessMsg, cnt=3363, tot=16ms, avg=0.00ms, max=16ms
+20260712:195723.704 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:195723.719 `-CNpcWorld::OnTimer, cnt=3005, tot=2970ms, avg=0.99ms, max=32ms
+20260712:195723.735   `-NpcManager::OnTimer, cnt=3005, tot=2814ms, avg=0.94ms, max=32ms
+20260712:195723.751     |-CNpcGenerator::DoGenerator, cnt=13711815, tot=261ms, avg=0.00ms, max=16ms
+20260712:195723.766     | `-CNpcGenerator::Generator, cnt=339587, tot=0ms, avg=0.00ms, max=0ms
+20260712:195723.782     `-CNpc::OnTimer, cnt=99871, tot=157ms, avg=0.00ms, max=16ms
+20260712:195723.797 CNpcWorld::SendMsg, cnt=2310, tot=95ms, avg=0.04ms, max=16ms
+20260712:200223.166 CLogThread OnProcess, cnt=301, tot=172ms, avg=0.57ms, max=172ms
+20260712:200223.166 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=32ms
+20260712:200223.182 CKernelThread::OnProcess, cnt=8529, tot=2200ms, avg=0.26ms, max=17ms
+20260712:200223.197 |-READMSG, cnt=1643, tot=48ms, avg=0.03ms, max=16ms
+20260712:200223.213 | |-CNpcWorld::ProcessMsg, cnt=2265, tot=32ms, avg=0.01ms, max=16ms
+20260712:200223.229 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:200223.244 `-CNpcWorld::OnTimer, cnt=2995, tot=2152ms, avg=0.72ms, max=17ms
+20260712:200223.260   `-NpcManager::OnTimer, cnt=2995, tot=1982ms, avg=0.66ms, max=17ms
+20260712:200223.276     |-CNpcGenerator::DoGenerator, cnt=13666185, tot=242ms, avg=0.00ms, max=16ms
+20260712:200223.291     | `-CNpcGenerator::Generator, cnt=338449, tot=0ms, avg=0.00ms, max=0ms
+20260712:200223.307     `-CNpc::OnTimer, cnt=62562, tot=166ms, avg=0.00ms, max=16ms
+20260712:200223.322 CNpcWorld::SendMsg, cnt=1433, tot=90ms, avg=0.06ms, max=16ms
+20260712:200723.212 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:200723.212 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=16ms
+20260712:200723.228 CKernelThread::OnProcess, cnt=8191, tot=1312ms, avg=0.16ms, max=31ms
+20260712:200723.228 |-READMSG, cnt=12, tot=0ms, avg=0.00ms, max=0ms
+20260712:200723.243 | |-CNpcWorld::ProcessMsg, cnt=12, tot=0ms, avg=0.00ms, max=0ms
+20260712:200723.259 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:200723.275 `-CNpcWorld::OnTimer, cnt=3000, tot=1312ms, avg=0.44ms, max=31ms
+20260712:200723.290   `-NpcManager::OnTimer, cnt=3000, tot=1106ms, avg=0.37ms, max=31ms
+20260712:200723.322     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=186ms, avg=0.00ms, max=31ms
+20260712:200723.337     | `-CNpcGenerator::Generator, cnt=339000, tot=0ms, avg=0.00ms, max=0ms
+20260712:200723.353     `-CNpc::OnTimer, cnt=1202, tot=0ms, avg=0.00ms, max=0ms
+20260712:200723.368 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:201223.527 CLogThread OnProcess, cnt=303, tot=172ms, avg=0.57ms, max=172ms
+20260712:201223.527 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=31ms
+20260712:201223.543 CKernelThread::OnProcess, cnt=7869, tot=1646ms, avg=0.21ms, max=17ms
+20260712:201223.559 |-READMSG, cnt=33, tot=0ms, avg=0.00ms, max=0ms
+20260712:201223.574 | |-CNpcWorld::ProcessMsg, cnt=50, tot=0ms, avg=0.00ms, max=0ms
+20260712:201223.590 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:201223.605 `-CNpcWorld::OnTimer, cnt=3004, tot=1646ms, avg=0.55ms, max=17ms
+20260712:201223.637   `-NpcManager::OnTimer, cnt=3004, tot=1444ms, avg=0.48ms, max=17ms
+20260712:201223.652     |-CNpcGenerator::DoGenerator, cnt=13707252, tot=199ms, avg=0.00ms, max=16ms
+20260712:201223.668     | `-CNpcGenerator::Generator, cnt=339452, tot=16ms, avg=0.00ms, max=16ms
+20260712:201223.684     `-CNpc::OnTimer, cnt=2184, tot=0ms, avg=0.00ms, max=0ms
+20260712:201223.715 CNpcWorld::SendMsg, cnt=6, tot=0ms, avg=0.00ms, max=0ms
+20260712:201723.345 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=203ms
+20260712:201723.345 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:201723.360 CKernelThread::OnProcess, cnt=7755, tot=4530ms, avg=0.58ms, max=31ms
+20260712:201723.376 |-READMSG, cnt=345, tot=24ms, avg=0.07ms, max=24ms
+20260712:201723.391 | |-CNpcWorld::ProcessMsg, cnt=387, tot=0ms, avg=0.00ms, max=0ms
+20260712:201723.407 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:201723.422 `-CNpcWorld::OnTimer, cnt=2998, tot=4506ms, avg=1.50ms, max=31ms
+20260712:201723.438   `-NpcManager::OnTimer, cnt=2998, tot=4278ms, avg=1.43ms, max=31ms
+20260712:201723.469     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=546ms, avg=0.00ms, max=16ms
+20260712:201723.485     | `-CNpcGenerator::Generator, cnt=338775, tot=63ms, avg=0.00ms, max=16ms
+20260712:201723.501     `-CNpc::OnTimer, cnt=17034, tot=49ms, avg=0.00ms, max=17ms
+20260712:201723.516 CNpcWorld::SendMsg, cnt=252, tot=49ms, avg=0.19ms, max=17ms
+20260712:202223.333 CLogThread OnProcess, cnt=302, tot=186ms, avg=0.62ms, max=186ms
+20260712:202223.333 `-CLogThread ProcessMsg, cnt=14, tot=186ms, avg=13.29ms, max=31ms
+20260712:202223.349 CKernelThread::OnProcess, cnt=7689, tot=4504ms, avg=0.59ms, max=40ms
+20260712:202223.364 |-READMSG, cnt=71, tot=0ms, avg=0.00ms, max=0ms
+20260712:202223.380 | |-CNpcWorld::ProcessMsg, cnt=74, tot=0ms, avg=0.00ms, max=0ms
+20260712:202223.396 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:202223.411 `-CNpcWorld::OnTimer, cnt=2999, tot=4504ms, avg=1.50ms, max=40ms
+20260712:202223.427   `-NpcManager::OnTimer, cnt=2999, tot=4272ms, avg=1.42ms, max=40ms
+20260712:202223.442     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=787ms, avg=0.00ms, max=20ms
+20260712:202223.458     | `-CNpcGenerator::Generator, cnt=338889, tot=0ms, avg=0.00ms, max=0ms
+20260712:202223.473     `-CNpc::OnTimer, cnt=2664, tot=16ms, avg=0.01ms, max=16ms
+20260712:202223.505 CNpcWorld::SendMsg, cnt=24, tot=0ms, avg=0.00ms, max=0ms
+20260712:202723.351 CLogThread OnProcess, cnt=302, tot=204ms, avg=0.68ms, max=188ms
+20260712:202723.351 `-CLogThread ProcessMsg, cnt=14, tot=204ms, avg=14.57ms, max=31ms
+20260712:202723.367 CKernelThread::OnProcess, cnt=7748, tot=5258ms, avg=0.68ms, max=60ms
+20260712:202723.398 |-READMSG, cnt=171, tot=0ms, avg=0.00ms, max=0ms
+20260712:202723.414 | |-CNpcWorld::ProcessMsg, cnt=185, tot=0ms, avg=0.00ms, max=0ms
+20260712:202723.430 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:202723.461 `-CNpcWorld::OnTimer, cnt=3001, tot=5242ms, avg=1.75ms, max=60ms
+20260712:202723.476   `-NpcManager::OnTimer, cnt=3001, tot=5039ms, avg=1.68ms, max=60ms
+20260712:202723.492     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=785ms, avg=0.00ms, max=16ms
+20260712:202723.508     | `-CNpcGenerator::Generator, cnt=339119, tot=42ms, avg=0.00ms, max=16ms
+20260712:202723.539     `-CNpc::OnTimer, cnt=3151, tot=16ms, avg=0.01ms, max=16ms
+20260712:202723.555 CNpcWorld::SendMsg, cnt=41, tot=16ms, avg=0.39ms, max=16ms
+20260712:203223.297 CLogThread OnProcess, cnt=302, tot=218ms, avg=0.72ms, max=218ms
+20260712:203223.297 `-CLogThread ProcessMsg, cnt=14, tot=218ms, avg=15.57ms, max=32ms
+20260712:203223.312 CKernelThread::OnProcess, cnt=8183, tot=6624ms, avg=0.81ms, max=32ms
+20260712:203223.328 |-READMSG, cnt=1120, tot=110ms, avg=0.10ms, max=18ms
+20260712:203223.344 | |-CNpcWorld::ProcessMsg, cnt=1228, tot=95ms, avg=0.08ms, max=18ms
+20260712:203223.359 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:203223.375 `-CNpcWorld::OnTimer, cnt=2999, tot=6514ms, avg=2.17ms, max=32ms
+20260712:203223.391   `-NpcManager::OnTimer, cnt=2999, tot=6312ms, avg=2.10ms, max=32ms
+20260712:203223.406     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=833ms, avg=0.00ms, max=22ms
+20260712:203223.422     | `-CNpcGenerator::Generator, cnt=338899, tot=53ms, avg=0.00ms, max=22ms
+20260712:203223.453     `-CNpc::OnTimer, cnt=32352, tot=160ms, avg=0.00ms, max=19ms
+20260712:203223.469 CNpcWorld::SendMsg, cnt=633, tot=51ms, avg=0.08ms, max=19ms
+20260712:203723.557 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=187ms
+20260712:203723.557 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=32ms
+20260712:203723.573 CKernelThread::OnProcess, cnt=7710, tot=4688ms, avg=0.61ms, max=18ms
+20260712:203723.588 |-READMSG, cnt=69, tot=10ms, avg=0.14ms, max=10ms
+20260712:203723.604 | |-CNpcWorld::ProcessMsg, cnt=69, tot=10ms, avg=0.14ms, max=10ms
+20260712:203723.620 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:203723.651 `-CNpcWorld::OnTimer, cnt=3003, tot=4678ms, avg=1.56ms, max=18ms
+20260712:203723.667   `-NpcManager::OnTimer, cnt=3003, tot=4385ms, avg=1.46ms, max=18ms
+20260712:203723.682     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=410ms, avg=0.00ms, max=16ms
+20260712:203723.698     | `-CNpcGenerator::Generator, cnt=339339, tot=16ms, avg=0.00ms, max=16ms
+20260712:203723.713     `-CNpc::OnTimer, cnt=3131, tot=15ms, avg=0.00ms, max=15ms
+20260712:203723.729 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:204223.295 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=188ms
+20260712:204223.295 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=31ms
+20260712:204223.311 CKernelThread::OnProcess, cnt=7781, tot=4531ms, avg=0.58ms, max=31ms
+20260712:204223.326 |-READMSG, cnt=261, tot=61ms, avg=0.23ms, max=16ms
+20260712:204223.342 | |-CNpcWorld::ProcessMsg, cnt=308, tot=46ms, avg=0.15ms, max=16ms
+20260712:204223.358 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:204223.373 `-CNpcWorld::OnTimer, cnt=2997, tot=4470ms, avg=1.49ms, max=31ms
+20260712:204223.405   `-NpcManager::OnTimer, cnt=2997, tot=4244ms, avg=1.42ms, max=31ms
+20260712:204223.420     |-CNpcGenerator::DoGenerator, cnt=13675311, tot=393ms, avg=0.00ms, max=16ms
+20260712:204223.436     | `-CNpcGenerator::Generator, cnt=338665, tot=0ms, avg=0.00ms, max=0ms
+20260712:204223.451     `-CNpc::OnTimer, cnt=7326, tot=16ms, avg=0.00ms, max=16ms
+20260712:204223.467 CNpcWorld::SendMsg, cnt=80, tot=16ms, avg=0.20ms, max=16ms
+20260712:204723.421 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=188ms
+20260712:204723.421 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=31ms
+20260712:204723.437 CKernelThread::OnProcess, cnt=7893, tot=5017ms, avg=0.64ms, max=40ms
+20260712:204723.453 |-READMSG, cnt=534, tot=32ms, avg=0.06ms, max=16ms
+20260712:204723.484 | |-CNpcWorld::ProcessMsg, cnt=562, tot=16ms, avg=0.03ms, max=16ms
+20260712:204723.500 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:204723.515 `-CNpcWorld::OnTimer, cnt=3001, tot=4985ms, avg=1.66ms, max=40ms
+20260712:204723.531   `-NpcManager::OnTimer, cnt=3001, tot=4764ms, avg=1.59ms, max=40ms
+20260712:204723.546     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=658ms, avg=0.00ms, max=18ms
+20260712:204723.562     | `-CNpcGenerator::Generator, cnt=339118, tot=30ms, avg=0.00ms, max=15ms
+20260712:204723.578     `-CNpc::OnTimer, cnt=19223, tot=140ms, avg=0.01ms, max=17ms
+20260712:204723.593 CNpcWorld::SendMsg, cnt=337, tot=93ms, avg=0.28ms, max=17ms
+20260712:205223.544 CLogThread OnProcess, cnt=302, tot=188ms, avg=0.62ms, max=188ms
+20260712:205223.544 `-CLogThread ProcessMsg, cnt=14, tot=188ms, avg=13.43ms, max=32ms
+20260712:205223.560 CKernelThread::OnProcess, cnt=7800, tot=3313ms, avg=0.42ms, max=31ms
+20260712:205223.575 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:205223.591 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:205223.607 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:205223.622 `-CNpcWorld::OnTimer, cnt=3002, tot=3298ms, avg=1.10ms, max=31ms
+20260712:205223.638   `-NpcManager::OnTimer, cnt=3002, tot=3042ms, avg=1.01ms, max=17ms
+20260712:205223.654     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=377ms, avg=0.00ms, max=16ms
+20260712:205223.669     | `-CNpcGenerator::Generator, cnt=339226, tot=0ms, avg=0.00ms, max=0ms
+20260712:205223.685     `-CNpc::OnTimer, cnt=110, tot=0ms, avg=0.00ms, max=0ms
+20260712:205223.700 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:205723.610 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=187ms
+20260712:205723.610 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=31ms
+20260712:205723.626 CKernelThread::OnProcess, cnt=7562, tot=5140ms, avg=0.68ms, max=31ms
+20260712:205723.641 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:205723.657 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:205723.672 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:205723.688 `-CNpcWorld::OnTimer, cnt=3000, tot=5140ms, avg=1.71ms, max=31ms
+20260712:205723.704   `-NpcManager::OnTimer, cnt=3000, tot=4938ms, avg=1.65ms, max=31ms
+20260712:205723.719     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=760ms, avg=0.00ms, max=18ms
+20260712:205723.735     | `-CNpcGenerator::Generator, cnt=339000, tot=15ms, avg=0.00ms, max=15ms
+20260712:205723.766     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:205723.782 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:210223.482 CLogThread OnProcess, cnt=302, tot=204ms, avg=0.68ms, max=188ms
+20260712:210223.482 `-CLogThread ProcessMsg, cnt=14, tot=204ms, avg=14.57ms, max=31ms
+20260712:210223.498 CKernelThread::OnProcess, cnt=7951, tot=5057ms, avg=0.64ms, max=35ms
+20260712:210223.513 |-READMSG, cnt=766, tot=0ms, avg=0.00ms, max=0ms
+20260712:210223.529 | |-CNpcWorld::ProcessMsg, cnt=915, tot=0ms, avg=0.00ms, max=0ms
+20260712:210223.560 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:210223.592 `-CNpcWorld::OnTimer, cnt=2999, tot=5057ms, avg=1.69ms, max=35ms
+20260712:210223.592   `-NpcManager::OnTimer, cnt=2999, tot=4843ms, avg=1.61ms, max=35ms
+20260712:210223.623     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=573ms, avg=0.00ms, max=17ms
+20260712:210223.638     | `-CNpcGenerator::Generator, cnt=338892, tot=0ms, avg=0.00ms, max=0ms
+20260712:210223.654     `-CNpc::OnTimer, cnt=29892, tot=141ms, avg=0.00ms, max=16ms
+20260712:210223.669 CNpcWorld::SendMsg, cnt=515, tot=93ms, avg=0.18ms, max=16ms
+20260712:210723.336 CLogThread OnProcess, cnt=302, tot=218ms, avg=0.72ms, max=203ms
+20260712:210723.336 `-CLogThread ProcessMsg, cnt=14, tot=218ms, avg=15.57ms, max=32ms
+20260712:210723.351 CKernelThread::OnProcess, cnt=9044, tot=5072ms, avg=0.56ms, max=32ms
+20260712:210723.367 |-READMSG, cnt=2737, tot=93ms, avg=0.03ms, max=16ms
+20260712:210723.382 | |-CNpcWorld::ProcessMsg, cnt=3394, tot=61ms, avg=0.02ms, max=16ms
+20260712:210723.398 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:210723.414 `-CNpcWorld::OnTimer, cnt=2999, tot=4933ms, avg=1.64ms, max=32ms
+20260712:210723.429   `-NpcManager::OnTimer, cnt=2999, tot=4745ms, avg=1.58ms, max=31ms
+20260712:210723.445     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=758ms, avg=0.00ms, max=16ms
+20260712:210723.461     | `-CNpcGenerator::Generator, cnt=338927, tot=0ms, avg=0.00ms, max=0ms
+20260712:210723.476     `-CNpc::OnTimer, cnt=73604, tot=168ms, avg=0.00ms, max=16ms
+20260712:210723.492 CNpcWorld::SendMsg, cnt=1808, tot=122ms, avg=0.07ms, max=16ms
+20260712:211223.415 CLogThread OnProcess, cnt=302, tot=186ms, avg=0.62ms, max=171ms
+20260712:211223.415 `-CLogThread ProcessMsg, cnt=14, tot=186ms, avg=13.29ms, max=16ms
+20260712:211223.430 CKernelThread::OnProcess, cnt=8968, tot=4599ms, avg=0.51ms, max=31ms
+20260712:211223.446 |-READMSG, cnt=2663, tot=125ms, avg=0.05ms, max=16ms
+20260712:211223.461 | |-CNpcWorld::ProcessMsg, cnt=3496, tot=64ms, avg=0.02ms, max=16ms
+20260712:211223.477 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:211223.493 `-CNpcWorld::OnTimer, cnt=3001, tot=4458ms, avg=1.49ms, max=31ms
+20260712:211223.508   `-NpcManager::OnTimer, cnt=3001, tot=4256ms, avg=1.42ms, max=31ms
+20260712:211223.524     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=445ms, avg=0.00ms, max=16ms
+20260712:211223.539     | `-CNpcGenerator::Generator, cnt=339155, tot=16ms, avg=0.00ms, max=16ms
+20260712:211223.555     `-CNpc::OnTimer, cnt=92524, tot=365ms, avg=0.00ms, max=16ms
+20260712:211223.571 CNpcWorld::SendMsg, cnt=2166, tot=246ms, avg=0.11ms, max=16ms
+20260712:211723.594 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:211723.594 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=16ms
+20260712:211723.609 CKernelThread::OnProcess, cnt=7810, tot=2706ms, avg=0.35ms, max=31ms
+20260712:211723.625 |-READMSG, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:211723.656 | |-CNpcWorld::ProcessMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:211723.671 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:211723.703 `-CNpcWorld::OnTimer, cnt=3001, tot=2690ms, avg=0.90ms, max=31ms
+20260712:211723.718   `-NpcManager::OnTimer, cnt=3001, tot=2543ms, avg=0.85ms, max=31ms
+20260712:211723.734     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=235ms, avg=0.00ms, max=16ms
+20260712:211723.750     | `-CNpcGenerator::Generator, cnt=339114, tot=0ms, avg=0.00ms, max=0ms
+20260712:211723.765     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:211723.781 CNpcWorld::SendMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:212223.531 CLogThread OnProcess, cnt=302, tot=203ms, avg=0.67ms, max=203ms
+20260712:212223.531 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=31ms
+20260712:212223.547 CKernelThread::OnProcess, cnt=7685, tot=3811ms, avg=0.50ms, max=31ms
+20260712:212223.563 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:212223.578 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:212223.625 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:212223.641 `-CNpcWorld::OnTimer, cnt=3000, tot=3811ms, avg=1.27ms, max=31ms
+20260712:212223.656   `-NpcManager::OnTimer, cnt=3000, tot=3528ms, avg=1.18ms, max=31ms
+20260712:212223.672     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=337ms, avg=0.00ms, max=16ms
+20260712:212223.703     | `-CNpcGenerator::Generator, cnt=339000, tot=0ms, avg=0.00ms, max=0ms
+20260712:212223.719     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:212223.735 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:212723.298 CLogThread OnProcess, cnt=302, tot=235ms, avg=0.78ms, max=235ms
+20260712:212723.298 `-CLogThread ProcessMsg, cnt=14, tot=235ms, avg=16.79ms, max=47ms
+20260712:212723.313 CKernelThread::OnProcess, cnt=7783, tot=3184ms, avg=0.41ms, max=31ms
+20260712:212723.345 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:212723.361 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:212723.376 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:212723.392 `-CNpcWorld::OnTimer, cnt=2997, tot=3184ms, avg=1.06ms, max=31ms
+20260712:212723.407   `-NpcManager::OnTimer, cnt=2997, tot=2996ms, avg=1.00ms, max=31ms
+20260712:212723.423     |-CNpcGenerator::DoGenerator, cnt=13675311, tot=370ms, avg=0.00ms, max=16ms
+20260712:212723.438     | `-CNpcGenerator::Generator, cnt=338661, tot=17ms, avg=0.00ms, max=15ms
+20260712:212723.454     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:212723.470 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:213223.178 CLogThread OnProcess, cnt=301, tot=202ms, avg=0.67ms, max=187ms
+20260712:213223.178 `-CLogThread ProcessMsg, cnt=14, tot=202ms, avg=14.43ms, max=31ms
+20260712:213223.193 CKernelThread::OnProcess, cnt=7638, tot=2827ms, avg=0.37ms, max=32ms
+20260712:213223.209 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:213223.225 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:213223.240 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:213223.256 `-CNpcWorld::OnTimer, cnt=2999, tot=2827ms, avg=0.94ms, max=32ms
+20260712:213223.271   `-NpcManager::OnTimer, cnt=2999, tot=2639ms, avg=0.88ms, max=32ms
+20260712:213223.287     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=267ms, avg=0.00ms, max=17ms
+20260712:213223.303     | `-CNpcGenerator::Generator, cnt=338887, tot=31ms, avg=0.00ms, max=16ms
+20260712:213223.318     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:213223.334 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:213723.169 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:213723.169 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=16ms
+20260712:213723.169 CKernelThread::OnProcess, cnt=7648, tot=3451ms, avg=0.45ms, max=32ms
+20260712:213723.185 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:213723.201 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:213723.216 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:213723.232 `-CNpcWorld::OnTimer, cnt=3000, tot=3451ms, avg=1.15ms, max=32ms
+20260712:213723.247   `-NpcManager::OnTimer, cnt=3000, tot=3247ms, avg=1.08ms, max=32ms
+20260712:213723.263     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=450ms, avg=0.00ms, max=19ms
+20260712:213723.279     | `-CNpcGenerator::Generator, cnt=339000, tot=0ms, avg=0.00ms, max=0ms
+20260712:213723.294     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:213723.310 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:214223.406 CLogThread OnProcess, cnt=303, tot=156ms, avg=0.51ms, max=156ms
+20260712:214223.406 `-CLogThread ProcessMsg, cnt=14, tot=156ms, avg=11.14ms, max=16ms
+20260712:214223.421 CKernelThread::OnProcess, cnt=7786, tot=2808ms, avg=0.36ms, max=31ms
+20260712:214223.437 |-READMSG, cnt=2, tot=31ms, avg=15.50ms, max=31ms
+20260712:214223.452 | |-CNpcWorld::ProcessMsg, cnt=20, tot=31ms, avg=1.55ms, max=31ms
+20260712:214223.484 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:214223.499 `-CNpcWorld::OnTimer, cnt=3002, tot=2777ms, avg=0.93ms, max=31ms
+20260712:214223.515   `-NpcManager::OnTimer, cnt=3002, tot=2654ms, avg=0.88ms, max=31ms
+20260712:214223.531     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=224ms, avg=0.00ms, max=16ms
+20260712:214223.546     | `-CNpcGenerator::Generator, cnt=339226, tot=30ms, avg=0.00ms, max=15ms
+20260712:214223.562     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:214223.577 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:214723.625 CLogThread OnProcess, cnt=302, tot=218ms, avg=0.72ms, max=203ms
+20260712:214723.625 `-CLogThread ProcessMsg, cnt=14, tot=218ms, avg=15.57ms, max=31ms
+20260712:214723.640 CKernelThread::OnProcess, cnt=7800, tot=3029ms, avg=0.39ms, max=32ms
+20260712:214723.656 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:214723.672 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:214723.687 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:214723.703 `-CNpcWorld::OnTimer, cnt=3003, tot=3029ms, avg=1.01ms, max=32ms
+20260712:214723.719   `-NpcManager::OnTimer, cnt=3003, tot=2830ms, avg=0.94ms, max=32ms
+20260712:214723.734     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=315ms, avg=0.00ms, max=16ms
+20260712:214723.750     | `-CNpcGenerator::Generator, cnt=339339, tot=16ms, avg=0.00ms, max=16ms
+20260712:214723.766     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:214723.781 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:215223.595 CLogThread OnProcess, cnt=302, tot=204ms, avg=0.68ms, max=188ms
+20260712:215223.595 `-CLogThread ProcessMsg, cnt=14, tot=204ms, avg=14.57ms, max=32ms
+20260712:215223.610 CKernelThread::OnProcess, cnt=7529, tot=5476ms, avg=0.73ms, max=32ms
+20260712:215223.625 |-READMSG, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:215223.641 | |-CNpcWorld::ProcessMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:215223.657 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:215223.688 `-CNpcWorld::OnTimer, cnt=2999, tot=5476ms, avg=1.83ms, max=32ms
+20260712:215223.735   `-NpcManager::OnTimer, cnt=2999, tot=5274ms, avg=1.76ms, max=32ms
+20260712:215223.751     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=715ms, avg=0.00ms, max=19ms
+20260712:215223.782     | `-CNpcGenerator::Generator, cnt=338888, tot=0ms, avg=0.00ms, max=0ms
+20260712:215223.797     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:215223.813 CNpcWorld::SendMsg, cnt=1, tot=0ms, avg=0.00ms, max=0ms
+20260712:215723.292 CLogThread OnProcess, cnt=302, tot=234ms, avg=0.77ms, max=234ms
+20260712:215723.292 `-CLogThread ProcessMsg, cnt=14, tot=234ms, avg=16.71ms, max=46ms
+20260712:215723.308 CKernelThread::OnProcess, cnt=7498, tot=5763ms, avg=0.77ms, max=47ms
+20260712:215723.324 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:215723.339 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:215723.355 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:215723.370 `-CNpcWorld::OnTimer, cnt=2997, tot=5763ms, avg=1.92ms, max=47ms
+20260712:215723.386   `-NpcManager::OnTimer, cnt=2997, tot=5480ms, avg=1.83ms, max=47ms
+20260712:215723.402     |-CNpcGenerator::DoGenerator, cnt=13675311, tot=694ms, avg=0.00ms, max=17ms
+20260712:215723.417     | `-CNpcGenerator::Generator, cnt=338661, tot=32ms, avg=0.00ms, max=16ms
+20260712:215723.433     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:215723.449 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:220223.268 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:220223.268 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=16ms
+20260712:220223.283 CKernelThread::OnProcess, cnt=7580, tot=3875ms, avg=0.51ms, max=32ms
+20260712:220223.283 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:220223.299 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:220223.315 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:220223.330 `-CNpcWorld::OnTimer, cnt=3000, tot=3875ms, avg=1.29ms, max=32ms
+20260712:220223.346   `-NpcManager::OnTimer, cnt=3000, tot=3673ms, avg=1.22ms, max=32ms
+20260712:220223.362     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=432ms, avg=0.00ms, max=16ms
+20260712:220223.377     | `-CNpcGenerator::Generator, cnt=339000, tot=0ms, avg=0.00ms, max=0ms
+20260712:220223.408     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:220223.424 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:220723.266 CLogThread OnProcess, cnt=302, tot=172ms, avg=0.57ms, max=172ms
+20260712:220723.266 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=31ms
+20260712:220723.281 CKernelThread::OnProcess, cnt=7654, tot=2518ms, avg=0.33ms, max=16ms
+20260712:220723.297 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:220723.312 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:220723.312 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:220723.328 `-CNpcWorld::OnTimer, cnt=3000, tot=2518ms, avg=0.84ms, max=16ms
+20260712:220723.359   `-NpcManager::OnTimer, cnt=3000, tot=2390ms, avg=0.80ms, max=16ms
+20260712:220723.375     |-CNpcGenerator::DoGenerator, cnt=13689000, tot=177ms, avg=0.00ms, max=16ms
+20260712:220723.391     | `-CNpcGenerator::Generator, cnt=339000, tot=0ms, avg=0.00ms, max=0ms
+20260712:220723.406     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:220723.422 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:221223.417 CLogThread OnProcess, cnt=302, tot=187ms, avg=0.62ms, max=172ms
+20260712:221223.417 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=32ms
+20260712:221223.448 CKernelThread::OnProcess, cnt=7567, tot=3483ms, avg=0.46ms, max=22ms
+20260712:221223.464 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:221223.495 | |-CNpcWorld::ProcessMsg, cnt=20, tot=0ms, avg=0.00ms, max=0ms
+20260712:221223.510 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:221223.526 `-CNpcWorld::OnTimer, cnt=3002, tot=3483ms, avg=1.16ms, max=22ms
+20260712:221223.542   `-NpcManager::OnTimer, cnt=3002, tot=3299ms, avg=1.10ms, max=22ms
+20260712:221223.573     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=265ms, avg=0.00ms, max=22ms
+20260712:221223.589     | `-CNpcGenerator::Generator, cnt=339226, tot=0ms, avg=0.00ms, max=0ms
+20260712:221223.604     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:221223.620 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:221723.337 CLogThread OnProcess, cnt=302, tot=219ms, avg=0.73ms, max=219ms
+20260712:221723.337 `-CLogThread ProcessMsg, cnt=14, tot=219ms, avg=15.64ms, max=31ms
+20260712:221723.353 CKernelThread::OnProcess, cnt=7759, tot=2829ms, avg=0.36ms, max=32ms
+20260712:221723.368 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:221723.368 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:221723.384 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:221723.415 `-CNpcWorld::OnTimer, cnt=2999, tot=2829ms, avg=0.94ms, max=32ms
+20260712:221723.431   `-NpcManager::OnTimer, cnt=2999, tot=2628ms, avg=0.88ms, max=32ms
+20260712:221723.447     |-CNpcGenerator::DoGenerator, cnt=13684437, tot=346ms, avg=0.00ms, max=16ms
+20260712:221723.462     | `-CNpcGenerator::Generator, cnt=338887, tot=15ms, avg=0.00ms, max=15ms
+20260712:221723.462     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:221723.478 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:222223.178 CLogThread OnProcess, cnt=301, tot=157ms, avg=0.52ms, max=157ms
+20260712:222223.178 `-CLogThread ProcessMsg, cnt=14, tot=157ms, avg=11.21ms, max=31ms
+20260712:222223.193 CKernelThread::OnProcess, cnt=7696, tot=2673ms, avg=0.35ms, max=20ms
+20260712:222223.209 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:222223.225 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:222223.240 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:222223.256 `-CNpcWorld::OnTimer, cnt=2998, tot=2673ms, avg=0.89ms, max=20ms
+20260712:222223.272   `-NpcManager::OnTimer, cnt=2998, tot=2471ms, avg=0.82ms, max=20ms
+20260712:222223.287     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=243ms, avg=0.00ms, max=16ms
+20260712:222223.303     | `-CNpcGenerator::Generator, cnt=338774, tot=2ms, avg=0.00ms, max=2ms
+20260712:222223.318     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:222223.334 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:222723.368 CLogThread OnProcess, cnt=303, tot=187ms, avg=0.62ms, max=172ms
+20260712:222723.368 `-CLogThread ProcessMsg, cnt=14, tot=187ms, avg=13.36ms, max=16ms
+20260712:222723.384 CKernelThread::OnProcess, cnt=7674, tot=2811ms, avg=0.37ms, max=32ms
+20260712:222723.399 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:222723.415 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:222723.446 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:222723.462 `-CNpcWorld::OnTimer, cnt=3002, tot=2811ms, avg=0.94ms, max=32ms
+20260712:222723.477   `-NpcManager::OnTimer, cnt=3002, tot=2625ms, avg=0.87ms, max=16ms
+20260712:222723.509     |-CNpcGenerator::DoGenerator, cnt=13698126, tot=147ms, avg=0.00ms, max=16ms
+20260712:222723.524     | `-CNpcGenerator::Generator, cnt=339226, tot=16ms, avg=0.00ms, max=16ms
+20260712:222723.540     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:222723.555 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:223223.166 CLogThread OnProcess, cnt=301, tot=203ms, avg=0.67ms, max=203ms
+20260712:223223.166 `-CLogThread ProcessMsg, cnt=14, tot=203ms, avg=14.50ms, max=31ms
+20260712:223223.181 CKernelThread::OnProcess, cnt=7603, tot=3262ms, avg=0.43ms, max=31ms
+20260712:223223.181 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:223223.197 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:223223.212 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:223223.228 `-CNpcWorld::OnTimer, cnt=2998, tot=3262ms, avg=1.09ms, max=31ms
+20260712:223223.244   `-NpcManager::OnTimer, cnt=2998, tot=3059ms, avg=1.02ms, max=31ms
+20260712:223223.259     |-CNpcGenerator::DoGenerator, cnt=13679874, tot=320ms, avg=0.00ms, max=16ms
+20260712:223223.275     | `-CNpcGenerator::Generator, cnt=338774, tot=50ms, avg=0.00ms, max=16ms
+20260712:223223.291     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:223223.306 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:223723.434 CLogThread OnProcess, cnt=303, tot=172ms, avg=0.57ms, max=156ms
+20260712:223723.434 `-CLogThread ProcessMsg, cnt=14, tot=172ms, avg=12.29ms, max=16ms
+20260712:223723.450 CKernelThread::OnProcess, cnt=7847, tot=2082ms, avg=0.27ms, max=31ms
+20260712:223723.466 |-READMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:223723.481 | |-CNpcWorld::ProcessMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:223723.497 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:223723.512 `-CNpcWorld::OnTimer, cnt=3003, tot=2082ms, avg=0.69ms, max=31ms
+20260712:223723.528   `-NpcManager::OnTimer, cnt=3003, tot=1958ms, avg=0.65ms, max=31ms
+20260712:223723.544     |-CNpcGenerator::DoGenerator, cnt=13702689, tot=234ms, avg=0.00ms, max=16ms
+20260712:223723.559     | `-CNpcGenerator::Generator, cnt=339339, tot=17ms, avg=0.00ms, max=16ms
+20260712:223723.575     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:223723.591 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:224223.593 CLogThread OnProcess, cnt=302, tot=171ms, avg=0.57ms, max=171ms
+20260712:224223.593 `-CLogThread ProcessMsg, cnt=14, tot=171ms, avg=12.21ms, max=16ms
+20260712:224223.609 CKernelThread::OnProcess, cnt=7619, tot=2846ms, avg=0.37ms, max=31ms
+20260712:224223.609 |-READMSG, cnt=2, tot=0ms, avg=0.00ms, max=0ms
+20260712:224223.624 | |-CNpcWorld::ProcessMsg, cnt=20, tot=0ms, avg=0.00ms, max=0ms
+20260712:224223.640 |-EVENTMSG, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:224223.656 `-CNpcWorld::OnTimer, cnt=3001, tot=2846ms, avg=0.95ms, max=31ms
+20260712:224223.671   `-NpcManager::OnTimer, cnt=3001, tot=2641ms, avg=0.88ms, max=31ms
+20260712:224223.687     |-CNpcGenerator::DoGenerator, cnt=13693563, tot=233ms, avg=0.00ms, max=16ms
+20260712:224223.703     | `-CNpcGenerator::Generator, cnt=339113, tot=16ms, avg=0.00ms, max=16ms
+20260712:224223.718     `-CNpc::OnTimer, cnt=0, tot=0ms, avg=0.00ms, max=0ms
+20260712:224223.734 CNpcWorld::SendMsg, cnt=0, tot=0ms, avg=0.00ms, max=0ms

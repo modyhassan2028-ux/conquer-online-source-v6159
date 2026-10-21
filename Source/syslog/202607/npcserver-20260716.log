@@ -1,0 +1,268 @@
+
+
+
+
+20260716:161835.399 1088 Message: =================================================================
+20260716:161835.420 1088 Message: Conquer Online NPC Server - test - Dec  4 2015 14:01:42
+20260716:161835.437 1088 Message: =================================================================
+20260716:161835.448 1088 Message: f:\version\cqserver-78.0.11-1204\npcserver\npcserverdlg.cpp
+20260716:161835.975 1088 Message: thread 1088 created running thread 7656 "LogThread"
+20260716:161835.976 7656 Message: thread 7656 "LogThread" is up and running
+20260716:161836.017 1088 Message: DatabaseInit got game server config 127.0.0.1:3306 cq(latin1), serverID 1, maxplayer 1500
+20260716:161836.166 1088 Message: thread 1088 created running thread 8092 "AsyncDBThread"
+20260716:161836.167 8092 Message: thread 8092 "AsyncDBThread" is up and running
+20260716:161836.180 8092 Message: CAsyncDBThread::OnInit got game server config 127.0.0.1:3306 cq(latin1), serverID 1, maxplayer 1500
+20260716:161836.198 8092 Message: CAsyncDBThread::OnInit async DB OK for 127.0.0.1:3306 cq(latin1)
+20260716:161836.211 1088 Message: libevent method: win32
+20260716:161836.224 1088 Message: mysql version 5.6.26
+20260716:161836.239 1088 Message: CDatabase::Open sync DB OK for 127.0.0.1:3306 cq(latin1)
+20260716:161836.241 1088 Message: SHELL: Create map set...
+20260716:161847.707 1088 Message: SHELL: Create player set...
+20260716:161847.728 1088 Message: SHELL: Create npc set...
+20260716:161848.248 1088 Message: SHELL: Create NPC protect path...
+20260716:161849.428 1088 Message: SHELL: ======== Create cq server kernel ok! ========
+20260716:161849.429 1088 Message: thread 1088 created libevent worker thread 1056
+20260716:161849.449 1056 Message: EvnetRoutine worker thread is up and running
+20260716:161849.471 1088 Message: thread 1088 created running thread 7820 "NPC Server KernelThread"
+20260716:161849.487 1088 Message: SHELL: Create kernel thread ok.
+20260716:161849.502 7820 Message: thread 7820 "NPC Server KernelThread" is up and running
+20260716:161849.661 7820 Message: SHELL: Login game server . . .
+20260716:161851.435 1056 Message: EvnetRoutine worker thread exited
+20260716:161851.436 7820 Message: SHELL: Connect to game server again . . .
+20260716:161853.440 7820 Message: SHELL: Connect to game server again . . .
+20260716:161854.594 7820 Message: SHELL: Login game server . . .
+20260716:161855.444 7820 Message: SHELL: Connect to game server again . . .
+20260716:161857.451 7820 Message: SHELL: Connect to game server again . . .
+20260716:161859.456 7820 Message: SHELL: Connect to game server again . . .
+20260716:161859.660 7820 Message: SHELL: Login game server . . .
+20260716:161901.460 7820 Message: SHELL: Connect to game server again . . .
+20260716:161903.462 7820 Message: SHELL: Connect to game server again . . .
+20260716:161904.672 7820 Message: SHELL: Login game server . . .
+20260716:161905.467 7820 Message: SHELL: Connect to game server again . . .
+20260716:161907.472 7820 Message: SHELL: Connect to game server again . . .
+20260716:161909.476 7820 Message: SHELL: Connect to game server again . . .
+20260716:161909.680 7820 Message: SHELL: Login game server . . .
+20260716:161911.481 7820 Message: SHELL: Connect to game server again . . .
+20260716:161913.485 7820 Message: SHELL: Connect to game server again . . .
+20260716:161914.677 7820 Message: SHELL: Login game server . . .
+20260716:161915.491 7820 Message: SHELL: Connect to game server again . . .
+20260716:161917.495 7820 Message: SHELL: Connect to game server again . . .
+20260716:161919.499 7820 Message: SHELL: Connect to game server again . . .
+20260716:161919.684 7820 Message: SHELL: Login game server . . .
+20260716:161921.502 7820 Message: SHELL: Connect to game server again . . .
+20260716:161923.506 7820 Message: SHELL: Connect to game server again . . .
+20260716:161924.671 7820 Message: SHELL: Login game server . . .
+20260716:161925.517 7820 Message: SHELL: Login game server ok.
+20260716:161925.518 7820 Message: SHELL: Login OK. generator monster after 10 secs
+20260716:161934.681 7820 Message: SHELL: Generator begin.
+20260716:162154.410 1088 Message: SHELL: CLOSE button pressed.
+
+
+
+
+20260716:162751.936 3192 Message: =================================================================
+20260716:162751.950 3192 Message: Conquer Online NPC Server - Epoch - Dec  4 2015 14:01:42
+20260716:162751.965 3192 Message: =================================================================
+20260716:162751.989 3192 Message: f:\version\cqserver-78.0.11-1204\npcserver\npcserverdlg.cpp
+20260716:162752.502 3192 Message: thread 3192 created running thread 7580 "LogThread"
+20260716:162752.509 3192 Message: DatabaseInit got game server config 127.0.0.1:3306 cq(latin1), serverID 1, maxplayer 1500
+20260716:162752.520 7580 Message: thread 7580 "LogThread" is up and running
+20260716:162752.579 3192 Message: thread 3192 created running thread 2348 "AsyncDBThread"
+20260716:162752.580 2348 Message: thread 2348 "AsyncDBThread" is up and running
+20260716:162752.593 2348 Message: CAsyncDBThread::OnInit got game server config 127.0.0.1:3306 cq(latin1), serverID 1, maxplayer 1500
+20260716:162752.604 3192 Message: libevent method: win32
+20260716:162752.615 2348 Message: CAsyncDBThread::OnInit async DB OK for 127.0.0.1:3306 cq(latin1)
+20260716:162752.627 3192 Message: mysql version 5.6.26
+20260716:162752.639 3192 Message: CDatabase::Open sync DB OK for 127.0.0.1:3306 cq(latin1)
+20260716:162752.651 3192 Message: SHELL: Create map set...
+20260716:162758.013 3192 Message: SHELL: Create player set...
+20260716:162758.017 3192 Message: SHELL: Create npc set...
+20260716:162758.511 3192 Message: SHELL: Create NPC protect path...
+20260716:162759.712 3192 Message: SHELL: ======== Create cq server kernel ok! ========
+20260716:162759.713 3192 Message: thread 3192 created libevent worker thread 2344
+20260716:162759.728 3192 Message: thread 3192 created running thread 2948 "NPC Server KernelThread"
+20260716:162759.740 3192 Message: SHELL: Create kernel thread ok.
+20260716:162759.753 2344 Message: EvnetRoutine worker thread is up and running
+20260716:162759.769 2948 Message: thread 2948 "NPC Server KernelThread" is up and running
+20260716:162759.949 2948 Message: SHELL: Login game server . . .
+20260716:162801.716 2344 Message: EvnetRoutine worker thread exited
+20260716:162801.716 2948 Message: SHELL: Connect to game server again . . .
+20260716:162803.721 2948 Message: SHELL: Connect to game server again . . .
+20260716:162804.642 2948 Message: SHELL: Login game server . . .
+20260716:162805.723 2948 Message: SHELL: Connect to game server again . . .
+20260716:162807.726 2948 Message: SHELL: Connect to game server again . . .
+20260716:162809.648 2948 Message: SHELL: Login game server . . .
+20260716:162809.731 2948 Message: SHELL: Connect to game server again . . .
+20260716:162811.734 2948 Message: SHELL: Connect to game server again . . .
+20260716:162812.737 2948 Message: SHELL: Login game server ok.
+20260716:162812.737 2948 Message: SHELL: Login OK. generator monster after 10 secs
+20260716:162822.646 2948 Message: SHELL: Generator begin.
+20260716:163252.009 3192 Message: kernel(ms): 1/14
+20260716:163252.024 3192 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 42283
+NPC: in game / generated / limit
+	42283 / 42327 / 46008
+Generator: active+full+over / total
+	563 + 4000 + 0 / 4563
+SynPet: 0
+20260716:163752.020 3192 Message: kernel(ms): 1/14
+20260716:163752.021 3192 Message: Player + Pet + Other: 0 + 0 + 0
+NPC active / total: 0 / 43978
+NPC: in game / generated / limit
+	43978 / 44016 / 46008
+Generator: active+full+over / total
+	364 + 4199 + 0 / 4563
+SynPet: 0
+20260716:164036.399 3192 ERROR: thread 3192 is waiting for thread 2948 "NPC Server KernelThread" to finish ...
+
+
+
+
+20260716:164216.119 8720 Message: =================================================================
+20260716:164216.134 8720 Message: Conquer Online NPC Server - Epoch - Dec  4 2015 14:01:42
+20260716:164216.150 8720 Message: =================================================================
+20260716:164216.150 8720 Message: f:\version\cqserver-78.0.11-1204\npcserver\npcserverdlg.cpp
+20260716:164216.702 8720 Message: thread 8720 created running thread 8868 "LogThread"
+20260716:164216.704 8868 Message: thread 8868 "LogThread" is up and running
+20260716:164216.735 8720 Message: DatabaseInit got game server config 127.0.0.1:3306 cq(latin1), serverID 1, maxplayer 1500
+20260716:164217.655 8720 Message: thread 8720 created running thread 8900 "AsyncDBThread"
+20260716:164217.655 8900 Message: thread 8900 "AsyncDBThread" is up and running
+20260716:164217.671 8900 Message: CAsyncDBThread::OnInit got game server config 127.0.0.1:3306 cq(latin1), serverID 1, maxplayer 1500
+20260716:164217.671 8900 Message: CAsyncDBThread::OnInit async DB OK for 127.0.0.1:3306 cq(latin1)
+20260716:164217.687 8720 Message: libevent method: win32
+20260716:164217.702 8720 Message: mysql version 5.6.26
+20260716:164217.718 8720 Message: CDatabase::Open sync DB OK for 127.0.0.1:3306 cq(latin1)
+20260716:164217.734 8720 Message: SHELL: Create map set...
+20260716:164228.986 8720 Message: SHELL: Create player set...
+20260716:164229.014 8720 Message: SHELL: Create npc set...
+20260716:164229.400 8720 Message: SHELL: Create NPC protect path...
+20260716:164229.983 8720 Message: SHELL: ======== Create cq server kernel ok! ========
+20260716:164229.983 8720 Message: thread 8720 created libevent worker thread 8320
+20260716:164229.986 8720 Message: thread 8720 created running thread 8324 "NPC Server KernelThread"
+20260716:164230.003 8720 Message: SHELL: Create kernel thread ok.
+20260716:164230.019 8320 Message: EvnetRoutine worker thread is up and running
+20260716:164230.035 8324 Message: thread 8324 "NPC Server KernelThread" is up and running
+20260716:164230.241 8324 Message: SHELL: Login game server . . .
+20260716:164232.019 8320 Message: EvnetRoutine worker thread exited
+20260716:164232.019 8324 Message: SHELL: Connect to game server again . . .
+20260716:164234.046 8324 Message: SHELL: Connect to game server again . . .
+20260716:164235.345 8324 Message: SHELL: Login game server . . .
+20260716:164236.074 8324 Message: SHELL: Connect to game server again . . .
+20260716:164238.102 8324 Message: SHELL: Connect to game server again . . .
+20260716:164240.127 8324 Message: SHELL: Connect to game server again . . .
+20260716:164240.319 8324 Message: SHELL: Login game server . . .
+20260716:164242.157 8324 Message: SHELL: Connect to game server again . . .
+20260716:164244.187 8324 Message: SHELL: Connect to game server again . . .
+20260716:164245.329 8324 Message: SHELL: Login game server . . .
+20260716:164246.217 8324 Message: SHELL: Connect to game server again . . .
+20260716:164248.234 8324 Message: SHELL: Connect to game server again . . .
+20260716:164250.257 8324 Message: SHELL: Connect to game server again . . .
+20260716:164250.415 8324 Message: SHELL: Login game server . . .
+20260716:164250.765 8324 Message: SHELL: Login game server ok.
+20260716:164250.765 8324 Message: SHELL: Login OK. generator monster after 10 secs
+20260716:164300.327 8324 Message: SHELL: Generator begin.
+20260716:164719.267 8720 Message: kernel(ms): 0/16
+20260716:164719.267 8720 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 116 / 42229
+NPC: in game / generated / limit
+	42229 / 42267 / 46008
+Generator: active+full+over / total
+	564 + 3999 + 0 / 4563
+SynPet: 0
+20260716:165219.297 8720 Message: kernel(ms): 0/16
+20260716:165219.313 8720 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 238 / 43954
+NPC: in game / generated / limit
+	43954 / 43999 / 46008
+Generator: active+full+over / total
+	365 + 4198 + 0 / 4563
+SynPet: 0
+20260716:165719.312 8720 Message: kernel(ms): 0/16
+20260716:165719.312 8720 Message: Player + Pet + Other: 1 + 0 + 0
+NPC active / total: 103 / 44576
+NPC: in game / generated / limit
+	44576 / 44614 / 46008
+Generator: active+full+over / total
+	284 + 4279 + 0 / 4563
+SynPet: 0
+20260716:170014.339 8720 ERROR: thread 8720 is waiting for thread 8324 "NPC Server KernelThread" to finish ...
+
+
+
+
+20260716:170717.198 1788 Message: =================================================================
+20260716:170717.214 1788 Message: Conquer Online NPC Server - Epoch - Dec  4 2015 14:01:42
+20260716:170717.214 1788 Message: =================================================================
+20260716:170717.234 1788 Message: f:\version\cqserver-78.0.11-1204\npcserver\npcserverdlg.cpp
+20260716:170717.765 1788 Message: thread 1788 created running thread 9024 "LogThread"
+20260716:170717.780 9024 Message: thread 9024 "LogThread" is up and running
+20260716:170717.797 1788 Message: DatabaseInit got game server config 127.0.0.1:3306 cq(latin1), serverID 1, maxplayer 1500
+20260716:170717.892 1788 Message: thread 1788 created running thread 2448 "AsyncDBThread"
+20260716:170717.892 2448 Message: thread 2448 "AsyncDBThread" is up and running
+20260716:170717.908 2448 Message: CAsyncDBThread::OnInit got game server config 127.0.0.1:3306 cq(latin1), serverID 1, maxplayer 1500
+20260716:170717.921 1788 Message: libevent method: win32
+20260716:170717.924 2448 Message: CAsyncDBThread::OnInit async DB OK for 127.0.0.1:3306 cq(latin1)
+20260716:170717.952 1788 Message: mysql version 5.6.26
+20260716:170717.955 1788 Message: CDatabase::Open sync DB OK for 127.0.0.1:3306 cq(latin1)
+20260716:170717.971 1788 Message: SHELL: Create map set...
+20260716:170727.584 1788 Message: SHELL: Create player set...
+20260716:170727.600 1788 Message: SHELL: Create npc set...
+20260716:170728.014 1788 Message: SHELL: Create NPC protect path...
+20260716:170728.674 1788 Message: SHELL: ======== Create cq server kernel ok! ========
+20260716:170728.674 1788 Message: thread 1788 created libevent worker thread 6360
+20260716:170728.705 1788 Message: thread 1788 created running thread 1876 "NPC Server KernelThread"
+20260716:170728.721 1788 Message: SHELL: Create kernel thread ok.
+20260716:170728.733 6360 Message: EvnetRoutine worker thread is up and running
+20260716:170728.737 1876 Message: thread 1876 "NPC Server KernelThread" is up and running
+20260716:170728.927 1876 Message: SHELL: Login game server . . .
+20260716:170730.713 6360 Message: EvnetRoutine worker thread exited
+20260716:170730.713 1876 Message: SHELL: Connect to game server again . . .
+20260716:170732.733 1876 Message: SHELL: Connect to game server again . . .
+20260716:170733.307 1876 Message: SHELL: Login game server . . .
+20260716:170734.759 1876 Message: SHELL: Connect to game server again . . .
+20260716:170736.781 1876 Message: SHELL: Connect to game server again . . .
+20260716:170738.234 1876 Message: SHELL: Login game server . . .
+20260716:170738.803 1876 Message: SHELL: Connect to game server again . . .
+20260716:170740.827 1876 Message: SHELL: Connect to game server again . . .
+20260716:170742.850 1876 Message: SHELL: Connect to game server again . . .
+20260716:170743.325 1876 Message: SHELL: Login game server . . .
+20260716:170744.880 1876 Message: SHELL: Connect to game server again . . .
+20260716:170746.903 1876 Message: SHELL: Connect to game server again . . .
+20260716:170748.324 1876 Message: SHELL: Login game server . . .
+20260716:170748.921 1876 Message: SHELL: Connect to game server again . . .
+20260716:170750.952 1876 Message: SHELL: Connect to game server again . . .
+20260716:170752.970 1876 Message: SHELL: Connect to game server again . . .
+20260716:170753.318 1876 Message: SHELL: Login game server . . .
+20260716:170754.991 1876 Message: SHELL: Connect to game server again . . .
+20260716:170757.011 1876 Message: SHELL: Connect to game server again . . .
+20260716:170758.307 1876 Message: SHELL: Login game server . . .
+20260716:170759.032 1876 Message: SHELL: Connect to game server again . . .
+20260716:170801.056 1876 Message: SHELL: Connect to game server again . . .
+20260716:170803.071 1876 Message: SHELL: Connect to game server again . . .
+20260716:170803.325 1876 Message: SHELL: Login game server . . .
+20260716:170805.093 1876 Message: SHELL: Connect to game server again . . .
+20260716:170807.115 1876 Message: SHELL: Connect to game server again . . .
+20260716:170808.315 1876 Message: SHELL: Login game server . . .
+20260716:170809.141 1876 Message: SHELL: Connect to game server again . . .
+20260716:170811.166 1876 Message: SHELL: Connect to game server again . . .
+20260716:170813.187 1876 Message: SHELL: Connect to game server again . . .
+20260716:170813.312 1876 Message: SHELL: Login game server . . .
+20260716:170815.203 1876 Message: SHELL: Connect to game server again . . .
+20260716:170817.232 1876 Message: SHELL: Connect to game server again . . .
+20260716:170818.306 1876 Message: SHELL: Login game server . . .
+20260716:170819.256 1876 Message: SHELL: Connect to game server again . . .
+20260716:170821.280 1876 Message: SHELL: Connect to game server again . . .
+20260716:170823.232 1876 Message: SHELL: Login game server . . .
+20260716:170823.311 1876 Message: SHELL: Connect to game server again . . .
+20260716:170825.335 1876 Message: SHELL: Connect to game server again . . .
+20260716:170827.358 1876 Message: SHELL: Connect to game server again . . .
+20260716:170828.311 1876 Message: SHELL: Login game server . . .
+20260716:170829.387 1876 Message: SHELL: Connect to game server again . . .
+20260716:170831.412 1876 Message: SHELL: Connect to game server again . . .
+20260716:170833.315 1876 Message: SHELL: Login game server . . .
+20260716:170833.442 1876 Message: SHELL: Connect to game server again . . .
+20260716:170835.452 1876 Message: SHELL: Connect to game server again . . .
+20260716:170836.978 1876 Message: SHELL: Login game server ok.
+20260716:170836.978 1876 Message: SHELL: Login OK. generator monster after 10 secs
+20260716:170846.232 1876 Message: SHELL: Generator begin.
+20260716:170950.431 1788 Message: SHELL: CLOSE button pressed.

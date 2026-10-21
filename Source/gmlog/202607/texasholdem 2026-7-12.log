@@ -1,0 +1,136 @@
+NpcOwner[102152] Table[1] Index[1] Ante Seat[2] UserMoney[9899894700] money lose: 1000011	test55	705	700	702	5000	 -- 20260712:050258.815
+NpcOwner[102152] Table[1] Index[1] Ante Seat[4] UserMoney[9899894600] money lose: 1000009	Colin	704	700	702	5000	 -- 20260712:050258.816
+NpcOwner[102152] Table[1] Index[1] Small Blinds money lose: 1000011	test55	705	700	702	5000	 -- 20260712:050258.827
+NpcOwner[102152] Table[1] Index[1] Big Blinds money lose: 1000009	Colin	704	700	702	10000	 -- 20260712:050258.839
+NpcOwner[102152] Table[1] Index[1] Raise[1] money lose: 1000011	test55	705	700	702	1005011	 -- 20260712:050310.615
+NpcOwner[102152] Table[1] Index[1] AllIn[1] money lose: 1000009	Colin	704	700	702	9899884600	 -- 20260712:050311.572
+NpcOwner[102152] Table[1] Index[1] Call[1] UserAction[true] money lose: 1000011	test55	705	700	702	9898884589	 -- 20260712:050313.020
+NpcOwner[102152] Table[1] Index[1] Balance TotalDepoosit[19799799200] Common Cards Card1[Club:11] Card2[Spade:13] Card3[Diamond:8] Card4[Spade:10] Card5[Spade:7] -- 20260712:050313.021
+NpcOwner[102152] Table[1] Index[1] Balance User[1000011] Rank[0] DepositWinMax[19799799200] Win[9899899600]  HandCards:[Club:9] [Club:8] MaxCardType[5] Card1[Spade:7] Card2[Diamond:8] Card3[Club:9] Card4[Spade:10] Card5[Club:11] -- 20260712:050313.036
+NpcOwner[102152] Table[1] Index[1] Balance User[1000009] Rank[0] DepositWinMax[19799799200] Win[9899899600]  HandCards:[Spade:9] [Diamond:11] MaxCardType[5] Card1[Spade:7] Card2[Diamond:8] Card3[Spade:9] Card4[Spade:10] Card5[Club:11] -- 20260712:050313.051
+NpcOwner[102152] Table[1] Index[1] Balance money win: 1000011	test55	705	700	702	9800900604	 -- 20260712:050313.064
+NpcOwner[102152] Table[1] Index[1] Balance money win: 1000009	Colin	704	700	702	9800900604	 -- 20260712:050313.083
+NpcOwner[102152] Table[1] Index[2] Ante Seat[2] UserMoney[9800895704] money lose: 1000011	test55	705	700	702	5000	 -- 20260712:050332.255
+NpcOwner[102152] Table[1] Index[2] Ante Seat[4] UserMoney[9800895604] money lose: 1000009	Colin	704	700	702	5000	 -- 20260712:050332.274
+NpcOwner[102152] Table[1] Index[2] Small Blinds money lose: 1000009	Colin	704	700	702	5000	 -- 20260712:050332.276
+NpcOwner[102152] Table[1] Index[2] Big Blinds money lose: 1000011	test55	705	700	702	10000	 -- 20260712:050332.298
+NpcOwner[102152] Table[1] Index[2] Raise[1] money lose: 1000009	Colin	704	700	702	100006111	 -- 20260712:050338.758
+NpcOwner[102152] Table[1] Index[2] Call[1] UserAction[true] money lose: 1000011	test55	705	700	702	100001111	 -- 20260712:050339.539
+NpcOwner[102152] Table[1] Index[2] Fold[2] UserAction[true] User[1000009][Colin] -- 20260712:050344.452
+NpcOwner[102152] Table[1] Index[2] CheckGameOver money win: 1000011	test55	705	700	702	198031899	 -- 20260712:050344.452
+NpcOwner[102152] Table[1] Index[3] Ante Seat[2] UserMoney[9898911492] money lose: 1000011	test55	705	700	702	5000	 -- 20260712:050404.242
+NpcOwner[102152] Table[1] Index[3] Ante Seat[4] UserMoney[9700879493] money lose: 1000009	Colin	704	700	702	5000	 -- 20260712:050404.244
+NpcOwner[102152] Table[1] Index[3] Small Blinds money lose: 1000011	test55	705	700	702	5000	 -- 20260712:050404.260
+NpcOwner[102152] Table[1] Index[3] Big Blinds money lose: 1000009	Colin	704	700	702	10000	 -- 20260712:050404.275
+NpcOwner[102152] Table[1] Index[3] Raise[1] money lose: 1000011	test55	705	700	702	1000016111	 -- 20260712:050412.060
+NpcOwner[102152] Table[1] Index[3] Raise[1] money lose: 1000009	Colin	704	700	702	2000032222	 -- 20260712:050413.850
+NpcOwner[102152] Table[1] Index[3] Call[1] UserAction[true] money lose: 1000011	test55	705	700	702	1000021111	 -- 20260712:050414.515
+NpcOwner[102152] Table[1] Index[3] Check[2] UserAction[true] User[1000011][test55] -- 20260712:050419.813
+NpcOwner[102152] Table[1] Index[3] Check[2] UserAction[true] User[1000009][Colin] -- 20260712:050420.451
+NpcOwner[102152] Table[1] Index[3] Bet[3] UserAction[true] money lose: 1000011	test55	705	700	702	10000	 -- 20260712:050425.185
+NpcOwner[102152] Table[1] Index[3] Call[3] UserAction[true] money lose: 1000009	Colin	704	700	702	10000	 -- 20260712:050425.490
+NpcOwner[102152] Table[1] Index[3] Bet[4] UserAction[true] money lose: 1000011	test55	705	700	702	10000	 -- 20260712:050429.403
+NpcOwner[102152] Table[1] Index[3] Call[4] UserAction[true] money lose: 1000009	Colin	704	700	702	10000	 -- 20260712:050429.786
+NpcOwner[102152] Table[1] Index[3] Balance TotalDepoosit[4000134444] Common Cards Card1[Club:10] Card2[Diamond:7] Card3[Heart:8] Card4[Club:11] Card5[Heart:7] -- 20260712:050429.787
+NpcOwner[102152] Table[1] Index[3] Balance User[1000009] Rank[0] DepositWinMax[4000134444] Win[4000134444]  HandCards:[Spade:10] [Club:7] MaxCardType[3] Card1[Diamond:7] Card2[Heart:7] Card3[Club:7] Card4[Club:10] Card5[Spade:10] -- 20260712:050429.803
+NpcOwner[102152] Table[1] Index[3] Balance User[1000011] Rank[1] DepositWinMax[4000134444] Win[0]  HandCards:[Heart:10] [Heart:13] MaxCardType[7] Card1[Diamond:7] Card2[Heart:7] Card3[Club:10] Card4[Heart:10] Card5[Heart:13] -- 20260712:050429.818
+NpcOwner[102152] Table[1] Index[3] Balance money win: 1000011	test55	705	700	702	0	 -- 20260712:050429.831
+NpcOwner[102152] Table[1] Index[3] Balance money win: 1000009	Colin	704	700	702	2199182729	 -- 20260712:050429.844
+NpcOwner[102152] Table[1] Index[3] Balance storage money win: 1000009	Colin	704	700	702	0	 -- 20260712:050429.858
+NpcOwner[102152] Table[1] Index[3] Balance User[1000009] win, but Money 1760950370 not save -- 20260712:050429.875
+NpcOwner[102152] Table[1] Index[4] Ante Seat[2] UserMoney[7898844270] money lose: 1000011	test55	705	700	702	5000	 -- 20260712:050542.877
+NpcOwner[102152] Table[1] Index[4] Ante Seat[4] UserMoney[9899995000] money lose: 1000009	Colin	704	700	702	5000	 -- 20260712:050542.877
+NpcOwner[102152] Table[1] Index[4] Small Blinds money lose: 1000011	test55	705	700	702	5000	 -- 20260712:050542.904
+NpcOwner[102152] Table[1] Index[4] Big Blinds money lose: 1000009	Colin	704	700	702	10000	 -- 20260712:050542.917
+NpcOwner[102152] Table[1] Index[4] CheckGameOver money win: 1000011	test55	705	700	702	24750	 -- 20260712:050545.321
+NpcOwner[102152] Table[1] Index[5] Ante Seat[2] UserMoney[7898859020] money lose: 1000011	test55	705	700	702	5000	 -- 20260712:050605.243
+NpcOwner[102152] Table[1] Index[5] Ante Seat[4] UserMoney[9899980000] money lose: 1000009	Colin	704	700	702	5000	 -- 20260712:050605.244
+NpcOwner[102152] Table[1] Index[5] Small Blinds money lose: 1000009	Colin	704	700	702	5000	 -- 20260712:050605.266
+NpcOwner[102152] Table[1] Index[5] Big Blinds money lose: 1000011	test55	705	700	702	10000	 -- 20260712:050605.281
+NpcOwner[102152] Table[1] Index[5] AllIn[1] money lose: 1000009	Colin	704	700	702	9899975000	 -- 20260712:050617.279
+NpcOwner[102152] Table[1] Index[5] AllIn[1] money lose: 1000011	test55	705	700	702	7898849020	 -- 20260712:050617.700
+NpcOwner[102152] Table[1] Index[5] Balance TotalDepoosit[17798849020] Common Cards Card1[Diamond:13] Card2[Club:8] Card3[Diamond:9] Card4[Diamond:11] Card5[Diamond:12] -- 20260712:050617.700
+NpcOwner[102152] Table[1] Index[5] Balance User[1000011] Rank[0] DepositWinMax[15797728040] Win[15797728040]  HandCards:[Club:13] [Spade:8] MaxCardType[7] Card1[Club:8] Card2[Spade:8] Card3[Diamond:12] Card4[Diamond:13] Card5[Club:13] -- 20260712:050617.716
+NpcOwner[102152] Table[1] Index[5] Balance User[1000009] Rank[1] DepositWinMax[17798849020] Win[2001120980]  HandCards:[Club:1] [Spade:11] MaxCardType[8] Card1[Club:1] Card2[Diamond:11] Card3[Spade:11] Card4[Diamond:12] Card5[Diamond:13] -- 20260712:050617.747
+NpcOwner[102152] Table[1] Index[5] Balance money win: 1000011	test55	705	700	702	9900000000	 -- 20260712:050617.765
+NpcOwner[102152] Table[1] Index[5] Balance storage money win: 1000011	test55	705	700	702	0	 -- 20260712:050617.778
+NpcOwner[102152] Table[1] Index[5] Balance User[1000011] win, but Money 5739750759 not save -- 20260712:050617.792
+NpcOwner[102152] Table[1] Index[5] Balance money win: 1000009	Colin	704	700	702	1981109770	 -- 20260712:050617.805
+NpcOwner[102152] Table[1] Index[6] Ante Seat[2] UserMoney[9899995000] money lose: 1000011	test55	705	700	702	5000	 -- 20260712:050637.244
+NpcOwner[102152] Table[1] Index[6] Ante Seat[4] UserMoney[1981104770] money lose: 1000009	Colin	704	700	702	5000	 -- 20260712:050637.245
+NpcOwner[102152] Table[1] Index[6] Small Blinds money lose: 1000011	test55	705	700	702	5000	 -- 20260712:050637.266
+NpcOwner[102152] Table[1] Index[6] Big Blinds money lose: 1000009	Colin	704	700	702	10000	 -- 20260712:050637.281
+NpcOwner[102152] Table[1] Index[6] AllIn[1] money lose: 1000011	test55	705	700	702	9899990000	 -- 20260712:050642.116
+NpcOwner[102152] Table[1] Index[6] AllIn[1] money lose: 1000009	Colin	704	700	702	1981094770	 -- 20260712:050642.625
+NpcOwner[102152] Table[1] Index[6] Balance TotalDepoosit[11881109770] Common Cards Card1[Spade:10] Card2[Heart:1] Card3[Club:1] Card4[Diamond:8] Card5[Club:9] -- 20260712:050642.626
+NpcOwner[102152] Table[1] Index[6] Balance User[1000009] Rank[0] DepositWinMax[3962219540] Win[3962219540]  HandCards:[Spade:1] [Club:8] MaxCardType[3] Card1[Heart:1] Card2[Club:1] Card3[Spade:1] Card4[Diamond:8] Card5[Club:8] -- 20260712:050642.643
+NpcOwner[102152] Table[1] Index[6] Balance User[1000011] Rank[1] DepositWinMax[11881109770] Win[7918890230]  HandCards:[Heart:12] [Heart:13] MaxCardType[8] Card1[Heart:1] Card2[Club:1] Card3[Spade:10] Card4[Heart:12] Card5[Heart:13] -- 20260712:050642.657
+NpcOwner[102152] Table[1] Index[6] Balance money win: 1000011	test55	705	700	702	7839701327	 -- 20260712:050642.671
+NpcOwner[102152] Table[1] Index[6] Balance money win: 1000009	Colin	704	700	702	3922597344	 -- 20260712:050642.687
+NpcOwner[102152] Table[1] Index[7] Ante Seat[2] UserMoney[7839696327] money lose: 1000011	test55	705	700	702	5000	 -- 20260712:050702.242
+NpcOwner[102152] Table[1] Index[7] Ante Seat[4] UserMoney[3922592344] money lose: 1000009	Colin	704	700	702	5000	 -- 20260712:050702.243
+NpcOwner[102152] Table[1] Index[7] Small Blinds money lose: 1000009	Colin	704	700	702	5000	 -- 20260712:050702.262
+NpcOwner[102152] Table[1] Index[7] Big Blinds money lose: 1000011	test55	705	700	702	10000	 -- 20260712:050702.277
+NpcOwner[102152] Table[1] Index[7] AllIn[1] money lose: 1000009	Colin	704	700	702	3922587344	 -- 20260712:050709.736
+NpcOwner[102152] Table[1] Index[7] Call[1] UserAction[true] money lose: 1000011	test55	705	700	702	3922582344	 -- 20260712:050710.179
+NpcOwner[102152] Table[1] Index[7] Balance TotalDepoosit[7845194688] Common Cards Card1[Spade:12] Card2[Club:7] Card3[Club:10] Card4[Spade:8] Card5[Club:1] -- 20260712:050710.191
+NpcOwner[102152] Table[1] Index[7] Balance User[1000009] Rank[0] DepositWinMax[7845194688] Win[7845194688]  HandCards:[Spade:10] [Club:8] MaxCardType[7] Card1[Club:1] Card2[Spade:8] Card3[Club:8] Card4[Club:10] Card5[Spade:10] -- 20260712:050710.207
+NpcOwner[102152] Table[1] Index[7] Balance User[1000011] Rank[1] DepositWinMax[7845194688] Win[0]  HandCards:[Heart:13] [Diamond:8] MaxCardType[8] Card1[Club:1] Card2[Spade:8] Card3[Diamond:8] Card4[Spade:12] Card5[Heart:13] -- 20260712:050710.215
+NpcOwner[102152] Table[1] Index[7] Balance money win: 1000011	test55	705	700	702	0	 -- 20260712:050710.223
+NpcOwner[102152] Table[1] Index[7] Balance money win: 1000009	Colin	704	700	702	7766742741	 -- 20260712:050710.239
+NpcOwner[102140] Table[7] Index[1] Ante Seat[4] UserMoney[9799664700] money lose: 1000010	Perry	708	700	702	5000	 -- 20260712:081820.495
+NpcOwner[102140] Table[7] Index[1] Ante Seat[7] UserMoney[3917098583] money lose: 1000011	test55	705	700	702	5000	 -- 20260712:081820.498
+NpcOwner[102140] Table[7] Index[1] Small Blinds money lose: 1000010	Perry	708	700	702	5000	 -- 20260712:081820.513
+NpcOwner[102140] Table[7] Index[1] Big Blinds money lose: 1000011	test55	705	700	702	10000	 -- 20260712:081820.529
+NpcOwner[102140] Table[7] Index[1] Call[1] UserAction[true] money lose: 1000010	Perry	708	700	702	5000	 -- 20260712:081832.332
+NpcOwner[102140] Table[7] Index[1] Check[1] UserAction[true] User[1000011][test55] -- 20260712:081835.356
+NpcOwner[102140] Table[7] Index[1] Fold[2] UserAction[false] User[1000010][Perry] -- 20260712:081844.464
+NpcOwner[102140] Table[7] Index[1] CheckGameOver money win: 1000011	test55	705	700	702	29700	 -- 20260712:081844.464
+NpcOwner[102126] Table[14] Index[1] Ante Seat[2] UserMoney[3914618283] money lose: 1000011	test55	705	700	702	2500000	 -- 20260712:081858.495
+NpcOwner[102126] Table[14] Index[1] Ante Seat[4] UserMoney[9797154700] money lose: 1000010	Perry	708	700	702	2500000	 -- 20260712:081858.495
+NpcOwner[102126] Table[14] Index[1] Small Blinds money lose: 1000010	Perry	708	700	702	2500000	 -- 20260712:081858.511
+NpcOwner[102126] Table[14] Index[1] Big Blinds money lose: 1000011	test55	705	700	702	5000000	 -- 20260712:081858.527
+NpcOwner[102126] Table[14] Index[1] Call[1] UserAction[true] money lose: 1000010	Perry	708	700	702	2500000	 -- 20260712:081909.602
+NpcOwner[102126] Table[14] Index[1] Check[1] UserAction[true] User[1000011][test55] -- 20260712:081910.706
+NpcOwner[102126] Table[14] Index[1] Bet[2] UserAction[true] money lose: 1000010	Perry	708	700	702	5000000	 -- 20260712:081914.477
+NpcOwner[102126] Table[14] Index[1] Raise[2] money lose: 1000011	test55	705	700	702	10000000	 -- 20260712:081915.846
+NpcOwner[102126] Table[14] Index[1] Call[2] UserAction[true] money lose: 1000010	Perry	708	700	702	5000000	 -- 20260712:081916.177
+NpcOwner[102126] Table[14] Index[1] Bet[3] UserAction[true] money lose: 1000010	Perry	708	700	702	5000000	 -- 20260712:081920.727
+NpcOwner[102126] Table[14] Index[1] AllIn[3] money lose: 1000011	test55	705	700	702	3899618283	 -- 20260712:081922.362
+NpcOwner[102126] Table[14] Index[1] Call[3] UserAction[true] money lose: 1000010	Perry	708	700	702	3894618283	 -- 20260712:081922.841
+NpcOwner[102126] Table[14] Index[1] Balance TotalDepoosit[7834236566] Common Cards Card1[Spade:12] Card2[Diamond:11] Card3[Spade:7] Card4[Heart:10] Card5[Diamond:8] -- 20260712:081922.841
+NpcOwner[102126] Table[14] Index[1] Balance User[1000011] Rank[0] DepositWinMax[7834236566] Win[7834236566]  HandCards:[Club:1] [Diamond:12] MaxCardType[8] Card1[Club:1] Card2[Heart:10] Card3[Diamond:11] Card4[Spade:12] Card5[Diamond:12] -- 20260712:081922.857
+NpcOwner[102126] Table[14] Index[1] Balance User[1000010] Rank[1] DepositWinMax[7834236566] Win[0]  HandCards:[Spade:1] [Club:10] MaxCardType[8] Card1[Spade:1] Card2[Heart:10] Card3[Club:10] Card4[Diamond:11] Card5[Spade:12] -- 20260712:081922.873
+NpcOwner[102126] Table[14] Index[1] Balance money win: 1000011	test55	705	700	702	7755894200	 -- 20260712:081922.889
+NpcOwner[102126] Table[14] Index[1] Balance money win: 1000010	Perry	708	700	702	0	 -- 20260712:081922.889
+NpcOwner[102152] Table[1] Index[1] Ante Seat[0] UserMoney[9899794699] money lose: 1000018	DoAa	712	700	702	5000	 -- 20260712:200854.592
+NpcOwner[102152] Table[1] Index[1] Ante Seat[1] UserMoney[9899619057] money lose: 1000012	Chainz	707	700	702	5000	 -- 20260712:200854.608
+NpcOwner[102152] Table[1] Index[1] Small Blinds money lose: 1000012	Chainz	707	700	702	5000	 -- 20260712:200854.624
+NpcOwner[102152] Table[1] Index[1] Big Blinds money lose: 1000018	DoAa	712	700	702	10000	 -- 20260712:200854.639
+NpcOwner[102152] Table[1] Index[1] Call[1] UserAction[true] money lose: 1000012	Chainz	707	700	702	5000	 -- 20260712:200918.333
+NpcOwner[102152] Table[1] Index[1] AllIn[1] money lose: 1000018	DoAa	712	700	702	9899784699	 -- 20260712:200924.818
+NpcOwner[102152] Table[1] Index[1] Fold[1] UserAction[false] User[1000012][Chainz] -- 20260712:200939.353
+NpcOwner[102152] Table[1] Index[1] CheckGameOver money win: 1000018	DoAa	712	700	702	9800816552	 -- 20260712:200939.353
+NpcOwner[102152] Table[1] Index[2] Ante Seat[0] UserMoney[9800811552] money lose: 1000018	DoAa	712	700	702	5000	 -- 20260712:200959.341
+NpcOwner[102152] Table[1] Index[2] Ante Seat[1] UserMoney[9899604057] money lose: 1000012	Chainz	707	700	702	5000	 -- 20260712:200959.341
+NpcOwner[102152] Table[1] Index[2] Small Blinds money lose: 1000018	DoAa	712	700	702	5000	 -- 20260712:200959.341
+NpcOwner[102152] Table[1] Index[2] Big Blinds money lose: 1000012	Chainz	707	700	702	10000	 -- 20260712:200959.357
+NpcOwner[102152] Table[1] Index[2] AllIn[1] money lose: 1000018	DoAa	712	700	702	9800806552	 -- 20260712:201017.502
+NpcOwner[102152] Table[1] Index[2] Call[1] UserAction[true] money lose: 1000012	Chainz	707	700	702	9800801552	 -- 20260712:201024.268
+NpcOwner[102152] Table[1] Index[2] Balance TotalDepoosit[19601633104] Common Cards Card1[Diamond:7] Card2[Diamond:1] Card3[Spade:8] Card4[Spade:12] Card5[Diamond:13] -- 20260712:201024.268
+NpcOwner[102152] Table[1] Index[2] Balance User[1000018] Rank[0] DepositWinMax[19601633104] Win[19601633104]  HandCards:[Diamond:12] [Diamond:8] MaxCardType[4] Card1[Diamond:1] Card2[Diamond:7] Card3[Diamond:8] Card4[Diamond:12] Card5[Diamond:13] -- 20260712:201024.284
+NpcOwner[102152] Table[1] Index[2] Balance User[1000012] Rank[1] DepositWinMax[19601633104] Win[0]  HandCards:[Spade:10] [Spade:1] MaxCardType[8] Card1[Diamond:1] Card2[Spade:1] Card3[Spade:10] Card4[Spade:12] Card5[Diamond:13] -- 20260712:201024.299
+NpcOwner[102152] Table[1] Index[2] Balance money win: 1000018	DoAa	712	700	702	9900000000	 -- 20260712:201024.315
+NpcOwner[102152] Table[1] Index[2] Balance storage money win: 1000018	DoAa	712	700	702	9505616772	 -- 20260712:201024.315
+NpcOwner[102152] Table[1] Index[2] Balance money win: 1000012	Chainz	707	700	702	0	 -- 20260712:201024.331
+NpcOwner[102094] Table[30] Index[1] Ante Seat[0] UserEMoney[5274] emoney lose: 1000012	Chainz	707	700	702	2	 -- 20260712:201143.879
+NpcOwner[102094] Table[30] Index[1] Ante Seat[1] UserEMoney[281080] emoney lose: 1000018	DoAa	712	700	702	2	 -- 20260712:201143.879
+NpcOwner[102094] Table[30] Index[1] Small Blinds emoney lose: 1000018	DoAa	712	700	702	2	 -- 20260712:201143.910
+NpcOwner[102094] Table[30] Index[1] Big Blinds emoney lose: 1000012	Chainz	707	700	702	5	 -- 20260712:201143.926
+NpcOwner[102094] Table[30] Index[1] Call[1] UserAction[true] emoney lose: 1000018	DoAa	712	700	702	3	 -- 20260712:201200.866
+NpcOwner[102094] Table[30] Index[1] Check[1] UserAction[true] User[1000012][Chainz] -- 20260712:201209.478
+NpcOwner[102094] Table[30] Index[1] Bet[2] UserAction[true] emoney lose: 1000018	DoAa	712	700	702	5	 -- 20260712:201221.480
+NpcOwner[102094] Table[30] Index[1] Raise[2] emoney lose: 1000012	Chainz	707	700	702	10	 -- 20260712:201235.905
+NpcOwner[102094] Table[30] Index[1] Call[2] UserAction[true] emoney lose: 1000018	DoAa	712	700	702	5	 -- 20260712:201242.798
+NpcOwner[102094] Table[30] Index[1] Fold[3] UserAction[false] User[1000018][DoAa] -- 20260712:201301.333
+NpcOwner[102094] Table[30] Index[1] CheckGameOver emoney win: 1000012	Chainz	707	700	702	33	 -- 20260712:201301.333

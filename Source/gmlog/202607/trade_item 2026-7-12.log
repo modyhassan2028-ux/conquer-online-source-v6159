@@ -1,0 +1,7 @@
+user1_id[1000016] user1[MoZa23] lev1[59] money1[0] emoney1[0] IsTradeBuddy[0] -- 20260712:202008.483
+user2_id[1000009] user2[Colin] lev2[140] money2[0] emoney2[10000]  -- 20260712:202008.483
+user1_id[1000019] user1[TIGER] lev1[18] money1[0] emoney1[0] IsTradeBuddy[0] -- 20260712:210416.708
+user2_id[1000009] user2[Colin] lev2[140] money2[0] emoney2[0]  -- 20260712:210416.708
+user id[1000009] name[Colin] | item[ExpBall][897] type[723700] gem1[0] gem2[0] magic3[0] dur[1] max_dur[1] antimonster[0], dec_dmg[0] add_life[0] accumulate[10] specialflag[0] quenchtype[0] quenchlev[0] forgetype[0] forgelev[0] -- 20260712:210416.739
+user1_id[1000019] user1[TIGER] lev1[59] money1[0] emoney1[0] IsTradeBuddy[0] -- 20260712:211311.831
+user2_id[1000009] user2[Colin] lev2[140] money2[3000000000] emoney2[0]  -- 20260712:211311.831

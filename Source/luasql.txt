@@ -1,0 +1,60 @@
+----------------------------Begin 配置相关文件对应的内容------------------------------
+Version = "1.0.1.20100723"
+GameName = "外文征服"
+
+if Db_Server == nil then
+	Db_Server = "127.0.0.1"
+	DB_Port = 3306
+	Db_DataBaseName = "cq"
+	Db_UserName = "root"
+	Db_Password = "P@ssw0rd"
+end
+
+LogPath = "d:\\up\\client\\LUALOG\\"
+os.execute("mkdir " ..LogPath)
+ReTryCount = 10     --重试次数
+ExceptionSleepSec = 1000 --休眠时间(毫秒)
+----------------------------End-------------------------------------------------------
+
+----------------------------Begin 加载主函数主体--------------------------------------
+if GameDir == nil then
+	dofile ("calculate.lua")
+else
+    dofile (GameDir .."calculate.lua")
+end
+----------------------------End-------------------------------------------------------
+
+----------------------------Begin 基本信息配置----------------------------------------
+UserTableName = "cq_user"
+DelUserTableName = {"cq_deluser"}
+Card_TableName = "emoney_card"
+Card2_TableName = "emoney_card2"
+--是否包含USED字段,征服没有该字段
+CarTableColumnUsed = false
+--是否91斗斗(已支持多各货币)
+Is91dd = false
+----------------------------End-------------------------------------------------------
+
+----------------------------Begin 主币信息配置----------------------------------------
+EmoneyTableName = "e_money"
+UserTableEmoneyColumnName = "emoney"
+--注意:货币类型已经统一定义
+NationSymbol = 0
+NationSymbolName = "货币类型0"
+--是否本币(主币值为true其它货币值为false)
+IsMainSymbol = true
+--执行主体函数
+foo()
+----------------------------End-------------------------------------------------------
+
+----------------------------Begin 辅币4信息配置----------------------------------------
+EmoneyTableName = "e_money_mono"
+UserTableEmoneyColumnName = "emoney_mono"
+--注意:货币类型已经统一定义
+NationSymbol = 9
+NationSymbolName = "辅币4"
+--是否本币(主币值为true其它货币值为false)
+IsMainSymbol = false
+--执行主体函数
+foo()
+----------------------------End-------------------------------------------------------

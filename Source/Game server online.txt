@@ -1,0 +1,23 @@
+start server: 2026-07-16 17:08:08
+current: 2026-07-16 17:09:52
+
+socket thread:   0(max:31)
+world thread:    0(max:0)
+map group 0 thread:   0(max:112)
+map group 1 thread:   0(max:0)
+map group 2 thread:   0(max:0)
+map group 3 thread:   0(max:0)
+map group 4 thread:   0(max:0)
+debug [0][0][0][0][0]
+
+
+players:   0(max:0, limit:1500)
+login: 0/5min, logout: 0/5min
+From OS players:   0(max:0)
+From OS in: 0, back: 0
+To OS players:   0(max:0)
+To OS out: 0, back: 0
+close socket: 0/5min, AveMsg: 0/5min
+socket bytes:   0/s (pps: 0)
+npc socket bytes: 2342/s (pps: 36)
+account socket bytes:   4/s (pps: 0)

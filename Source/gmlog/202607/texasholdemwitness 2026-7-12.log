@@ -1,0 +1,33 @@
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000011] SitDown Table[102152] Seat[2] -- 20260712:050258.814
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000009] StandUp Table[102152] Seat[4] -- 20260712:050433.772
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000009] SitDown Table[102152] Seat[4] -- 20260712:050542.876
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000009] StandUp Table[102152] Seat[4] -- 20260712:050545.321
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000009] SitDown Table[102152] Seat[4] -- 20260712:050552.135
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000011] StandUp Table[102152] Seat[2] -- 20260712:050713.284
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000009] StandUp Table[102152] Seat[4] -- 20260712:051242.757
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000011] SitDown Table[102140] Seat[7] -- 20260712:081818.001
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000010] SitDown Table[102140] Seat[4] -- 20260712:081820.482
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000010] StandUp Table[102140] Seat[4] -- 20260712:081844.480
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000011] StandUp Table[102140] Seat[7] -- 20260712:081850.246
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000010] SitDown Table[102126] Seat[4] -- 20260712:081856.564
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000011] SitDown Table[102126] Seat[2] -- 20260712:081858.495
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000011] StandUp Table[102126] Seat[2] -- 20260712:081930.294
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000010] StandUp Table[102126] Seat[4] -- 20260712:081932.233
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000009] SitDown Table[102094] Seat[1] -- 20260712:101017.377
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000009] StandUp Table[102094] Seat[1] -- 20260712:101019.408
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000009] SitDown Table[102154] Seat[6] -- 20260712:174016.368
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000009] StandUp Table[102154] Seat[6] -- 20260712:174022.791
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000018] SitDown Table[102152] Seat[0] -- 20260712:200821.320
+CTexasHoldEm::OnEnterWitness. SetTexasHoldEmInfo User[1000012] EnterWitness NewTable[102152] Seat[1] OldTable[0] Seat[1] -- 20260712:200828.681
+CTexasHoldEm::OnExitWitness. SetTexasHoldEmInfo none User[1000012]  ExitWitness CurTable[102152] UserTable[102152] -- 20260712:200832.135
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000012] SitDown Table[102152] Seat[1] -- 20260712:200854.592
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000012] StandUp Table[102152] Seat[1] -- 20260712:201042.601
+CTexasHoldEm::OnEnterWitness. SetTexasHoldEmInfo User[1000012] EnterWitness NewTable[102152] Seat[1] OldTable[0] Seat[1] -- 20260712:201107.215
+CTexasHoldEm::OnExitWitness. SetTexasHoldEmInfo none User[1000012]  ExitWitness CurTable[102152] UserTable[102152] -- 20260712:201112.232
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000012] SitDown Table[102094] Seat[0] -- 20260712:201122.671
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000018] StandUp Table[102152] Seat[0] -- 20260712:201124.343
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000018] SitDown Table[102152] Seat[0] -- 20260712:201130.298
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000018] StandUp Table[102152] Seat[0] -- 20260712:201132.455
+CTexasHoldEm::OnUserSitDown. SetTexasHoldEmInfo User[1000018] SitDown Table[102094] Seat[1] -- 20260712:201143.879
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000012] StandUp Table[102094] Seat[0] -- 20260712:201310.776
+CTexasHoldEm::OnUserStandUp. SetTexasHoldEmInfo none User[1000018] StandUp Table[102094] Seat[1] -- 20260712:201339.869

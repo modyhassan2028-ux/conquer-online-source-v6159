@@ -1,0 +1,10 @@
+test55(1000011) drop item(275), (addition_level:0, gem1=0, gem2=0, redue_dmg=0, add_life=0, map_id=1015, pos_x=767, pos_y=568) when be killed by monster with pk value(0). -- 20260712:084013.106
+test55(1000011) drop item(454), (addition_level:12, gem1=13, gem2=13, redue_dmg=7, add_life=255, map_id=1015, pos_x=776, pos_y=568) when be killed by monster with pk value(0). -- 20260712:084013.106
+test55(1000011) drop item(153), (addition_level:0, gem1=0, gem2=0, redue_dmg=0, add_life=0, map_id=1015, pos_x=772, pos_y=570) when be killed by monster with pk value(0). -- 20260712:084013.138
+test55(1000011) drop item(322), (addition_level:0, gem1=0, gem2=0, redue_dmg=0, add_life=0, map_id=1210, pos_x=720, pos_y=1021) when be killed by monster with pk value(0). -- 20260712:091819.083
+test55(1000011) drop item(303), (addition_level:0, gem1=0, gem2=0, redue_dmg=0, add_life=0, map_id=1210, pos_x=714, pos_y=1024) when be killed by monster with pk value(0). -- 20260712:091819.083
+test55(1000011) drop item(153), (addition_level:0, gem1=0, gem2=0, redue_dmg=0, add_life=0, map_id=1210, pos_x=712, pos_y=1026) when be killed by monster with pk value(0). -- 20260712:091819.114
+test55(1000011) drop item(286), (addition_level:0, gem1=0, gem2=0, redue_dmg=0, add_life=0, map_id=1210, pos_x=713, pos_y=1030) when be killed by monster with pk value(0). -- 20260712:091819.129
+test55(1000011) drop item(119), (addition_level:0, gem1=0, gem2=0, redue_dmg=0, add_life=0, map_id=1210, pos_x=719, pos_y=1024) when be killed by monster with pk value(0). -- 20260712:091819.145
+Leio(1000013) drop item(494), (addition_level:0, gem1=0, gem2=0, redue_dmg=0, add_life=0, map_id=1015, pos_x=815, pos_y=624) when be killed by monster with pk value(0). -- 20260712:125622.577
+Leio(1000013) drop item(490), (addition_level:0, gem1=0, gem2=0, redue_dmg=0, add_life=0, map_id=1015, pos_x=811, pos_y=624) when be killed by monster with pk value(0). -- 20260712:125622.577
